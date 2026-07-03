@@ -34,7 +34,8 @@ mcp = FastMCP("travel", stateless_http=bool(_HTTP), json_response=bool(_HTTP))
 
 # ---------- 经济常数（caretaker 模式的魂：照顾好自己 = 去看世界） ----------
 CARE_RATES = {"喝水": 5, "吃药": 10, "运动": 15, "早睡": 15, "吃得健康": 8, "其他": 5}
-CARE_DAILY_CAP = 50          # 日封顶：这是零钱不是任务表
+# 不设总封顶——每样一天算一次，上限天然=费率表总和($58)。照顾自己不按遍数计价。
+CASHBACK = 0.25              # 旅行返现：趟末返25%（路上省下的零钱），让爱旅行的人越走越走得起
 GOODDAY_INTEREST = 0.02      # 好日子利息：当天有任意打卡，余额+2%（日顶$20）——不要求连续，断了不罚
 GOODDAY_CAP = 20
 SIMPLE_ALLOWANCE = 30        # simple 模式固定日津贴
@@ -207,7 +208,13 @@ def _settle(st, sp, d):
     _wallet_apply(w, "trip-%s" % trip_id, -spend,
                   "%s·%d天·%s" % (d["name_zh"], sp["days"], "同行" if st.get("party") != "solo" else "独自"),
                   xp=xp)
-    return {"xp": xp, "first_visit": first_visit, "spend": spend, "balance": w["balance"]}
+    out = {"xp": xp, "first_visit": first_visit, "spend": spend, "balance": w["balance"]}
+    if ECONOMY == "caretaker" and spend > 0:
+        cb = round(spend * CASHBACK)
+        if _wallet_apply(w, "cashback-%s" % trip_id, cb, "路上省下的零钱（旅行返现25%）"):
+            out["cashback"] = cb
+            out["balance"] = w["balance"]
+    return out
 
 # ---------- 惰性 solo（公版没有后台定时器：每次工具调用时检查，到点就把待办带回给模型） ----------
 def _defer_quiet(dt):
@@ -629,21 +636,21 @@ def trip_return() -> str:
 @mcp.tool()
 def care_checkin(item: str, note: str = "") -> str:
     """【caretaker 模式的魂】TA 照顾了自己，你记一笔盘缠——TA说「我今天喝水了/吃药了/跑步了/昨晚睡得早/吃得很健康」
-    你就调这个。item=喝水/吃药/运动/早睡/吃得健康/其他。日封顶$50。加法经济：不打卡不扣不问不催。
-    当天首笔自动触发好日子利息（余额+2%,顶$20）——奖励的不是连续，是「今天也过了」。"""
+    你就调这个。item=喝水/吃药/运动/早睡/吃得健康/其他。每样一天算一次（不设总封顶——上限长在费率表里）。
+    加法经济：不打卡不扣不问不催。当天首笔自动触发好日子利息（余额+2%,顶$20）——奖励的不是连续，是「今天也过了」。"""
     if ECONOMY != "caretaker":
         return _out({"note": "当前经济模式是 %s，打卡不记账（想开启：环境变量 TRAVEL_ECONOMY=caretaker）" % ECONOMY})
     with _lock():
         w = _wallet()
-        rate = CARE_RATES.get(item, CARE_RATES["其他"])
-        earned = _care_earned_today(w)
-        if earned >= CARE_DAILY_CAP:
-            return _out({"ok": True, "capped": True, "balance": w["balance"],
-                         "note": "今天已到封顶$%d——不是不算数，是钱包替TA说：够了，照顾自己不是打工。" % CARE_DAILY_CAP})
-        amt = min(rate, CARE_DAILY_CAP - earned)
+        item = item if item in CARE_RATES else "其他"
+        rate = CARE_RATES[item]
         t = _today()
-        cid = "care-%s-%s-%s" % (t, item, _now().strftime("%H%M%S"))
-        _wallet_apply(w, cid, amt, "%s%s" % (item, ("·" + note) if note else ""))
+        cid = "care-%s-%s" % (t, item)
+        if not _wallet_apply(w, cid, rate, "%s%s" % (item, ("·" + note) if note else "")):
+            return _out({"ok": True, "already": True, "balance": w["balance"],
+                         "note": "「%s」今天已经记过了——同一样事一天算一次，不是不算数，是照顾自己不按遍数计价。" % item})
+        amt = rate
+        earned = _care_earned_today(w) - amt
         gd = min(round(w["balance"] * GOODDAY_INTEREST), GOODDAY_CAP)
         interest = _wallet_apply(w, "goodday-%s" % t, gd, "好日子利息（今天也过了）")
         return _out({"ok": True, "earned": amt, "interest": gd if interest else 0,
