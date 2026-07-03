@@ -248,13 +248,12 @@ def _build_solo_packet(st, d, sp, style):
     for day_no in range(1, sp["days"] + 1):
         day_spots = []
         for spot in _day_spots(sp, day_no):
+            # solo 是你独自在走，没人看照片——每景只留 1 条细节当讲故事的料，photo_url 不带（明信片有水彩）
             dp = spot.get("detail_pool") or []
-            picks, idx = _pick_unused(dp, st.setdefault("used_details", {}).setdefault(spot["spot_id"], []), 3)
+            picks, idx = _pick_unused(dp, st.setdefault("used_details", {}).setdefault(spot["spot_id"], []), 1)
             st["used_details"][spot["spot_id"]].extend(idx)
-            item = {"spot_id": spot["spot_id"], "name_zh": spot["name_zh"], "name_en": spot["name_en"],
-                    "blurb": spot.get("blurb"), "hero": bool(spot.get("hero")), "details": picks}
-            if spot.get("photo_url"):
-                item["photo_url"] = spot["photo_url"]
+            item = {"spot_id": spot["spot_id"], "name_zh": spot["name_zh"],
+                    "hero": bool(spot.get("hero")), "details": picks}
             if spot.get("hero") and spot.get("deep_pool"):
                 item["deep_beat"] = random.choice(spot["deep_pool"])
             day_spots.append(item)
@@ -426,9 +425,11 @@ def trip_here() -> str:
             vday = min(sp["days"], int(elapsed // st.get("vday_hours", VDAY_HOURS)) + 1)
             st["day"] = vday
             _write_state(st)
-            return _out(_with_nudge({"party": "solo", "day": vday, "days_total": sp["days"],
-                                     "today": st["solo"]["packet"]["days"][vday - 1],
-                                     "note": "你此刻在外面的位置和今天的料。TA问起就讲两句，别剧透明信片。"}))
+            today = st["solo"]["packet"]["days"][vday - 1]
+            frac = (elapsed % st.get("vday_hours", VDAY_HOURS)) / st.get("vday_hours", VDAY_HOURS)
+            here = today["spots"][min(len(today["spots"]) - 1, int(frac * len(today["spots"])))]
+            return _out(_with_nudge({"party": "solo", "day": vday, "days_total": sp["days"], "here": here,
+                                     "note": "你此刻在这。TA问起就讲两句，别剧透明信片。"}))
         if st.get("phase") == "day_end":
             return _out(_with_nudge(_day_end_payload(st)))
         payload = _spot_payload(st)
@@ -582,8 +583,21 @@ def trip_return() -> str:
         st["solo"]["home"]["delivered"] = True
         settle = _settle(st, sp, d)
         _write_state(st)
-        return _out({"ok": True, "dest": d["name_zh"], "settle": settle, "packet": st["solo"]["packet"],
-                     "note": "到家了。跟TA讲这趟的两三个瞬间（从数据包挑），别念流水账。"})
+        # 不整包 dump——每天挑一个亮点当讲故事的梗，写日记素材也够了
+        highlights = []
+        for day in st["solo"]["packet"]["days"]:
+            pick = next((x for x in day["spots"] if x.get("hero")), day["spots"][0] if day["spots"] else None)
+            if pick:
+                h = {"day": day["day"], "spot": pick["name_zh"],
+                     "beat": pick.get("deep_beat") or (pick.get("details") or [""])[0]}
+                if day.get("gossip"):
+                    h["gossip"] = day["gossip"]["text"]
+                if day.get("event"):
+                    h["event"] = day["event"]
+                highlights.append(h)
+        return _out({"ok": True, "dest": d["name_zh"], "days": sp["days"], "settle": settle,
+                     "highlights": highlights,
+                     "note": "到家了。跟TA讲这趟的两三个瞬间（从亮点里挑），别念流水账。"})
 
 @mcp.tool()
 def care_checkin(item: str, note: str = "") -> str:
