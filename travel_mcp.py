@@ -372,6 +372,11 @@ def trip_start(dest: str = "", party: str = "together", style: str = "舒适", r
         price = _trip_price(d["id"], style, party)
         w = _wallet()
         _simple_allowance(w)
+        need = d.get("xp_required", 0)
+        if need and w.get("xp", 0) < need:
+            return _out({"error": "经验还不够去这儿", "dest": d["name_zh"], "tier": d["tier"],
+                         "xp_required": need, "xp": w.get("xp", 0),
+                         "hint": "先去低难度的地方攒XP（首访 tier×10 + 每趟5）——高处不是价格墙，是路要一段段走"})
         if ECONOMY != "free" and price > w["balance"]:
             return _out({"error": "盘缠不够", "price": price, "balance": w["balance"],
                          "hint": "换便宜的档/地方，或先攒攒（care_checkin 照顾自己就能挣）"})
