@@ -1,0 +1,8168 @@
+[
+ {
+  "dest_id": "abu-dhabi-empty-quarter",
+  "style": "青旅背包",
+  "name_or_type": "Moreeb沙丘边自带帐篷野营",
+  "price_range_usd": [
+   0,
+   20
+  ],
+  "vibe_line": "利瓦这边野营不要钱，装备自理，夜里帐篷布被风拍得啪啪响，拉开拉链就是没有一盏灯的沙海。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "abu-dhabi-empty-quarter",
+  "style": "舒适",
+  "name_or_type": "Liwa Hotel标准房",
+  "price_range_usd": [
+   80,
+   130
+  ],
+  "vibe_line": "绿洲小山上的老牌国营范儿酒店，地毯有年头了，但热水管够，窗外椰枣园尽头就是沙漠的边。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "abu-dhabi-empty-quarter",
+  "style": "轻奢",
+  "name_or_type": "Tilal Liwa Hotel沙景房",
+  "price_range_usd": [
+   150,
+   260
+  ],
+  "vibe_line": "土黄色堡垒造型直接扎在沙丘脚下，无边泳池的水线和沙脊连成一条，日落时整面墙被染成蜜色。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "abu-dhabi-empty-quarter",
+  "style": "豪奢",
+  "name_or_type": "Qasr Al Sarab Desert Resort别墅",
+  "price_range_usd": [
+   450,
+   1200
+  ],
+  "vibe_line": "空之沙漠深处的一座宫殿，私家泳池就悬在沙丘上方，清晨拉开窗帘，一只瞪羚正从露台底下慢慢走过。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Qasr_Al_Sarab_-_Hotel_in_the_area.jpg/1280px-Qasr_Al_Sarab_-_Hotel_in_the_area.jpg"
+ },
+ {
+  "dest_id": "abu-dhabi-empty-quarter",
+  "style": "豪奢",
+  "name_or_type": "Anantara沙漠星空私享营地",
+  "price_range_usd": [
+   800,
+   1500
+  ],
+  "vibe_line": "只属于你们的一顶奢华帐篷扎在无人沙海里，管家备好晚餐和望远镜就退到视线外，整片银河没有第二个观众。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "amman",
+  "style": "青旅背包",
+  "name_or_type": "Nomads Hostel多人间",
+  "price_range_usd": [
+   10,
+   18
+  ],
+  "vibe_line": "背包客聚点，屋顶平台正对老城山坡，晚上一群人抱着啤酒看万家灯火听唤礼声此起彼伏。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "amman",
+  "style": "青旅背包",
+  "name_or_type": "Jordan Tower Hotel床位",
+  "price_range_usd": [
+   12,
+   22
+  ],
+  "vibe_line": "离罗马剧场步行两分钟，床有点吱呀，但一推窗就是下城的市声和烤肉烟。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "amman",
+  "style": "舒适",
+  "name_or_type": "Toledo Hotel标准间",
+  "price_range_usd": [
+   60,
+   90
+  ],
+  "vibe_line": "商务型干净利落，热水稳定水压给力——在安曼这条比什么都值钱，走到下城十五分钟下坡。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "amman",
+  "style": "轻奢",
+  "name_or_type": "The House Boutique Suites",
+  "price_range_usd": [
+   130,
+   200
+  ],
+  "vibe_line": "使馆区的全套房精品店，房间大得空旷，晚上露台泳池边安静得只剩风，离彩虹街一脚油门。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "amman",
+  "style": "豪奢",
+  "name_or_type": "Four Seasons Amman山顶大床房",
+  "price_range_usd": [
+   240,
+   500
+  ],
+  "vibe_line": "立在第五环高点，整面落地窗铺开七座山丘的灯海，日落时白色城市一层层变成蜂蜜色。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Four_Seasons_Amman_P1090319.JPG/1280px-Four_Seasons_Amman_P1090319.JPG"
+ },
+ {
+  "dest_id": "amsterdam",
+  "style": "青旅背包",
+  "name_or_type": "Flying Pig Downtown",
+  "price_range_usd": [
+   40,
+   65
+  ],
+  "vibe_line": "派对系老牌青旅，楼下酒吧到凌晨都有人，耳塞是必需品",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "amsterdam",
+  "style": "青旅背包",
+  "name_or_type": "ClinkNOORD",
+  "price_range_usd": [
+   35,
+   58
+  ],
+  "vibe_line": "河北岸老实验楼改的青旅，坐免费渡轮过河，甲板上风很大",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "amsterdam",
+  "style": "舒适",
+  "name_or_type": "Hotel Casa Amsterdam",
+  "price_range_usd": [
+   130,
+   190
+  ],
+  "vibe_line": "半学生公寓半酒店，大堂永远有人在写论文，床垫意外地好",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "amsterdam",
+  "style": "轻奢",
+  "name_or_type": "Pulitzer Amsterdam",
+  "price_range_usd": [
+   350,
+   560
+  ],
+  "vibe_line": "25栋运河老宅打通的酒店，走廊高低错落像迷宫，窗外就是王子运河",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Pulitzer_Amsterdam_-_2.jpg/1280px-Pulitzer_Amsterdam_-_2.jpg"
+ },
+ {
+  "dest_id": "amsterdam",
+  "style": "豪奢",
+  "name_or_type": "Waldorf Astoria Amsterdam",
+  "price_range_usd": [
+   750,
+   1400
+  ],
+  "vibe_line": "六栋17世纪运河宫殿，私家花园安静得听得见喷泉，管家记得你的名字",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Rm1892-4.JPG"
+ },
+ {
+  "dest_id": "angkor-wat",
+  "style": "青旅背包",
+  "name_or_type": "Onederz Siem Reap床位",
+  "price_range_usd": [
+   7,
+   14
+  ],
+  "vibe_line": "屋顶泳池的青旅，逛完庙跳进水里泡到天黑，床帘一拉隔出自己的小世界，楼下就能约拼车看日出。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "angkor-wat",
+  "style": "舒适",
+  "name_or_type": "暹粒河边家庭精品酒店(如Central Suite Residence)",
+  "price_range_usd": [
+   25,
+   45
+  ],
+  "vibe_line": "三十来美元就有泳池和芒果树院子，老板娘记得你的名字，早上现切的火龙果拼盘比闹钟好使。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "angkor-wat",
+  "style": "轻奢",
+  "name_or_type": "FCC Angkor by Avani",
+  "price_range_usd": [
+   110,
+   180
+  ],
+  "vibe_line": "殖民时代法国领事馆改的酒店，白墙木百叶，泳池藏在鸡蛋花树影里，晚上酒吧的吊扇慢悠悠转。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "angkor-wat",
+  "style": "豪奢",
+  "name_or_type": "Raffles Grand Hotel d'Angkor",
+  "price_range_usd": [
+   300,
+   900
+  ],
+  "vibe_line": "1932年的老电梯还在运行，查理·卓别林和杰奎琳都住过，下午茶在棕榈庭院里，泳池是全城最大的一片蓝。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Grand_Hotel_d%27Angkor.jpg/1280px-Grand_Hotel_d%27Angkor.jpg"
+ },
+ {
+  "dest_id": "angkor-wat",
+  "style": "豪奢",
+  "name_or_type": "Amansara",
+  "price_range_usd": [
+   950,
+   1600
+  ],
+  "vibe_line": "西哈努克国王六十年代的宾馆改的安缦，只有24间套房，含私人突突车和导游，看日出都替你清好了场。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Amansara_Resort-Siem_Reap.jpg"
+ },
+ {
+  "dest_id": "annapurna-circuit",
+  "style": "青旅背包",
+  "name_or_type": "茶屋基础双人间(公共蹲厕)",
+  "price_range_usd": [
+   3,
+   8
+  ],
+  "vibe_line": "木板房薄得能听见隔壁翻身，房费近乎白送，默认你在店里吃晚饭，毯子压三层还是要靠自己的睡袋。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "annapurna-circuit",
+  "style": "舒适",
+  "name_or_type": "大村子的标准茶屋(热水淋浴另收费)",
+  "price_range_usd": [
+   10,
+   20
+  ],
+  "vibe_line": "有电热毯的房间在环线上算奢侈品，饭厅的铁皮炉子傍晚生火，靠炉子的位置永远最先被占。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "annapurna-circuit",
+  "style": "轻奢",
+  "name_or_type": "马南带独立卫浴的山景房(如Tilicho Hotel)",
+  "price_range_usd": [
+   25,
+   50
+  ],
+  "vibe_line": "环线上的'五星级'：24小时热水、床头有插座、窗户正对冈加普尔纳冰川，徒步者管这叫天堂。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "annapurna-circuit",
+  "style": "豪奢",
+  "name_or_type": "直升机接驳+博卡拉豪华山庄组合",
+  "price_range_usd": [
+   1500,
+   3500
+  ],
+  "vibe_line": "翻完垭口直接从木克提纳特打直升机下山，四十分钟后泡在博卡拉湖景酒店的浴缸里，膝盖和钱包只能保一个。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "antarctic-peninsula",
+  "style": "青旅背包",
+  "name_or_type": "探险船三人内舱(末班甩卖票)",
+  "price_range_usd": [
+   4500,
+   7000
+  ],
+  "vibe_line": "乌斯怀亚旅行社橱窗里的last minute票，没有窗户，靠广播知道外面是不是有鲸鱼，但踩上南极的那一步和套房乘客一模一样。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "antarctic-peninsula",
+  "style": "舒适",
+  "name_or_type": "探险船标准外舱(舷窗双人间)",
+  "price_range_usd": [
+   8000,
+   13000
+  ],
+  "vibe_line": "一扇圆舷窗就是私人电影院，早上躺在床上看浮冰漂过，德雷克风浪大时记得把窗帘拉好锁紧抽屉。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "antarctic-peninsula",
+  "style": "轻奢",
+  "name_or_type": "探险船阳台舱",
+  "price_range_usd": [
+   13000,
+   22000
+  ],
+  "vibe_line": "裹着被子站上自家阳台看冰山不用抢机位，代价是每次开门零下的风灌进被窝，暖气开到最大也值。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "antarctic-peninsula",
+  "style": "豪奢",
+  "name_or_type": "高端探险船套房(含管家/直升机机位)",
+  "price_range_usd": [
+   25000,
+   45000
+  ],
+  "vibe_line": "落地窗套房带浴缸，泡着澡看企鹅从冰山上滑下去，某些船的套房客还能坐直升机从空中看勒梅尔海峡。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "antarctic-peninsula",
+  "style": "青旅背包",
+  "name_or_type": "南极冰上露营加购项目",
+  "price_range_usd": [
+   200,
+   400
+  ],
+  "vibe_line": "船上加钱换来的一晚：睡袋+防潮袋直接躺在雪坑里，没有帐篷没有厕所帐以外的方便，凌晨被冰川崩裂声震醒，全船最贵的'差评床位'和最好的失眠。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "antarctica-emperor-penguins",
+  "style": "青旅背包",
+  "name_or_type": "帝企鹅栖息地野外双人山地帐(ALE Gould Bay)",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "没有单独市场价，含在约6万美元的探险套餐里；双人帐扎在海冰上，睡袋外套抓绒全上，耳边整夜是企鹅群落隐约的喇叭声。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "antarctica-emperor-penguins",
+  "style": "舒适",
+  "name_or_type": "联合冰川营地Clam双人帐",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "含在套餐里没有单卖价；蚌壳帐里有真床垫和阅读灯，太阳能供暖到零上，掀帘出门又是零下二十度的两个世界。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "antarctica-emperor-penguins",
+  "style": "轻奢",
+  "name_or_type": "破冰船Kapitan Khlebnikov舱房(雪丘岛帝企鹅航线)",
+  "price_range_usd": [
+   28000,
+   45000
+  ],
+  "vibe_line": "传奇破冰船每隔几年才开一次帝企鹅航线，直升机把你从船甲板吊运到群落边缘，舱房暖气烘着窗上的冰花。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Icebreaker_and_penguins.jpg"
+ },
+ {
+  "dest_id": "antarctica-emperor-penguins",
+  "style": "豪奢",
+  "name_or_type": "White Desert Whichaway营地太空舱",
+  "price_range_usd": [
+   65000,
+   100000
+  ],
+  "vibe_line": "七个玻璃纤维太空舱立在冰原绿洲上，私人飞机从开普敦直达，去看帝企鹅当日往返，晚上盖着驯鹿皮毯看极昼的太阳打转。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "antelope-canyon",
+  "style": "青旅背包",
+  "name_or_type": "Page Lake Powell Campground帐篷位",
+  "price_range_usd": [
+   30,
+   50
+  ],
+  "vibe_line": "红岩边上的营地，晚上帐篷外就是完整的银河，凌晨会被隔壁营位煮咖啡的香气叫醒。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "antelope-canyon",
+  "style": "舒适",
+  "name_or_type": "Best Western View of Lake Powell",
+  "price_range_usd": [
+   120,
+   190
+  ],
+  "vibe_line": "坡顶的连锁汽车旅馆，泳池边能望到鲍威尔湖的一角蓝，旺季价格翻着跟头涨，早餐的华夫饼机永远在排队。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "antelope-canyon",
+  "style": "舒适",
+  "name_or_type": "Lake Powell Motel式家庭旅馆",
+  "price_range_usd": [
+   90,
+   140
+  ],
+  "vibe_line": "上世纪公路旅行时代的老汽车旅馆，门口停车门后睡觉，晚上坐在门前折叠椅上看星星，钥匙还是真钥匙。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "antelope-canyon",
+  "style": "轻奢",
+  "name_or_type": "Lake Powell Resort湖景房",
+  "price_range_usd": [
+   200,
+   320
+  ],
+  "vibe_line": "就建在Wahweap码头上方，阳台正对蓝湖红岩，早上看游艇一艘艘驶出去，在满城汽车旅馆的Page算顶配。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "antelope-canyon",
+  "style": "豪奢",
+  "name_or_type": "Amangiri(Canyon Point, 车程25分钟)",
+  "price_range_usd": [
+   3300,
+   5000
+  ],
+  "vibe_line": "藏在红岩荒漠褶皱里的安缦，混凝土建筑和岩层长在一起，泳池绕着一块两亿年的砂岩转弯，名人打卡的沙漠圣殿。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Amangiri_Resort_%2824191518278%29.jpg/3840px-Amangiri_Resort_%2824191518278%29.jpg"
+ },
+ {
+  "dest_id": "aogashima",
+  "style": "青旅背包",
+  "name_or_type": "青ヶ島村营地（需向村里申请）",
+  "price_range_usd": [
+   0,
+   5
+  ],
+  "vibe_line": "免费但要提前跟村役场报备，帐篷外就是ひんぎゃ的蒸气，夜里拉开帐篷银河直接砸脸上。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "aogashima",
+  "style": "舒适",
+  "name_or_type": "ビジネス宿中里（一泊三食）",
+  "price_range_usd": [
+   70,
+   85
+  ],
+  "vibe_line": "一天三顿全包，榻榻米房间听得见风声，老板顺手就把你明天的行程安排了。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "aogashima",
+  "style": "轻奢",
+  "name_or_type": "民宿かいゆう丸（新馆·一泊三食）",
+  "price_range_usd": [
+   85,
+   110
+  ],
+  "vibe_line": "2020年新开的民宿，离直升机坪五分钟，木头还有新房子的味道，是全岛最体面的床。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "aogashima",
+  "style": "豪奢",
+  "name_or_type": "包下民宿整栋连住（岛上无酒店）",
+  "price_range_usd": [
+   150,
+   250
+  ],
+  "vibe_line": "岛上没有豪华酒店，最奢侈的是淡季包下一整栋民宿连住一周——奢侈的不是床，是被全岛记住名字。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "atacama",
+  "style": "青旅背包",
+  "name_or_type": "Hostal Sonchek / 镇上土坯青旅",
+  "price_range_usd": [
+   18,
+   35
+  ],
+  "vibe_line": "土坯墙小院晒满睡袋，公共厨房永远有人在煮意面聊明天拼哪个团。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "atacama",
+  "style": "舒适",
+  "name_or_type": "Terrantai Lodge / 镇中心精品客栈",
+  "price_range_usd": [
+   90,
+   160
+  ],
+  "vibe_line": "石头墙走廊凉飕飕，院子里就能看星星，走两步是Caracoles主街。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "atacama",
+  "style": "轻奢",
+  "name_or_type": "Cumbres San Pedro de Atacama",
+  "price_range_usd": [
+   250,
+   400
+  ],
+  "vibe_line": "泳池正对火山，泡在水里看Licancabur变成剪影，晚风里全是篝火味。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "atacama",
+  "style": "豪奢",
+  "name_or_type": "Awasi Atacama / Explora Atacama（全包）",
+  "price_range_usd": [
+   900,
+   2000
+  ],
+  "vibe_line": "一房一私人向导一辆车，行程全给你量身定，回来晚餐和按摩已经在等你。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "aurora-tromso",
+  "style": "青旅背包",
+  "name_or_type": "Tromsø Activities Hostel / Smart Hotel",
+  "price_range_usd": [
+   35,
+   70
+  ],
+  "vibe_line": "床位便宜但暖气足，公共区永远有人在比对今晚的极光预报截图。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "aurora-tromso",
+  "style": "舒适",
+  "name_or_type": "Scandic Ishavshotel",
+  "price_range_usd": [
+   160,
+   260
+  ],
+  "vibe_line": "就在码头边，房间窗户正对峡湾和大桥，早餐的挪威三文鱼随便加。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Scandic_Ishavshotel_Troms%C3%B8_002.jpg"
+ },
+ {
+  "dest_id": "aurora-tromso",
+  "style": "轻奢",
+  "name_or_type": "Clarion Hotel The Edge / 顶楼水疗房",
+  "price_range_usd": [
+   250,
+   400
+  ],
+  "vibe_line": "顶楼酒吧和热水池看整个峡湾夜景，运气好泡着澡就把极光看了。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "aurora-tromso",
+  "style": "豪奢",
+  "name_or_type": "Tromsø Ice Domes冰屋 / Lyngen北极光玻璃屋",
+  "price_range_usd": [
+   550,
+   1300
+  ],
+  "vibe_line": "睡在冰做的房间或整面玻璃的穹顶下，躺在床上等极光自己路过天花板。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Roald_Amundsen_snow_sculpture_Tromso_Ice_Domes_in_%C3%98verbygd%2C_Norway.jpg"
+ },
+ {
+  "dest_id": "bagan",
+  "style": "青旅背包",
+  "name_or_type": "Ostello Bello Bagan",
+  "price_range_usd": [
+   12,
+   25
+  ],
+  "vibe_line": "屋顶酒吧每晚都有人交换看日出的'秘密塔'坐标，早餐的煎蛋管够。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "bagan",
+  "style": "舒适",
+  "name_or_type": "良乌镇家庭旅馆 / Zfreeti Hotel",
+  "price_range_usd": [
+   30,
+   60
+  ],
+  "vibe_line": "离市场步行十分钟，院子里能免费充电动车，老板会画手绘地图给你。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "bagan",
+  "style": "轻奢",
+  "name_or_type": "Bagan Lodge / The Hotel @ Tharabar Gate",
+  "price_range_usd": [
+   100,
+   190
+  ],
+  "vibe_line": "帐篷式别墅或塔林边的泳池，白天晒透的皮肤往水里一沉，舒服得叹气。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "bagan",
+  "style": "豪奢",
+  "name_or_type": "Aureum Palace Hotel Bagan",
+  "price_range_usd": [
+   120,
+   250
+  ],
+  "vibe_line": "自带观景塔的度假村，泳池别墅正对塔林，日出时分不用出房门就是全景。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "bali",
+  "style": "青旅背包",
+  "name_or_type": "Puji Hostel Ubud / 苍古冲浪青旅",
+  "price_range_usd": [
+   8,
+   20
+  ],
+  "vibe_line": "床位带泳池是巴厘岛青旅的基本操作，天台上永远有人在教别人冲浪理论。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "bali",
+  "style": "舒适",
+  "name_or_type": "乌布家庭homestay / 带泳池guesthouse",
+  "price_range_usd": [
+   25,
+   60
+  ],
+  "vibe_line": "住进本地人家的院子，早上供品的香和现做香蕉煎饼一起飘进房间。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "bali",
+  "style": "轻奢",
+  "name_or_type": "乌布私人泳池别墅 / Komaneka系列",
+  "price_range_usd": [
+   150,
+   350
+  ],
+  "vibe_line": "一整个泳池只属于你和稻田，早餐漂在水上端过来，拍照五分钟享受两小时。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "bali",
+  "style": "豪奢",
+  "name_or_type": "Four Seasons Sayan / Alila Villas Uluwatu",
+  "price_range_usd": [
+   700,
+   1800
+  ],
+  "vibe_line": "要么睡在峡谷雨林的树冠层，要么睡在悬崖无边泳池边上，管家记得你咖啡加几分糖。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Alila_Villas_Uluwatu.jpg"
+ },
+ {
+  "dest_id": "banff",
+  "style": "青旅背包",
+  "name_or_type": "HI Banff Alpine Centre / Samesun Banff",
+  "price_range_usd": [
+   45,
+   75
+  ],
+  "vibe_line": "山脚下的床位，公共休息室的壁炉边永远摊着几张徒步地图和几双烘着的袜子。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "banff",
+  "style": "舒适",
+  "name_or_type": "Banff Ptarmigan Inn / 镇上汽车旅馆",
+  "price_range_usd": [
+   150,
+   280
+  ],
+  "vibe_line": "走路五分钟到班夫大道，停车免费，屋顶热水池泡着能看见喀斯喀特山。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "banff",
+  "style": "轻奢",
+  "name_or_type": "Moose Hotel & Suites",
+  "price_range_usd": [
+   300,
+   550
+  ],
+  "vibe_line": "顶楼两个露天热水池对着群山，套房里有壁炉，滑完雪的骨头在这里融化。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "banff",
+  "style": "豪奢",
+  "name_or_type": "Fairmont Banff Springs / Chateau Lake Louise",
+  "price_range_usd": [
+   500,
+   1500
+  ],
+  "vibe_line": "'落基山的城堡'，一百多年的石头堡垒，湖景房拉开窗帘就是那汪绿到失真的湖。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Banff_Spring_Hotel_Alberta_Kim_Payant_02.jpg"
+ },
+ {
+  "dest_id": "bangkok",
+  "style": "青旅背包",
+  "name_or_type": "Lub d Bangkok Siam",
+  "price_range_usd": [
+   15,
+   25
+  ],
+  "vibe_line": "BTS国立体育馆站出来就是，床帘一拉自成一格，大堂永远有人在拼明天的行程",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "bangkok",
+  "style": "舒适",
+  "name_or_type": "湄南河边三星河景酒店（如 Navalai River Resort）",
+  "price_range_usd": [
+   45,
+   85
+  ],
+  "vibe_line": "阳台正对湄南河，快船的马达声当闹钟，屋顶小泳池泡着看对岸郑王庙亮灯",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "bangkok",
+  "style": "轻奢",
+  "name_or_type": "The Standard Bangkok Mahanakhon",
+  "price_range_usd": [
+   200,
+   330
+  ],
+  "vibe_line": "住进那栋像素块剥落的地标楼里，浴缸边就是落地窗，曼谷的车流在78层脚下无声地淌",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Bangkok_-_King_Power_Mahanakhon_%E0%B8%84%E0%B8%B4%E0%B8%87_%E0%B9%80%E0%B8%9E%E0%B8%B2%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C_%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_2021_May.jpg"
+ },
+ {
+  "dest_id": "bangkok",
+  "style": "豪奢",
+  "name_or_type": "Mandarin Oriental Bangkok 文华东方",
+  "price_range_usd": [
+   450,
+   1300
+  ],
+  "vibe_line": "1876年开业的河畔传奇，作家翼住过毛姆和康拉德，下午茶的银器声和河上船笛混在一起",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Mandarin_Oriental_Bangkok_Bang_Rak.jpg"
+ },
+ {
+  "dest_id": "baobab-avenue-madagascar",
+  "style": "青旅背包",
+  "name_or_type": "穆龙达瓦海滩木屋客栈（Trecicogne一类）",
+  "price_range_usd": [
+   10,
+   25
+  ],
+  "vibe_line": "棕榈叶顶的木屋，蚊帐是标配也是保命符，浪声就是空调外机的白噪音。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "baobab-avenue-madagascar",
+  "style": "舒适",
+  "name_or_type": "Baobab Café Hotel / Chez Maggie",
+  "price_range_usd": [
+   35,
+   70
+  ],
+  "vibe_line": "院子里就有小泳池，前台能帮你搞定去钦吉的四驱车拼车，晚饭在海边吃。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "baobab-avenue-madagascar",
+  "style": "轻奢",
+  "name_or_type": "Palissandre Côte Ouest Resort & Spa",
+  "price_range_usd": [
+   150,
+   230
+  ],
+  "vibe_line": "穆龙达瓦的天花板，无边泳池接着海峡，红土路颠一天后的热水澡是天堂。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "baobab-avenue-madagascar",
+  "style": "豪奢",
+  "name_or_type": "Soleil des Tsingy（贝科帕卡）",
+  "price_range_usd": [
+   130,
+   220
+  ],
+  "vibe_line": "钦吉门口的丛林奢华营地，无边泳池悬在树冠上方，爬完刀山回来有人递冰毛巾。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "barcelona",
+  "style": "青旅背包",
+  "name_or_type": "Yeah Barcelona Hostel",
+  "price_range_usd": [
+   28,
+   50
+  ],
+  "vibe_line": "扩展区的高分派对青旅，每晚组团出门，凌晨回来还有人在天井打牌。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "barcelona",
+  "style": "舒适",
+  "name_or_type": "Hotel Jazz",
+  "price_range_usd": [
+   140,
+   210
+  ],
+  "vibe_line": "加泰罗尼亚广场步行两分钟，屋顶有个小泳池，逛累了泡着看天线和塔吊。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "barcelona",
+  "style": "轻奢",
+  "name_or_type": "Hotel 1898",
+  "price_range_usd": [
+   260,
+   500
+  ],
+  "vibe_line": "兰布拉大道上的殖民时期老楼，顶楼泳池正对老城屋顶，楼下喧嚣上来就静了。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "barcelona",
+  "style": "豪奢",
+  "name_or_type": "Mandarin Oriental Barcelona",
+  "price_range_usd": [
+   700,
+   1500
+  ],
+  "vibe_line": "格拉西亚大道的旧银行大楼改建，走出门左右手都是高迪。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Mandarin_Oriental_Barcelona.jpg"
+ },
+ {
+  "dest_id": "barcelona",
+  "style": "豪奢",
+  "name_or_type": "W Barcelona（帆船酒店）",
+  "price_range_usd": [
+   500,
+   1100
+  ],
+  "vibe_line": "海滩尽头那面玻璃帆，房间整面窗都是地中海，日出直接照在床上。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/14-08-05-barcelona-RalfR-001.jpg/3840px-14-08-05-barcelona-RalfR-001.jpg"
+ },
+ {
+  "dest_id": "bhutan",
+  "style": "青旅背包",
+  "name_or_type": "帕罗谷农家homestay",
+  "price_range_usd": [
+   25,
+   45
+  ],
+  "vibe_line": "睡在藏式木楼二层，楼下是牛棚，清晨被牛铃和柴火烟的味道一起叫醒。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "bhutan",
+  "style": "舒适",
+  "name_or_type": "Hotel Olathang（帕罗）",
+  "price_range_usd": [
+   70,
+   110
+  ],
+  "vibe_line": "1974年为国王加冕礼建的老酒店，松林里一栋栋小木屋，晚上有松涛声。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "bhutan",
+  "style": "轻奢",
+  "name_or_type": "Zhiwa Ling Heritage（帕罗）",
+  "price_range_usd": [
+   400,
+   700
+  ],
+  "vibe_line": "全不丹工匠手工雕出来的木头宫殿，二楼有座真佛堂，僧人每天来诵经。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Zhiwa_Ling_Hotel%2C_Paro%2C_Bhutan_%286856082967%29.jpg"
+ },
+ {
+  "dest_id": "bhutan",
+  "style": "豪奢",
+  "name_or_type": "Amankora（帕罗/廷布等五谷地）",
+  "price_range_usd": [
+   1300,
+   2200
+  ],
+  "vibe_line": "五个山谷五座行宫，夯土墙里壁炉烧着，管家记得你昨晚说过怕冷。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "bhutan",
+  "style": "豪奢",
+  "name_or_type": "Six Senses Bhutan（廷布）",
+  "price_range_usd": [
+   1300,
+   2000
+  ],
+  "vibe_line": "山脊上的'天空宫殿'，无边水池倒映着整个廷布谷地的灯火。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "bora-bora",
+  "style": "青旅背包",
+  "name_or_type": "Bora Bora Holiday's Lodge（家庭旅舍床位）",
+  "price_range_usd": [
+   35,
+   80
+  ],
+  "vibe_line": "全岛屈指可数的平价床位，风扇吱呀转，老板娘会用法语口音的英语教你哪里能免费浮潜。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "bora-bora",
+  "style": "舒适",
+  "name_or_type": "Hotel Maitai Polynesia",
+  "price_range_usd": [
+   220,
+   330
+  ],
+  "vibe_line": "山侧房比水上屋便宜一半，穿过马路就是Matira的沙滩，阳台上能听见浪。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "bora-bora",
+  "style": "轻奢",
+  "name_or_type": "Le Bora Bora by Pearl Resorts水上屋",
+  "price_range_usd": [
+   800,
+   1400
+  ],
+  "vibe_line": "入门级水上屋，玻璃茶几下就是活的珊瑚，早上被鱼群的影子晃醒。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "bora-bora",
+  "style": "豪奢",
+  "name_or_type": "Four Seasons Bora Bora水上别墅",
+  "price_range_usd": [
+   1500,
+   3500
+  ],
+  "vibe_line": "私人泳池正对Otemanu山，早餐坐独木舟送来，船夫戴着花环唱着歌把可颂递上露台。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Four_Seasons_Resort_Bora_Bora.jpg"
+ },
+ {
+  "dest_id": "bora-bora",
+  "style": "豪奢",
+  "name_or_type": "The St. Regis Bora Bora",
+  "price_range_usd": [
+   1400,
+   3000
+  ],
+  "vibe_line": "水上屋大到迷路，专属管家记得你的名字，私家泻湖里的鱼比酒店客人还多。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "borneo-rainforest",
+  "style": "青旅背包",
+  "name_or_type": "Sandakan Backpackers Hostel",
+  "price_range_usd": [
+   8,
+   15
+  ],
+  "vibe_line": "山打根海边的老骑楼里，风扇床位不到十美元，天台能看到Sim Sim水上村的灯。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "borneo-rainforest",
+  "style": "舒适",
+  "name_or_type": "Sepilok Jungle Resort",
+  "price_range_usd": [
+   35,
+   65
+  ],
+  "vibe_line": "走路五分钟到红猩猩保护区，木屋围着荷花池，清晨被长臂猿的叫声当闹钟。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "borneo-rainforest",
+  "style": "轻奢",
+  "name_or_type": "Sepilok Nature Resort",
+  "price_range_usd": [
+   90,
+   150
+  ],
+  "vibe_line": "湖边独栋木屋带私人露台，晚上萤火虫在栏杆外飘，热水澡冲掉一身雨林的泥。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "borneo-rainforest",
+  "style": "豪奢",
+  "name_or_type": "Sukau Rainforest Lodge（河畔别墅房）",
+  "price_range_usd": [
+   280,
+   520
+  ],
+  "vibe_line": "国家地理独特旅宿成员，京那巴当岸河就在木栈道尽头，运气好时侏儒象从房前的河里洗澡走过。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "buenos-aires",
+  "style": "青旅背包",
+  "name_or_type": "Milhouse Hostel Avenue",
+  "price_range_usd": [
+   14,
+   26
+  ],
+  "vibe_line": "五月大道上的派对青旅，天井里晚晚有探戈入门课，睡得浅的人慎选，交朋友的人闭眼冲。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "buenos-aires",
+  "style": "舒适",
+  "name_or_type": "圣特尔莫区带天井的精品民宿",
+  "price_range_usd": [
+   60,
+   100
+  ],
+  "vibe_line": "殖民老宅的高天花板和花砖地，天井里一棵柠檬树，早餐的medialunas是街角面包房现烤的。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "buenos-aires",
+  "style": "轻奢",
+  "name_or_type": "CasaSur Bellini（巴勒莫）",
+  "price_range_usd": [
+   170,
+   260
+  ],
+  "vibe_line": "巴勒莫使馆区的安静街道上，屋顶小泳池对着蓝花楹树冠，走路十分钟到全城最好的餐厅群。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "buenos-aires",
+  "style": "豪奢",
+  "name_or_type": "Palacio Duhau – Park Hyatt",
+  "price_range_usd": [
+   400,
+   800
+  ],
+  "vibe_line": "真宫殿改的酒店，梯田花园里喝下午茶，奶酪窖藏着全阿根廷的骄傲，门童记得每只入住的狗。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Palacio_Duhau_Park_Hyatt_01.jpg"
+ },
+ {
+  "dest_id": "buenos-aires",
+  "style": "豪奢",
+  "name_or_type": "Alvear Palace Hotel",
+  "price_range_usd": [
+   400,
+   750
+  ],
+  "vibe_line": "雷科莱塔的老钱气派，镀金大堂和白手套管家，下午茶的三层架从1932年供到今天。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Alvear_palace_hotel.jpg"
+ },
+ {
+  "dest_id": "cairo-giza",
+  "style": "青旅背包",
+  "name_or_type": "Dahab Hostel（市中心楼顶青旅）",
+  "price_range_usd": [
+   10,
+   20
+  ],
+  "vibe_line": "藏在老楼顶层的天台旅舍，竹棚下挂满吊床，晚上和各国背包客在屋顶聊到唤礼声响",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cairo-giza",
+  "style": "舒适",
+  "name_or_type": "Pyramids View Inn（吉萨，狮身人面像旁）",
+  "price_range_usd": [
+   40,
+   75
+  ],
+  "vibe_line": "天台早餐正对狮身人面像和金字塔，晚上躺床上就能看声光秀，性价比之王",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cairo-giza",
+  "style": "轻奢",
+  "name_or_type": "Steigenberger Hotel El Tahrir（解放广场旁）",
+  "price_range_usd": [
+   100,
+   160
+  ],
+  "vibe_line": "老博物馆走路两分钟，隔音好得像另一个开罗，顶楼泳池泡着看车流",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cairo-giza",
+  "style": "豪奢",
+  "name_or_type": "Marriott Mena House（吉萨）",
+  "price_range_usd": [
+   250,
+   700
+  ],
+  "vibe_line": "139年历史的猎宫改的酒店，花园泳池抬头就是大金字塔，丘吉尔住过的那种老派",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/The_Oberoi_-_Mena_House%2C_Egypt.jpg"
+ },
+ {
+  "dest_id": "cairo-giza",
+  "style": "豪奢",
+  "name_or_type": "Four Seasons Nile Plaza（尼罗河畔）",
+  "price_range_usd": [
+   400,
+   700
+  ],
+  "vibe_line": "整面落地窗给尼罗河，日落时河水变金色，楼下停着酒店自己的游船",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cape-town",
+  "style": "青旅背包",
+  "name_or_type": "Once in Cape Town (Kloof街)",
+  "price_range_usd": [
+   15,
+   35
+  ],
+  "vibe_line": "楼下自带酒吧，天台能看到桌山，耳塞是必需品。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cape-town",
+  "style": "青旅背包",
+  "name_or_type": "Never@Home (Green Point)",
+  "price_range_usd": [
+   18,
+   40
+  ],
+  "vibe_line": "带泳池的青旅，步行到海滨步道五分钟，床帘拉上就是自己的小世界。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cape-town",
+  "style": "舒适",
+  "name_or_type": "Mojo Hotel (Sea Point)",
+  "price_range_usd": [
+   60,
+   110
+  ],
+  "vibe_line": "楼下就是美食市集，晚上乐队声顺着楼梯飘上来，海就在马路对面。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cape-town",
+  "style": "轻奢",
+  "name_or_type": "Victoria & Alfred Hotel (海滨码头)",
+  "price_range_usd": [
+   200,
+   380
+  ],
+  "vibe_line": "老仓库改的酒店，推开窗是桌山和桅杆，海豹的叫声当闹钟。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Victoria_%26_Alfred_Hotel%2C_V%26A_Waterfront%2C_Cape_Town_%2801%29.jpg"
+ },
+ {
+  "dest_id": "cape-town",
+  "style": "豪奢",
+  "name_or_type": "The Silo Hotel",
+  "price_range_usd": [
+   700,
+   2200
+  ],
+  "vibe_line": "老粮仓顶上的玻璃盒子，浴缸对着整面桌山，连电梯都在艺术馆里。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_Grain_Silo%2C_Cape_Town%2C_South_Africa.jpg"
+ },
+ {
+  "dest_id": "cape-town",
+  "style": "豪奢",
+  "name_or_type": "Ellerman House",
+  "price_range_usd": [
+   700,
+   1500
+  ],
+  "vibe_line": "悬崖上的私人宅邸，只有十几间房，管家记得你早餐要几分熟。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cappadocia",
+  "style": "青旅背包",
+  "name_or_type": "格雷梅洞穴青旅（如 Shoestring Cave House）",
+  "price_range_usd": [
+   12,
+   25
+  ],
+  "vibe_line": "床位就凿在岩洞里，院子里的吊床永远被躺满，凌晨四点全青旅一起爬起来看气球。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cappadocia",
+  "style": "舒适",
+  "name_or_type": "Kelebek Special Cave Hotel",
+  "price_range_usd": [
+   80,
+   160
+  ],
+  "vibe_line": "老牌洞穴酒店，天台是看气球的经典机位，早餐能一直吃到气球全部落地。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cappadocia",
+  "style": "轻奢",
+  "name_or_type": "Sultan Cave Suites",
+  "price_range_usd": [
+   160,
+   300
+  ],
+  "vibe_line": "就是Ins上那个铺着地毯摆着早餐盘的网红天台，想拍没人的照片得比气球起得早。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cappadocia",
+  "style": "豪奢",
+  "name_or_type": "Museum Hotel (Relais & Châteaux)",
+  "price_range_usd": [
+   450,
+   1000
+  ],
+  "vibe_line": "整间酒店是个住得进去的文物馆，泳池边游着锦鲤，套房里的石壁真有一千年。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cappadocia",
+  "style": "豪奢",
+  "name_or_type": "Argos in Cappadocia",
+  "price_range_usd": [
+   350,
+   700
+  ],
+  "vibe_line": "建在修道院遗址上，有的套房带私人室内泳池，管家会把日出咖啡端到露台。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cappadocia-underground",
+  "style": "青旅背包",
+  "name_or_type": "Shoestring Cave House（格雷梅洞穴青旅）",
+  "price_range_usd": [
+   15,
+   30
+  ],
+  "vibe_line": "床位真的凿在岩洞里，冬暖夏凉，天不亮全屋人集体爬起来上天台看热气球。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cappadocia-underground",
+  "style": "舒适",
+  "name_or_type": "Kelebek Special Cave Hotel（标准洞穴房）",
+  "price_range_usd": [
+   60,
+   120
+  ],
+  "vibe_line": "老牌洞穴酒店的入门房型，石头拱顶下睡觉出奇地安静，早餐在山谷边的露台上。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cappadocia-underground",
+  "style": "轻奢",
+  "name_or_type": "Sultan Cave Suites",
+  "price_range_usd": [
+   150,
+   260
+  ],
+  "vibe_line": "全网热气球照片十有八九出自它家天台，地毯早餐桌下就是整片格雷梅的烟囱岩。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cappadocia-underground",
+  "style": "豪奢",
+  "name_or_type": "Museum Hotel（Relais & Châteaux）",
+  "price_range_usd": [
+   450,
+   1000
+  ],
+  "vibe_line": "房间本身就是文物，古董随手可摸，无边泳池的水从洞穴里流出来，孔雀在院子里散步。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cartagena",
+  "style": "青旅背包",
+  "name_or_type": "Media Luna Hostel（格斯玛尼）",
+  "price_range_usd": [
+   15,
+   28
+  ],
+  "vibe_line": "泳池派对青旅的鼻祖，周三屋顶趴全城闻名，想睡觉的人订对面那条街。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cartagena",
+  "style": "舒适",
+  "name_or_type": "格斯玛尼带天井的殖民老宅民宿",
+  "price_range_usd": [
+   50,
+   90
+  ],
+  "vibe_line": "木门推开是种满蕨类的天井，吊扇慢慢转，房东会画一张只有本地人知道的小吃地图。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cartagena",
+  "style": "轻奢",
+  "name_or_type": "Bastión Luxury Hotel",
+  "price_range_usd": [
+   180,
+   300
+  ],
+  "vibe_line": "老城墙边的殖民宅邸改建，屋顶泳池正对教堂圆顶，午后回来泡水躲太阳刚刚好。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cartagena",
+  "style": "豪奢",
+  "name_or_type": "Sofitel Legend Santa Clara",
+  "price_range_usd": [
+   350,
+   900
+  ],
+  "vibe_line": "十七世纪修道院改的传奇酒店，回廊里养着巨嘴鸟，马尔克斯的小说就写过这里的地下墓穴。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cartagena_Hotel_Santa_Clara.jpg/1280px-Cartagena_Hotel_Santa_Clara.jpg"
+ },
+ {
+  "dest_id": "cartagena",
+  "style": "豪奢",
+  "name_or_type": "Casa San Agustín",
+  "price_range_usd": [
+   400,
+   800
+  ],
+  "vibe_line": "三栋白色老宅拼成的精品酒店，泳池横穿一道三百年的引水渠，管家比你先知道你想喝什么。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cenote-mexico",
+  "style": "青旅背包",
+  "name_or_type": "Hostal La Candelaria（瓦拉多利德）",
+  "price_range_usd": [
+   10,
+   18
+  ],
+  "vibe_line": "老教堂旁的小院青旅，吊床比床位抢手，厨房里永远有人在切牛油果。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cenote-mexico",
+  "style": "舒适",
+  "name_or_type": "Casa Tía Micha（瓦拉多利德）",
+  "price_range_usd": [
+   60,
+   100
+  ],
+  "vibe_line": "家族老宅改的小旅店，花砖地配木摇椅，后院小泳池刚好泡掉一身天坑的凉。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cenote-mexico",
+  "style": "轻奢",
+  "name_or_type": "Zentik Project（瓦拉多利德）",
+  "price_range_usd": [
+   110,
+   180
+  ],
+  "vibe_line": "房间是艺术家画的壁画屋，招牌是一个地下盐水洞穴温泉，夜里下去泡像进了另一个天坑。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cenote-mexico",
+  "style": "豪奢",
+  "name_or_type": "Chablé Yucatán",
+  "price_range_usd": [
+   700,
+   1800
+  ],
+  "vibe_line": "庄园别墅藏在丛林里，spa直接建在自家私有天坑边上，理疗师放的音钵声在水面上转圈。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "chernobyl",
+  "style": "青旅背包",
+  "name_or_type": "切尔诺贝利镇工人宿舍式旅社",
+  "price_range_usd": [
+   15,
+   25
+  ],
+  "vibe_line": "上下铺铁架床，晚上十点全镇宵禁，窗外安静得能听见自己的耳鸣。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "chernobyl",
+  "style": "舒适",
+  "name_or_type": "Hotel Desiatka（切尔诺贝利镇）",
+  "price_range_usd": [
+   25,
+   45
+  ],
+  "vibe_line": "禁区里少数能正经睡觉的地方，热水稳定，前台墙上钉着当年的疏散地图。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "chernobyl",
+  "style": "轻奢",
+  "name_or_type": "两日私导团含镇上单人间",
+  "price_range_usd": [
+   60,
+   100
+  ],
+  "vibe_line": "多花的钱买的是清晨无人的普里皮亚季，一个人的房间，一整层楼的寂静。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "chernobyl",
+  "style": "豪奢",
+  "name_or_type": "全私人包团（专车+私导+特批许可）",
+  "price_range_usd": [
+   300,
+   500
+  ],
+  "vibe_line": "价格是按天的包团价不是房价，住宿仍是镇上旅馆，禁区里没有五星，只有五个辐射检测门。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "chiang-mai",
+  "style": "青旅背包",
+  "name_or_type": "Stamps Backpackers",
+  "price_range_usd": [
+   7,
+   14
+  ],
+  "vibe_line": "老城墙边的社交型青旅，公共区永远有人在拼夜市攻略，周末组队去爬素贴山。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "chiang-mai",
+  "style": "舒适",
+  "name_or_type": "De Lanna Hotel（古城内）",
+  "price_range_usd": [
+   40,
+   70
+  ],
+  "vibe_line": "帕辛寺走路三分钟，兰纳式小院带泳池，傍晚躺在池边能听到寺里的钟。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "chiang-mai",
+  "style": "轻奢",
+  "name_or_type": "Tamarind Village",
+  "price_range_usd": [
+   130,
+   220
+  ],
+  "vibe_line": "一棵两百岁的罗望子树罩着整个院子，白墙竹影，古城正中心却安静得像山里。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "chiang-mai",
+  "style": "豪奢",
+  "name_or_type": "Four Seasons Resort Chiang Mai（湄林谷）",
+  "price_range_usd": [
+   700,
+   1300
+  ],
+  "vibe_line": "别墅围着一整片真的稻田，清晨有水牛耕田当叫醒服务，管家骑着高尔夫球车来接你吃早餐。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "chichen-itza",
+  "style": "青旅背包",
+  "name_or_type": "Hostel Candelaria（瓦拉多利德）",
+  "price_range_usd": [
+   10,
+   18
+  ],
+  "vibe_line": "老宅子改的青旅，后院吊床挂在芒果树之间，早上被鸟叫和现煎鸡蛋的味道一起叫醒。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "chichen-itza",
+  "style": "舒适",
+  "name_or_type": "Hotel Zentik Project（瓦拉多利德）",
+  "price_range_usd": [
+   60,
+   95
+  ],
+  "vibe_line": "房间墙上是本地艺术家的壁画，地下有个36度的人工盐水洞穴泳池，夜里泡着能看见头顶的石壁。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "chichen-itza",
+  "style": "轻奢",
+  "name_or_type": "Hacienda Chichén Resort",
+  "price_range_usd": [
+   150,
+   240
+  ],
+  "vibe_line": "就在遗址围墙边的十六世纪庄园，早上不用抢，走路五分钟第一批进景区，院里的凤凰木落一地红花。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "chichen-itza",
+  "style": "豪奢",
+  "name_or_type": "The Lodge at Chichén Itzá",
+  "price_range_usd": [
+   200,
+   450
+  ],
+  "vibe_line": "独栋玛雅风茅草顶别墅藏在丛林花园里，私人露台泳池，傍晚园区清场后有专属通道看金字塔的日落。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Lodge_at_Chichen_Itza_-_Chair_and_Hammock.jpg"
+ },
+ {
+  "dest_id": "cliffs-of-moher",
+  "style": "青旅背包",
+  "name_or_type": "Aille River Hostel (Doolin)",
+  "price_range_usd": [
+   25,
+   40
+  ],
+  "vibe_line": "小河边的老石屋青旅，晚上大家围着泥炭炉子弹吉他",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cliffs-of-moher",
+  "style": "舒适",
+  "name_or_type": "Doolin Inn",
+  "price_range_usd": [
+   120,
+   165
+  ],
+  "vibe_line": "小而干净的家庭旅馆，早餐的烟熏三文鱼配炒蛋是招牌",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cliffs-of-moher",
+  "style": "舒适",
+  "name_or_type": "Liscannor村家庭B&B",
+  "price_range_usd": [
+   95,
+   140
+  ],
+  "vibe_line": "老板娘会画给你一张手绘地图，标着她觉得最好的悬崖日落位",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cliffs-of-moher",
+  "style": "轻奢",
+  "name_or_type": "Hotel Doolin",
+  "price_range_usd": [
+   170,
+   240
+  ],
+  "vibe_line": "爱尔兰第一家碳中和酒店，酒吧就在楼下，音乐声隔着地板隐隐传上来",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cliffs-of-moher",
+  "style": "豪奢",
+  "name_or_type": "Gregans Castle Hotel",
+  "price_range_usd": [
+   320,
+   900
+  ],
+  "vibe_line": "十八世纪庄园宅邸，没有电视，壁炉边放着威士忌和当天的报纸",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Gregans_Castle_Hotel.jpg/1280px-Gregans_Castle_Hotel.jpg"
+ },
+ {
+  "dest_id": "cliffs-of-moher",
+  "style": "豪奢",
+  "name_or_type": "Dromoland Castle",
+  "price_range_usd": [
+   450,
+   800
+  ],
+  "vibe_line": "十六世纪真城堡，早上可以带着猎鹰散步，鹰落在手套上的那一下很沉",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Dromoland_Castle.jpg/1280px-Dromoland_Castle.jpg"
+ },
+ {
+  "dest_id": "colmar",
+  "style": "青旅背包",
+  "name_or_type": "Auberge de Jeunesse Mittelharth",
+  "price_range_usd": [
+   25,
+   38
+  ],
+  "vibe_line": "老城外两公里的青年旅舍，含早餐，骑市政自行车十分钟进城，清晨路过的全是拎法棍的本地人。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "colmar",
+  "style": "舒适",
+  "name_or_type": "Hôtel Saint-Martin",
+  "price_range_usd": [
+   95,
+   150
+  ],
+  "vibe_line": "十四世纪老宅改的家庭旅馆，就在老城中心，木楼梯咯吱响，推开窗就是圣马丁教堂的钟声。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "colmar",
+  "style": "轻奢",
+  "name_or_type": "Hôtel Le Colombier",
+  "price_range_usd": [
+   130,
+   230
+  ],
+  "vibe_line": "小威尼斯入口的文艺复兴老楼，里面却是极简北欧风，石头螺旋楼梯配设计师灯具，早餐在鹅卵石内院吃。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "colmar",
+  "style": "豪奢",
+  "name_or_type": "La Maison des Têtes",
+  "price_range_usd": [
+   200,
+   450
+  ],
+  "vibe_line": "1609年的人头屋本尊，外墙106个木雕人头，房间里横梁比人腰粗，楼下就是米其林餐厅，睡在文物里。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Maison_des_T%C3%AAtes_%28Colmar%29_%281%29.jpg/1280px-Maison_des_T%C3%AAtes_%28Colmar%29_%281%29.jpg"
+ },
+ {
+  "dest_id": "cotopaxi",
+  "style": "青旅背包",
+  "name_or_type": "The Secret Garden Cotopaxi",
+  "price_range_usd": [
+   45,
+   70
+  ],
+  "vibe_line": "含三餐的火山景青旅，宿舍窗户正对雪锥，晚上大家挤在壁炉边喝汤，户外热水缸泡着看银河，含餐所以看着贵。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cotopaxi",
+  "style": "青旅背包",
+  "name_or_type": "Refugio José Rivas避难所床位",
+  "price_range_usd": [
+   30,
+   40
+  ],
+  "vibe_line": "海拔4864米的大通铺，晚上八点熄灯凌晨十二点全员起床冲顶，睡袋里能听见自己的心跳，这一晚没人是来睡觉的。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cotopaxi",
+  "style": "舒适",
+  "name_or_type": "Chilcabamba Mountain Lodge",
+  "price_range_usd": [
+   80,
+   130
+  ],
+  "vibe_line": "帕拉莫草甸边的小木屋群，房间有柴火炉，清晨拉开窗帘赌一把云开不开，开了就是整座雪山砸在脸上。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cotopaxi",
+  "style": "轻奢",
+  "name_or_type": "Hacienda El Porvenir (Tierra del Volcán)",
+  "price_range_usd": [
+   120,
+   200
+  ],
+  "vibe_line": "还在运营的牧场庄园，草顶白墙，骑马和火山徒步从门口出发，晚上服务生往被窝里塞热水袋。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Hacienda_El_Porvenir.jpg/1280px-Hacienda_El_Porvenir.jpg"
+ },
+ {
+  "dest_id": "cotopaxi",
+  "style": "豪奢",
+  "name_or_type": "Hacienda San Agustín de Callo",
+  "price_range_usd": [
+   400,
+   750
+  ],
+  "vibe_line": "睡在印加帝国的宫殿石墙里，壁炉烧一整夜，浴室的石头是十五世纪的原件，全世界找不出第二家。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/X_Hacienda_El_Callo_0801_%281%29_%2816673695803%29.jpg"
+ },
+ {
+  "dest_id": "cusco",
+  "style": "青旅背包",
+  "name_or_type": "Pariwana Hostel",
+  "price_range_usd": [
+   9,
+   16
+  ],
+  "vibe_line": "殖民老宅大天井改的青旅，白天院里晒太阳打乒乓，晚上酒吧吵到十一点，找安静选后楼的床位。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cusco",
+  "style": "舒适",
+  "name_or_type": "Hotel Rumi Punku",
+  "price_range_usd": [
+   60,
+   95
+  ],
+  "vibe_line": "大门就是一道真的印加石门，三个内院种着天竺葵，屋顶露台看全城红瓦，前台的古柯茶永远是满的。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cusco",
+  "style": "轻奢",
+  "name_or_type": "Antigua Casona San Blas",
+  "price_range_usd": [
+   120,
+   250
+  ],
+  "vibe_line": "圣布拉斯坡上的精品老宅，玻璃顶把天井罩成暖房，爬坡回来陷进羊驼毛毯里，管家送来热的emoliente草药茶。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cusco",
+  "style": "豪奢",
+  "name_or_type": "Monasterio, A Belmond Hotel",
+  "price_range_usd": [
+   500,
+   900
+  ],
+  "vibe_line": "1592年的修道院改的，回廊里挂着殖民时期油画，院中一棵三百岁雪松，房间可加购弥散式供氧，高反在这里是可以花钱解决的。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Monasterio_Hotel%2C_Cusco%2C_Peru_-_panoramio.jpg"
+ },
+ {
+  "dest_id": "danakil",
+  "style": "青旅背包",
+  "name_or_type": "Hamed Ela盐工村露天木床营地",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "费用含在四日团费（约500-600美元）里，木条床架直接摆在沙地上，没有墙没有顶，银河是唯一的天花板，风大时被子里都是沙。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "danakil",
+  "style": "舒适",
+  "name_or_type": "埃塔阿雷火山口边缘石围营地",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "含在团费里，火山口下方几十米的石头矮墙挡风，垫子铺地上睡，翻个身能看见天边熔岩湖映红的烟，这里的'舒适'是相对论。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "danakil",
+  "style": "轻奢",
+  "name_or_type": "Atse Yohannes Hotel（默克莱）",
+  "price_range_usd": [
+   30,
+   55
+  ],
+  "vibe_line": "出团前后住的城里旅馆，热水澡和真床垫在达纳基尔的语境下就是轻奢，天台能看整个默克莱的黄昏。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "danakil",
+  "style": "豪奢",
+  "name_or_type": "Planet Hotel（默克莱）+ 私人包团",
+  "price_range_usd": [
+   90,
+   150
+  ],
+  "vibe_line": "默克莱最好的酒店配私人定制包团（整团约1500美元起），有泳池和自助早餐，从地狱回来跳进泳池的那一刻，钱花得明明白白。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "dead-sea",
+  "style": "青旅背包",
+  "name_or_type": "Sweimeh 村家庭旅馆 / 安曼当天往返",
+  "price_range_usd": [
+   25,
+   45
+  ],
+  "vibe_line": "死海岸边没有真青旅，穷游的要么住村里简易房，要么从安曼坐小巴当天来回。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "dead-sea",
+  "style": "舒适",
+  "name_or_type": "Dead Sea Spa Hotel",
+  "price_range_usd": [
+   80,
+   130
+  ],
+  "vibe_line": "岸边最老资格的平价选项，设施旧但有自己的私家海滩和泥桶。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "dead-sea",
+  "style": "轻奢",
+  "name_or_type": "Mövenpick Resort & Spa Dead Sea",
+  "price_range_usd": [
+   130,
+   250
+  ],
+  "vibe_line": "石头村落式的院子一路铺到海边，无边泳池和死海连成一个平面。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Movenpick_Dead_Sea_-_Jordan.png/1280px-Movenpick_Dead_Sea_-_Jordan.png"
+ },
+ {
+  "dest_id": "dead-sea",
+  "style": "豪奢",
+  "name_or_type": "Kempinski Hotel Ishtar Dead Sea",
+  "price_range_usd": [
+   260,
+   500
+  ],
+  "vibe_line": "巴比伦空中花园主题，一层层水池叠下去，套房自带泡死海水的私池。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Kempinski_Hotel_Ishtar_-_Dead_Sea_-_Jordan.jpg/1280px-Kempinski_Hotel_Ishtar_-_Dead_Sea_-_Jordan.jpg"
+ },
+ {
+  "dest_id": "death-valley",
+  "style": "青旅背包",
+  "name_or_type": "Furnace Creek Campground营地",
+  "price_range_usd": [
+   16,
+   36
+  ],
+  "vibe_line": "国家公园官方营地，冬天要抢预约夏天随便挑，帐篷外就是全美国最好的星空之一，十月前夜里热得像睡在烤箱余温里。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "death-valley",
+  "style": "舒适",
+  "name_or_type": "Stovepipe Wells Village Hotel",
+  "price_range_usd": [
+   120,
+   190
+  ],
+  "vibe_line": "沙丘边的西部风汽车旅馆，泳池晚上十点还有人泡着看星星，房间简单但空调够猛，出门五分钟就是梅斯基特沙丘。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/STOVEPIPE_WELLS%2C_DEATH_VALLEY%2C_CA.jpg/1280px-STOVEPIPE_WELLS%2C_DEATH_VALLEY%2C_CA.jpg"
+ },
+ {
+  "dest_id": "death-valley",
+  "style": "轻奢",
+  "name_or_type": "The Ranch at Death Valley",
+  "price_range_usd": [
+   200,
+   350
+  ],
+  "vibe_line": "绿洲牧场风格的度假村，棕榈树围着草坪和泉水泳池，在一片焦土的死亡谷中间，这片绿色本身就是炫富。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Furnace_Creek_Ranch_Entrance_2.JPG/1280px-Furnace_Creek_Ranch_Entrance_2.JPG"
+ },
+ {
+  "dest_id": "death-valley",
+  "style": "豪奢",
+  "name_or_type": "The Inn at Death Valley",
+  "price_range_usd": [
+   350,
+   700
+  ],
+  "vibe_line": "1927年的四钻老饭店嵌在山坡绿洲里，温泉水灌的泳池常年29度，晚上躺在池边躺椅上，头顶是国际暗夜公园认证的银河。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Furnace_Creek_Inn_and_Ranch_Resort.jpg/1280px-Furnace_Creek_Inn_and_Ranch_Resort.jpg"
+ },
+ {
+  "dest_id": "deep-sea-vent",
+  "style": "青旅背包",
+  "name_or_type": "R/V Atlantis科考船双人舱下铺",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "价格0：床位跟着科研项目走，不对外出售。上下铺带帘子，机舱轰鸣当白噪音，储物柜比青旅的还小，但窗外是整个太平洋。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "deep-sea-vent",
+  "style": "舒适",
+  "name_or_type": "首席科学家单人舱",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "价格0：全船最好的床，用论文和十年资历换的，不收美元。独立书桌和舷窗，夜里能听见浪打在船壳上。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "deep-sea-vent",
+  "style": "轻奢",
+  "name_or_type": "阿尔文号载人钛球（8小时舱位）",
+  "price_range_usd": [
+   45000,
+   50000
+  ],
+  "vibe_line": "按科考日租率折算约4.5万美元一天，NSF资助的科学家不掏钱。直径两米住三人，全世界最贵的'房间'之一，退房时膝盖是麻的。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "deep-sea-vent",
+  "style": "豪奢",
+  "name_or_type": "私人深潜包船探险（载人潜水器+支持母船）",
+  "price_range_usd": [
+   150000,
+   350000
+  ],
+  "vibe_line": "极少数商业深潜运营商提供的私人包船，按周计价，含母船起居和多次载人下潜，是地球上最贵的旅行品类之一，名额比太空票还少。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "denali",
+  "style": "青旅背包",
+  "name_or_type": "Talkeetna Hostel International",
+  "price_range_usd": [
+   30,
+   50
+  ],
+  "vibe_line": "木屋通铺，晾衣绳上挂满登山绳和袜子，厨房白板写着各队的冲顶日期",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "denali",
+  "style": "青旅背包",
+  "name_or_type": "卡希尔特纳冰川大本营帐篷",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "没有单独房价，含在约12000美元的三周向导队费用里；睡垫下面是几十米厚的冰川，半夜能听见冰在呻吟",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "denali",
+  "style": "舒适",
+  "name_or_type": "Talkeetna Alaskan Lodge",
+  "price_range_usd": [
+   180,
+   330
+  ],
+  "vibe_line": "大堂落地窗正对迪纳利，天晴时整个酒店的人都端着咖啡挤在露台上",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/The_Alaska_Range_from_the_Talkeetna_Alaskan_Lodge..._%282572089596%29.jpg/1280px-The_Alaska_Range_from_the_Talkeetna_Alaskan_Lodge..._%282572089596%29.jpg"
+ },
+ {
+  "dest_id": "denali",
+  "style": "轻奢",
+  "name_or_type": "Tonglen Lake Lodge",
+  "price_range_usd": [
+   350,
+   550
+  ],
+  "vibe_line": "湖边手作木屋，柴炉噼啪响，窗外偶尔有驼鹿蹚水走过",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "denali",
+  "style": "豪奢",
+  "name_or_type": "Sheldon Chalet（谢尔登冰川小屋）",
+  "price_range_usd": [
+   3150,
+   6500
+  ],
+  "vibe_line": "每人每晚的价，直升机接送，孤悬在冰川圆形剧场中央的一座小屋，管家和主厨随行，窗外就是极光",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "dubai",
+  "style": "青旅背包",
+  "name_or_type": "Dubai Youth Hostel（Al Qusais）",
+  "price_range_usd": [
+   18,
+   35
+  ],
+  "vibe_line": "迪拜唯一像样的青旅，床位便宜到不像这座城市，代价是离哪都要坐半小时地铁",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "dubai",
+  "style": "舒适",
+  "name_or_type": "Rove Downtown",
+  "price_range_usd": [
+   90,
+   150
+  ],
+  "vibe_line": "天台泳池直接框着哈利法塔，大堂里全是拖行李箱的年轻人，性价比是刻在门牌上的",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "dubai",
+  "style": "轻奢",
+  "name_or_type": "Address Downtown",
+  "price_range_usd": [
+   350,
+   600
+  ],
+  "vibe_line": "无边泳池正对喷泉，晚上泡在水里看水舞，耳边是别人房间阳台飘来的音乐",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "dubai",
+  "style": "豪奢",
+  "name_or_type": "Burj Al Arab（帆船酒店）",
+  "price_range_usd": [
+   1000,
+   2500
+  ],
+  "vibe_line": "全套房双层设计，管家24小时待命，连iPad都是镀金的，浮夸得非常诚实",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Burj_Al_Arab_Hotel%2C_Dubai%2C_UAE_%28Ank_Kumar%2C_Infosys%29_07.jpg/1280px-Burj_Al_Arab_Hotel%2C_Dubai%2C_UAE_%28Ank_Kumar%2C_Infosys%29_07.jpg"
+ },
+ {
+  "dest_id": "dubai",
+  "style": "豪奢",
+  "name_or_type": "Atlantis The Royal",
+  "price_range_usd": [
+   900,
+   2500
+  ],
+  "vibe_line": "碧昂丝开业剪彩的那家，天空泳池悬在90米高空，池边躺椅比很多酒店房间贵",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Atlantis_The_Royal%2C_Dubai_1.jpg/1280px-Atlantis_The_Royal%2C_Dubai_1.jpg"
+ },
+ {
+  "dest_id": "dubai",
+  "style": "青旅背包",
+  "name_or_type": "沙漠营地帐篷（隔夜Safari）",
+  "price_range_usd": [
+   80,
+   150
+  ],
+  "vibe_line": "含在隔夜冲沙套餐里，毯子铺在沙上睡，后半夜冷得缩成虾，但睁眼就是猎户座",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "easter-island",
+  "style": "青旅背包",
+  "name_or_type": "Camping Mihinoa",
+  "price_range_usd": [
+   14,
+   30
+  ],
+  "vibe_line": "海边草地扎营或床位，躺在帐篷里能听见浪拍防波堤，厨房里各国背包客拼晚餐",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "easter-island",
+  "style": "舒适",
+  "name_or_type": "Hotel Otai 或家庭Cabañas",
+  "price_range_usd": [
+   80,
+   150
+  ],
+  "vibe_line": "镇中心步行圈的小院子，芒果树下吃早餐，老板娘顺手帮你订环岛车",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "easter-island",
+  "style": "轻奢",
+  "name_or_type": "Hangaroa Eco Village & Spa",
+  "price_range_usd": [
+   500,
+   1000
+  ],
+  "vibe_line": "泥土色的有机建筑贴着海岸线，房间没有电视，落日就是节目",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "easter-island",
+  "style": "豪奢",
+  "name_or_type": "Explora Rapa Nui",
+  "price_range_usd": [
+   1000,
+   2200
+  ],
+  "vibe_line": "全包价含私人向导和全部探险行程，酒店藏在岛中部的坡地上，晚上熄灯让位给银河",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "edinburgh",
+  "style": "青旅背包",
+  "name_or_type": "Castle Rock Hostel",
+  "price_range_usd": [
+   25,
+   45
+  ],
+  "vibe_line": "就在城堡岩石正下方，客厅像中世纪主题的城堡大厅，躺在床上能听到八月Tattoo军乐节的鼓声。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "edinburgh",
+  "style": "舒适",
+  "name_or_type": "Motel One Edinburgh-Royal",
+  "price_range_usd": [
+   100,
+   160
+  ],
+  "vibe_line": "德国连锁的设计款，苏格兰格纹和鹿角灯做主题，出门两分钟到皇家一英里，性价比常年被推荐。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "edinburgh",
+  "style": "轻奢",
+  "name_or_type": "The Scotsman Hotel",
+  "price_range_usd": [
+   280,
+   630
+  ],
+  "vibe_line": "老《苏格兰人报》报社大楼改的，大理石旋转楼梯和老编辑室的木门都留着，房间看老城天际线。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/ScotsmanDayExterior.jpg"
+ },
+ {
+  "dest_id": "edinburgh",
+  "style": "豪奢",
+  "name_or_type": "The Balmoral",
+  "price_range_usd": [
+   600,
+   2000
+  ],
+  "vibe_line": "火车站旁的地标钟楼酒店，那口钟常年快三分钟好让人赶上火车，JK罗琳在552房写完了哈利波特最后一部。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/00_103_0325_Balmoral_Hotel%2C_Edinburgh%2C_Schottland.jpg"
+ },
+ {
+  "dest_id": "edinburgh",
+  "style": "青旅背包",
+  "name_or_type": "Safestay Edinburgh（Royal Mile）",
+  "price_range_usd": [
+   22,
+   42
+  ],
+  "vibe_line": "开在皇家一英里边上的老楼里，石墙厚得像地窖，晚上酒吧街的热闹隔着墙只剩闷闷的低音。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "ephesus",
+  "style": "青旅背包",
+  "name_or_type": "Atilla's Getaway",
+  "price_range_usd": [
+   15,
+   32
+  ],
+  "vibe_line": "遗址边上的背包客营地，泳池、吊床和篝火，晚上各国口音围着火堆聊到后半夜",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "ephesus",
+  "style": "舒适",
+  "name_or_type": "Hotel Bella",
+  "price_range_usd": [
+   60,
+   110
+  ],
+  "vibe_line": "正对圣约翰教堂的小旅馆，天台餐厅的晚霞配鹳鸟归巢，老板熟到帮你排行程",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "ephesus",
+  "style": "轻奢",
+  "name_or_type": "Ayasoluk Hotel",
+  "price_range_usd": [
+   130,
+   260
+  ],
+  "vibe_line": "石头老宅改的精品酒店，小泳池藏在橄榄树后面，逛完遗址跳进去那一下值回房费",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "ephesus",
+  "style": "轻奢",
+  "name_or_type": "Nişanyan Hotel（锡林杰村）",
+  "price_range_usd": [
+   150,
+   260
+  ],
+  "vibe_line": "山村里的百年希腊石屋，木梁矮门，清晨被村里的驴叫和面包香一起叫醒",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "ephesus",
+  "style": "豪奢",
+  "name_or_type": "Six Senses Kaplankaya",
+  "price_range_usd": [
+   400,
+   1000
+  ],
+  "vibe_line": "爱琴海崖岸上的度假村，离以弗所约一个半小时车程，无边泳池和万米Spa，很多人为它专门多留一晚",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "everest-summit",
+  "style": "青旅背包",
+  "name_or_type": "Gorak Shep客栈多人间",
+  "price_range_usd": [
+   5,
+   10
+  ],
+  "vibe_line": "床板加薄垫，墙是胶合板，隔壁的咳嗽声像在同一个房间，但这是5164米，有床就是恩赐",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "everest-summit",
+  "style": "舒适",
+  "name_or_type": "标准商业远征队EBC帐篷（全程套餐）",
+  "price_range_usd": [
+   45000,
+   65000
+  ],
+  "vibe_line": "两个月远征全包价：单人帐、餐帐、氧气、夏尔巴支持，帐篷下面是会移动的冰川，每周要重新找平",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "everest-summit",
+  "style": "轻奢",
+  "name_or_type": "高端远征队加热圆顶帐（CTSS/Elite类）",
+  "price_range_usd": [
+   75000,
+   110000
+  ],
+  "vibe_line": "大本营有加热穹顶帐、真床垫和吧台，从冲顶噩梦里下撤回来，被一杯热巧克力接住",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "everest-summit",
+  "style": "豪奢",
+  "name_or_type": "闪电登顶套餐（Furtenbach Flash类）",
+  "price_range_usd": [
+   130000,
+   220000
+  ],
+  "vibe_line": "行前在家睡低氧帐预适应，三周完成别人两个月的远征，1:2的夏尔巴配比和无限氧气，用钱把风险买薄",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "faroe-islands",
+  "style": "青旅背包",
+  "name_or_type": "62N Guesthouse / 托尔斯港青年旅舍",
+  "price_range_usd": [
+   40,
+   70
+  ],
+  "vibe_line": "公共厨房里各国徒步客交换天气情报，暖气片上烘着一排湿袜子。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "faroe-islands",
+  "style": "舒适",
+  "name_or_type": "Hotel Streym",
+  "price_range_usd": [
+   120,
+   170
+  ],
+  "vibe_line": "窗外是海峡和对岸的Nólsoy岛，早餐的黑麦面包配腌鲱鱼，管饱管暖。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "faroe-islands",
+  "style": "轻奢",
+  "name_or_type": "Hotel Føroyar",
+  "price_range_usd": [
+   180,
+   450
+  ],
+  "vibe_line": "草皮屋顶的酒店趴在山坡上，整面落地窗俯瞰托尔斯港，雨点打在草顶上没有声音。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Hotel_foroyar.jpg"
+ },
+ {
+  "dest_id": "faroe-islands",
+  "style": "豪奢",
+  "name_or_type": "Hotel Brandan",
+  "price_range_usd": [
+   200,
+   420
+  ],
+  "vibe_line": "全岛最新最体面的酒店，桑拿房出来隔着玻璃看风暴，身上还是热的。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "fez",
+  "style": "青旅背包",
+  "name_or_type": "Funky Fes Hostel",
+  "price_range_usd": [
+   9,
+   20
+  ],
+  "vibe_line": "老城边上的背包客据点，天台够坐一圈人，晚上有人抱吉他有人赶攻略",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "fez",
+  "style": "舒适",
+  "name_or_type": "老城家庭Riad（如Riad Rcif一类）",
+  "price_range_usd": [
+   50,
+   95
+  ],
+  "vibe_line": "雕花木门里藏着贴满zellij的中庭，含摩洛哥早餐，老板娘的薄荷茶无限续",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "fez",
+  "style": "轻奢",
+  "name_or_type": "Palais Amani",
+  "price_range_usd": [
+   175,
+   380
+  ],
+  "vibe_line": "装饰艺术风格的老宅邸，橙子树中庭大到有回声，屋顶酒吧看整片老城的暮色",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "fez",
+  "style": "豪奢",
+  "name_or_type": "Riad Fès（Relais & Châteaux）",
+  "price_range_usd": [
+   250,
+   650
+  ],
+  "vibe_line": "安达卢西亚式中庭配镜面水池，套房窗外就是老城的千层屋顶，晚上有现场乌德琴",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "florence",
+  "style": "青旅背包",
+  "name_or_type": "Plus Florence",
+  "price_range_usd": [
+   25,
+   50
+  ],
+  "vibe_line": "有泳池和桑拿的大型青旅，屋顶露台看得到圆顶，床位价住出度假村错觉。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "florence",
+  "style": "舒适",
+  "name_or_type": "Hotel Davanzati",
+  "price_range_usd": [
+   130,
+   210
+  ],
+  "vibe_line": "家族三代经营的老楼，每晚免费aperitivo时段，老板亲自给客人倒酒讲城里的八卦。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "florence",
+  "style": "轻奢",
+  "name_or_type": "Hotel Lungarno",
+  "price_range_usd": [
+   390,
+   650
+  ],
+  "vibe_line": "Ferragamo家的河景酒店，窗户推开就是阿诺河，老桥近得像挂在墙上的画。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "florence",
+  "style": "豪奢",
+  "name_or_type": "Four Seasons Hotel Firenze",
+  "price_range_usd": [
+   900,
+   2800
+  ],
+  "vibe_line": "文艺复兴宫殿加全城最大的私家园林，走去大教堂十分钟，回来像躲进另一个世纪。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Borgo_pinti_99%2C_palazzo_della_gherardesca_02.JPG"
+ },
+ {
+  "dest_id": "galapagos",
+  "style": "青旅背包",
+  "name_or_type": "Puerto Ayora镇上家庭旅舍（Hostal类）",
+  "price_range_usd": [
+   25,
+   45
+  ],
+  "vibe_line": "风扇房加冷水澡，天台晾满速干衣，老板会帮你拼第二天的日游船位",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "galapagos",
+  "style": "舒适",
+  "name_or_type": "Hotel Fiesta",
+  "price_range_usd": [
+   90,
+   150
+  ],
+  "vibe_line": "小泳池边趴着晒太阳的不止游客还有蜥蜴，离主街五分钟，空调是这个价位的奢侈品",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "galapagos",
+  "style": "轻奢",
+  "name_or_type": "Finch Bay Hotel",
+  "price_range_usd": [
+   550,
+   850
+  ],
+  "vibe_line": "镇对岸的隐居地，只能坐小艇进出，私家沙滩上清晨有海鬣蜥列队，泳池边就能看到达尔文雀",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Walking_to_the_Finch_Bay_Eco_Hotel_in_Galapagos_Islands_Hotel.JPG"
+ },
+ {
+  "dest_id": "galapagos",
+  "style": "豪奢",
+  "name_or_type": "Pikaia Lodge",
+  "price_range_usd": [
+   1000,
+   2300
+  ],
+  "vibe_line": "死火山口边的玻璃盒子，含私人游艇和向导的全包探险，房间望出去是象龟漫步的高地草原",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "galapagos",
+  "style": "豪奢",
+  "name_or_type": "豪华探险游轮舱位（如Silversea/Celebrity Flora）",
+  "price_range_usd": [
+   900,
+   1600
+  ],
+  "vibe_line": "每人每晚的价，睡着觉就被开到下一座无人岛，清晨拉开舷窗帘就是火山剪影",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "gansu-mingsha",
+  "style": "青旅背包",
+  "name_or_type": "敦煌市区青年旅舍",
+  "price_range_usd": [
+   8,
+   15
+  ],
+  "vibe_line": "院子里挂着各地骑友留下的车牌，晚上大家坐在葡萄架下交换进窟攻略。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "gansu-mingsha",
+  "style": "舒适",
+  "name_or_type": "沙州夜市旁连锁酒店",
+  "price_range_usd": [
+   40,
+   70
+  ],
+  "vibe_line": "走两步就是夜市，窗帘一拉遮光极好——在敦煌这很重要，夏天晚上十点天才黑。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "gansu-mingsha",
+  "style": "轻奢",
+  "name_or_type": "敦煌山庄",
+  "price_range_usd": [
+   100,
+   200
+  ],
+  "vibe_line": "夯土色的汉唐建筑群就建在鸣沙山脚下，天台看日落，沙山近得像伸手能摸到。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "gansu-mingsha",
+  "style": "豪奢",
+  "name_or_type": "东驿敦煌酒店",
+  "price_range_usd": [
+   300,
+   700
+  ],
+  "vibe_line": "整座酒店像一座土黄色的城，回廊水院，夜里泡池子抬头就是沙漠星空。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "glass-beach",
+  "style": "青旅背包",
+  "name_or_type": "MacKerricher州立公园营地",
+  "price_range_usd": [
+   35,
+   50
+  ],
+  "vibe_line": "帐篷扎在海崖松林里，夜里听浪，早上帐篷上一层湿漉漉的海雾",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "glass-beach",
+  "style": "舒适",
+  "name_or_type": "Beachcomber Motel & Spa",
+  "price_range_usd": [
+   130,
+   200
+  ],
+  "vibe_line": "就建在海岸步道边上，推开门骑车五分钟到玻璃滩，阳台能听见海",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "glass-beach",
+  "style": "轻奢",
+  "name_or_type": "Noyo Harbor Inn",
+  "price_range_usd": [
+   240,
+   330
+  ],
+  "vibe_line": "百年老宅改的港湾旅店，木楼梯咯吱响，窗下就是渔船进出的Noyo河口",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Noyo_Harbor_Inn_-_August_2022_-_Sarah_Stierch_01.jpg/1280px-Noyo_Harbor_Inn_-_August_2022_-_Sarah_Stierch_01.jpg"
+ },
+ {
+  "dest_id": "glass-beach",
+  "style": "豪奢",
+  "name_or_type": "Brewery Gulch Inn (Mendocino)",
+  "price_range_usd": [
+   440,
+   600
+  ],
+  "vibe_line": "百年沉水红杉木盖的悬崖旅馆，壁炉烧着，傍晚的酒和小食摆好等你看海",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "gobi-desert",
+  "style": "青旅背包",
+  "name_or_type": "牧民家庭蒙古包借宿",
+  "price_range_usd": [
+   10,
+   25
+  ],
+  "vibe_line": "睡在主人家的客毡上，火炉的余温和奶茶味陪你入睡，凌晨有羊在门外咩",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "gobi-desert",
+  "style": "舒适",
+  "name_or_type": "Gobi Mirage标准蒙古包营地",
+  "price_range_usd": [
+   50,
+   90
+  ],
+  "vibe_line": "游客营地的蒙古包有正经床和公共热水澡，晚饭后全营地一起看银河",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "gobi-desert",
+  "style": "轻奢",
+  "name_or_type": "Dream Gobi Lodge",
+  "price_range_usd": [
+   120,
+   220
+  ],
+  "vibe_line": "带独立卫浴的升级蒙古包，天窗正对星空，躺在床上就能看到北斗七星转",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "gobi-desert",
+  "style": "豪奢",
+  "name_or_type": "Three Camel Lodge",
+  "price_range_usd": [
+   700,
+   1500
+  ],
+  "vibe_line": "国家地理挂名的沙漠奢华营地，手工毡房里有真皮扶手椅，管家会在日落前备好毯子和热酒",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "gran-sabana",
+  "style": "青旅背包",
+  "name_or_type": "安赫尔瀑布对岸吊床营地",
+  "price_range_usd": [
+   15,
+   30
+  ],
+  "vibe_line": "一排吊床挂在开放式棚子里，睁眼就是瀑布，夜里裹紧毯子听水声睡",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "gran-sabana",
+  "style": "舒适",
+  "name_or_type": "卡奈马村家庭posada",
+  "price_range_usd": [
+   40,
+   70
+  ],
+  "vibe_line": "佩蒙族人家的砖房客房，电扇吱呀转，院子里晒着木薯，走到泻湖五分钟",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "gran-sabana",
+  "style": "轻奢",
+  "name_or_type": "Campamento Ucaima (Jungle Rudy)",
+  "price_range_usd": [
+   150,
+   250
+  ],
+  "vibe_line": "河湾边的老牌丛林营地，木屋带纱窗廊，下午茶时间猴子在屋顶跑酷",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "gran-sabana",
+  "style": "豪奢",
+  "name_or_type": "Waku Lodge",
+  "price_range_usd": [
+   280,
+   500
+  ],
+  "vibe_line": "卡奈马泻湖岸边最好的房子，棕榈顶大床房推门见瀑布，含全部餐食和游船",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Waku_Lodge%2C_Canaima_-_panoramio_%287%29.jpg/1280px-Waku_Lodge%2C_Canaima_-_panoramio_%287%29.jpg"
+ },
+ {
+  "dest_id": "grand-canyon",
+  "style": "青旅背包",
+  "name_or_type": "Mather Campground营地",
+  "price_range_usd": [
+   18,
+   35
+  ],
+  "vibe_line": "松林里的营位，夜里麋鹿从帐篷边踱过去，抬头就是银河",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "grand-canyon",
+  "style": "舒适",
+  "name_or_type": "Yavapai Lodge",
+  "price_range_usd": [
+   150,
+   250
+  ],
+  "vibe_line": "园区里的标准旅馆，没有花头但走到崖边只要十几分钟，日出说走就走",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "grand-canyon",
+  "style": "舒适",
+  "name_or_type": "Bright Angel Lodge历史小木屋",
+  "price_range_usd": [
+   120,
+   220
+  ],
+  "vibe_line": "1935年的石头小屋就贴着崖边，木门吱呀一声推开就是峡谷",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "grand-canyon",
+  "style": "轻奢",
+  "name_or_type": "El Tovar Hotel",
+  "price_range_usd": [
+   300,
+   500
+  ],
+  "vibe_line": "崖边的百年猎屋风格老酒店，黑木大堂挂着驼鹿头，套房阳台正对峡谷",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/El_Tovar_Grand_Canyon_Village_09_2017_5284.jpg/1280px-El_Tovar_Grand_Canyon_Village_09_2017_5284.jpg"
+ },
+ {
+  "dest_id": "grand-canyon",
+  "style": "豪奢",
+  "name_or_type": "Under Canvas Grand Canyon野奢帐篷营地",
+  "price_range_usd": [
+   250,
+   650
+  ],
+  "vibe_line": "带真床和淋浴的帆布大帐篷，晚上有篝火和棉花糖，掀开帘子星空砸下来",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "great-barrier-reef",
+  "style": "青旅背包",
+  "name_or_type": "Gilligan's Backpackers(凯恩斯)",
+  "price_range_usd": [
+   25,
+   45
+  ],
+  "vibe_line": "全凯恩斯背包客的老巢，泳池边永远有人在约明天的潜水船",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "great-barrier-reef",
+  "style": "舒适",
+  "name_or_type": "Airlie Beach Hotel",
+  "price_range_usd": [
+   130,
+   200
+  ],
+  "vibe_line": "就在主街和海滩之间，楼下酒吧的现场音乐飘上来，出门五分钟上船",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "great-barrier-reef",
+  "style": "轻奢",
+  "name_or_type": "Riley, Crystalbrook Collection(凯恩斯)",
+  "price_range_usd": [
+   250,
+   420
+  ],
+  "vibe_line": "海滨大道上的设计酒店，无边泳池对着珊瑚海，浴袍是回收塑料瓶做的",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "great-barrier-reef",
+  "style": "豪奢",
+  "name_or_type": "Reefsuites水下套房(外堡礁浮台)",
+  "price_range_usd": [
+   1100,
+   2800
+  ],
+  "vibe_line": "睡在外堡礁的水面之下，整面墙是玻璃，半夜醒来有鲨鱼慢慢游过床边",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "great-barrier-reef",
+  "style": "豪奢",
+  "name_or_type": "qualia(汉密尔顿岛)",
+  "price_range_usd": [
+   1300,
+   2600
+  ],
+  "vibe_line": "澳洲奢华度假村天花板，私人亭阁带无边泳池，管家开着高尔夫球车接送",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "greenland",
+  "style": "青旅背包",
+  "name_or_type": "Ilulissat Hostel青年旅舍",
+  "price_range_usd": [
+   55,
+   90
+  ],
+  "vibe_line": "公用厨房里各国背包客交换极光情报，窗外偶尔飘过一座冰山",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "greenland",
+  "style": "舒适",
+  "name_or_type": "Hotel Sømandshjemmet海员之家",
+  "price_range_usd": [
+   130,
+   190
+  ],
+  "vibe_line": "老牌海员旅馆干净实在，餐厅的丹麦肉丸配土豆是船员们吃了几十年的味道",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "greenland",
+  "style": "轻奢",
+  "name_or_type": "Hotel Icefiord",
+  "price_range_usd": [
+   230,
+   400
+  ],
+  "vibe_line": "全部海景房，躺在床上看冰山从窗前慢慢漂过去，桑拿房也对着海",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "greenland",
+  "style": "豪奢",
+  "name_or_type": "Ilimanaq Lodge冰峡湾木屋",
+  "price_range_usd": [
+   700,
+   1100
+  ],
+  "vibe_line": "只有十几栋的临海玻璃木屋，村里没有车，冰山崩裂声是唯一的闹钟",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "guatape",
+  "style": "青旅背包",
+  "name_or_type": "Lake View Hostel",
+  "price_range_usd": [
+   12,
+   25
+  ],
+  "vibe_line": "湖景露台上永远有人弹吉他，床位便宜到多住三天也不心疼",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "guatape",
+  "style": "舒适",
+  "name_or_type": "Hotel Los Recuerdos",
+  "price_range_usd": [
+   60,
+   110
+  ],
+  "vibe_line": "湖边的家庭式度假旅馆，院子直接下水，早餐的热巧克力配奶酪是本地吃法",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "guatape",
+  "style": "轻奢",
+  "name_or_type": "Luxé Guatapé野奢帐篷",
+  "price_range_usd": [
+   150,
+   250
+  ],
+  "vibe_line": "半山的豪华帐篷房，泡在私人小泳池里看巨石和湖，晚上灯一串串亮起来",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "guatape",
+  "style": "豪奢",
+  "name_or_type": "Bosko圆顶木屋",
+  "price_range_usd": [
+   280,
+   500
+  ],
+  "vibe_line": "山谷里的设计感圆顶屋，落地玻璃对着湖，管家送早餐到门口的吊床边",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "guilin",
+  "style": "青旅背包",
+  "name_or_type": "遇龙河畔老宅青旅（阳朔）",
+  "price_range_usd": [
+   7,
+   15
+  ],
+  "vibe_line": "床位房推窗就是稻田，晚上蛙声当白噪音，公共区永远有人在拼骑行路线。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "guilin",
+  "style": "舒适",
+  "name_or_type": "西街口精品客栈（阳朔）",
+  "price_range_usd": [
+   30,
+   60
+  ],
+  "vibe_line": "老板娘会画手绘地图，天台能看见月亮山的剪影，就是周末夜里有点吵。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "guilin",
+  "style": "轻奢",
+  "name_or_type": "阳朔悦榕庄",
+  "price_range_usd": [
+   225,
+   450
+  ],
+  "vibe_line": "白墙灰瓦的院落群贴着遇龙河，泡在私汤里抬头就是喀斯特峰林的黑影。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "guilin",
+  "style": "豪奢",
+  "name_or_type": "阿丽拉阳朔糖舍",
+  "price_range_usd": [
+   300,
+   600
+  ],
+  "vibe_line": "1969年的老糖厂改的设计酒店，工业桁架下面是山景无边泳池，建筑迷的圣地。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "hallstatt",
+  "style": "青旅背包",
+  "name_or_type": "Gasthaus zur Mühle 多人间",
+  "price_range_usd": [
+   35,
+   50
+  ],
+  "vibe_line": "就在瀑布旁边，水声是天然白噪音，床位便宜到不像哈尔施塔特。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "hallstatt",
+  "style": "舒适",
+  "name_or_type": "Gasthof Simony",
+  "price_range_usd": [
+   110,
+   170
+  ],
+  "vibe_line": "湖景房的木地板咯吱响，推开窗天鹅正好游过，早餐在自家湖边花园吃。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Gasthof_Simony_-_panoramio.jpg/1280px-Gasthof_Simony_-_panoramio.jpg"
+ },
+ {
+  "dest_id": "hallstatt",
+  "style": "轻奢",
+  "name_or_type": "Seehotel Grüner Baum",
+  "price_range_usd": [
+   220,
+   380
+  ],
+  "vibe_line": "房间阳台直接悬在湖面上，躺在床上就能看对岸的山，茜茜公主住过。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Hotel_Gr%C3%BCner_Baum_in_Hallstatt.jpg/1280px-Hotel_Gr%C3%BCner_Baum_in_Hallstatt.jpg"
+ },
+ {
+  "dest_id": "hallstatt",
+  "style": "豪奢",
+  "name_or_type": "Hallstatt Hideaway",
+  "price_range_usd": [
+   280,
+   650
+  ],
+  "vibe_line": "仅成人入住的私密套房，私人露台配湖景浴缸，管家会替你安排清晨的空镇散步。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "halong-bay",
+  "style": "青旅背包",
+  "name_or_type": "拜寨（Bãi Cháy）背包客栈床位",
+  "price_range_usd": [
+   6,
+   12
+  ],
+  "vibe_line": "夜市街后面的家庭青旅，床位便宜到不真实，老板顺手就把明早的船票给你订了。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "halong-bay",
+  "style": "舒适",
+  "name_or_type": "中档过夜游船双人舱（如Pelican Cruise）",
+  "price_range_usd": [
+   110,
+   180
+  ],
+  "vibe_line": "船舱不大但有独立卫浴和一扇正对石峰的窗，清晨山影就浮在你的枕头边。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "halong-bay",
+  "style": "轻奢",
+  "name_or_type": "Stellar of the Seas 游船阳台舱",
+  "price_range_usd": [
+   250,
+   400
+  ],
+  "vibe_line": "钢制大船稳得几乎感觉不到浪，私人阳台泡浴缸看日落，管家记得你早餐要几分熟的蛋。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "halong-bay",
+  "style": "豪奢",
+  "name_or_type": "Paradise Grand / Heritage Line 套房舱",
+  "price_range_usd": [
+   350,
+   650
+  ],
+  "vibe_line": "顶层套房带私人露台按摩池，船开进无人水道抛锚，整片海湾像被你们俩包场。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "hanoi",
+  "style": "青旅背包",
+  "name_or_type": "Little Charm Hanoi Hostel",
+  "price_range_usd": [
+   8,
+   15
+  ],
+  "vibe_line": "老街里带小泳池的青旅，床位是带帘子的胶囊型，楼下每晚有人组局去啤酒街。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "hanoi",
+  "style": "舒适",
+  "name_or_type": "Hanoi La Siesta Hotel & Spa",
+  "price_range_usd": [
+   60,
+   110
+  ],
+  "vibe_line": "老街边上服务好到不真实的精品酒店，前台记得住你的名字，早餐的phở比外面很多店都正经。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "hanoi",
+  "style": "轻奢",
+  "name_or_type": "Sofitel Legend Metropole Hanoi",
+  "price_range_usd": [
+   230,
+   450
+  ],
+  "vibe_line": "1901年的白色殖民老楼，卓别林和格雷厄姆·格林都住过，院里还留着战时的防空洞可以参观。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Sofitel_Metropole%2C_Ng%C3%B4_Quy%E1%BB%81n_-_2022-09-02_01.jpg/1280px-Sofitel_Metropole%2C_Ng%C3%B4_Quy%E1%BB%81n_-_2022-09-02_01.jpg"
+ },
+ {
+  "dest_id": "hanoi",
+  "style": "豪奢",
+  "name_or_type": "Capella Hanoi",
+  "price_range_usd": [
+   400,
+   900
+  ],
+  "vibe_line": "歌剧院旁边的歌剧主题酒店，整栋楼像一座金色的后台，管家问你要不要把浴缸放好水再回来。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Capella_Hanoi_-_2022-09-02_01.jpg/1280px-Capella_Hanoi_-_2022-09-02_01.jpg"
+ },
+ {
+  "dest_id": "havana",
+  "style": "青旅背包",
+  "name_or_type": "老城casa particular合住间",
+  "price_range_usd": [
+   12,
+   25
+  ],
+  "vibe_line": "门上贴着蓝色船锚标志的民宿合住间，天花板四米高，吊扇吱呀转，阿姨的早餐另加几美元管饱。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "havana",
+  "style": "舒适",
+  "name_or_type": "Vedado区带阳台的整套casa particular",
+  "price_range_usd": [
+   35,
+   70
+  ],
+  "vibe_line": "五十年代的老公寓，水磨石地板凉丝丝的，阳台正对街角的芒果树，晚上听得见远处的海。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "havana",
+  "style": "轻奢",
+  "name_or_type": "Hotel Nacional de Cuba",
+  "price_range_usd": [
+   150,
+   250
+  ],
+  "vibe_line": "1930年的传奇老酒店，丘吉尔和黑帮都住过，花园草坪上喝mojito看Malecón，孔雀在脚边散步。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/The_Hotel_Nacional%2C_Havana%2C_Cuba_LCCN2010638840.jpg/1280px-The_Hotel_Nacional%2C_Havana%2C_Cuba_LCCN2010638840.jpg"
+ },
+ {
+  "dest_id": "havana",
+  "style": "豪奢",
+  "name_or_type": "Gran Hotel Manzana Kempinski",
+  "price_range_usd": [
+   320,
+   550
+  ],
+  "vibe_line": "老城中心唯一的奢牌，天台无边泳池悬在国会大厦圆顶的视线里，泳池边和楼下的配给店隔着一个时代。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Havana_-_Manzana_de_Gomez.jpg/1280px-Havana_-_Manzana_de_Gomez.jpg"
+ },
+ {
+  "dest_id": "hawaii-oahu",
+  "style": "青旅背包",
+  "name_or_type": "Waikiki Beachside Hostel",
+  "price_range_usd": [
+   45,
+   70
+  ],
+  "vibe_line": "离沙滩两个街口的青旅，院子里晾满浪板和泳衣，晚上大家坐在长桌拼晚饭聊明天去哪个浪点。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "hawaii-oahu",
+  "style": "舒适",
+  "name_or_type": "Queen Kapiolani Hotel",
+  "price_range_usd": [
+   180,
+   280
+  ],
+  "vibe_line": "老牌翻新酒店，高层正对钻石头山，走到沙滩五分钟，大堂的复古夏威夷海报比很多博物馆都全。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "hawaii-oahu",
+  "style": "轻奢",
+  "name_or_type": "Moana Surfrider",
+  "price_range_usd": [
+   350,
+   600
+  ],
+  "vibe_line": "1901年的'威基基第一夫人'，白色殖民风外廊下那棵百年榕树罩着整个后院，下午茶就摆在树荫里。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Moana_Surfrider%2C_A_Westin_Resort_%26_Spa%2C_Waikiki_Beach_%281%29.jpg/1280px-Moana_Surfrider%2C_A_Westin_Resort_%26_Spa%2C_Waikiki_Beach_%281%29.jpg"
+ },
+ {
+  "dest_id": "hawaii-oahu",
+  "style": "豪奢",
+  "name_or_type": "Halekulani",
+  "price_range_usd": [
+   700,
+   1300
+  ],
+  "vibe_line": "名字意思是'天堂之家'，泳池底马赛克拼着一朵巨大的兰花，傍晚House Without A Key有现场夏威夷音乐配日落。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Halekulani_Hotel.jpg/1280px-Halekulani_Hotel.jpg"
+ },
+ {
+  "dest_id": "hong-kong",
+  "style": "青旅背包",
+  "name_or_type": "YHA美荷楼青年旅舍（深水埗）",
+  "price_range_usd": [
+   30,
+   55
+  ],
+  "vibe_line": "住进活化的1950年代H形公屋，走廊还是当年的水磨石地板，楼下就是怀旧冰室。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "hong-kong",
+  "style": "青旅背包",
+  "name_or_type": "重庆大厦宾馆（尖沙咀）",
+  "price_range_usd": [
+   20,
+   45
+  ],
+  "vibe_line": "电梯要排十分钟，走廊飘着咖喱味，全世界的背包客和小生意人挤在同一栋楼里。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "hong-kong",
+  "style": "舒适",
+  "name_or_type": "香港逸东酒店 Eaton HK（佐敦）",
+  "price_range_usd": [
+   110,
+   180
+  ],
+  "vibe_line": "地铁上盖，落楼转个弯就是庙街夜市，房间不大但床垫软得刚好。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Eaton_Hotel_Hong_Kong_sign_in_the_outside.jpg/1280px-Eaton_Hotel_Hong_Kong_sign_in_the_outside.jpg"
+ },
+ {
+  "dest_id": "hong-kong",
+  "style": "轻奢",
+  "name_or_type": "唯港荟 Hotel ICON（尖沙咀东）",
+  "price_range_usd": [
+   220,
+   350
+  ],
+  "vibe_line": "大堂一整面墙的垂直花园，海景房泡在浴缸里就能看八点的幻彩咏香江。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Hotel_ICON_%28Hong_Kong%29.jpg/1280px-Hotel_ICON_%28Hong_Kong%29.jpg"
+ },
+ {
+  "dest_id": "hong-kong",
+  "style": "豪奢",
+  "name_or_type": "香港半岛酒店",
+  "price_range_usd": [
+   600,
+   1100
+  ],
+  "vibe_line": "1928年的远东贵妇，大堂下午茶有弦乐队现场，门口停着一排墨绿色劳斯莱斯。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/The_Peninsula_Hong_Kong_%28full_view%29.jpg/1280px-The_Peninsula_Hong_Kong_%28full_view%29.jpg"
+ },
+ {
+  "dest_id": "hong-kong",
+  "style": "豪奢",
+  "name_or_type": "奕居 The Upper House（金钟）",
+  "price_range_usd": [
+   550,
+   950
+  ],
+  "vibe_line": "开门就是49层以上的维港，房间安静得能听见自己的呼吸，浴缸对着整片海。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/The_exterior_of_Upper_House_Hotel_Hong_Kong.jpg/1280px-The_exterior_of_Upper_House_Hotel_Hong_Kong.jpg"
+ },
+ {
+  "dest_id": "iceland-ice-cave",
+  "style": "青旅背包",
+  "name_or_type": "Vagnsstaðir HI Hostel（赫本以西）",
+  "price_range_usd": [
+   45,
+   70
+  ],
+  "vibe_line": "公路边孤零零几栋红顶小屋，厨房窗户正对冰川，晚上出门三步就是极光",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "iceland-ice-cave",
+  "style": "舒适",
+  "name_or_type": "Guesthouse Gerði（冰河湖旁）",
+  "price_range_usd": [
+   110,
+   170
+  ],
+  "vibe_line": "农场改的家庭旅馆，离冰河湖十几分钟，自助早餐的面包是自家烤的",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "iceland-ice-cave",
+  "style": "轻奢",
+  "name_or_type": "Fosshotel Glacier Lagoon",
+  "price_range_usd": [
+   250,
+   400
+  ],
+  "vibe_line": "黑色长条建筑趴在荒原上，整面落地窗把瓦特纳冰川框成一幅画，酒吧的窗边位要抢",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "iceland-ice-cave",
+  "style": "豪奢",
+  "name_or_type": "Panorama Glass Lodge（Hnappavellir）",
+  "price_range_usd": [
+   450,
+   900
+  ],
+  "vibe_line": "整面玻璃屋顶的独栋小屋，躺在床上等极光从头顶流过去，被窝一步都不用出",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "iceland-magma-chamber",
+  "style": "青旅背包",
+  "name_or_type": "Loft Hostel（雷克雅未克市中心）",
+  "price_range_usd": [
+   45,
+   70
+  ],
+  "vibe_line": "顶楼露台看老城彩色屋顶，酒吧夜里有本地乐队，床位自带厚窗帘",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "iceland-magma-chamber",
+  "style": "舒适",
+  "name_or_type": "The Viking Village Hotel（哈夫纳夫约杜尔）",
+  "price_range_usd": [
+   110,
+   160
+  ],
+  "vibe_line": "住在维京主题小村里，木雕龙头就在窗外，离出发集合点十几分钟",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "iceland-magma-chamber",
+  "style": "轻奢",
+  "name_or_type": "Northern Light Inn（Grindavík熔岩原上）",
+  "price_range_usd": [
+   220,
+   330
+  ],
+  "vibe_line": "孤零零立在熔岩原中间的旅馆，餐厅落地窗外是冒白汽的地热电站和荒原",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "iceland-magma-chamber",
+  "style": "豪奢",
+  "name_or_type": "ION Adventure Hotel（Nesjavellir）",
+  "price_range_usd": [
+   280,
+   600
+  ],
+  "vibe_line": "混凝土长盒子架在火山坡上，泡在悬挑的温水池里看苔原，设计杂志常客",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "iguazu-falls",
+  "style": "青旅背包",
+  "name_or_type": "伊瓜苏港汽车站附近青旅（如Marcopolo Inn）",
+  "price_range_usd": [
+   12,
+   25
+  ],
+  "vibe_line": "离汽车站几步路，去园区的班车说走就走，院里的吊床永远躺着晒伤配色的背包客。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "iguazu-falls",
+  "style": "舒适",
+  "name_or_type": "Mérit Iguazú Hotel",
+  "price_range_usd": [
+   50,
+   90
+  ],
+  "vibe_line": "镇中心带泳池的中档酒店，从瀑布回来直接跳进泳池，晚上走路就能去主街吃烤肉。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "iguazu-falls",
+  "style": "轻奢",
+  "name_or_type": "Loi Suites Iguazú",
+  "price_range_usd": [
+   150,
+   260
+  ],
+  "vibe_line": "建在雨林里的度假村，房间之间用悬空吊桥相连，清晨在鸟叫里被树冠层的光叫醒。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "iguazu-falls",
+  "style": "豪奢",
+  "name_or_type": "Gran Meliá Iguazú",
+  "price_range_usd": [
+   400,
+   700
+  ],
+  "vibe_line": "唯一开在国家公园里面的酒店，无边泳池正对魔鬼咽喉的水雾柱，闭园后的瀑布只属于住客。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "iguazu-falls",
+  "style": "豪奢",
+  "name_or_type": "Awasi Iguazú",
+  "price_range_usd": [
+   1300,
+   1900
+  ],
+  "vibe_line": "雨林深处14栋高脚别墅，每栋配私人向导和越野车，价格全包制，想几点去瀑布就几点去。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "istanbul",
+  "style": "青旅背包",
+  "name_or_type": "Cheers Hostel（苏丹艾哈迈德）",
+  "price_range_usd": [
+   15,
+   28
+  ],
+  "vibe_line": "天台酒吧正对圣索菲亚，晚上一群各国背包客就着宣礼声碰啤酒瓶。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "istanbul",
+  "style": "舒适",
+  "name_or_type": "Hotel Empress Zoe",
+  "price_range_usd": [
+   90,
+   160
+  ],
+  "vibe_line": "建在15世纪浴室遗址边上的小旅馆，花园里吃早餐，拐个弯就是蓝色清真寺。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "istanbul",
+  "style": "轻奢",
+  "name_or_type": "Georges Hotel Galata",
+  "price_range_usd": [
+   200,
+   350
+  ],
+  "vibe_line": "加拉塔的法式老公寓改的，顶楼餐厅的落地窗框住整个金角湾，日落时租客都不出门了。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "istanbul",
+  "style": "豪奢",
+  "name_or_type": "Çırağan Palace Kempinski",
+  "price_range_usd": [
+   500,
+   1200
+  ],
+  "vibe_line": "真·奥斯曼苏丹宫殿改的酒店，无边泳池像直接接进博斯普鲁斯海峡，游着泳看货轮开过。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ciragan_Palace_Kempinski.jpg/1280px-Ciragan_Palace_Kempinski.jpg"
+ },
+ {
+  "dest_id": "istanbul",
+  "style": "豪奢",
+  "name_or_type": "Four Seasons Sultanahmet",
+  "price_range_usd": [
+   600,
+   1100
+  ],
+  "vibe_line": "前身是一座监狱，如今是老城区最贵的睡处，天台看圣索菲亚的角度近得不讲道理。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "jeju",
+  "style": "青旅背包",
+  "name_or_type": "耶哈旅舍（Yeha Guesthouse·济州市）",
+  "price_range_usd": [
+   15,
+   28
+  ],
+  "vibe_line": "偶来小路徒步客的大本营，公告板上贴满各国语言的拼车纸条，早上厨房里全是泡面和咖啡的味道。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "jeju",
+  "style": "舒适",
+  "name_or_type": "涯月海边独栋民宿",
+  "price_range_usd": [
+   70,
+   120
+  ],
+  "vibe_line": "推开窗就是黑石头和海，房东留了一篮自家汉拿峰当欢迎礼，晚上枕着浪声睡。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "jeju",
+  "style": "轻奢",
+  "name_or_type": "Playce Camp Jeju（城山）",
+  "price_range_usd": [
+   150,
+   240
+  ],
+  "vibe_line": "像住进一个设计师园区，院子里有黑胶唱片房和小酒馆，步行十分钟就是日出峰脚下。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "jeju",
+  "style": "豪奢",
+  "name_or_type": "济州新罗酒店（The Shilla Jeju·中文旅游区）",
+  "price_range_usd": [
+   280,
+   600
+  ],
+  "vibe_line": "崖顶花园的尽头就是太平洋，室外温泉池冒着热气，晚上躺在池子里能听见崖下的浪。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "jeju",
+  "style": "豪奢",
+  "name_or_type": "葡萄酒店（Podo Hotel·汉拿山中山间）",
+  "price_range_usd": [
+   400,
+   700
+  ],
+  "vibe_line": "伊丹润设计的屋顶像一串葡萄趴在草原上，温泉水从汉拿山地下来，走廊尽头的窗正对火山丘。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "jerash",
+  "style": "青旅背包",
+  "name_or_type": "安曼下城背包客栈（如Jordan Tower Hotel）",
+  "price_range_usd": [
+   15,
+   30
+  ],
+  "vibe_line": "罗马剧场几步之遥的老牌背包据点，天台早餐看安曼的白房子爬满山坡，前台顺手帮你拼去杰拉什的车。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "jerash",
+  "style": "舒适",
+  "name_or_type": "Hadrian's Gate Hotel（杰拉什）",
+  "price_range_usd": [
+   40,
+   70
+  ],
+  "vibe_line": "就在哈德良门对面的小家庭旅馆，屋顶露台直接望进遗址，清晨没开门的古城独自安静地躺在你的咖啡杯外。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "jerash",
+  "style": "轻奢",
+  "name_or_type": "The House Boutique Suites（安曼）",
+  "price_range_usd": [
+   120,
+   180
+  ],
+  "vibe_line": "安曼使馆区的全套房精品酒店，逛完一身沙回来先泡浴缸，再去楼下花园餐厅慢慢吃。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "jerash",
+  "style": "豪奢",
+  "name_or_type": "Four Seasons Amman",
+  "price_range_usd": [
+   230,
+   450
+  ],
+  "vibe_line": "立在安曼最高的山头之一，落日时整城的白石房子泛金，spa做完再看一眼，杰拉什的酸腿就忘了。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "jiuzhai-huanglong",
+  "style": "青旅背包",
+  "name_or_type": "大湾村客栈/农家乐",
+  "price_range_usd": [
+   12,
+   25
+  ],
+  "vibe_line": "离景区最近的便宜住处，木板房隔音差，但推门就是雪山下的晨雾。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "jiuzhai-huanglong",
+  "style": "舒适",
+  "name_or_type": "川主寺镇商务酒店",
+  "price_range_usd": [
+   35,
+   65
+  ],
+  "vibe_line": "去黄龙和九寨的中转枢纽，前台熟练解答'明早几点出发不堵车'。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "jiuzhai-huanglong",
+  "style": "轻奢",
+  "name_or_type": "瑟尔嵯国际大酒店",
+  "price_range_usd": [
+   90,
+   160
+  ],
+  "vibe_line": "按五星标准建在景区口的谷地里，傍溪而卧，晚上只有水声和风声。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "jiuzhai-huanglong",
+  "style": "豪奢",
+  "name_or_type": "九寨天堂洲际大饭店（车程约1.5小时）",
+  "price_range_usd": [
+   150,
+   280
+  ],
+  "vibe_line": "这一带最高配置，玻璃穹顶下泡温泉解爬山的乏，很多人拿它当黄龙大本营。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "jiuzhaigou",
+  "style": "青旅背包",
+  "name_or_type": "漳扎镇藏家青旅",
+  "price_range_usd": [
+   10,
+   20
+  ],
+  "vibe_line": "藏式木楼的床位房，公共区烧着火炉，老板娘的酥油茶管够。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "jiuzhaigou",
+  "style": "舒适",
+  "name_or_type": "沟口连锁酒店（漳扎镇）",
+  "price_range_usd": [
+   40,
+   80
+  ],
+  "vibe_line": "走路十分钟到检票口，前台代买门票，早上六点半的早餐是为赶首班车的人准备的。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "jiuzhaigou",
+  "style": "轻奢",
+  "name_or_type": "九寨天堂洲际大饭店",
+  "price_range_usd": [
+   120,
+   200
+  ],
+  "vibe_line": "巨大的玻璃穹顶罩着一片森林中庭，下雪天在大堂喝茶像坐在雪球里。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "jiuzhaigou",
+  "style": "豪奢",
+  "name_or_type": "九寨沟悦榕庄",
+  "price_range_usd": [
+   250,
+   500
+  ],
+  "vibe_line": "藏羌风格的院落酒店，露台正对雪山，管家把汤婆子提前塞进被窝。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "k2",
+  "style": "青旅背包",
+  "name_or_type": "Concordia与沿线营地的双人帐",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "没有单独房价——含在大本营徒步套餐里（全程约3500-5500美元/14天），帐篷门帘一拉开就是K2。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "k2",
+  "style": "舒适",
+  "name_or_type": "K2 Motel（Skardu）",
+  "price_range_usd": [
+   40,
+   80
+  ],
+  "vibe_line": "斯卡都的登山者老据点，草坪正对印度河，每年夏天的院子里坐满等天气窗口和刚下山的两种人。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "k2",
+  "style": "轻奢",
+  "name_or_type": "Serena Shigar Fort",
+  "price_range_usd": [
+   90,
+   180
+  ],
+  "vibe_line": "进山路上的四百年古堡改建酒店，木雕窗棂对着杏园，是碎石路和冰川之前最后一晚像样的床。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Shigar_Fort_by_ZILL_NIAZI_22.jpg/1280px-Shigar_Fort_by_ZILL_NIAZI_22.jpg"
+ },
+ {
+  "dest_id": "k2",
+  "style": "豪奢",
+  "name_or_type": "全服务商业探险队大本营（单人帐+餐厅帐+制氧）",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "没有每晚市场价——整套登山服务约45000-70000美元，含夏尔巴协作、氧气和两个月的大本营起居。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "kamchatka",
+  "style": "青旅背包",
+  "name_or_type": "彼得罗巴甫洛夫斯克市区青年旅舍",
+  "price_range_usd": [
+   15,
+   25
+  ],
+  "vibe_line": "住客一半是等直升机窗口期的徒步客，公共区的白板上写满拼车信息。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "kamchatka",
+  "style": "舒适",
+  "name_or_type": "Petropavlovsk Hotel（彼得罗巴甫洛夫斯克酒店）",
+  "price_range_usd": [
+   55,
+   90
+  ],
+  "vibe_line": "老牌苏式酒店翻新过，窗外正对阿瓦恰湾和对岸的火山，早餐有红鱼子酱小碟。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "kamchatka",
+  "style": "轻奢",
+  "name_or_type": "帕拉通卡温泉度假酒店（Laguna一类）",
+  "price_range_usd": [
+   100,
+   180
+  ],
+  "vibe_line": "房费含露天温泉，晚上泡在热水里看星星，头发梢结着凉气身上冒着白汽。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "kamchatka",
+  "style": "豪奢",
+  "name_or_type": "直升机野奢行程营地（含包机）",
+  "price_range_usd": [
+   400,
+   800
+  ],
+  "vibe_line": "价格是按人按天的含直升机团费，帐篷是重型保暖帐，奢的是整片火山荒野没有第二队人。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "kilimanjaro",
+  "style": "青旅背包",
+  "name_or_type": "Rafiki Backpackers（Moshi）",
+  "price_range_usd": [
+   8,
+   20
+  ],
+  "vibe_line": "满院子晾着登山客的速干衣，天台能直接看到乞力的雪顶。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "kilimanjaro",
+  "style": "青旅背包",
+  "name_or_type": "山上公共营地帐篷（Machame线各营地）",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "含在登山套餐内无单独房价，帐篷由背夫先行搭好，海拔越高帆布上的霜越厚。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "kilimanjaro",
+  "style": "舒适",
+  "name_or_type": "Aishi Machame Hotel（Machame门山脚）",
+  "price_range_usd": [
+   70,
+   130
+  ],
+  "vibe_line": "花园里就能望见登山口，早餐时满屋子都是明天出发的人在互相打气。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "kilimanjaro",
+  "style": "轻奢",
+  "name_or_type": "Kaliwa Lodge（海拔1300米山腰）",
+  "price_range_usd": [
+   150,
+   260
+  ],
+  "vibe_line": "玻璃房正对雪顶，德式管理，登山前后各住一晚是最流行的犒赏。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "kilimanjaro",
+  "style": "豪奢",
+  "name_or_type": "Legendary Lodge（阿鲁沙咖啡庄园）",
+  "price_range_usd": [
+   450,
+   900
+  ],
+  "vibe_line": "殖民老宅套房带私人花园，管家把你登山搓破的手套默默换成了新的。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "kotor",
+  "style": "青旅背包",
+  "name_or_type": "Old Town Hostel Kotor",
+  "price_range_usd": [
+   15,
+   30
+  ],
+  "vibe_line": "13世纪宫殿改的青旅，石头拱顶下睡上下铺，天井里每晚都有人弹吉他。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "kotor",
+  "style": "舒适",
+  "name_or_type": "Hotel Vardar",
+  "price_range_usd": [
+   90,
+   160
+  ],
+  "vibe_line": "就在武器广场上，推开窗是钟楼，代价是清晨的钟声和夜里的酒吧声都归你。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Hotel_Vardar_-_panoramio.jpg/1280px-Hotel_Vardar_-_panoramio.jpg"
+ },
+ {
+  "dest_id": "kotor",
+  "style": "轻奢",
+  "name_or_type": "Boutique Hotel Hippocampus",
+  "price_range_usd": [
+   140,
+   320
+  ],
+  "vibe_line": "老城石宅改的设计酒店，屋顶露台端着酒杯平视城墙的灯带。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "kotor",
+  "style": "轻奢",
+  "name_or_type": "Palazzo Radomiri（多布罗塔）",
+  "price_range_usd": [
+   180,
+   320
+  ],
+  "vibe_line": "18世纪船长宅邸，私家石头码头，早餐吃完直接从餐桌边跳进海里。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "kotor",
+  "style": "豪奢",
+  "name_or_type": "One&Only Portonovi",
+  "price_range_usd": [
+   500,
+   1600
+  ],
+  "vibe_line": "湾口的顶奢度假村，含私人海滩和Chenot疗养中心，快艇管家送你去老城。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "kyoto",
+  "style": "青旅背包",
+  "name_or_type": "Piece Hostel Sanjo",
+  "price_range_usd": [
+   28,
+   45
+  ],
+  "vibe_line": "京都style的极简青旅，公共区一整面书墙，晚上背包客围着矮桌分零食。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "kyoto",
+  "style": "舒适",
+  "name_or_type": "三井花园酒店京都新町 别邸",
+  "price_range_usd": [
+   100,
+   170
+  ],
+  "vibe_line": "町家改的商务酒店，大浴场泡完汤穿着馆内服在中庭走，像住进一段安静的巷子。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "kyoto",
+  "style": "轻奢",
+  "name_or_type": "The Hotel Seiryu Kyoto Kiyomizu",
+  "price_range_usd": [
+   450,
+   750
+  ],
+  "vibe_line": "小学校舍改建，天台酒吧正对八坂塔，傍晚一杯酒看塔的剪影慢慢变黑。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "kyoto",
+  "style": "豪奢",
+  "name_or_type": "俵屋旅馆",
+  "price_range_usd": [
+   900,
+   1900
+  ],
+  "vibe_line": "三百年的老旅馆，进房间时庭院的枫叶刚好被打过水，安静得能听见炭火的声音。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Tawaraya_Ryokan%2C_Kyoto_01.jpg"
+ },
+ {
+  "dest_id": "kyoto",
+  "style": "豪奢",
+  "name_or_type": "星のや京都",
+  "price_range_usd": [
+   1100,
+   1800
+  ],
+  "vibe_line": "只能坐专属小船溯保津川进去的隐世旅馆，窗外就是岚山的水声。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Hoshinoya_Kyoto.jpg"
+ },
+ {
+  "dest_id": "shirakawa-go",
+  "style": "青旅背包",
+  "name_or_type": "高山市区青旅床位（当日往返白川乡）",
+  "price_range_usd": [
+   25,
+   40
+  ],
+  "vibe_line": "村内几乎没有床位房，背包客都睡高山的青旅，早上赶第一班巴士进村。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "shirakawa-go",
+  "style": "舒适",
+  "name_or_type": "合掌造民宿 孫右エ門",
+  "price_range_usd": [
+   95,
+   150
+  ],
+  "vibe_line": "两百年的合掌屋一泊二食，围炉裏边吃岩鱼，睡在真正的茅草屋顶下面。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "shirakawa-go",
+  "style": "舒适",
+  "name_or_type": "民宿 大田屋",
+  "price_range_usd": [
+   90,
+   140
+  ],
+  "vibe_line": "老夫妇经营的合掌民宿，晚饭后主人会拿出老照片讲村子的雪。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "shirakawa-go",
+  "style": "轻奢",
+  "name_or_type": "御宿 结の庄",
+  "price_range_usd": [
+   220,
+   380
+  ],
+  "vibe_line": "村子边上的和风旅馆，大浴场泡完汤走廊里全是桧木香，点灯日的房价翻着跟头涨。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "shirakawa-go",
+  "style": "豪奢",
+  "name_or_type": "本陣平野屋 花兆庵（飞驒高山）",
+  "price_range_usd": [
+   400,
+   700
+  ],
+  "vibe_line": "以高山老街为基地的老铺旅馆，专车进村看雪，回来女将已经把被褥铺好。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lake-baikal",
+  "style": "青旅背包",
+  "name_or_type": "Baikaler Hostel（伊尔库茨克）",
+  "price_range_usd": [
+   10,
+   20
+  ],
+  "vibe_line": "老木屋改的青旅，暖气片烫手，一屋子等着拼车上岛的背包客在客厅交换攻略",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lake-baikal",
+  "style": "舒适",
+  "name_or_type": "Mayak Hotel（利斯特维扬卡码头边）",
+  "price_range_usd": [
+   55,
+   95
+  ],
+  "vibe_line": "就在鱼市旁边，开窗是湖，楼下走两步就能买到刚出炉的熏鱼",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lake-baikal",
+  "style": "舒适",
+  "name_or_type": "Nikita's Homestead 木屋（奥利洪岛胡日尔村）",
+  "price_range_usd": [
+   40,
+   70
+  ],
+  "vibe_line": "岛上最有名的家庭旅馆，木屋带彩绘窗框，含两餐，院子里就能看星星",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Olhon_nikitas.jpg"
+ },
+ {
+  "dest_id": "lake-baikal",
+  "style": "轻奢",
+  "name_or_type": "Baikal View Hotel（奥利洪岛）",
+  "price_range_usd": [
+   90,
+   180
+  ],
+  "vibe_line": "岛上少有的带室内卫浴和地暖的酒店，落地窗正对小海湾的冰面日落",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lake-baikal",
+  "style": "豪奢",
+  "name_or_type": "Legend of Baikal 湖景套房（利斯特维扬卡）",
+  "price_range_usd": [
+   120,
+   250
+  ],
+  "vibe_line": "泡在恒温泳池里隔着玻璃看结冰的贝加尔湖，桑拿完裹浴袍出来喝松茶",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lake-como",
+  "style": "青旅背包",
+  "name_or_type": "Ostello Bello Lake Como（科莫城）",
+  "price_range_usd": [
+   35,
+   60
+  ],
+  "vibe_line": "意大利最会玩的青旅品牌，天台晚上有免费开胃酒时间，床位含早餐。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lake-como",
+  "style": "舒适",
+  "name_or_type": "Hotel Du Lac（贝拉焦）",
+  "price_range_usd": [
+   130,
+   220
+  ],
+  "vibe_line": "家族经营的湖景老酒店，就在码头正对面，屋顶露台吃早餐看渡轮进港。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lake-como",
+  "style": "轻奢",
+  "name_or_type": "Hotel Belvedere（贝拉焦）",
+  "price_range_usd": [
+   300,
+   550
+  ],
+  "vibe_line": "山坡上的泳池边躺着看湖，无边池的水线和湖面接在一起。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lake-como",
+  "style": "豪奢",
+  "name_or_type": "Grand Hotel Tremezzo",
+  "price_range_usd": [
+   850,
+   2000
+  ],
+  "vibe_line": "1910年的Art Nouveau宫殿，漂浮在湖面上的橙色泳池是它的名片。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Grand_Hotel_Tremezzo_%28Tremezzo%29%2836466012130%29.jpg"
+ },
+ {
+  "dest_id": "lake-como",
+  "style": "豪奢",
+  "name_or_type": "Villa d'Este（切尔诺比奥）",
+  "price_range_usd": [
+   850,
+   2000
+  ],
+  "vibe_line": "五百年的枢机主教别墅，花园大到迷路，老钱们八月在这里躲全世界。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Lake_Como_-_Villa_d%27Este.jpg/1280px-Lake_Como_-_Villa_d%27Este.jpg"
+ },
+ {
+  "dest_id": "lake-natron",
+  "style": "青旅背包",
+  "name_or_type": "Maasai Giraffe Eco Lodge 草地扎营",
+  "price_range_usd": [
+   10,
+   25
+  ],
+  "vibe_line": "自带或租帐篷扎在湖景草地上，有西式厕所和太阳能热水，性价比之王。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lake-natron",
+  "style": "舒适",
+  "name_or_type": "Ngare Sero Lake Natron Lodge",
+  "price_range_usd": [
+   90,
+   180
+  ],
+  "vibe_line": "泉水绕着房间流，泳池就是活水的，爬完火山泡进去半条命回来了。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lake-natron",
+  "style": "轻奢",
+  "name_or_type": "Lake Natron Camp",
+  "price_range_usd": [
+   350,
+   600
+  ],
+  "vibe_line": "隐在河床树荫里的生态帐篷营地，帐篷外五十米就是能泡的天然温泉溪。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lake-natron",
+  "style": "豪奢",
+  "name_or_type": "私人包机+移动奢华营地（塞伦盖蒂式全包行程）",
+  "price_range_usd": [
+   800,
+   1600
+  ],
+  "vibe_line": "小飞机直接降在土跑道上，营地提前一天搭好，价格是整套探险的价，不是床位价。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lençois-maranhenses",
+  "style": "青旅背包",
+  "name_or_type": "巴雷里尼亚斯河畔简易客栈/吊床位",
+  "price_range_usd": [
+   8,
+   20
+  ],
+  "vibe_line": "吊床挂在通风的棚子里，电扇整夜嗡嗡，睡醒直接跳上早班4x4进园。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lençois-maranhenses",
+  "style": "舒适",
+  "name_or_type": "Pousada do Buriti（巴雷里尼亚斯）",
+  "price_range_usd": [
+   60,
+   110
+  ],
+  "vibe_line": "镇上的老牌pousada，泳池边全是棕榈影子，回来先跳进去泡掉一身沙。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lençois-maranhenses",
+  "style": "轻奢",
+  "name_or_type": "Rancho do Buna（阿廷斯）",
+  "price_range_usd": [
+   60,
+   150
+  ],
+  "vibe_line": "阿廷斯村的风筝冲浪据点，草顶木屋，傍晚全村的狗都来露台趴着。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lençois-maranhenses",
+  "style": "豪奢",
+  "name_or_type": "La Ferme de Georges（阿廷斯）",
+  "price_range_usd": [
+   150,
+   350
+  ],
+  "vibe_line": "沙丘入口的生态奢华农场，无边泳池对着沙海，房间没有电视因为不需要。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lisbon",
+  "style": "青旅背包",
+  "name_or_type": "Home Lisbon Hostel",
+  "price_range_usd": [
+   25,
+   45
+  ],
+  "vibe_line": "拿过好几届欧洲最佳青旅，老板妈妈每晚做一大锅葡式家常菜，木楼梯吱呀响，像住进别人家。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lisbon",
+  "style": "舒适",
+  "name_or_type": "My Story Hotel Rossio",
+  "price_range_usd": [
+   100,
+   170
+  ],
+  "vibe_line": "就开在罗西奥广场边的老楼里，推开窗是波浪地砖和栗子摊，隔音一般但地段无敌。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lisbon",
+  "style": "轻奢",
+  "name_or_type": "Memmo Alfama",
+  "price_range_usd": [
+   180,
+   300
+  ],
+  "vibe_line": "藏在阿尔法玛巷子深处的设计酒店，红色露天泳池悬在屋顶平台上，泡着水看电车从脚下的巷子爬过。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lisbon",
+  "style": "豪奢",
+  "name_or_type": "Four Seasons Hotel Ritz Lisbon",
+  "price_range_usd": [
+   800,
+   1500
+  ],
+  "vibe_line": "城里最老派的豪华酒店，顶层跑道能边跑步边俯瞰整个城市和河，大堂挂着博物馆级的葡萄牙挂毯。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Hotel_Ritz_Lisboa_5529.jpg/1280px-Hotel_Ritz_Lisboa_5529.jpg"
+ },
+ {
+  "dest_id": "lisbon",
+  "style": "青旅背包",
+  "name_or_type": "Lisbon Destination Hostel（罗西奥车站内）",
+  "price_range_usd": [
+   22,
+   40
+  ],
+  "vibe_line": "开在火车站二层的玻璃穹顶下，躺在公共区的吊床上能看着去辛特拉的火车进站。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lofoten",
+  "style": "青旅背包",
+  "name_or_type": "Lofoten Hostel Å / 渔屋通铺",
+  "price_range_usd": [
+   35,
+   60
+  ],
+  "vibe_line": "睡在百年渔屋改的多人间，公共厨房永远飘着谁煮的鱼汤味，晾袜子要跟别人的登山杖抢地方。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lofoten",
+  "style": "舒适",
+  "name_or_type": "Eliassen Rorbuer（哈姆诺伊红渔屋）",
+  "price_range_usd": [
+   150,
+   280
+  ],
+  "vibe_line": "就是明信片上那排红房子本人，木门一推开就是海，涨潮时浪声从床板底下传上来。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lofoten",
+  "style": "轻奢",
+  "name_or_type": "Reine Rorbuer by Classic Norway",
+  "price_range_usd": [
+   250,
+   500
+  ],
+  "vibe_line": "翻新过的渔屋带着原木梁和羊毛毯，窗框正好框住努斯峰，早上赖床也算观景。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lofoten",
+  "style": "豪奢",
+  "name_or_type": "Holmen Lofoten",
+  "price_range_usd": [
+   300,
+   950
+  ],
+  "vibe_line": "峡湾尽头只有几栋房子的小村，海边桑拿房烧得通红，出来直接跳进北冰洋再爬回去，管家递上毯子和热托蒂。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lofoten",
+  "style": "豪奢",
+  "name_or_type": "Nusfjord Arctic Resort",
+  "price_range_usd": [
+   420,
+   750
+  ],
+  "vibe_line": "整座保护级老渔村被改成度假村，住客走后村子只剩海鸥，无边桑拿正对着峡湾口的落日。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Nusfjord.jpg/3840px-Nusfjord.jpg"
+ },
+ {
+  "dest_id": "london",
+  "style": "青旅背包",
+  "name_or_type": "Wombat's City Hostel London",
+  "price_range_usd": [
+   30,
+   55
+  ],
+  "vibe_line": "开在Tower Hill旁的老海员宿舍楼里，走五分钟就是塔桥，地下酒吧每晚都有各国背包客拼桌。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "london",
+  "style": "舒适",
+  "name_or_type": "Premier Inn County Hall",
+  "price_range_usd": [
+   110,
+   180
+  ],
+  "vibe_line": "英国国民连锁的紫色招牌，就在伦敦眼背后那栋老政府大楼里，房间不大但床出了名的好睡。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "london",
+  "style": "轻奢",
+  "name_or_type": "The Hoxton, Holborn",
+  "price_range_usd": [
+   220,
+   380
+  ],
+  "vibe_line": "大堂永远坐满敲电脑的自由职业者，房间分Shoebox到Roomy四个尺寸，早餐袋每天清晨挂在门把手上。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "london",
+  "style": "豪奢",
+  "name_or_type": "Claridge's（Mayfair）",
+  "price_range_usd": [
+   1150,
+   2800
+  ],
+  "vibe_line": "Art Deco的黑白大理石大堂，门童记得住熟客的名字，下午茶厅里的银器碰瓷声像一段配乐。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Claridges_Hotel_-_geograph.org.uk_-_1064579.jpg"
+ },
+ {
+  "dest_id": "london",
+  "style": "舒适",
+  "name_or_type": "citizenM Tower of London",
+  "price_range_usd": [
+   130,
+   200
+  ],
+  "vibe_line": "全自助入住的荷兰系设计酒店，床占了房间一半宽，顶楼酒吧正对伦敦塔，一杯酒看塔桥亮灯。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "low-earth-orbit",
+  "style": "青旅背包",
+  "name_or_type": "联盟号时代太空游客铺位（Dennis Tito路线）",
+  "price_range_usd": [
+   2500000,
+   4000000
+  ],
+  "vibe_line": "2001年第一位太空游客花2000万美元换8天，折合每晚约250万，睡袋挂哪算哪。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "low-earth-orbit",
+  "style": "舒适",
+  "name_or_type": "国际空间站乘员舱（Axiom私人任务）",
+  "price_range_usd": [
+   6000000,
+   8000000
+  ],
+  "vibe_line": "电话亭大小的单人隔间，有自己的舷窗和笔记本支架，约5500万美元含8晚和往返船票。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "low-earth-orbit",
+  "style": "轻奢",
+  "name_or_type": "Crew Dragon自由飞行整舱（Inspiration4式）",
+  "price_range_usd": [
+   15000000,
+   18000000
+  ],
+  "vibe_line": "不停靠空间站，玻璃穹顶换掉对接口，全舱四人轮流钻进去看地球，按整船价折算每晚。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "low-earth-orbit",
+  "style": "豪奢",
+  "name_or_type": "整船包机（前泽友作式包下全部座位）",
+  "price_range_usd": [
+   60000000,
+   80000000
+  ],
+  "vibe_line": "把整艘飞船的座位全买下来带朋友上天，价格是公开报道的整船任务价折算，没有更奢的了。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lunar-flyby",
+  "style": "青旅背包",
+  "name_or_type": "指令舱座椅下睡眠区（阿波罗式）",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "没有房价，含在任务里：一条绑在座椅下的睡袋，耳塞挡不住风扇声，翻身会撞到全人类最贵的仪表盘。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lunar-flyby",
+  "style": "舒适",
+  "name_or_type": "猎户座飞船乘员睡眠位（Artemis 制式）",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "不单卖、含在任务里的固定铺位，带遮光帘和通风口，四个人轮班睡，枕头是充气的——反正头也不会往下沉。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lunar-flyby",
+  "style": "轻奢",
+  "name_or_type": "商业绕月飞船私人舱段（星舰级概念舱位）",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "商业方案里的独立睡眠舱带专属舷窗，报价不按晚算、按人生算，目前仍在等第一批真正的住客。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "lunar-flyby",
+  "style": "豪奢",
+  "name_or_type": "绕月自由返回轨道席位（Space Adventures 报价，约6天全程）",
+  "price_range_usd": [
+   20000000,
+   25000000
+  ],
+  "vibe_line": "公开报价约1.5亿美元一个座位，折成每晚两千多万：睡袋一条、舷窗一扇，窗外是月球背面——史上最贵的床，没有之一。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "luxor",
+  "style": "青旅背包",
+  "name_or_type": "Bob Marley Peace Hotel（东岸）",
+  "price_range_usd": [
+   8,
+   18
+  ],
+  "vibe_line": "背包客口口相传的据点，天台挂满雷鬼旗，床位价格便宜到怀疑小数点",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "luxor",
+  "style": "舒适",
+  "name_or_type": "Nefertiti Hotel（老市场旁）",
+  "price_range_usd": [
+   30,
+   55
+  ],
+  "vibe_line": "家族经营的老牌小酒店，天台早餐正对卢克索神庙，老板能帮你搞定一切票",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "luxor",
+  "style": "轻奢",
+  "name_or_type": "Hilton Luxor Resort & Spa（尼罗河畔）",
+  "price_range_usd": [
+   120,
+   200
+  ],
+  "vibe_line": "无边泳池贴着尼罗河，泡在水里看对岸西岸的山变色，日落时分人手一杯",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "luxor",
+  "style": "豪奢",
+  "name_or_type": "Sofitel Winter Palace（东岸）",
+  "price_range_usd": [
+   195,
+   550
+  ],
+  "vibe_line": "1886年的老宫殿酒店，阿加莎·克里斯蒂在这写过《尼罗河上的惨案》，花园里的棕榈比人老",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Luxor_Winter_Palace_R01.jpg/1280px-Luxor_Winter_Palace_R01.jpg"
+ },
+ {
+  "dest_id": "luxor",
+  "style": "豪奢",
+  "name_or_type": "Al Moudira Hotel（西岸）",
+  "price_range_usd": [
+   250,
+   450
+  ],
+  "vibe_line": "沙漠边缘的私宅式酒店，穹顶彩窗手绘墙，夜里安静得能听见棕榈叶擦过墙",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "machu-picchu",
+  "style": "青旅背包",
+  "name_or_type": "Supertramp Hostel（温泉镇）",
+  "price_range_usd": [
+   12,
+   28
+  ],
+  "vibe_line": "床位挤但热水够猛，公共区永远有人在交换明天几点排大巴的情报，墙上贴满手绘登山路线。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "machu-picchu",
+  "style": "舒适",
+  "name_or_type": "Tierra Viva Machu Picchu（温泉镇）",
+  "price_range_usd": [
+   80,
+   130
+  ],
+  "vibe_line": "干净暖和的三星，窗户正对着轰隆隆的乌鲁班巴河，凌晨四点半的早餐盒会提前挂在你门把手上。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "machu-picchu",
+  "style": "轻奢",
+  "name_or_type": "Inkaterra Machu Picchu Pueblo Hotel（温泉镇）",
+  "price_range_usd": [
+   350,
+   600
+  ],
+  "vibe_line": "整个酒店藏在云雾林里，房间之间要穿过种着两百多种兰花的小径，早上有蜂鸟撞进露台。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "machu-picchu",
+  "style": "豪奢",
+  "name_or_type": "Belmond Sanctuary Lodge（遗址大门旁）",
+  "price_range_usd": [
+   1680,
+   2830
+  ],
+  "vibe_line": "全球唯一睡在马丘比丘门口的酒店，别人凌晨排大巴，你穿着拖鞋走两步就进门，花园里羊驼帮你割草。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "maldives",
+  "style": "青旅背包",
+  "name_or_type": "马富士岛（Maafushi）家庭旅馆",
+  "price_range_usd": [
+   35,
+   70
+  ],
+  "vibe_line": "居民岛的小客栈，天台晾着潜水服，老板娘的早餐 roshi 是现擀的，走三分钟就是比基尼沙滩。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "maldives",
+  "style": "舒适",
+  "name_or_type": "胡鲁马累（Hulhumalé）海滨精品酒店",
+  "price_range_usd": [
+   90,
+   160
+  ],
+  "vibe_line": "离机场一座桥，阳台正对渡轮航道，晚上能看见水飞机停满整片泻湖，性价比之选。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "maldives",
+  "style": "轻奢",
+  "name_or_type": "四星度假岛沙滩别墅（如 Kuramathi、Meeru）",
+  "price_range_usd": [
+   300,
+   550
+  ],
+  "vibe_line": "推门就是自己那段沙滩，寄居蟹在门口列队，含早晚餐，管家记得你不吃香菜。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "maldives",
+  "style": "豪奢",
+  "name_or_type": "Soneva Jani 水上别墅（诺鲁环礁）",
+  "price_range_usd": [
+   2500,
+   5000
+  ],
+  "vibe_line": "卧室屋顶一键滑开直接躺着看银河，滑梯从二楼直接滑进泻湖，拖鞋进岛第一天就被收走——这里不穿鞋。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "maldives",
+  "style": "豪奢",
+  "name_or_type": "Gili Lankanfushi 水上泻湖别墅",
+  "price_range_usd": [
+   1500,
+   3000
+  ],
+  "vibe_line": "全木头搭在水上的巨型树屋，专属管家叫 Mr. Friday，独木舟划出门就是自家的海。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mariana-trench",
+  "style": "青旅背包",
+  "name_or_type": "关岛港区经济旅馆（登船集合点）",
+  "price_range_usd": [
+   70,
+   120
+  ],
+  "vibe_line": "出发前全队在这里过最后一晚陆地生活，空调轰隆响，窗外就是集装箱码头和你即将登上的母船桅杆。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mariana-trench",
+  "style": "舒适",
+  "name_or_type": "DSSV Pressure Drop 标准双人舱",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "上下铺带独立卫浴，含在整个任务费里没有单独房价，枕头底下能摸到主机的低频震动，摇着摇着就睡着了。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mariana-trench",
+  "style": "轻奢",
+  "name_or_type": "母船任务专家单人舱",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "不单卖、含在任务费里的单人舱，桌上钉着你的下潜日程表，舷窗外是整个太平洋，天亮前有人敲门叫你去改变人生。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mariana-trench",
+  "style": "豪奢",
+  "name_or_type": "挑战者深渊任务专家席位（EYOS Expeditions，约10天全程）",
+  "price_range_usd": [
+   70000,
+   75000
+  ],
+  "vibe_line": "全程实价75万美元，折成每晚约7万，包含那次12小时的万米下潜——人类史上去过挑战者深渊的人比上过太空的少得多。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "marrakech",
+  "style": "青旅背包",
+  "name_or_type": "Rodamón Riad Marrakech",
+  "price_range_usd": [
+   15,
+   30
+  ],
+  "vibe_line": "青旅开在老riad里，中庭泳池边一群欧洲背包客瘫着晒太阳，床位自带小帘子。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "marrakech",
+  "style": "舒适",
+  "name_or_type": "麦地那里的家庭riad（如 Riad Dar Anika）",
+  "price_range_usd": [
+   60,
+   120
+  ],
+  "vibe_line": "推开不起眼的木门，里面是种着橘子树的天井，管家早上把薄荷茶端到天台。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "marrakech",
+  "style": "轻奢",
+  "name_or_type": "El Fenn",
+  "price_range_usd": [
+   350,
+   650
+  ],
+  "vibe_line": "彩色墙面配骆驼皮地板的设计riad，天台泳池正对库图比亚宣礼塔，日落时分全城最好的位子。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "marrakech",
+  "style": "豪奢",
+  "name_or_type": "Royal Mansour",
+  "price_range_usd": [
+   1200,
+   2500
+  ],
+  "vibe_line": "每间房是一栋三层私人riad带屋顶泳池，工作人员走地下通道服务，你永远见不到他们进出。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "marrakech",
+  "style": "豪奢",
+  "name_or_type": "La Mamounia",
+  "price_range_usd": [
+   600,
+   1200
+  ],
+  "vibe_line": "丘吉尔住过的传奇酒店，八公顷花园里橄榄树比酒店年纪还大，下午茶配着喷泉声。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/La_Mamounia_outdoor_pool.jpg"
+ },
+ {
+  "dest_id": "meteora",
+  "style": "青旅背包",
+  "name_or_type": "Meteora Central Hostel",
+  "price_range_usd": [
+   18,
+   32
+  ],
+  "vibe_line": "镇中心的小青旅，天台晾衣绳的尽头就是巨岩，徒步情报在公共厨房里免费交换。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "meteora",
+  "style": "舒适",
+  "name_or_type": "Alsos House（卡兰巴卡老城）",
+  "price_range_usd": [
+   50,
+   85
+  ],
+  "vibe_line": "老城坡上的家庭旅馆，早餐是自家的酸奶和蜂蜜，露台抬头就是被朝阳照亮的岩壁。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "meteora",
+  "style": "轻奢",
+  "name_or_type": "Divani Meteora Hotel",
+  "price_range_usd": [
+   110,
+   200
+  ],
+  "vibe_line": "镇上最像样的大酒店，泳池正对整排岩柱，游两圈仰头就是修道院。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "meteora",
+  "style": "豪奢",
+  "name_or_type": "整栋岩景石砌别墅（Kastraki高端民宿）",
+  "price_range_usd": [
+   220,
+   480
+  ],
+  "vibe_line": "这里没有传统五星，顶配是带私人泳池的石头别墅，躺在床上看岩柱在暮色里变色。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cinque-terre",
+  "style": "青旅背包",
+  "name_or_type": "Ostello 5 Terre（马纳罗拉旁 Corniglia/拉斯佩齐亚青旅）",
+  "price_range_usd": [
+   30,
+   55
+  ],
+  "vibe_line": "床位房带一个能晾泳衣的小院，厨房里永远有人在煮意面，徒步鞋在门口排成一排。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cinque-terre",
+  "style": "舒适",
+  "name_or_type": "村内家庭民宿 affittacamere（如里奥马焦雷主街楼上）",
+  "price_range_usd": [
+   110,
+   180
+  ],
+  "vibe_line": "百年老屋改的客房，窗板一推就是晾衣绳和一线海，楼梯陡得像梯子，但清晨教堂钟声免费。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cinque-terre",
+  "style": "轻奢",
+  "name_or_type": "La Torretta Lodge（马纳罗拉）",
+  "price_range_usd": [
+   260,
+   550
+  ],
+  "vibe_line": "小塔楼改的精品旅店，露台浴缸对着整片彩色屋顶和海，傍晚有免费开胃酒时间。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "cinque-terre",
+  "style": "豪奢",
+  "name_or_type": "Hotel Porto Roca 海崖套房（蒙特罗索）",
+  "price_range_usd": [
+   350,
+   800
+  ],
+  "vibe_line": "整个酒店悬在海崖上，无边泳池的水线接着地中海的水平线，阳台底下就是浪打礁石。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "milford-sound",
+  "style": "青旅背包",
+  "name_or_type": "Milford Sound Lodge 背包房 / 蒂阿瑙湖畔背包栈",
+  "price_range_usd": [
+   30,
+   55
+  ],
+  "vibe_line": "峡湾里最便宜的床位，公共厨房的窗户正对雨林，晚上熄灯后只有雨声和别人袜子的味道。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Milford_Sound_Lodge.jpg"
+ },
+ {
+  "dest_id": "milford-sound",
+  "style": "舒适",
+  "name_or_type": "蒂阿瑙湖景汽车旅馆（如 Lakeside Motel）",
+  "price_range_usd": [
+   110,
+   180
+  ],
+  "vibe_line": "门口停车，窗外是蒂阿瑙湖，暖气烘着晾了一排的湿雨衣，出发去峡湾正好两小时车程。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "milford-sound",
+  "style": "轻奢",
+  "name_or_type": "Milford Sound Lodge 山景/河畔小屋",
+  "price_range_usd": [
+   350,
+   550
+  ],
+  "vibe_line": "峡湾里唯一的住宿，落地窗对着克莱德河和雪线，夜里没有信号，只有瀑布在黑暗里响。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Milford_Sound_Lodge.jpg"
+ },
+ {
+  "dest_id": "milford-sound",
+  "style": "豪奢",
+  "name_or_type": "Fiordland Lodge（蒂阿瑙郊外）/ Milford Mariner 私人舱过夜船",
+  "price_range_usd": [
+   550,
+   1100
+  ],
+  "vibe_line": "原木大屋立在湖和山之间，晚餐前壁炉边有峡湾飞行员跟你聊天气；或者干脆睡在峡湾正中央的船上。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mont-saint-michel",
+  "style": "青旅背包",
+  "name_or_type": "对岸Beauvoir/Ardevon的家庭旅舍与营地小屋",
+  "price_range_usd": [
+   40,
+   70
+  ],
+  "vibe_line": "堤道起点的村子里，骑车十五分钟到山脚，清晨推门就是牧场和咩咩叫的盐草羊。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mont-saint-michel",
+  "style": "舒适",
+  "name_or_type": "Les Terrasses Poulard（岛上）",
+  "price_range_usd": [
+   150,
+   230
+  ],
+  "vibe_line": "睡在城墙里面，房间歪歪扭扭各不相同，夜里能听见潮水和风绕着山转。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mont-saint-michel",
+  "style": "轻奢",
+  "name_or_type": "Auberge Saint-Pierre（岛上半木老宅）",
+  "price_range_usd": [
+   250,
+   400
+  ],
+  "vibe_line": "15世纪的木梁就在头顶，游客散尽后从房间下楼，整条大街是你的。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mont-saint-michel",
+  "style": "豪奢",
+  "name_or_type": "Le Relais Saint-Michel（对岸全景房）",
+  "price_range_usd": [
+   280,
+   500
+  ],
+  "vibe_line": "每扇窗都正对浮在海上的山，躺在床上看它从日落亮到深夜——这里没有宫殿级酒店，这就是海湾里最贵的一张床。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "moraine-lake",
+  "style": "青旅背包",
+  "name_or_type": "HI Lake Louise Alpine Centre（露易丝湖村）",
+  "price_range_usd": [
+   45,
+   80
+  ],
+  "vibe_line": "落基山最体面的青旅，大堂壁炉边永远摊着几张地形图，晾鞋架上挂着一排结霜的登山靴。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "moraine-lake",
+  "style": "舒适",
+  "name_or_type": "Lake Louise Inn（露易丝湖村）",
+  "price_range_usd": [
+   150,
+   260
+  ],
+  "vibe_line": "村里的连锁式山屋，房间带阳台正对松林，泡完室内温水池出来，头发梢在冷空气里结小冰粒。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "moraine-lake",
+  "style": "轻奢",
+  "name_or_type": "Post Hotel & Spa（露易丝湖村）",
+  "price_range_usd": [
+   380,
+   650
+  ],
+  "vibe_line": "红顶原木老牌旅馆，Bow 河从后院流过，下午回来时门口有人递热苹果酒，壁炉房要提前订。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "moraine-lake",
+  "style": "豪奢",
+  "name_or_type": "Moraine Lake Lodge（湖畔唯一住宿，仅夏季）",
+  "price_range_usd": [
+   800,
+   1400
+  ],
+  "vibe_line": "全落基山最难订的房：日落后游客全撤，整个梦莲湖只属于住客，清晨穿着睡衣就站在了明信片里。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "moraine-lake",
+  "style": "豪奢",
+  "name_or_type": "Fairmont Chateau Lake Louise 湖景套房",
+  "price_range_usd": [
+   700,
+   1300
+  ],
+  "vibe_line": "百年城堡酒店立在露易丝湖尽头，推开窗是冰川，走廊里的地毯厚得听不见自己的脚步。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Lake_Louise_and_Chateau%2C_as_seen_from_northern_shore_20240822_2.jpg"
+ },
+ {
+  "dest_id": "mount-fuji-climb",
+  "style": "青旅背包",
+  "name_or_type": "SARUYA Hostel（富士吉田老街町屋青旅）",
+  "price_range_usd": [
+   28,
+   45
+  ],
+  "vibe_line": "百年町屋改的青旅，榻榻米通铺，推开窗富士山就堵在巷子尽头。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mount-fuji-climb",
+  "style": "青旅背包",
+  "name_or_type": "八合目太子館（山小屋通铺·含两餐）",
+  "price_range_usd": [
+   70,
+   95
+  ],
+  "vibe_line": "一人半张榻榻米宽的床位，睡袋挨着睡袋，凌晨一点被工作人员轻声叫醒去看日出。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mount-fuji-climb",
+  "style": "舒适",
+  "name_or_type": "ホテルマイステイズ富士山展望温泉",
+  "price_range_usd": [
+   110,
+   180
+  ],
+  "vibe_line": "富士山站旁的温泉酒店，泡在顶楼大浴场里，整座山就挂在玻璃外面。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mount-fuji-climb",
+  "style": "轻奢",
+  "name_or_type": "富士山温泉ホテル鐘山苑",
+  "price_range_usd": [
+   280,
+   450
+  ],
+  "vibe_line": "老牌日式旅馆，露天风吕正对富士山，下山酸痛的腿在热水里被一寸寸救活。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mount-fuji-climb",
+  "style": "豪奢",
+  "name_or_type": "星のや富士（Hoshinoya Fuji 森林豪华露营）",
+  "price_range_usd": [
+   450,
+   950
+  ],
+  "vibe_line": "悬在红松林坡地上的独立舱房，阳台壁炉烧着，河口湖和富士山排队进你的落地窗。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mount-roraima",
+  "style": "青旅背包",
+  "name_or_type": "Posada Michelle（圣埃伦娜背包客栈）",
+  "price_range_usd": [
+   8,
+   15
+  ],
+  "vibe_line": "全世界要爬罗赖马的穷游背包客都在这个院子里晾过袜子、拼过团。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mount-roraima",
+  "style": "舒适",
+  "name_or_type": "Posada L'Auberge",
+  "price_range_usd": [
+   25,
+   45
+  ],
+  "vibe_line": "小花园、热水澡和松软的床，下山第一晚在这里能睡满十二个小时。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mount-roraima",
+  "style": "轻奢",
+  "name_or_type": "Hotel Gran Sabana（小镇最大的度假式酒店）",
+  "price_range_usd": [
+   50,
+   90
+  ],
+  "vibe_line": "有泳池有自助早餐，在大草原门口已经算顶配，阳台正对着远处的桌山群。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mount-roraima",
+  "style": "豪奢",
+  "name_or_type": "私营包团豪华徒步营地（私导+厨师+独立卫生帐全包）",
+  "price_range_usd": [
+   180,
+   300
+  ],
+  "vibe_line": "帐篷有人搭、行李有人背、晚餐有人做，山顶岩檐'旅馆'里给你铺好加厚睡垫——荒野里的豪奢是按人头一天算的。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mykonos",
+  "style": "青旅背包",
+  "name_or_type": "MyCocoon Hostel（老城设计青旅）",
+  "price_range_usd": [
+   55,
+   110
+  ],
+  "vibe_line": "全岛几乎唯一的正经青旅，胶囊床位像蜂巢，旺季的床比别的岛的酒店还贵。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mykonos",
+  "style": "舒适",
+  "name_or_type": "Fresh Boutique Hotel（老城中心小旅馆）",
+  "price_range_usd": [
+   130,
+   220
+  ],
+  "vibe_line": "睡在老城肚子里，出门三分钟到小威尼斯，代价是酒吧低音炮陪你到凌晨。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mykonos",
+  "style": "轻奢",
+  "name_or_type": "Semeli Hotel",
+  "price_range_usd": [
+   320,
+   600
+  ],
+  "vibe_line": "白色礼盒一样的院落，泳池边全是刚从沙滩回来的湿脚印和冰镇白葡萄酒。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mykonos",
+  "style": "豪奢",
+  "name_or_type": "Cavo Tagoo Mykonos",
+  "price_range_usd": [
+   800,
+   2500
+  ],
+  "vibe_line": "悬崖上的无边泳池套房，洞穴泳池房自带一汪私人海水色，日落时整面墙都是金的。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "mykonos",
+  "style": "豪奢",
+  "name_or_type": "Kalesma Mykonos",
+  "price_range_usd": [
+   900,
+   2200
+  ],
+  "vibe_line": "每间套房一个私人泳池，管家记得你早餐要几分钟的溏心蛋，安静得听得见风。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "namib-desert",
+  "style": "青旅背包",
+  "name_or_type": "Sesriem Campsite（园区内营地/车顶帐篷位）",
+  "price_range_usd": [
+   25,
+   40
+  ],
+  "vibe_line": "睡在国家公园大门里面，比别人早一小时摸黑出发抢日出，代价是夜里冻醒两次。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "namib-desert",
+  "style": "舒适",
+  "name_or_type": "Desert Quiver Camp（自炊小屋）",
+  "price_range_usd": [
+   90,
+   140
+  ],
+  "vibe_line": "一排面向沙漠的独立小屋，露台自带braai炭炉，傍晚剑羚有时会从屋前慢慢走过。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "namib-desert",
+  "style": "轻奢",
+  "name_or_type": "Sossusvlei Lodge（园区大门旁）",
+  "price_range_usd": [
+   250,
+   400
+  ],
+  "vibe_line": "帐篷式套房推门就是沙漠，泳池边看落日把远处沙丘一层层调成紫红色。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "namib-desert",
+  "style": "豪奢",
+  "name_or_type": "andBeyond Sossusvlei Desert Lodge",
+  "price_range_usd": [
+   1500,
+   3500
+  ],
+  "vibe_line": "每间石头套房带私人泳池和天窗，躺在床上看银河转过头顶，管家半夜给你留着热水袋。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "namib-desert",
+  "style": "豪奢",
+  "name_or_type": "Little Kulala（Wilderness）",
+  "price_range_usd": [
+   1200,
+   2200
+  ],
+  "vibe_line": "屋顶有露天星床，裹着毯子睡在沙漠夜空下，清晨热气球正好从你头顶飘过。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "namtso-lake",
+  "style": "青旅背包",
+  "name_or_type": "扎西半岛铁皮板房/帐篷床位",
+  "price_range_usd": [
+   10,
+   20
+  ],
+  "vibe_line": "白天是商店晚上变宾馆，被子沉得像块石头，但推门就是星空和湖。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "namtso-lake",
+  "style": "舒适",
+  "name_or_type": "当雄县城商务酒店",
+  "price_range_usd": [
+   30,
+   60
+  ],
+  "vibe_line": "有热水、电暖和独立卫生间，海拔4300比湖边低，高反体质睡这里才睡得着。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "namtso-lake",
+  "style": "轻奢",
+  "name_or_type": "圣象天门景区营地房",
+  "price_range_usd": [
+   50,
+   100
+  ],
+  "vibe_line": "湖北岸的营地，游客稀少，推开门就是圣象天门那块巨岩和一整面湖。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "namtso-lake",
+  "style": "豪奢",
+  "name_or_type": "拉萨瑞吉度假酒店（以拉萨为大本营）",
+  "price_range_usd": [
+   180,
+   400
+  ],
+  "vibe_line": "纳木错本地没有奢牌，讲究的玩法是住拉萨瑞吉包车一日往返，回来泡进金顶下的泳池。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/The_St._Regis_Lhasa_Resort_%286943569786%29.jpg/1280px-The_St._Regis_Lhasa_Resort_%286943569786%29.jpg"
+ },
+ {
+  "dest_id": "new-york",
+  "style": "青旅背包",
+  "name_or_type": "HI New York City Hostel（上西区Amsterdam大道）",
+  "price_range_usd": [
+   60,
+   95
+  ],
+  "vibe_line": "老砖楼里的大通铺青旅，后院晚上有免费披萨之夜，全世界的口音在一张长桌上交换攻略。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "new-york",
+  "style": "舒适",
+  "name_or_type": "Pod Times Square",
+  "price_range_usd": [
+   140,
+   230
+  ],
+  "vibe_line": "房间小得像整理得很好的船舱，但床舒服窗外就是曼哈顿，出电梯三分钟进时代广场。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "new-york",
+  "style": "轻奢",
+  "name_or_type": "The Beekman, A Thompson Hotel",
+  "price_range_usd": [
+   370,
+   700
+  ],
+  "vibe_line": "1881年的九层维多利亚中庭抬头就是穹顶天窗，走廊安静得像进了另一个世纪。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "new-york",
+  "style": "豪奢",
+  "name_or_type": "The Plaza",
+  "price_range_usd": [
+   900,
+   4500
+  ],
+  "vibe_line": "中央公园东南角的老牌宫殿，大堂的金色和白手套礼宾员都是电影里那套，真的有人在这里办下午茶生日。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Plaza_Hotel_New_York_January_2016.jpg/1280px-Plaza_Hotel_New_York_January_2016.jpg"
+ },
+ {
+  "dest_id": "new-york",
+  "style": "豪奢",
+  "name_or_type": "Aman New York",
+  "price_range_usd": [
+   2500,
+   4500
+  ],
+  "vibe_line": "皇冠大厦里静得离谱的隐世酒店，每间房带壁炉，楼下第五大道的喧嚣像另一个星球的事。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "north-pole",
+  "style": "青旅背包",
+  "name_or_type": "Barneo浮冰营地保暖帐篷（每年重建的漂流冰站）",
+  "price_range_usd": [
+   21000,
+   30000
+  ],
+  "vibe_line": "这是整个探险项目的价格不是每晚价——十人一顶的加热帐篷搭在会漂移的浮冰上，睡袋外一切都是零下。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "north-pole",
+  "style": "舒适",
+  "name_or_type": "核动力破冰船'胜利50周年'号标准双人舱",
+  "price_range_usd": [
+   30000,
+   36000
+  ],
+  "vibe_line": "13天全含的整程船票价，舷窗外是三米厚的冰原，撞冰的震动就是你的摇篮曲。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/50letPob_pole.JPG"
+ },
+ {
+  "dest_id": "north-pole",
+  "style": "轻奢",
+  "name_or_type": "'胜利50周年'号Arktika套房",
+  "price_range_usd": [
+   42000,
+   50000
+  ],
+  "vibe_line": "整程价，套房带客厅和大舷窗，管事的会在极点日把香槟提前冰在你窗台——外面就是天然冰箱。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/50letPob_pole.JPG"
+ },
+ {
+  "dest_id": "north-pole",
+  "style": "豪奢",
+  "name_or_type": "Le Commandant Charcot极地豪华邮轮套房（Ponant）",
+  "price_range_usd": [
+   45000,
+   85000
+  ],
+  "vibe_line": "整程价，混合动力破冰邮轮上的私人阳台套房，泡在温水泳池里看船头劈开浮冰。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Le_Commandant_Charcot_during_Operation_Tugaalik_in_June_23%2C_2024_%281%29.jpg/1280px-Le_Commandant_Charcot_during_Operation_Tugaalik_in_June_23%2C_2024_%281%29.jpg"
+ },
+ {
+  "dest_id": "pamukkale",
+  "style": "青旅背包",
+  "name_or_type": "镇上家庭pension床位（如 Melrose Viewpoint 一带）",
+  "price_range_usd": [
+   15,
+   30
+  ],
+  "vibe_line": "小院子里有泳池，老板娘管接大巴站，天台晾着床单也晾着看梯田的躺椅。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "pamukkale",
+  "style": "舒适",
+  "name_or_type": "Venus Suite Hotel",
+  "price_range_usd": [
+   40,
+   75
+  ],
+  "vibe_line": "离梯田入口步行十分钟，花园早餐是自家的鸡蛋和橄榄，晚上蛙声一片。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "pamukkale",
+  "style": "轻奢",
+  "name_or_type": "Doğa Thermal Health & Spa（卡拉哈耶特）",
+  "price_range_usd": [
+   90,
+   160
+  ],
+  "vibe_line": "房间里的水龙头放出来的就是温泉水，红色矿泉泥浴是招牌，晚上泡完走路都是飘的。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "pamukkale",
+  "style": "豪奢",
+  "name_or_type": "Richmond Pamukkale Thermal 泳池套房",
+  "price_range_usd": [
+   110,
+   200
+  ],
+  "vibe_line": "本地天花板级的温泉度假酒店，私汤引的是地下真温泉——棉花堡没有更奢的了，奢的是整面白山坡归你看。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "papua",
+  "style": "青旅背包",
+  "name_or_type": "Yenkoranu Homestay（Kri岛，高脚棕榈叶小屋含三餐）",
+  "price_range_usd": [
+   25,
+   40
+  ],
+  "vibe_line": "床垫铺在棕榈叶地板上，蚊帐就是你的卧室墙，走下木梯十米就是全球鱼种最密的家门口珊瑚礁。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "papua",
+  "style": "舒适",
+  "name_or_type": "Raja Ampat Dive Lodge（Mansuar岛）",
+  "price_range_usd": [
+   110,
+   170
+  ],
+  "vibe_line": "有空调有热水有全天电，在拉贾安帕特这三样凑齐已经是文明的巅峰，房前沙滩自带日落。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "papua",
+  "style": "轻奢",
+  "name_or_type": "Papua Paradise Eco Resort（Birie岛水上屋）",
+  "price_range_usd": [
+   280,
+   450
+  ],
+  "vibe_line": "水上高脚屋含三餐和潜导，阳台木缝下面就是珊瑚，早上被浪声叫醒，偶尔是儒艮。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Papua_Paradise_Eco_Resort_%2839660315823%29.jpg/1280px-Papua_Paradise_Eco_Resort_%2839660315823%29.jpg"
+ },
+ {
+  "dest_id": "papua",
+  "style": "豪奢",
+  "name_or_type": "Misool Eco Resort（南拉贾私岛水上别墅）",
+  "price_range_usd": [
+   800,
+   1600
+  ],
+  "vibe_line": "方圆几十公里禁渔区里的私岛度假村，别墅泻湖清得像玻璃，你的碳排放有一部分变成了巡逻快艇的油。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "paris",
+  "style": "青旅背包",
+  "name_or_type": "Generator Paris",
+  "price_range_usd": [
+   35,
+   65
+  ],
+  "vibe_line": "10区的大型设计青旅，顶楼露台能看到远处的圣心堂，地下室晚上是酒吧。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "paris",
+  "style": "舒适",
+  "name_or_type": "蒙马特一带的独立三星小旅馆",
+  "price_range_usd": [
+   130,
+   190
+  ],
+  "vibe_line": "房间小得行李箱只能开一半，但推开窗是斜屋顶和烟囱组成的巴黎。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "paris",
+  "style": "轻奢",
+  "name_or_type": "Hôtel Fabric（11区改造厂房酒店）",
+  "price_range_usd": [
+   280,
+   420
+  ],
+  "vibe_line": "老纺织厂改的精品酒店，裸砖墙配丝绒沙发，早餐的酸奶罐是玻璃瓶装的。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "paris",
+  "style": "豪奢",
+  "name_or_type": "Le Meurice",
+  "price_range_usd": [
+   1200,
+   3500
+  ],
+  "vibe_line": "杜乐丽花园对面的宫殿级酒店，达利住过三十年，门童记得每位客人的名字。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/H%C3%B4tel_Meurice_-_Paris.jpg"
+ },
+ {
+  "dest_id": "paris",
+  "style": "豪奢",
+  "name_or_type": "Ritz Paris",
+  "price_range_usd": [
+   1500,
+   3500
+  ],
+  "vibe_line": "旺多姆广场的传奇，海明威酒吧就在楼下，浴袍厚得像云。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Hotel_Ritz_Paris.jpg"
+ },
+ {
+  "dest_id": "patagonia",
+  "style": "青旅背包",
+  "name_or_type": "America del Sur Hostel（El Calafate）",
+  "price_range_usd": [
+   18,
+   32
+  ],
+  "vibe_line": "山坡上的木头青旅，公共大厅落地窗正对阿根廷湖，晚上全是徒步鞋的味道和攻略声。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "patagonia",
+  "style": "青旅背包",
+  "name_or_type": "Rancho Grande Hostel（El Chaltén）",
+  "price_range_usd": [
+   15,
+   28
+  ],
+  "vibe_line": "徒步镇的老牌大本营，早上六点厨房里全是煮燕麦抹花生酱的人。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "patagonia",
+  "style": "舒适",
+  "name_or_type": "Hostería Senderos（El Chaltén）",
+  "price_range_usd": [
+   90,
+   150
+  ],
+  "vibe_line": "推开窗就是菲茨罗伊，暖气烘着徒步袜，餐厅的羊排治愈一切酸痛。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "patagonia",
+  "style": "轻奢",
+  "name_or_type": "Los Cerros del Chaltén Boutique Hotel",
+  "price_range_usd": [
+   180,
+   300
+  ],
+  "vibe_line": "建在镇子高处的观景酒店，泡着热水澡看云从山尖上撕开。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "patagonia",
+  "style": "豪奢",
+  "name_or_type": "EOLO Patagonia's Spirit（El Calafate郊外）",
+  "price_range_usd": [
+   1200,
+   2200
+  ],
+  "vibe_line": "草原正中央只有17间房的庄园，四面是无人旷野，风声就是背景音乐，含全餐和向导活动。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "petra",
+  "style": "青旅背包",
+  "name_or_type": "Nomads Hostel Petra",
+  "price_range_usd": [
+   12,
+   22
+  ],
+  "vibe_line": "天台能看到整个瓦迪穆萨的灯，晚上一屋子人交换第二天几点摸黑进景区。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "petra",
+  "style": "舒适",
+  "name_or_type": "Petra Moon Hotel",
+  "price_range_usd": [
+   65,
+   110
+  ],
+  "vibe_line": "离景区大门步行五分钟，走断腿回来还有小泳池把脚泡进去。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "petra",
+  "style": "轻奢",
+  "name_or_type": "Mövenpick Resort Petra",
+  "price_range_usd": [
+   150,
+   260
+  ],
+  "vibe_line": "就在景区门口马路对面，中庭是雕花木头和黄铜灯，进门先递一杯冰柠檬薄荷。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Movenpick-Petra-hr-16.jpg/1280px-Movenpick-Petra-hr-16.jpg"
+ },
+ {
+  "dest_id": "petra",
+  "style": "豪奢",
+  "name_or_type": "The Old Village Hotel & Resort",
+  "price_range_usd": [
+   150,
+   300
+  ],
+  "vibe_line": "老石头村落改的套房，墙有半米厚，晚上院子里点着灯笼安静得能听见风。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "petronas-kl",
+  "style": "青旅背包",
+  "name_or_type": "BackHome KL（老城区）",
+  "price_range_usd": [
+   12,
+   22
+  ],
+  "vibe_line": "老骑楼改的青旅，水泥墙加天井，走路五分钟到茨厂街的烟火里。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "petronas-kl",
+  "style": "青旅背包",
+  "name_or_type": "The Bed KLCC（胶囊旅馆）",
+  "price_range_usd": [
+   15,
+   30
+  ],
+  "vibe_line": "商场楼上的高级胶囊，帘子一拉自成一格，窗外就是双子塔的灯。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "petronas-kl",
+  "style": "舒适",
+  "name_or_type": "Hotel Stripes KL, Autograph Collection",
+  "price_range_usd": [
+   65,
+   110
+  ],
+  "vibe_line": "藏在老街区的设计酒店，屋顶泳池正对KL塔，性价比高得不像样。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "petronas-kl",
+  "style": "轻奢",
+  "name_or_type": "EQ Kuala Lumpur",
+  "price_range_usd": [
+   130,
+   220
+  ],
+  "vibe_line": "落地窗把双子塔框成一幅画，顶层Sky51酒吧看整城灯火。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "petronas-kl",
+  "style": "豪奢",
+  "name_or_type": "Mandarin Oriental Kuala Lumpur",
+  "price_range_usd": [
+   165,
+   450
+  ],
+  "vibe_line": "就在双子塔脚下，无边泳池里抬头就是那两根银色的塔，近到不真实。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Mandarin_Oriental%2C_Kuala_Lumpur%2C_June_2010.jpg/1280px-Mandarin_Oriental%2C_Kuala_Lumpur%2C_June_2010.jpg"
+ },
+ {
+  "dest_id": "petronas-kl",
+  "style": "豪奢",
+  "name_or_type": "Four Seasons Kuala Lumpur",
+  "price_range_usd": [
+   300,
+   600
+  ],
+  "vibe_line": "65层往上的房间，雷雨夜看闪电在双子塔旁边劈下来，像坐在云里。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Four_Seasons_Place_KL.jpg/1280px-Four_Seasons_Place_KL.jpg"
+ },
+ {
+  "dest_id": "phi-phi",
+  "style": "青旅背包",
+  "name_or_type": "Blanco Beach Bar Hostel",
+  "price_range_usd": [
+   12,
+   25
+  ],
+  "vibe_line": "床位便宜到离谱，代价是楼下沙滩酒吧的音乐就是你的摇篮曲。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "phi-phi",
+  "style": "舒适",
+  "name_or_type": "Phi Phi Banyan Villa",
+  "price_range_usd": [
+   55,
+   95
+  ],
+  "vibe_line": "通赛村正中心的老牌旅馆，出门两分钟是码头，泳池小但够泡。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "phi-phi",
+  "style": "轻奢",
+  "name_or_type": "Phi Phi Island Village Beach Resort",
+  "price_range_usd": [
+   150,
+   260
+  ],
+  "vibe_line": "独占一整片Loh Ba Kao湾的木屋度假村，离通赛的喧闹隔着一片海。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "phi-phi",
+  "style": "豪奢",
+  "name_or_type": "Zeavola Resort",
+  "price_range_usd": [
+   280,
+   520
+  ],
+  "vibe_line": "岛最北端的柚木别墅，只能坐船到，清晨推开门沙滩上只有你的脚印。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Zeavola_-_panoramio.jpg/1280px-Zeavola_-_panoramio.jpg"
+ },
+ {
+  "dest_id": "phuket",
+  "style": "青旅背包",
+  "name_or_type": "Lub d Phuket Patong",
+  "price_range_usd": [
+   15,
+   30
+  ],
+  "vibe_line": "芭东海滩对面的社交型青旅，泳池边永远有人组队去跳岛。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "phuket",
+  "style": "舒适",
+  "name_or_type": "The Memory at On On Hotel（普吉老城）",
+  "price_range_usd": [
+   40,
+   70
+  ],
+  "vibe_line": "1929年的老酒店，《海滩》里背包客住的就是它，花砖和木楼梯都是真古董。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "phuket",
+  "style": "轻奢",
+  "name_or_type": "Amari Phuket",
+  "price_range_usd": [
+   120,
+   220
+  ],
+  "vibe_line": "占着芭东南角一整片山坡，走沙滩五分钟，回房间就把喧闹关在门外。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "phuket",
+  "style": "豪奢",
+  "name_or_type": "Keemala",
+  "price_range_usd": [
+   500,
+   2000
+  ],
+  "vibe_line": "雨林里的鸟巢树屋别墅，泡在私人泳池里看树冠，像住进一个部落传说。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Keemala_Resort_Overview_at_Sunrise.jpg/1280px-Keemala_Resort_Overview_at_Sunrise.jpg"
+ },
+ {
+  "dest_id": "phuket",
+  "style": "豪奢",
+  "name_or_type": "Amanpuri",
+  "price_range_usd": [
+   900,
+   2200
+  ],
+  "vibe_line": "安缦的创始之作，独占一整个椰林半岛，安静到能听见钱包燃烧的声音。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/D85_0192_Amanpuri_Phuket_Thailand_Photographed_by_Trisorn_Triboon.jpg/1280px-D85_0192_Amanpuri_Phuket_Thailand_Photographed_by_Trisorn_Triboon.jpg"
+ },
+ {
+  "dest_id": "plitvice",
+  "style": "青旅背包",
+  "name_or_type": "Falling Lakes Hostel（Korenica镇）",
+  "price_range_usd": [
+   20,
+   35
+  ],
+  "vibe_line": "离园区20分钟车程的热闹青旅，公共厨房永远有人在煮意面交换路线",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "plitvice",
+  "style": "舒适",
+  "name_or_type": "House Tina 家庭民宿（Grabovac村）",
+  "price_range_usd": [
+   50,
+   85
+  ],
+  "vibe_line": "房东一家自己住楼下，早餐是自家鸡蛋和李子酱，院子里晚上能数星星",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "plitvice",
+  "style": "轻奢",
+  "name_or_type": "Hotel Degenija（Rastovača村）",
+  "price_range_usd": [
+   95,
+   145
+  ],
+  "vibe_line": "园区门口最像样的四星，走廊安静地毯厚，走一天湖回来泡个热水澡刚好",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "plitvice",
+  "style": "豪奢",
+  "name_or_type": "Fenomen Plitvice 湖畔木屋别墅",
+  "price_range_usd": [
+   180,
+   340
+  ],
+  "vibe_line": "独栋原木别墅带私人露台和桑拿，早上推开门是雾气还没散的森林",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "prague",
+  "style": "青旅背包",
+  "name_or_type": "Sir Toby's Hostel",
+  "price_range_usd": [
+   18,
+   32
+  ],
+  "vibe_line": "Holešovice区的老宅青旅，地窖酒吧夜夜有人弹吉他，早餐的自制面包香",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "prague",
+  "style": "青旅背包",
+  "name_or_type": "Czech Inn",
+  "price_range_usd": [
+   16,
+   30
+  ],
+  "vibe_line": "Vršovice的设计系青旅，楼下酒吧本地年轻人比住客多",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "prague",
+  "style": "舒适",
+  "name_or_type": "Miss Sophie's New Town",
+  "price_range_usd": [
+   90,
+   135
+  ],
+  "vibe_line": "新城区的精品小旅馆，裸砖墙配木地板，走去老城十五分钟刚好消食",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "prague",
+  "style": "轻奢",
+  "name_or_type": "Augustine, a Luxury Collection Hotel",
+  "price_range_usd": [
+   290,
+   480
+  ],
+  "vibe_line": "13世纪修道院改的酒店，院里真的还住着修士，钟声是免费的morning call",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Letensk%C3%A1%2C_Augustine_Hotel.jpg"
+ },
+ {
+  "dest_id": "prague",
+  "style": "豪奢",
+  "name_or_type": "Four Seasons Hotel Prague",
+  "price_range_usd": [
+   600,
+   1200
+  ],
+  "vibe_line": "河景房正对查理大桥，躺在床上看日出把桥塔一点点点亮",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Praha_Four_Seasons_hotel.jpg"
+ },
+ {
+  "dest_id": "pyramids-teotihuacan",
+  "style": "青旅背包",
+  "name_or_type": "Casa Pepe（墨西哥城罗马区，坐大巴一小时往返）",
+  "price_range_usd": [
+   18,
+   32
+  ],
+  "vibe_line": "多数人住墨西哥城当天往返，这家屋顶酒吧的青旅是背包客的集散地。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "pyramids-teotihuacan",
+  "style": "舒适",
+  "name_or_type": "Hotel Villas Arqueológicas Teotihuacan",
+  "price_range_usd": [
+   55,
+   90
+  ],
+  "vibe_line": "就贴着遗址围墙，泡在泳池里能看到金字塔尖，开园前第一个进门。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "pyramids-teotihuacan",
+  "style": "舒适",
+  "name_or_type": "Hotel Quinto Sol（San Juan镇上）",
+  "price_range_usd": [
+   40,
+   65
+  ],
+  "vibe_line": "镇上的老实商务酒店，走到遗址门口十几分钟，凌晨坐热气球最方便。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "pyramids-teotihuacan",
+  "style": "轻奢",
+  "name_or_type": "Ignacia Guest House（墨西哥城）",
+  "price_range_usd": [
+   190,
+   300
+  ],
+  "vibe_line": "罗马区老宅改的设计旅店，看完金字塔回来，在天井里喝一杯mezcal收尾。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "pyramids-teotihuacan",
+  "style": "豪奢",
+  "name_or_type": "Four Seasons Mexico City",
+  "price_range_usd": [
+   480,
+   900
+  ],
+  "vibe_line": "改革大道上的殖民风格庭院，包车一小时直达金字塔，回来有人递冰毛巾。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Four_Seasons_Hotel_Mexico_City_%2847395931722%29.jpg"
+ },
+ {
+  "dest_id": "queenstown",
+  "style": "青旅背包",
+  "name_or_type": "Adventure Queenstown Hostel",
+  "price_range_usd": [
+   22,
+   38
+  ],
+  "vibe_line": "湖景就在窗外的背包客据点，厨房里永远有人在交换蹦极折扣码。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "queenstown",
+  "style": "舒适",
+  "name_or_type": "Novotel Queenstown Lakeside",
+  "price_range_usd": [
+   90,
+   160
+  ],
+  "vibe_line": "位置好到犯规，出门就是湖边和码头，Fergburger走路三分钟。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "queenstown",
+  "style": "轻奢",
+  "name_or_type": "QT Queenstown",
+  "price_range_usd": [
+   180,
+   320
+  ],
+  "vibe_line": "山坡上的设计酒店，浴缸对着整面湖景窗，泡着看雪山日落。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "queenstown",
+  "style": "豪奢",
+  "name_or_type": "Eichardt's Private Hotel",
+  "price_range_usd": [
+   820,
+   2600
+  ],
+  "vibe_line": "湖边1860年代的老宅，全镇最贵的壁炉，管家记得你喝什么威士忌。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Eichardt%27s_Hotel_642.jpg"
+ },
+ {
+  "dest_id": "queenstown",
+  "style": "豪奢",
+  "name_or_type": "Matakauri Lodge",
+  "price_range_usd": [
+   1300,
+   2600
+  ],
+  "vibe_line": "镇外湖畔的隐世庄园，含早晚餐，窗外的Remarkables山像私有的。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "raja-ampat",
+  "style": "青旅背包",
+  "name_or_type": "Yenkoranu Homestay（Kri岛，含三餐）",
+  "price_range_usd": [
+   25,
+   35
+  ],
+  "vibe_line": "每人每晚的价含一日三餐，高脚棚屋草席薄垫，门口沙滩浮潜就是世界级。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "raja-ampat",
+  "style": "舒适",
+  "name_or_type": "Kordiris Homestay（Gam岛水上屋，含三餐）",
+  "price_range_usd": [
+   35,
+   50
+  ],
+  "vibe_line": "水上小屋带私人平台，涨潮时鱼从地板缝底下游过，发电机停了就听海。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "raja-ampat",
+  "style": "轻奢",
+  "name_or_type": "Papua Explorers Dive Resort（含三餐和部分潜水）",
+  "price_range_usd": [
+   450,
+   650
+  ],
+  "vibe_line": "丹皮尔海峡边的高脚木屋度假村，房间阳台下就是珊瑚礁，管家会记得你的气瓶尺寸。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "raja-ampat",
+  "style": "豪奢",
+  "name_or_type": "Misool Eco Resort（私岛全包）",
+  "price_range_usd": [
+   1800,
+   2500
+  ],
+  "vibe_line": "南拉贾的私人岛屿，方圆几十公里的禁渔区是他们自己推动建立的，水屋下面就是保护区。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "reykjavik",
+  "style": "青旅背包",
+  "name_or_type": "Kex Hostel（老饼干厂改建）",
+  "price_range_usd": [
+   45,
+   75
+  ],
+  "vibe_line": "工业风青旅带海景酒吧，晚上本地乐队排练声从楼下飘上来",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/KEX_Hostel.jpg"
+ },
+ {
+  "dest_id": "reykjavik",
+  "style": "舒适",
+  "name_or_type": "Center Hotels Plaza（老城广场旁）",
+  "price_range_usd": [
+   140,
+   200
+  ],
+  "vibe_line": "出门就是周末跳蚤市场和港口，前台会帮你盯极光预报打电话叫醒",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "reykjavik",
+  "style": "轻奢",
+  "name_or_type": "Canopy by Hilton Reykjavik City Centre",
+  "price_range_usd": [
+   220,
+   320
+  ],
+  "vibe_line": "冰岛设计和唱片机的房间，大堂送本地精酿试饮，走去大教堂五分钟",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "reykjavik",
+  "style": "豪奢",
+  "name_or_type": "The Reykjavik EDITION（哈帕音乐厅旁）",
+  "price_range_usd": [
+   400,
+   2200
+  ],
+  "vibe_line": "落地窗正对海港和Esja雪山，顶层酒吧的日落座要提前订，浴袍厚得能过冬",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "reykjavik",
+  "style": "豪奢",
+  "name_or_type": "The Retreat at Blue Lagoon",
+  "price_range_usd": [
+   1300,
+   2500
+  ],
+  "vibe_line": "睡在熔岩原和奶蓝色温泉中间，私人潟湖不限时，价格也确实是梦里的数字",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/en/0/00/Blue_Lagoon_Main_Building.JPG"
+ },
+ {
+  "dest_id": "rio-de-janeiro",
+  "style": "青旅背包",
+  "name_or_type": "Books Hostel（拉帕）",
+  "price_range_usd": [
+   12,
+   25
+  ],
+  "vibe_line": "墙上全是涂鸦和旧书，晚上院子里有人弹吉他，出门五分钟就是拉帕的鼓点。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "rio-de-janeiro",
+  "style": "舒适",
+  "name_or_type": "Arena Ipanema Hotel",
+  "price_range_usd": [
+   90,
+   160
+  ],
+  "vibe_line": "过条马路就是伊帕内玛海滩，顶楼小泳池看日落，房间不大但床单有阳光味。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "rio-de-janeiro",
+  "style": "轻奢",
+  "name_or_type": "Hotel Santa Teresa MGallery",
+  "price_range_usd": [
+   250,
+   450
+  ],
+  "vibe_line": "咖啡庄园改的山顶酒店，热带木头和亚麻布，泳池边能俯瞰海湾，安静得听得见鸟。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "rio-de-janeiro",
+  "style": "豪奢",
+  "name_or_type": "Copacabana Palace（贝尔蒙德）",
+  "price_range_usd": [
+   450,
+   1300
+  ],
+  "vibe_line": "1923年的白色宫殿正对海滩，玛丽莲梦露住过的走廊，泳池边的侍者记得你的名字。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Hotel_Copacabana_Palace%2C_R%C3%ADo_de_Janeiro_A74224720241122.jpg"
+ },
+ {
+  "dest_id": "rome",
+  "style": "青旅背包",
+  "name_or_type": "The RomeHello",
+  "price_range_usd": [
+   30,
+   55
+  ],
+  "vibe_line": "Termini附近的社会企业青旅，大堂涂鸦墙是本地艺术家画的，晚上有免费步行团出发。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "rome",
+  "style": "舒适",
+  "name_or_type": "Hotel Santa Maria（特拉斯提弗列）",
+  "price_range_usd": [
+   140,
+   220
+  ],
+  "vibe_line": "十六世纪修道院改的，房间围着一个种满橘子树的院子，早餐在树下吃。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "rome",
+  "style": "轻奢",
+  "name_or_type": "G-Rough（纳沃纳广场旁）",
+  "price_range_usd": [
+   280,
+   450
+  ],
+  "vibe_line": "故意不修的斑驳墙面配意大利中古设计家具，走两分钟就是纳沃纳的喷泉声。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "rome",
+  "style": "豪奢",
+  "name_or_type": "Hotel de Russie",
+  "price_range_usd": [
+   1000,
+   2600
+  ],
+  "vibe_line": "人民广场边上，梯田式的秘密花园藏在楼后，傍晚在花园酒吧能碰到来躲清静的名人。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Campo_Marzio_-_Hotel_de_Russie_2.JPG"
+ },
+ {
+  "dest_id": "sahara-desert",
+  "style": "青旅背包",
+  "name_or_type": "梅祖卡村家庭旅馆床位（如 Kasbah Panorama 一带）",
+  "price_range_usd": [
+   10,
+   20
+  ],
+  "vibe_line": "土坯房的多人间，天台直接望见沙丘，老板兼任向导、司机和厨子。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "sahara-desert",
+  "style": "舒适",
+  "name_or_type": "标准沙漠营地帐篷（含骆驼往返+晚餐早餐）",
+  "price_range_usd": [
+   35,
+   70
+  ],
+  "vibe_line": "帐篷里是真床和厚毯子，公共卫生间在沙丘后面，篝火和鼓声是标配。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "sahara-desert",
+  "style": "轻奢",
+  "name_or_type": "豪华营地（如 Merzouga Luxury Desert Camps）",
+  "price_range_usd": [
+   150,
+   280
+  ],
+  "vibe_line": "帐篷里有独立卫浴和热水淋浴，床头是铜灯，掀开帘子就是沙丘和银河。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "sahara-desert",
+  "style": "豪奢",
+  "name_or_type": "顶级私享营地（如 Kam Kam Dunes）",
+  "price_range_usd": [
+   200,
+   450
+  ],
+  "vibe_line": "整个营地只有几顶帐篷，私人管家、沙丘顶的日落香槟和天文望远镜都包含在内。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "sahara-star-caravan",
+  "style": "青旅背包",
+  "name_or_type": "露天bivouac（睡袋直接铺在沙丘上）",
+  "price_range_usd": [
+   80,
+   120
+  ],
+  "vibe_line": "驼队穿越的标准住法，头顶就是整条银河；价格是按天折算的全包穿越费，含骆驼、向导和三餐。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "sahara-star-caravan",
+  "style": "舒适",
+  "name_or_type": "贾奈特zeriba棕榈枝营地旅馆",
+  "price_range_usd": [
+   30,
+   60
+  ],
+  "vibe_line": "出发前后落脚的绿洲小院，棕榈枝搭的屋顶漏星光，有真正的床和这周唯一一次热水澡。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "sahara-star-caravan",
+  "style": "轻奢",
+  "name_or_type": "高端沙漠营地帐篷（带床垫与毛毯）",
+  "price_range_usd": [
+   150,
+   300
+  ],
+  "vibe_line": "帐篷里有真床垫、地毯和油灯，晚饭后毛毯一裹坐在沙丘顶看星星，狼狈感减半浪漫翻倍。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "sahara-star-caravan",
+  "style": "豪奢",
+  "name_or_type": "私人定制穿越（专属厨师+支援车队）",
+  "price_range_usd": [
+   400,
+   800
+  ],
+  "vibe_line": "按天计价的全定制：路线、菜单、扎营点都听你的，支援车拉着淋浴帐篷，沙漠里也能洗热水澡。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "salar-de-uyuni",
+  "style": "青旅背包",
+  "name_or_type": "Piedra Blanca Backpackers Hostel",
+  "price_range_usd": [
+   8,
+   15
+  ],
+  "vibe_line": "背包客的集散地，公共厨房里永远有人在拼车找团，暖气靠毯子叠三层。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "salar-de-uyuni",
+  "style": "舒适",
+  "name_or_type": "Hotel Tonito",
+  "price_range_usd": [
+   35,
+   60
+  ],
+  "vibe_line": "有靠谱热水和暖气的镇上良心店，楼下就是传奇披萨店，早餐的现烤面包在这个镇算奢侈。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "salar-de-uyuni",
+  "style": "轻奢",
+  "name_or_type": "Luna Salada盐酒店",
+  "price_range_usd": [
+   110,
+   180
+  ],
+  "vibe_line": "整栋楼用盐砖砌成，坐在盐窗台上看盐原日落，地板踩上去沙沙响，全是盐粒。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Luna_Salada_Hotel_2017_01.jpg/1280px-Luna_Salada_Hotel_2017_01.jpg"
+ },
+ {
+  "dest_id": "salar-de-uyuni",
+  "style": "豪奢",
+  "name_or_type": "Kachi Lodge穹顶帐篷营地",
+  "price_range_usd": [
+   990,
+   1600
+  ],
+  "vibe_line": "盐原深处的六顶白色穹顶，透明天窗躺着看银河，早上拉开帘子是360度纯白，价格含全餐和向导。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "salzburg",
+  "style": "青旅背包",
+  "name_or_type": "YOHO International Youth Hostel",
+  "price_range_usd": [
+   28,
+   45
+  ],
+  "vibe_line": "每天晚上循环放映《音乐之声》，公共休息室永远有人跟着唱Do-Re-Mi。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "salzburg",
+  "style": "舒适",
+  "name_or_type": "Hotel Krone 1512",
+  "price_range_usd": [
+   100,
+   160
+  ],
+  "vibe_line": "河边五百年的老楼，屋顶露台正对要塞，木楼梯窄得行李箱要竖着拎。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "salzburg",
+  "style": "轻奢",
+  "name_or_type": "arthotel Blaue Gans",
+  "price_range_usd": [
+   200,
+   320
+  ],
+  "vibe_line": "660年历史的墙里挂着当代艺术，出门一步就是粮食胡同的铁招牌。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "salzburg",
+  "style": "豪奢",
+  "name_or_type": "Hotel Sacher Salzburg",
+  "price_range_usd": [
+   450,
+   900
+  ],
+  "vibe_line": "河景房正对老城和要塞，下楼就能吃原版萨赫蛋糕，门童撑伞的动作都像排练过。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "salzburg",
+  "style": "豪奢",
+  "name_or_type": "Hotel Goldener Hirsch",
+  "price_range_usd": [
+   400,
+   700
+  ],
+  "vibe_line": "1407年的猎人主题老宅，音乐节季住满指挥家，走廊里的鹿角灯有几百年了。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Hotel_Goldener_Hirsch_Salzburg.jpg/1280px-Hotel_Goldener_Hirsch_Salzburg.jpg"
+ },
+ {
+  "dest_id": "san-francisco",
+  "style": "青旅背包",
+  "name_or_type": "HI San Francisco Fisherman's Wharf Hostel",
+  "price_range_usd": [
+   45,
+   75
+  ],
+  "vibe_line": "建在老军营公园里，推开门是草坪和海湾，床位价换金门桥景，全美青旅性价比天花板。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "san-francisco",
+  "style": "舒适",
+  "name_or_type": "Hotel Zephyr（渔人码头）",
+  "price_range_usd": [
+   170,
+   260
+  ],
+  "vibe_line": "航海主题的院子里有火盆和大型游戏，走五分钟到39号码头，晚上听得到海狮叫。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "san-francisco",
+  "style": "轻奢",
+  "name_or_type": "Palace Hotel（1875年老宫殿）",
+  "price_range_usd": [
+   320,
+   500
+  ],
+  "vibe_line": "玻璃穹顶下的Garden Court吃早餐像在温室宫殿里，走廊的大理石被一百五十年脚步磨得温润。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Palace_Hotel_and_Lotta%27s_Fountain.jpg/1280px-Palace_Hotel_and_Lotta%27s_Fountain.jpg"
+ },
+ {
+  "dest_id": "san-francisco",
+  "style": "豪奢",
+  "name_or_type": "Four Seasons San Francisco",
+  "price_range_usd": [
+   700,
+   1400
+  ],
+  "vibe_line": "落地窗把整个市区和海湾装进房间，浴缸边看暮色降下来，楼下就是最贵的那条购物街。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "santorini",
+  "style": "青旅背包",
+  "name_or_type": "Caveland Hostel（卡特拉多斯村）",
+  "price_range_usd": [
+   25,
+   45
+  ],
+  "vibe_line": "开在老酒庄洞穴里的青旅，床位也是拱顶洞穴房，院子里有泳池和吊床，离悬崖景观区公交十分钟。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "santorini",
+  "style": "舒适",
+  "name_or_type": "佩里萨/卡马利海滩边家庭旅馆",
+  "price_range_usd": [
+   70,
+   130
+  ],
+  "vibe_line": "不住悬崖住黑沙滩，走路两分钟下海，价格是悬崖面的三分之一，晚上是海浪声不是快门声。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "santorini",
+  "style": "轻奢",
+  "name_or_type": "伊莫洛维里悬崖面洞穴套房（带私人热水浴缸）",
+  "price_range_usd": [
+   300,
+   550
+  ],
+  "vibe_line": "泡在崖边的小浴缸里看整个火山口海湾，早餐由管家端到露台，太阳从浴缸正前方落下去。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "santorini",
+  "style": "豪奢",
+  "name_or_type": "Canaves Oia Suites / Grace Santorini",
+  "price_range_usd": [
+   800,
+   2000
+  ],
+  "vibe_line": "私人无边泳池悬在悬崖上，泳池边缘和海平线连成一条线，管家会问你香槟要几点冰好。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "scottish-highlands",
+  "style": "青旅背包",
+  "name_or_type": "Fort William Backpackers",
+  "price_range_usd": [
+   28,
+   42
+  ],
+  "vibe_line": "山坡上的老房子，公共厨房永远飘着别人的咖喱味，窗外就是本尼维斯山",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "scottish-highlands",
+  "style": "青旅背包",
+  "name_or_type": "Loch Ness Backpackers Lodge",
+  "price_range_usd": [
+   30,
+   45
+  ],
+  "vibe_line": "尼斯湖边的白色小屋，晚上一屋子徒步客交换水怪目击传说",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "scottish-highlands",
+  "style": "舒适",
+  "name_or_type": "Premier Inn Fort William",
+  "price_range_usd": [
+   95,
+   140
+  ],
+  "vibe_line": "连锁但床是真软，拉开窗帘就是Loch Linnhe的水面",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "scottish-highlands",
+  "style": "舒适",
+  "name_or_type": "湖景家庭B&B（Drumnadrochit一带）",
+  "price_range_usd": [
+   110,
+   160
+  ],
+  "vibe_line": "老板娘记得你不吃血肠，早餐桌上有她自己做的覆盆子酱",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "scottish-highlands",
+  "style": "轻奢",
+  "name_or_type": "Kingsmills Hotel (Inverness)",
+  "price_range_usd": [
+   200,
+   300
+  ],
+  "vibe_line": "十八世纪的庄园酒店，泡完温水池裹着浴袍看花园里的兔子",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "scottish-highlands",
+  "style": "豪奢",
+  "name_or_type": "Inverlochy Castle Hotel",
+  "price_range_usd": [
+   400,
+   950
+  ],
+  "vibe_line": "维多利亚女王住过的城堡，管家帮你把泥靴子擦干净放回门口",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Inverlochy_Castle_Hotel_%284823266853%29.jpg/1280px-Inverlochy_Castle_Hotel_%284823266853%29.jpg"
+ },
+ {
+  "dest_id": "seoul",
+  "style": "青旅背包",
+  "name_or_type": "Kimchee弘大青年旅舍",
+  "price_range_usd": [
+   18,
+   32
+  ],
+  "vibe_line": "床帘一拉就是自己的小世界，楼下便利店24小时亮着，凌晨两点还能听见弘大街头的吉他声飘上来。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "seoul",
+  "style": "舒适",
+  "name_or_type": "新罗舒泰（Shilla Stay）光化门店",
+  "price_range_usd": [
+   95,
+   150
+  ],
+  "vibe_line": "床品是新罗系的招牌硬挺，拉开窗帘能看到景福宫方向的屋脊线，走到广藏市场十五分钟。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "seoul",
+  "style": "舒适",
+  "name_or_type": "北村传统韩屋民宿",
+  "price_range_usd": [
+   80,
+   140
+  ],
+  "vibe_line": "睡在地暖的炕床上，纸窗把清晨的光滤成米色，房东阿姨在小院里给你端来一盏柚子茶。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "seoul",
+  "style": "轻奢",
+  "name_or_type": "安达仕首尔江南（Andaz Seoul Gangnam)",
+  "price_range_usd": [
+   240,
+   380
+  ],
+  "vibe_line": "整间酒店像个当代美术馆，浴缸边就是落地窗，江南的车流在脚下静音播放。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "seoul",
+  "style": "豪奢",
+  "name_or_type": "Signiel Seoul（乐天塔76-101层）",
+  "price_range_usd": [
+   450,
+   850
+  ],
+  "vibe_line": "在云的高度醒来，整面窗都是汉江的晨雾，天气好时能一眼看到仁川的海。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/en/2/28/Lotte_World_Tower_day_view_10.jpg"
+ },
+ {
+  "dest_id": "serengeti",
+  "style": "青旅背包",
+  "name_or_type": "塞罗内拉公共营地（Nyani/Pimbi Campsite）",
+  "price_range_usd": [
+   30,
+   60
+  ],
+  "vibe_line": "铁皮炊事房+冷水澡，夜里鬣狗绕着帐篷巡逻，是最便宜也最野的睡法。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "serengeti",
+  "style": "舒适",
+  "name_or_type": "Serengeti Serena Safari Lodge",
+  "price_range_usd": [
+   250,
+   450
+  ],
+  "vibe_line": "圆顶石屋模仿马赛村落，泳池边能看到蹄兔晒太阳，热水稳定这一条就值。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "serengeti",
+  "style": "轻奢",
+  "name_or_type": "Lemala Ewanjan帐篷营地",
+  "price_range_usd": [
+   500,
+   900
+  ],
+  "vibe_line": "帆布帐篷里有真床和热水袋，晚上管家提着灯送你回帐，狮吼是背景音。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "serengeti",
+  "style": "豪奢",
+  "name_or_type": "Four Seasons Safari Lodge Serengeti",
+  "price_range_usd": [
+   1200,
+   4500
+  ],
+  "vibe_line": "无边泳池正对大象饮水的水坑，你泡在水里它们也泡在水里。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "serengeti",
+  "style": "豪奢",
+  "name_or_type": "Singita Sasakwa Lodge",
+  "price_range_usd": [
+   2500,
+   4500
+  ],
+  "vibe_line": "山顶上的爱德华时代庄园，有自己的马厩和网球场，草原是你家前院。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "seychelles",
+  "style": "青旅背包",
+  "name_or_type": "家庭自炊民宿（马埃岛Beau Vallon一带guesthouse）",
+  "price_range_usd": [
+   60,
+   100
+  ],
+  "vibe_line": "塞舌尔没有真正的青旅，本地人家的自炊套房是最省钱的活法，阳台晾着泳衣，房东送自家芒果。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "seychelles",
+  "style": "舒适",
+  "name_or_type": "Berjaya Beau Vallon Bay Resort",
+  "price_range_usd": [
+   150,
+   230
+  ],
+  "vibe_line": "老牌海滩度假村，设施有点年纪但推门就是博瓦隆的落日，性价比在这个岛上算奇迹。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "seychelles",
+  "style": "轻奢",
+  "name_or_type": "Kempinski Seychelles Resort（Baie Lazare）",
+  "price_range_usd": [
+   350,
+   550
+  ],
+  "vibe_line": "花岗岩山坡抱着一弯私属海滩，房间的浴缸对着海，傍晚狐蝠成群从屋顶飞过。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "seychelles",
+  "style": "豪奢",
+  "name_or_type": "North Island Lodge私岛别墅",
+  "price_range_usd": [
+   1500,
+   8500
+  ],
+  "vibe_line": "全岛只有11栋别墅，管家、主厨、潜水教练全配齐，巨龟在你家院子里散步。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "seychelles",
+  "style": "豪奢",
+  "name_or_type": "Four Seasons Seychelles（Petite Anse）",
+  "price_range_usd": [
+   1300,
+   2500
+  ],
+  "vibe_line": "树屋别墅挂在山坡上，私人泳池悬在椰林上方，下坡的电瓶车司机记得每个客人的名字。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/O_Four_Seasons_Seychelles_re%C3%BAne_simplesmente_o_melhor_das_ilhas_%2830113117075%29.jpg"
+ },
+ {
+  "dest_id": "singapore",
+  "style": "青旅背包",
+  "name_or_type": "The Pod胶囊旅舍（武吉士）",
+  "price_range_usd": [
+   30,
+   55
+  ],
+  "vibe_line": "胶囊里有自己的小灯和插座，拉上帘子就是全世界，楼下走两步是阿拉伯街的壁画和咖啡。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "singapore",
+  "style": "舒适",
+  "name_or_type": "Hotel G / 加东一带精品酒店",
+  "price_range_usd": [
+   110,
+   180
+  ],
+  "vibe_line": "房间紧凑但设计清爽，下楼就是娘惹老店屋一条街，早餐去吃咖椰吐司刚刚好。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "singapore",
+  "style": "轻奢",
+  "name_or_type": "Parkroyal Collection Pickering",
+  "price_range_usd": [
+   260,
+   400
+  ],
+  "vibe_line": "整栋楼像从热带雨林里长出来的，空中花园走廊爬满绿植，泳池边就是牛车水的屋顶。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Parkroyal_on_Pickering_%288579805153%29.crop.jpg"
+ },
+ {
+  "dest_id": "singapore",
+  "style": "豪奢",
+  "name_or_type": "Raffles Hotel莱佛士酒店",
+  "price_range_usd": [
+   1300,
+   2400
+  ],
+  "vibe_line": "1887年的白色殖民地传奇，锡兰风扇慢慢转，Long Bar里发明新加坡司令的地方，花生壳照旧扔地上。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Raffles_Hotel_in_Singapore.jpg/1280px-Raffles_Hotel_in_Singapore.jpg"
+ },
+ {
+  "dest_id": "sintra",
+  "style": "青旅背包",
+  "name_or_type": "Moon Hill Hostel",
+  "price_range_usd": [
+   28,
+   75
+  ],
+  "vibe_line": "老城边的设计系青旅，床帘一拉是自己的小洞穴，公共区的落地窗正对摩尔城堡的山。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "sintra",
+  "style": "青旅背包",
+  "name_or_type": "Almaa Sintra Hostel",
+  "price_range_usd": [
+   22,
+   65
+  ],
+  "vibe_line": "开在山林老宅里的生态青旅，夜里安静得能听见桉树叶子互相蹭，早上被鸟吵醒不算投诉。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "sintra",
+  "style": "舒适",
+  "name_or_type": "Sintra Bliss Hotel",
+  "price_range_usd": [
+   110,
+   180
+  ],
+  "vibe_line": "火车站步行两分钟，房间不大但床结结实实，爬完一天山回来只想瘫的人的正确答案。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "sintra",
+  "style": "舒适",
+  "name_or_type": "Chalet Saudade（老宅guesthouse）",
+  "price_range_usd": [
+   95,
+   160
+  ],
+  "vibe_line": "十九世纪老宅改的，木楼梯吱呀响，早餐摆在花砖房间里，像住进曾祖母的体面人生。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "sintra",
+  "style": "舒适",
+  "name_or_type": "Monte da Lua（车站对面家庭旅馆）",
+  "price_range_usd": [
+   70,
+   120
+  ],
+  "vibe_line": "窗户正对山谷，价格是全镇的良心，老板娘会用手比划着告诉你哪条小路不用等巴士。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "sintra",
+  "style": "轻奢",
+  "name_or_type": "Lawrence's Hotel",
+  "price_range_usd": [
+   150,
+   300
+  ],
+  "vibe_line": "1764年开业、号称伊比利亚最老的酒店，走廊挂着拜伦的画像，木地板每一步都在讲历史。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Hotel_Lawrence%27s%2C_Sintra_04.jpg/1280px-Hotel_Lawrence%27s%2C_Sintra_04.jpg"
+ },
+ {
+  "dest_id": "sintra",
+  "style": "轻奢",
+  "name_or_type": "Sintra Boutique Hotel",
+  "price_range_usd": [
+   150,
+   250
+  ],
+  "vibe_line": "就在老城心脏，推开窗是王宫那两根白色大烟囱，晚上游客散尽后整条街的路灯归你。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "sintra",
+  "style": "轻奢",
+  "name_or_type": "Casa do Valle",
+  "price_range_usd": [
+   130,
+   220
+  ],
+  "vibe_line": "挂在山坡上的小旅馆，露台早餐正对摩尔城堡城墙，果酱是自家做的，雾从脚下飘过去。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "sintra",
+  "style": "豪奢",
+  "name_or_type": "Tivoli Palácio de Seteais",
+  "price_range_usd": [
+   300,
+   700
+  ],
+  "vibe_line": "十八世纪宫殿改的酒店，壁画厅里吃早餐，草坪尽头就是山谷和海，走路都不自觉挺直腰。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Hotel_Tivoli_Pal%C3%A1cio_de_Seteais.jpg/1280px-Hotel_Tivoli_Pal%C3%A1cio_de_Seteais.jpg"
+ },
+ {
+  "dest_id": "sintra",
+  "style": "豪奢",
+  "name_or_type": "Penha Longa Resort（丽思卡尔顿）",
+  "price_range_usd": [
+   320,
+   650
+  ],
+  "vibe_line": "藏在山林高尔夫球场里的度假村，带十四世纪修道院和米其林餐厅，进了大门就不想再出去。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Penha_Longa_resort_%2848783199536%29.jpg/1280px-Penha_Longa_resort_%2848783199536%29.jpg"
+ },
+ {
+  "dest_id": "siwa-oasis",
+  "style": "青旅背包",
+  "name_or_type": "Palm Trees Hotel",
+  "price_range_usd": [
+   8,
+   18
+  ],
+  "vibe_line": "自带一个小椰枣园，吊床挂在树间，房间朴素得像回到二十年前。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "siwa-oasis",
+  "style": "舒适",
+  "name_or_type": "Albabenshal Heritage Lodge",
+  "price_range_usd": [
+   40,
+   70
+  ],
+  "vibe_line": "直接嵌在沙利古城的泥砖遗址里，墙是盐和泥夯的，凉快得不需要空调。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "siwa-oasis",
+  "style": "轻奢",
+  "name_or_type": "Taziry Ecolodge",
+  "price_range_usd": [
+   90,
+   160
+  ],
+  "vibe_line": "盖在盐湖对岸的生态村，晚上马灯照路，天台正对白山和整片星空。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "siwa-oasis",
+  "style": "豪奢",
+  "name_or_type": "Adrère Amellal",
+  "price_range_usd": [
+   300,
+   550
+  ],
+  "vibe_line": "全球闻名的无电奢华庄园，含三餐和活动，泳池是天然泉眼，夜里只有烛光和星光。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "socotra",
+  "style": "青旅背包",
+  "name_or_type": "海滩露营（旅行社帐篷）",
+  "price_range_usd": [
+   10,
+   25
+  ],
+  "vibe_line": "全岛旅行基本就是换着海滩扎营，帐篷睡垫由旅行社出，浴室是大海和山涧。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "socotra",
+  "style": "舒适",
+  "name_or_type": "Summerland Hotel（Hadibo）",
+  "price_range_usd": [
+   45,
+   90
+  ],
+  "vibe_line": "哈迪博的'五星'，其实是干净的两星：有空调有发电机，落地时和离岛前各住一晚。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "socotra",
+  "style": "轻奢",
+  "name_or_type": "全包升级营地（厨师+床垫帐篷）",
+  "price_range_usd": [
+   120,
+   200
+  ],
+  "vibe_line": "岛上没有度假村，钱能买到的升级是：更厚的床垫、独立餐帐、随队厨师和每天的冰桶。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "socotra",
+  "style": "豪奢",
+  "name_or_type": "私人包团（专车专导+包船）",
+  "price_range_usd": [
+   300,
+   500
+  ],
+  "vibe_line": "折成每晚约三五百刀的私团：整片海滩只有你的营地，船和路线全听你的，奢的是无人。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "south-pole",
+  "style": "青旅背包",
+  "name_or_type": "远征双人帐篷（Ski Last Degree滑雪抵达）",
+  "price_range_usd": [
+   7000,
+   9000
+  ],
+  "vibe_line": "自己拉雪橇滑最后一纬度，帐篷睡袋炉子全自理；按ALE约七八万美元全程套价折算到每晚。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "south-pole",
+  "style": "舒适",
+  "name_or_type": "联合冰川营地clam双人帐（ALE基地营）",
+  "price_range_usd": [
+   3500,
+   5500
+  ],
+  "vibe_line": "有真床、餐厅帐和图书角的极地基地营，飞机来回南极点；按飞抵行程约65000美元折算每晚。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "south-pole",
+  "style": "轻奢",
+  "name_or_type": "Whichaway绿洲营地（White Desert）",
+  "price_range_usd": [
+   12000,
+   15000
+  ],
+  "vibe_line": "毛里求斯毯子和皮沙发的极地营地，含私人厨师和极点飞行日；按约十万美元行程折算每晚。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "south-pole",
+  "style": "豪奢",
+  "name_or_type": "Echo太空舱营地（White Desert）",
+  "price_range_usd": [
+   15000,
+   20000
+  ],
+  "vibe_line": "太空舱造型的全景玻璃舱房，设计灵感来自空间站，飞南极点那天喷气机直接停在冰跑道上。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "spiti-valley",
+  "style": "青旅背包",
+  "name_or_type": "Zostel Spiti（Kaza）",
+  "price_range_usd": [
+   6,
+   12
+  ],
+  "vibe_line": "床位便宜到离谱，公共区永远有人在弹吉他等高反缓过去，屋顶能看到齐旦寺方向的山。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "spiti-valley",
+  "style": "舒适",
+  "name_or_type": "Kibber或Langza村家庭民宿（含早晚餐）",
+  "price_range_usd": [
+   12,
+   25
+  ],
+  "vibe_line": "睡在藏式土坯房的厚毯子里，晚饭和主人一家围着牛粪炉吃，早上被牦牛铃铛叫醒。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "spiti-valley",
+  "style": "轻奢",
+  "name_or_type": "Hotel Deyzor（Kaza精品旅馆）",
+  "price_range_usd": [
+   45,
+   80
+  ],
+  "vibe_line": "斯皮提少有的有审美的旅馆，房间挂着老板自己拍的雪豹照片，热水稳定这件事在这里就是奢侈。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "spiti-valley",
+  "style": "豪奢",
+  "name_or_type": "Grand Dewachen（Rangrik，河谷景观度假旅馆）",
+  "price_range_usd": [
+   90,
+   150
+  ],
+  "vibe_line": "这已经是整个斯皮提的天花板——没有五星，只有一整面落地窗的河谷雪山，和别处买不到的安静。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "ilulissat",
+  "style": "青旅背包",
+  "name_or_type": "伊卢利萨特青年旅舍/B&B床位",
+  "price_range_usd": [
+   60,
+   90
+  ],
+  "vibe_line": "格陵兰没有便宜住宿这回事，床位也要这个价，好在窗外可能就是狗场和海。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "ilulissat",
+  "style": "舒适",
+  "name_or_type": "Hotel Hvide Falk（白隼酒店，海边）",
+  "price_range_usd": [
+   170,
+   260
+  ],
+  "vibe_line": "老牌海景酒店，早餐厅的窗户正对迪斯科湾，边吃鸡蛋边看冰山换位置。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "ilulissat",
+  "style": "轻奢",
+  "name_or_type": "Hotel Icefiord（峡湾边精品酒店）",
+  "price_range_usd": [
+   180,
+   320
+  ],
+  "vibe_line": "房间阳台悬在岸边，躺在床上就能听到冰山冒泡的滋滋声，极昼的金光整夜铺在天花板上。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "ilulissat",
+  "style": "豪奢",
+  "name_or_type": "Hotel Arctic（含景观舱房的四星+极地酒店）",
+  "price_range_usd": [
+   250,
+   450
+  ],
+  "vibe_line": "号称世界最北的四星级，悬崖上的金属舱房正对冰峡湾出口，冰山从你的床脚漂进大海。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Hotel-Arctic.jpg/1280px-Hotel-Arctic.jpg"
+ },
+ {
+  "dest_id": "svalbard",
+  "style": "青旅背包",
+  "name_or_type": "Coal Miners' Cabins（老矿工宿舍改建）",
+  "price_range_usd": [
+   70,
+   110
+  ],
+  "vibe_line": "真的矿工住过的木屋，走廊里挂着历史照片，进门脱鞋的规矩从煤灰时代传到今天。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "svalbard",
+  "style": "舒适",
+  "name_or_type": "Svalbard Hotell | Polfareren（镇中心）",
+  "price_range_usd": [
+   160,
+   240
+  ],
+  "vibe_line": "北欧性冷淡风的暖房间，窗外可能有驯鹿路过，大堂咖啡机二十四小时是热的。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Svalbard_Hotell%2C_Longyearbyen.jpg/1280px-Svalbard_Hotell%2C_Longyearbyen.jpg"
+ },
+ {
+  "dest_id": "svalbard",
+  "style": "轻奢",
+  "name_or_type": "Funken Lodge（山坡上的精品酒店）",
+  "price_range_usd": [
+   300,
+   550
+  ],
+  "vibe_line": "当年煤矿公司高管的宿舍，现在是全镇最好的香槟吧，落地窗正对极夜的蓝色山谷。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "svalbard",
+  "style": "豪奢",
+  "name_or_type": "Isfjord Radio Adventure Hotel（峡湾尽头的旧电台站，全包套餐）",
+  "price_range_usd": [
+   550,
+   900
+  ],
+  "vibe_line": "要坐船或雪地摩托才能抵达的旧无线电站，价格含全部餐食和向导，窗外就是北冰洋，隔壁邻居是海象。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Isfjord_radio_on_Svalbard_seen_from_west.jpg/1280px-Isfjord_radio_on_Svalbard_seen_from_west.jpg"
+ },
+ {
+  "dest_id": "svaneti",
+  "style": "青旅背包",
+  "name_or_type": "梅斯蒂亚背包客栈床位（镇中心多家）",
+  "price_range_usd": [
+   10,
+   18
+  ],
+  "vibe_line": "一屋子晒脱皮的徒步客在客厅交换路线情报，晾衣绳上挂满湿袜子和速干衣。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "svaneti",
+  "style": "舒适",
+  "name_or_type": "Nino Ratiani Guesthouse（含早晚餐的老牌民宿）",
+  "price_range_usd": [
+   25,
+   45
+  ],
+  "vibe_line": "床垫厚被子沉，晚餐是一整桌家宴，主人记得每个客人明天要走哪条路线。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "svaneti",
+  "style": "轻奢",
+  "name_or_type": "Hotel Posta（梅斯蒂亚精品酒店）",
+  "price_range_usd": [
+   70,
+   120
+  ],
+  "vibe_line": "山里难得的现代浴室和稳定热水，阳台正对塔楼群，早餐的蜂蜜是隔壁村的。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "svaneti",
+  "style": "豪奢",
+  "name_or_type": "Grand Hotel Ushba（Mazeri村，乌什巴峰脚下）",
+  "price_range_usd": [
+   70,
+   140
+  ],
+  "vibe_line": "藏在山谷尽头的设计酒店，落地窗里就是乌什巴双峰，晚上壁炉烧着，全世界只剩雪山和你。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "sydney",
+  "style": "青旅背包",
+  "name_or_type": "Wake Up! Sydney Central（中央车站旁）",
+  "price_range_usd": [
+   30,
+   55
+  ],
+  "vibe_line": "八人间的上铺，凌晨还有人拖着冲浪板进来，楼下酒吧的音乐透过地板嗡嗡传上来。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "sydney",
+  "style": "舒适",
+  "name_or_type": "Song Hotel Sydney（海德公园附近）",
+  "price_range_usd": [
+   110,
+   170
+  ],
+  "vibe_line": "房间不大但床结实，走五分钟就是海德公园的无花果树荫，早上被凤头鹦鹉的叫声闹醒。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "sydney",
+  "style": "轻奢",
+  "name_or_type": "QT Sydney（老剧院改造设计酒店）",
+  "price_range_usd": [
+   200,
+   350
+  ],
+  "vibe_line": "由老州立剧院改的，电梯里放的音乐随人数变化，浴缸边就是一整面复古化妆镜。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "sydney",
+  "style": "豪奢",
+  "name_or_type": "Park Hyatt Sydney（环形码头岩石区）",
+  "price_range_usd": [
+   650,
+   1300
+  ],
+  "vibe_line": "拉开窗帘歌剧院就在正对面的水上，躺在床上看渡轮进出港，屋顶泳池游一圈换一个角度看大桥。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Sydney_The_Rocks_Park_Hyatt_Sydney_seen_from_the_northeast.jpg/1280px-Sydney_The_Rocks_Park_Hyatt_Sydney_seen_from_the_northeast.jpg"
+ },
+ {
+  "dest_id": "taj-mahal-agra",
+  "style": "青旅背包",
+  "name_or_type": "Zostel Agra（泰姬陵东门步行可达）",
+  "price_range_usd": [
+   8,
+   15
+  ],
+  "vibe_line": "天台直接望得到泰姬陵的穹顶，傍晚一群背包客坐在垫子上等它变色。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "taj-mahal-agra",
+  "style": "舒适",
+  "name_or_type": "Hotel Taj Resorts（东门附近三星）",
+  "price_range_usd": [
+   30,
+   55
+  ],
+  "vibe_line": "屋顶餐厅能看到泰姬陵，房间空调够冷热水够烫，走到东门售票处五分钟。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "taj-mahal-agra",
+  "style": "轻奢",
+  "name_or_type": "Trident Agra",
+  "price_range_usd": [
+   110,
+   180
+  ],
+  "vibe_line": "低层庭院式，中庭草坪有孔雀溜达，泡完泳池回房间的路上全是鸟叫。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "taj-mahal-agra",
+  "style": "豪奢",
+  "name_or_type": "The Oberoi Amarvilas",
+  "price_range_usd": [
+   400,
+   1100
+  ],
+  "vibe_line": "全酒店每一间房都正对泰姬陵，躺在浴缸里就能看到它，离陵墓只有六百米。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "titanic-wreck-dive",
+  "style": "青旅背包",
+  "name_or_type": "科考母船四人合住内舱（探险队员标准）",
+  "price_range_usd": [
+   35000,
+   42000
+  ],
+  "vibe_line": "这是整个探险项目的价格不是每晚价——上下铺加一个共用水池，涌浪大的夜里要用背包把自己卡在床上。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "titanic-wreck-dive",
+  "style": "舒适",
+  "name_or_type": "母船标准双人外舱（带舷窗）",
+  "price_range_usd": [
+   42000,
+   52000
+  ],
+  "vibe_line": "全项目价，含约两周航程全部食宿——舷窗外是北大西洋，夜里能听到浪一遍遍拍在离头顶一米的地方。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "titanic-wreck-dive",
+  "style": "轻奢",
+  "name_or_type": "主任科学家舱/高级单人舱",
+  "price_range_usd": [
+   52000,
+   62000
+  ],
+  "vibe_line": "全项目价，独立卫浴加一张真正的书桌，当年米尔号时代这类舱位是首席科学家的待遇。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "titanic-wreck-dive",
+  "style": "豪奢",
+  "name_or_type": "含深潜席位的完整探险套餐（历史上米尔号时代约6万美元/席）",
+  "price_range_usd": [
+   60000,
+   105000
+  ],
+  "vibe_line": "真正的奢侈不是舱位而是那个下潜席位——全世界亲眼见过泰坦尼克的人，比上过太空的还少。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "tokyo",
+  "style": "青旅背包",
+  "name_or_type": "Nui. HOSTEL & BAR LOUNGE（蔵前）",
+  "price_range_usd": [
+   28,
+   55
+  ],
+  "vibe_line": "旧玩具仓库改的青旅，一楼酒吧晚上是东京文艺青年据点，住客和本地人混着喝到半夜，木头大楼梯咚咚响。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "tokyo",
+  "style": "青旅背包",
+  "name_or_type": "UNPLAN Kagurazaka",
+  "price_range_usd": [
+   30,
+   60
+  ],
+  "vibe_line": "神乐坂坡道边的白色小楼，床位区安静得像图书馆，楼下咖啡店的面包香会顺着楼梯飘上来。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "tokyo",
+  "style": "舒适",
+  "name_or_type": "東急ステイ新宿",
+  "price_range_usd": [
+   95,
+   160
+  ],
+  "vibe_line": "房间自带洗衣烘干一体机和微波炉，连住旅人的救星，走十分钟就是新宿御苑，闹中取静。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "tokyo",
+  "style": "轻奢",
+  "name_or_type": "The Gate Hotel 雷門",
+  "price_range_usd": [
+   190,
+   320
+  ],
+  "vibe_line": "顶楼露台正对浅草寺五重塔和晴空塔，泡完澡裹着浴袍上去，看雷门的灯一盏一盏熄掉。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "tokyo",
+  "style": "豪奢",
+  "name_or_type": "Park Hyatt Tokyo",
+  "price_range_usd": [
+   700,
+   1500
+  ],
+  "vibe_line": "《迷失东京》的取景地，52楼的泳池悬在新宿夜景上方，晴天从落地窗能望见富士山。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "tokyo",
+  "style": "豪奢",
+  "name_or_type": "Aman Tokyo",
+  "price_range_usd": [
+   1300,
+   2000
+  ],
+  "vibe_line": "大手町大楼最顶上六层，和纸与黑石砌出30米挑高的大堂，泡在黑石浴缸里看皇居那一大片绿。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "torres-del-paine",
+  "style": "青旅背包",
+  "name_or_type": "The Singing Lamb Hostel（Puerto Natales）",
+  "price_range_usd": [
+   18,
+   30
+  ],
+  "vibe_line": "晾衣绳上永远挂满湿袜子，厨房里有人在分装下一程的燕麦，全屋都在聊风。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "torres-del-paine",
+  "style": "青旅背包",
+  "name_or_type": "Refugio Torre Central园内山屋床位",
+  "price_range_usd": [
+   85,
+   130
+  ],
+  "vibe_line": "贵得离谱的上下铺，但凌晨四点出发看日出只要推门就走，值回一半票价。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "torres-del-paine",
+  "style": "舒适",
+  "name_or_type": "Hotel Vendaval（Puerto Natales）",
+  "price_range_usd": [
+   90,
+   150
+  ],
+  "vibe_line": "窗户正对最后希望峡湾，暖气烘着五天没干过的登山鞋，热水澡能洗掉半条W线。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "torres-del-paine",
+  "style": "轻奢",
+  "name_or_type": "Hotel Lago Grey（园内灰湖边）",
+  "price_range_usd": [
+   250,
+   400
+  ],
+  "vibe_line": "餐厅落地窗外就是漂着冰山的灰湖，喝汤的时候一块冰正好翻了个身。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "torres-del-paine",
+  "style": "豪奢",
+  "name_or_type": "explora Patagonia（园内全包式）",
+  "price_range_usd": [
+   1700,
+   2800
+  ],
+  "vibe_line": "泡在温水泳池里隔着玻璃看Paine河，向导、马、船和三餐全配好，钱包在哭身体在笑。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "trolltunga",
+  "style": "青旅背包",
+  "name_or_type": "Odda Camping（帐位/小木屋）",
+  "price_range_usd": [
+   15,
+   65
+  ],
+  "vibe_line": "湖边草地扎帐篷，公共厨房里五国语言在交换明天几点出发，晾衣绳是公共财产。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "trolltunga",
+  "style": "舒适",
+  "name_or_type": "Trolltunga Guesthouse（Tyssedal）",
+  "price_range_usd": [
+   110,
+   165
+  ],
+  "vibe_line": "离登山口最近的床，老板会看着天气预报劝你改签，早餐的褐色羊奶酪管够。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "trolltunga",
+  "style": "轻奢",
+  "name_or_type": "Trolltunga Hotel（Odda）",
+  "price_range_usd": [
+   170,
+   260
+  ],
+  "vibe_line": "下山后泡进热水澡，窗外是Sørfjorden峡湾，烘鞋架上插着一排冒热气的登山鞋。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "trolltunga",
+  "style": "豪奢",
+  "name_or_type": "Hotel Ullensvang峡湾景观套房（Lofthus）",
+  "price_range_usd": [
+   300,
+   550
+  ],
+  "vibe_line": "格里格当年在这里写过曲子，无边泳池的水面和峡湾接在一起，果园的苹果花香飘进阳台。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Hotel_Ullensvang_-_no-nb_digifoto_20150205_00026_NB_MIT_FNR_15604.jpg/1280px-Hotel_Ullensvang_-_no-nb_digifoto_20150205_00026_NB_MIT_FNR_15604.jpg"
+ },
+ {
+  "dest_id": "tulum",
+  "style": "青旅背包",
+  "name_or_type": "Mama's Home Hostel（图伦镇）",
+  "price_range_usd": [
+   15,
+   28
+  ],
+  "vibe_line": "院子里挂满吊床，早餐是老板娘做的鸡蛋卷饼，谁租了自行车全青旅都借着骑。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "tulum",
+  "style": "舒适",
+  "name_or_type": "图伦镇中心带泳池的小型酒店",
+  "price_range_usd": [
+   50,
+   90
+  ],
+  "vibe_line": "离taco摊步行五分钟，下午从海滩回来先跳进院里的小泳池，比海滩区便宜三倍。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "tulum",
+  "style": "轻奢",
+  "name_or_type": "Coco Tulum（海滩区白色小屋）",
+  "price_range_usd": [
+   200,
+   350
+  ],
+  "vibe_line": "白纱帐的cabana推门就是沙滩，秋千吧台泡在浅水里，晚上风扇和海浪一个频率。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "tulum",
+  "style": "豪奢",
+  "name_or_type": "Azulik（无电灯树屋度假村）",
+  "price_range_usd": [
+   700,
+   2000
+  ],
+  "vibe_line": "藤编树屋没有电灯只点蜡烛，私人露台的圆形浴缸对着加勒比海，手机在这里像个外人。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "uluru",
+  "style": "青旅背包",
+  "name_or_type": "Outback Pioneer Lodge宿舍床位",
+  "price_range_usd": [
+   35,
+   60
+  ],
+  "vibe_line": "整个度假村最便宜的床，晚上公共烧烤区的烟和吉他声一起飘进窗户。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "uluru",
+  "style": "青旅背包",
+  "name_or_type": "Ayers Rock Campground营地",
+  "price_range_usd": [
+   25,
+   45
+  ],
+  "vibe_line": "帐篷拉链一拉开就是沙漠的星空，清晨的鹦鹉比闹钟准时也比闹钟吵。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "uluru",
+  "style": "舒适",
+  "name_or_type": "Desert Gardens Hotel",
+  "price_range_usd": [
+   220,
+   320
+  ],
+  "vibe_line": "部分房间的阳台能直接望到乌鲁鲁，清晨不出门就能看岩石变色，拖鞋都不用换。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "uluru",
+  "style": "轻奢",
+  "name_or_type": "Sails in the Desert",
+  "price_range_usd": [
+   250,
+   450
+  ],
+  "vibe_line": "白帆屋顶罩着泳池，桉树影子落在水面上，下午茶配原住民画廊，沙漠里的一块凉。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "uluru",
+  "style": "豪奢",
+  "name_or_type": "Longitude 131°",
+  "price_range_usd": [
+   2000,
+   3500
+  ],
+  "vibe_line": "十六顶奢华帐篷全部正对独石，躺在床上看日出染红岩壁，全包到连星空晚宴都懒得算钱。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "varanasi",
+  "style": "青旅背包",
+  "name_or_type": "Zostel Varanasi",
+  "price_range_usd": [
+   7,
+   15
+  ],
+  "vibe_line": "天台能望到恒河的一角，傍晚一屋子背包客交换今天被猴子抢了什么。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "varanasi",
+  "style": "舒适",
+  "name_or_type": "Ganpati Guest House（Meer Ghat河边）",
+  "price_range_usd": [
+   25,
+   50
+  ],
+  "vibe_line": "老宅改的河景客栈，躺在床上就能听到河阶上的钟声，屋顶餐厅的日出座要抢。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "varanasi",
+  "style": "轻奢",
+  "name_or_type": "BrijRama Palace（Darbhanga Ghat）",
+  "price_range_usd": [
+   180,
+   300
+  ],
+  "vibe_line": "18世纪的河坛宫殿，坐船从水路check-in，走廊的石柱比这个国家的一半历史还老。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Brijrama_Palace%2C_Varanasi.jpg"
+ },
+ {
+  "dest_id": "varanasi",
+  "style": "豪奢",
+  "name_or_type": "Taj Nadesar Palace",
+  "price_range_usd": [
+   350,
+   600
+  ],
+  "vibe_line": "住进大君的旧宫殿，芒果园里马车接送，管家记得你昨天说过茶要少糖。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "vatnajokull",
+  "style": "青旅背包",
+  "name_or_type": "Vagnsstaðir HI Hostel",
+  "price_range_usd": [
+   45,
+   70
+  ],
+  "vibe_line": "公路边的红顶青旅，窗外是海和草甸，公共厨房里大家拼车拼团去明早的冰洞。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "vatnajokull",
+  "style": "舒适",
+  "name_or_type": "Guesthouse Gerði（冰河湖附近农场旅馆）",
+  "price_range_usd": [
+   130,
+   200
+  ],
+  "vibe_line": "离杰古沙龙十几分钟车程的农舍，半夜披着被子出门就能看极光，鞋都不用系。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "vatnajokull",
+  "style": "轻奢",
+  "name_or_type": "Fosshotel Glacier Lagoon",
+  "price_range_usd": [
+   200,
+   400
+  ],
+  "vibe_line": "荒原上的一长条玻璃房子，餐厅落地窗正对冰川群峰，泡完澡躺床上等极光推送。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "vatnajokull",
+  "style": "豪奢",
+  "name_or_type": "冰川景观整栋度假屋（Hnappavellir一带高端民宿）",
+  "price_range_usd": [
+   450,
+   900
+  ],
+  "vibe_line": "整栋玻璃墙小屋只属于你们，热水浴桶架在露台上，泡着的时候冰川和银河一起在头顶。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "venice",
+  "style": "青旅背包",
+  "name_or_type": "Generator Venice（朱代卡岛）",
+  "price_range_usd": [
+   30,
+   70
+  ],
+  "vibe_line": "睡在对岸看本岛夜景，去圣马可要坐船，楼下酒吧比床位还出名。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "venice",
+  "style": "舒适",
+  "name_or_type": "Hotel ai Do Mori（圣马可钟楼后）",
+  "price_range_usd": [
+   100,
+   180
+  ],
+  "vibe_line": "楼梯窄得要侧身拎箱子，但推开窗就是钟楼的大钟，整点在头顶敲。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "venice",
+  "style": "轻奢",
+  "name_or_type": "Hotel Palazzo Stern（大运河边）",
+  "price_range_usd": [
+   250,
+   550
+  ],
+  "vibe_line": "运河边的老宫殿，早餐在水线上的露台吃，贡多拉从咖啡杯旁边划过去。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Palazzo_Stern.jpg"
+ },
+ {
+  "dest_id": "venice",
+  "style": "豪奢",
+  "name_or_type": "The Gritti Palace",
+  "price_range_usd": [
+   1000,
+   3000
+  ],
+  "vibe_line": "总督宫邸改的，海明威住过的那种老钱味，露台正对安康圣母堂的圆顶。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Palazzo_Pisani_Gritti_%28Venice%29.jpg"
+ },
+ {
+  "dest_id": "victoria-falls",
+  "style": "青旅背包",
+  "name_or_type": "Jollyboys Backpackers（利文斯通）",
+  "price_range_usd": [
+   10,
+   28
+  ],
+  "vibe_line": "下沉式软垫大坑是全青旅的社交中心，每晚都有人在组队去蹦极。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "victoria-falls",
+  "style": "青旅背包",
+  "name_or_type": "Victoria Falls Backpackers（津侧）",
+  "price_range_usd": [
+   12,
+   30
+  ],
+  "vibe_line": "花园里有树屋床位，半夜能听到疣猪在栅栏外拱土。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "victoria-falls",
+  "style": "舒适",
+  "name_or_type": "The Kingdom Hotel（瀑布镇）",
+  "price_range_usd": [
+   90,
+   160
+  ],
+  "vibe_line": "走路十分钟到瀑布入口，泳池边的猴子对没盖好的果盘虎视眈眈。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "victoria-falls",
+  "style": "轻奢",
+  "name_or_type": "The Victoria Falls Hotel",
+  "price_range_usd": [
+   300,
+   550
+  ],
+  "vibe_line": "1904年的老殖民酒店，草坪尽头正对峡谷大桥，下午茶配着瀑布的'烟'。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Victoria_Falls_Hotel_from_behind.jpg"
+ },
+ {
+  "dest_id": "victoria-falls",
+  "style": "豪奢",
+  "name_or_type": "Royal Livingstone Hotel by Anantara",
+  "price_range_usd": [
+   550,
+   1600
+  ],
+  "vibe_line": "长颈鹿和斑马就在酒店草坪散步，躺椅到瀑布顶端步行十分钟。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "victoria-falls",
+  "style": "豪奢",
+  "name_or_type": "Tongabezi Lodge（河上私屋）",
+  "price_range_usd": [
+   800,
+   1600
+  ],
+  "vibe_line": "敞开式河景房没有第四面墙，早餐由独木舟送到你的私人露台。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "vienna",
+  "style": "青旅背包",
+  "name_or_type": "Wombat's City Hostel Naschmarkt",
+  "price_range_usd": [
+   28,
+   45
+  ],
+  "vibe_line": "楼下就是纳什市场，早上被水果摊的吆喝叫醒，公共厨房永远有人在煮意面。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "vienna",
+  "style": "舒适",
+  "name_or_type": "Motel One Wien-Staatsoper",
+  "price_range_usd": [
+   95,
+   140
+  ],
+  "vibe_line": "歌剧院走路三分钟，大堂设计得比房间大方，站票看完戏回来腿还能撑到床上。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "vienna",
+  "style": "轻奢",
+  "name_or_type": "Hotel Topazz Lamée",
+  "price_range_usd": [
+   160,
+   300
+  ],
+  "vibe_line": "椭圆形的凸窗像船舱，窝在窗座里看老城街角的电车转弯。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Hotel_Topazz%2C_Lichtensteg_3%2C_Vienna.jpg"
+ },
+ {
+  "dest_id": "vienna",
+  "style": "轻奢",
+  "name_or_type": "25hours Hotel MuseumsQuartier",
+  "price_range_usd": [
+   190,
+   300
+  ],
+  "vibe_line": "马戏团主题的怪房间，顶楼酒吧看博物馆区的屋顶，年轻维也纳的据点。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/25hours_Hotel_Wien_we_are_all_mad_here.jpg"
+ },
+ {
+  "dest_id": "vienna",
+  "style": "豪奢",
+  "name_or_type": "Hotel Sacher Wien",
+  "price_range_usd": [
+   550,
+   1100
+  ],
+  "vibe_line": "萨赫蛋糕的老家，红丝绒和油画包住整个大堂，门童记得每位客人的伞。",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Hotel_Sacher_%28Wien_2008%29_%2810605892446%29.jpg"
+ },
+ {
+  "dest_id": "vinson-massif",
+  "style": "青旅背包",
+  "name_or_type": "高地营双人山地帐（自己扎）",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "没有单独房价，含在整个远征费里，床是自己铲平的雪地，墙是自己码的雪砖。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "vinson-massif",
+  "style": "舒适",
+  "name_or_type": "文森大本营营地帐",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "含在远征费里所以标0，Branscomb冰川上的一小片帐篷城，有伙食帐和真正的坐着吃饭。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "vinson-massif",
+  "style": "轻奢",
+  "name_or_type": "Union Glacier双层蛤壳帐（clam tent）",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "含在项目费里所以标0，双层帐里有真床垫和被子，太阳把帐篷烘到十几度，像睡在暖房。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "vinson-massif",
+  "style": "豪奢",
+  "name_or_type": "ALE文森峰全包远征（约两到三周）",
+  "price_range_usd": [
+   45000,
+   60000
+  ],
+  "vibe_line": "这不是一晚的价，是从蓬塔阿雷纳斯起整趟项目价：伊尔76包机、向导、营地、伙食全在内。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "vostok-cold-pole",
+  "style": "青旅背包",
+  "name_or_type": "内陆车队雪橇舱铺位",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "拖拉机后面的生活雪橇，铺位窄得翻身要打报告，柴油味催眠（科考编制内，无市场价）",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "vostok-cold-pole",
+  "style": "舒适",
+  "name_or_type": "东方站老居住舱双人间",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "半埋进雪里的老舱体，暖气片烫手，窗外是零下七十度（科考编制内，无市场价）",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "vostok-cold-pole",
+  "style": "轻奢",
+  "name_or_type": "新越冬综合体单人舱（2025年启用）",
+  "price_range_usd": [
+   0,
+   0
+  ],
+  "vibe_line": "架在支柱上的崭新模块，有健身房和医疗区，老队员管它叫'冰盖上的五星级'（科考编制内，无市场价）",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "vostok-cold-pole",
+  "style": "豪奢",
+  "name_or_type": "私人极地深场探险后勤（包机+移动营地）",
+  "price_range_usd": [
+   120000,
+   250000
+  ],
+  "vibe_line": "市面上没有到东方站的商业路线，这是同级别南极深场私人探险的真实价位，加温帐篷里有真床垫",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "wadi-rum",
+  "style": "青旅背包",
+  "name_or_type": "贝都因基础营地通铺帐篷",
+  "price_range_usd": [
+   20,
+   40
+  ],
+  "vibe_line": "黑山羊毛帐篷一排床垫，含晚餐早餐，夜里能听见骆驼在外面倒嚼。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "wadi-rum",
+  "style": "舒适",
+  "name_or_type": "Rum Planet Camp 标准帐篷",
+  "price_range_usd": [
+   45,
+   80
+  ],
+  "vibe_line": "带独立卫浴的固定帐篷，热水看太阳能心情，门帘一掀就是红沙。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "wadi-rum",
+  "style": "轻奢",
+  "name_or_type": "Memories Aicha Luxury Camp 泡泡帐篷",
+  "price_range_usd": [
+   180,
+   350
+  ],
+  "vibe_line": "躺在床上隔着一整面透明球幕看星星转，空调声是唯一的现代感。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "wadi-rum",
+  "style": "豪奢",
+  "name_or_type": "Sun City Camp 火星圆顶屋",
+  "price_range_usd": [
+   250,
+   380
+  ],
+  "vibe_line": "白色穹顶舱像《火星救援》片场，落地窗正对巨岩，晚饭有人送到舱门口。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "waitomo",
+  "style": "青旅背包",
+  "name_or_type": "Juno Hall Backpackers",
+  "price_range_usd": [
+   22,
+   38
+  ],
+  "vibe_line": "牧场边的老牌青旅，门口有泳池和小马，晚上厨房里全是各国口音",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "waitomo",
+  "style": "舒适",
+  "name_or_type": "Abseil Inn B&B",
+  "price_range_usd": [
+   95,
+   140
+  ],
+  "vibe_line": "山坡上的四间房B&B，主人做的早餐分量像给要下矿的人吃的",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "waitomo",
+  "style": "舒适",
+  "name_or_type": "Waitomo Caves Hotel",
+  "price_range_usd": [
+   100,
+   170
+  ],
+  "vibe_line": "1908年的维多利亚老酒店立在山顶，走廊吱呀作响，本地人笃定它闹鬼",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Waitomo_Hotel_-_Flickr_-_Teacher_Traveler.jpg"
+ },
+ {
+  "dest_id": "waitomo",
+  "style": "轻奢",
+  "name_or_type": "Waitomo周边独栋乡村Lodge（带山景热水浴缸）",
+  "price_range_usd": [
+   180,
+   320
+  ],
+  "vibe_line": "牧场中央的独栋小屋，露天浴缸泡着看星星，四周只有羊叫",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "waitomo",
+  "style": "豪奢",
+  "name_or_type": "怀卡托区域湖畔奢华庄园（Cambridge/Karapiro一带）",
+  "price_range_usd": [
+   400,
+   700
+  ],
+  "vibe_line": "开车四十分钟外的湖畔庄园，私厨晚餐配新西兰长相思，清晨湖面起雾",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "white-desert-egypt",
+  "style": "青旅背包",
+  "name_or_type": "Old Oasis Hotel（Bawiti）",
+  "price_range_usd": [
+   12,
+   25
+  ],
+  "vibe_line": "巴维提镇的老牌背包据点，院子里有温泉水渠，进出沙漠的人在这儿拼车。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "white-desert-egypt",
+  "style": "舒适",
+  "name_or_type": "Western Desert Hotel",
+  "price_range_usd": [
+   30,
+   55
+  ],
+  "vibe_line": "镇中心的实惠选择，热水稳定，天台能望见黑沙漠的锥形山。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "white-desert-egypt",
+  "style": "轻奢",
+  "name_or_type": "Qasr El Bawity Hotel",
+  "price_range_usd": [
+   80,
+   150
+  ],
+  "vibe_line": "石头和泥砖砌的庄园式酒店，拱顶房间冬暖夏凉，院里有自家温泉池。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "white-desert-egypt",
+  "style": "豪奢",
+  "name_or_type": "私享包团豪华露营（含厨师）",
+  "price_range_usd": [
+   300,
+   600
+  ],
+  "vibe_line": "白沙漠里没有酒店，顶配就是旅行社包团：独立营地、床垫帐篷、专职厨师和篝火管家。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "wineglass-bay",
+  "style": "青旅背包",
+  "name_or_type": "Freycinet国家公园营地 / BIG4 Iluka帐篷位",
+  "price_range_usd": [
+   15,
+   45
+  ],
+  "vibe_line": "帐篷外就是Richardsons Beach，夜里有袋貂翻你没收好的锅",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "wineglass-bay",
+  "style": "舒适",
+  "name_or_type": "Edge of the Bay Resort",
+  "price_range_usd": [
+   140,
+   220
+  ],
+  "vibe_line": "海边小屋推门就是私家滩，傍晚wallaby在草坪上等你回家",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "wineglass-bay",
+  "style": "轻奢",
+  "name_or_type": "Freycinet Lodge Coastal Pavilion",
+  "price_range_usd": [
+   500,
+   750
+  ],
+  "vibe_line": "木壳蛋形的独栋亭子藏在林子里，露天浴缸泡着，桉树叶味的风吹过来",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "wineglass-bay",
+  "style": "豪奢",
+  "name_or_type": "Saffire Freycinet",
+  "price_range_usd": [
+   1100,
+   2900
+  ],
+  "vibe_line": "澳洲顶级奢华庄园，全包餐酒，管家带你穿雨靴下蚝排现捞生蚝配香槟",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "wulingyuan-tianmen",
+  "style": "青旅背包",
+  "name_or_type": "市区青年旅舍（天门山索道下站步行圈）",
+  "price_range_usd": [
+   8,
+   15
+  ],
+  "vibe_line": "床位房窗户正对天门山，晚上躺着能看到山顶索道站的灯。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "wulingyuan-tianmen",
+  "style": "舒适",
+  "name_or_type": "索道下站旁连锁酒店（锦江之星/维也纳一类）",
+  "price_range_usd": [
+   28,
+   50
+  ],
+  "vibe_line": "拉开窗帘就是99道弯的山体，早上走五分钟去排索道，能多睡半小时。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "wulingyuan-tianmen",
+  "style": "轻奢",
+  "name_or_type": "华天大酒店",
+  "price_range_usd": [
+   50,
+   95
+  ],
+  "vibe_line": "老牌四星，大堂有点年代感，但床垫厚，泡完脚一觉到天亮。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "wulingyuan-tianmen",
+  "style": "豪奢",
+  "name_or_type": "张家界京武铂尔曼酒店",
+  "price_range_usd": [
+   75,
+   160
+  ],
+  "vibe_line": "泡在室内恒温泳池里隔着玻璃看山，爬完999级台阶的腿在水里慢慢舒开。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "yellowstone",
+  "style": "青旅背包",
+  "name_or_type": "园内营地帐篷位（Madison / Grant Village）",
+  "price_range_usd": [
+   25,
+   35
+  ],
+  "vibe_line": "夜里冷到零度，帐篷外有麋鹿踩断树枝的声音，食物全得锁进熊箱",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "yellowstone",
+  "style": "舒适",
+  "name_or_type": "Old Faithful Lodge Cabins 小木屋",
+  "price_range_usd": [
+   120,
+   190
+  ],
+  "vibe_line": "步行五分钟到老忠实，木屋简单干净，清晨推门一股松木和地热的味道",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "yellowstone",
+  "style": "轻奢",
+  "name_or_type": "Lake Yellowstone Hotel",
+  "price_range_usd": [
+   250,
+   550
+  ],
+  "vibe_line": "1891年的鹅黄色殖民风老酒店，日光厅里有人弹钢琴，窗外是黄石湖的落日",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Lake_Yellowstone_Hotel_portico.JPG"
+ },
+ {
+  "dest_id": "yellowstone",
+  "style": "豪奢",
+  "name_or_type": "Sage Lodge（园北Paradise Valley）",
+  "price_range_usd": [
+   600,
+   1200
+  ],
+  "vibe_line": "黄石河边的现代牧场度假村，泡在温泉浴缸里看Absaroka雪山，飞钓向导随叫随到",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "yosemite",
+  "style": "青旅背包",
+  "name_or_type": "Camp 4 步入式营地",
+  "price_range_usd": [
+   10,
+   15
+  ],
+  "vibe_line": "攀岩者的麦加，清晨帐篷区全是挂着粉袋和绳索的人，咖啡是公用炉子上蹭的",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "yosemite",
+  "style": "青旅背包",
+  "name_or_type": "Yosemite Bug Rustic Mountain Resort 宿舍床位",
+  "price_range_usd": [
+   45,
+   70
+  ],
+  "vibe_line": "园外Midpines山坡上的老牌青旅，晚上餐厅里全是交换路线情报的徒步者",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "yosemite",
+  "style": "舒适",
+  "name_or_type": "Curry Village 帆布帐篷屋",
+  "price_range_usd": [
+   150,
+   190
+  ],
+  "vibe_line": "白帆布帐篷一排排扎在半圆丘脚下，夜里能听见瀑布声，贵重食物必须锁熊箱",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "yosemite",
+  "style": "轻奢",
+  "name_or_type": "Rush Creek Lodge",
+  "price_range_usd": [
+   300,
+   600
+  ],
+  "vibe_line": "西门外山坡上的新木屋，泡在热水池里看松林，孩子在滑梯上尖叫",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "yosemite",
+  "style": "豪奢",
+  "name_or_type": "The Ahwahnee",
+  "price_range_usd": [
+   500,
+   1200
+  ],
+  "vibe_line": "1927年的花岗岩与巨木宫殿，女王和肯尼迪都住过，窗外就是半圆丘",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Ahwahnee_Hotel_Half_Dome.jpg/1280px-Ahwahnee_Hotel_Half_Dome.jpg"
+ },
+ {
+  "dest_id": "yungas-death-road",
+  "style": "青旅背包",
+  "name_or_type": "Wild Rover Hostel（La Paz）",
+  "price_range_usd": [
+   10,
+   18
+  ],
+  "vibe_line": "派对青旅，凌晨两点楼下酒吧还在震，第二天骑死亡之路的人在走廊互相认亲",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "yungas-death-road",
+  "style": "舒适",
+  "name_or_type": "Hotel Rosario La Paz",
+  "price_range_usd": [
+   55,
+   85
+  ],
+  "vibe_line": "殖民风老宅改的酒店，中庭洒满高原阳光，古柯茶随便喝，抗高反全靠它",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "yungas-death-road",
+  "style": "舒适",
+  "name_or_type": "Hotel Esmeralda（Coroico山腰）",
+  "price_range_usd": [
+   30,
+   55
+  ],
+  "vibe_line": "骑完车不回La Paz的人住这，泳池悬在山谷上方，晚霞把云海染成橘子色",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Hotel_Esmeralda%2C_Coroico_-_panoramio.jpg/1280px-Hotel_Esmeralda%2C_Coroico_-_panoramio.jpg"
+ },
+ {
+  "dest_id": "yungas-death-road",
+  "style": "轻奢",
+  "name_or_type": "Atix Hotel（La Paz南区）",
+  "price_range_usd": [
+   110,
+   170
+  ],
+  "vibe_line": "设计酒店挂满本地艺术家的画，顶层泳池正对Illimani雪山",
+  "scraped_at": "2026-07-01",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/View_Atix_Hotel_Calacoto_Bolivien_02.jpg/1280px-View_Atix_Hotel_Calacoto_Bolivien_02.jpg"
+ },
+ {
+  "dest_id": "yungas-death-road",
+  "style": "豪奢",
+  "name_or_type": "Casa Grande Hotel 套房（La Paz）",
+  "price_range_usd": [
+   140,
+   320
+  ],
+  "vibe_line": "La Paz的天花板，管家会提醒你慢点走路——在这个海拔，奢侈就是氧气",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "zhangjiajie",
+  "style": "青旅背包",
+  "name_or_type": "武陵源标志门附近青年旅舍",
+  "price_range_usd": [
+   8,
+   15
+  ],
+  "vibe_line": "床位房里全是第二天要看日出的人，晚上十点就集体熄灯，鞋子在门口排成一排。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "zhangjiajie",
+  "style": "舒适",
+  "name_or_type": "维也纳国际酒店（武陵源店）",
+  "price_range_usd": [
+   30,
+   55
+  ],
+  "vibe_line": "离标志门口十分钟，热水够烫，走完一天山路泡个脚就能睡死过去。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "zhangjiajie",
+  "style": "轻奢",
+  "name_or_type": "张家界碧桂园凤凰酒店",
+  "price_range_usd": [
+   75,
+   130
+  ],
+  "vibe_line": "阳台正对索溪峪的山，早上拉开窗帘雾从山腰飘过去，早餐的米粉现煮。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "zhangjiajie",
+  "style": "豪奢",
+  "name_or_type": "梓山漫居 Zishan Manju",
+  "price_range_usd": [
+   200,
+   420
+  ],
+  "vibe_line": "山谷里的独栋，泡在私汤里看对面峰林起雾，管家把姜茶放在池边不出声就走了。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "zhangye-danxia",
+  "style": "青旅背包",
+  "name_or_type": "丹霞口小镇青年客栈",
+  "price_range_usd": [
+   7,
+   14
+  ],
+  "vibe_line": "床位房的窗户朝着戈壁，半夜有人轻手轻脚爬起来出门看星星。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "zhangye-danxia",
+  "style": "舒适",
+  "name_or_type": "七彩丹霞景区门口家庭客栈",
+  "price_range_usd": [
+   20,
+   40
+  ],
+  "vibe_line": "老板会敲门喊你起来看日出，早饭是一碗热牛肉小饭，出门五分钟到景区大门。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "zhangye-danxia",
+  "style": "轻奢",
+  "name_or_type": "张掖华辰国际大饭店",
+  "price_range_usd": [
+   50,
+   85
+  ],
+  "vibe_line": "市区最体面的落脚点，晒了一天回来冲个热水澡，窗外是安静的小城夜。",
+  "scraped_at": "2026-07-01"
+ },
+ {
+  "dest_id": "zhangye-danxia",
+  "style": "豪奢",
+  "name_or_type": "丹霞口星空帐篷酒店",
+  "price_range_usd": [
+   60,
+   130
+  ],
+  "vibe_line": "透明穹顶正对银河，躺在床上数星星，暖气开足了也挡不住你想裹着被子出去看。",
+  "scraped_at": "2026-07-01"
+ }
+]

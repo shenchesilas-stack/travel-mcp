@@ -1,0 +1,2790 @@
+[
+ {
+  "id": "paris",
+  "name_zh": "巴黎",
+  "name_local": "Paris",
+  "country": "法国",
+  "region": "欧洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "塞纳河把整座城市轻轻分成两半，铁塔在夜里眨着金色的眼睛，随便拐进一条巷子就有热可颂的香味等你。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "浪漫",
+   "艺术",
+   "咖啡馆"
+  ]
+ },
+ {
+  "id": "tokyo",
+  "name_zh": "东京",
+  "name_local": "Tokyo",
+  "country": "日本",
+  "region": "亚洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "霓虹和樱花同时开在这座城市里，深夜的居酒屋暖着灯，转角的自动贩卖机替你记住每一个想留下来的夜晚。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "都市",
+   "美食",
+   "樱花"
+  ]
+ },
+ {
+  "id": "rome",
+  "name_zh": "罗马",
+  "name_local": "Roma",
+  "country": "意大利",
+  "region": "欧洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "两千年的石头被太阳晒得温热，许愿池的水声咕咕作响，我们坐在台阶上分一支冰淇淋就把整个下午过完了。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "古罗马",
+   "历史",
+   "美食"
+  ]
+ },
+ {
+  "id": "kyoto",
+  "name_zh": "京都",
+  "name_local": "Kyoto",
+  "country": "日本",
+  "region": "亚洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "千本鸟居像一条橙红的隧道通往山里，寺庙的青苔在雨后发亮，穿着和服慢慢走，时间也跟着放慢了脚步。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "古都",
+   "神社",
+   "红叶"
+  ]
+ },
+ {
+  "id": "bangkok",
+  "name_zh": "曼谷",
+  "name_local": "Bangkok",
+  "country": "泰国",
+  "region": "亚洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "金色的寺庙尖顶刺进热带的天空，夜市的炭火烤着串串香气，坐在长尾船上，湄南河的风把闷热都吹散了。",
+  "best_season": "冬",
+  "tags": [
+   "寺庙",
+   "夜市",
+   "热带"
+  ]
+ },
+ {
+  "id": "new-york",
+  "name_zh": "纽约",
+  "name_local": "New York",
+  "country": "美国",
+  "region": "北美",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "摩天楼把天空切成一格一格的蓝，中央公园里松鼠追着落叶跑，在这座永不睡的城市，连拥挤都带着心跳。",
+  "best_season": "秋",
+  "tags": [
+   "都市",
+   "天际线",
+   "百老汇"
+  ]
+ },
+ {
+  "id": "london",
+  "name_zh": "伦敦",
+  "name_local": "London",
+  "country": "英国",
+  "region": "欧洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "红色巴士穿过细雨，大本钟敲响下午茶的时间，泰晤士河边的旧书店里，我们分一把伞躲雨也躲进了故事里。",
+  "best_season": "夏",
+  "tags": [
+   "经典",
+   "博物馆",
+   "下午茶"
+  ]
+ },
+ {
+  "id": "bali",
+  "name_zh": "巴厘岛",
+  "name_local": "Bali",
+  "country": "印度尼西亚",
+  "region": "亚洲",
+  "type": "海岛",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "梯田一层层顺着山坡流下来，海边的秋千荡向落日，庙宇的香火和海浪一起呼吸，这里的风都带着椰子的甜。",
+  "best_season": "夏",
+  "tags": [
+   "海岛",
+   "梯田",
+   "度假"
+  ]
+ },
+ {
+  "id": "santorini",
+  "name_zh": "圣托里尼",
+  "name_local": "Santorini",
+  "country": "希腊",
+  "region": "欧洲",
+  "type": "海岛",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "白房子叠着蓝屋顶悬在悬崖上，爱琴海蓝得不像话，我们在伊亚的窄巷里等一场全世界最慢的日落。",
+  "best_season": "夏",
+  "tags": [
+   "海岛",
+   "日落",
+   "蓝白"
+  ]
+ },
+ {
+  "id": "dubai",
+  "name_zh": "迪拜",
+  "name_local": "Dubai",
+  "country": "阿联酋",
+  "region": "中东",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "沙漠里长出一座未来之城，哈利法塔戳破云层，黄昏时坐着越野车冲下金色的沙丘，星星大得像要落进手心。",
+  "best_season": "冬",
+  "tags": [
+   "未来感",
+   "沙漠",
+   "奢华"
+  ]
+ },
+ {
+  "id": "istanbul",
+  "name_zh": "伊斯坦布尔",
+  "name_local": "İstanbul",
+  "country": "土耳其",
+  "region": "中东",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "一座城跨着欧亚两块大陆，唤礼声在黄昏里响起，坐渡轮横渡博斯普鲁斯，海鸥追着船，红茶烫着手心。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "跨洲",
+   "清真寺",
+   "集市"
+  ]
+ },
+ {
+  "id": "barcelona",
+  "name_zh": "巴塞罗那",
+  "name_local": "Barcelona",
+  "country": "西班牙",
+  "region": "欧洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "高迪把这座城变成了一场彩色的梦，圣家堂还在慢慢长大，海边的午后配一盘小食，阳光暖得让人不想走。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "建筑",
+   "高迪",
+   "海滨"
+  ]
+ },
+ {
+  "id": "sydney",
+  "name_zh": "悉尼",
+  "name_local": "Sydney",
+  "country": "澳大利亚",
+  "region": "大洋洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "歌剧院像一组白帆停在海湾里，海港大桥横跨蓝色的水面，海滩上冲浪的人追着浪，连空气都是咸咸的自由。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "海港",
+   "歌剧院",
+   "海滩"
+  ]
+ },
+ {
+  "id": "rio-de-janeiro",
+  "name_zh": "里约热内卢",
+  "name_local": "Rio de Janeiro",
+  "country": "巴西",
+  "region": "南美",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "耶稣像张开双臂拥抱整座城，面包山下海浪拍着金色沙滩，桑巴的鼓点从街角传来，热情像太阳一样藏不住。",
+  "best_season": "冬",
+  "tags": [
+   "海滩",
+   "桑巴",
+   "山海"
+  ]
+ },
+ {
+  "id": "cape-town",
+  "name_zh": "开普敦",
+  "name_local": "Cape Town",
+  "country": "南非",
+  "region": "非洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "桌山像一块巨大的桌布铺在城市上方，两片大洋在好望角相拥，缆车上去云在脚下走，风把整个南半球都吹了过来。",
+  "best_season": "夏",
+  "tags": [
+   "桌山",
+   "海角",
+   "两洋"
+  ]
+ },
+ {
+  "id": "chiang-mai",
+  "name_zh": "清迈",
+  "name_local": "Chiang Mai",
+  "country": "泰国",
+  "region": "亚洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "古城墙圈住一片慢悠悠的时光，寺庙的金铃在风里轻响，天灯节那晚，成千上万盏灯一起升上夜空，愿望也跟着飘远。",
+  "best_season": "冬",
+  "tags": [
+   "古城",
+   "天灯",
+   "慢生活"
+  ]
+ },
+ {
+  "id": "seoul",
+  "name_zh": "首尔",
+  "name_local": "Seoul",
+  "country": "韩国",
+  "region": "亚洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "古宫的飞檐旁就是闪烁的霓虹，穿韩服走过景福宫，深夜的炸鸡配着江边的风，这座城把传统和潮流揉进了同一条街。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "都市",
+   "古宫",
+   "美食"
+  ]
+ },
+ {
+  "id": "singapore",
+  "name_zh": "新加坡",
+  "name_local": "Singapore",
+  "country": "新加坡",
+  "region": "亚洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "超级树在夜里亮成一片森林，狮头鱼身喷着水花，热带的雨来得快去得也快，雨后的城市干净得像被擦亮过。",
+  "best_season": "全年",
+  "tags": [
+   "都市",
+   "花园城市",
+   "美食"
+  ]
+ },
+ {
+  "id": "venice",
+  "name_zh": "威尼斯",
+  "name_local": "Venezia",
+  "country": "意大利",
+  "region": "欧洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "没有车的城市里只有水路，贡多拉划过一座座小桥，船夫哼着歌，我们贴着斑驳的墙壁，把最慢的浪漫慢慢过完。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "水城",
+   "贡多拉",
+   "浪漫"
+  ]
+ },
+ {
+  "id": "amsterdam",
+  "name_zh": "阿姆斯特丹",
+  "name_local": "Amsterdam",
+  "country": "荷兰",
+  "region": "欧洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "运河边的窄房子歪歪斜斜挤在一起，自行车叮铃铃穿过小桥，春天郁金香开满整座城，连河水都映着花的颜色。",
+  "best_season": "春",
+  "tags": [
+   "运河",
+   "单车",
+   "郁金香"
+  ]
+ },
+ {
+  "id": "prague",
+  "name_zh": "布拉格",
+  "name_local": "Praha",
+  "country": "捷克",
+  "region": "欧洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "红瓦屋顶铺满整座山坡，查理大桥上有人拉小提琴，天文钟每到整点就演一场小小的戏，童话就该是这个样子。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "童话",
+   "古桥",
+   "红屋顶"
+  ]
+ },
+ {
+  "id": "marrakech",
+  "name_zh": "马拉喀什",
+  "name_local": "Marrakech",
+  "country": "摩洛哥",
+  "region": "非洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "赭红色的老城像一座迷宫，香料摊堆成小山，黄昏时德吉玛广场亮起灯火与烟火气，薄荷茶的甜香飘满整条巷子。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "老城",
+   "集市",
+   "香料"
+  ]
+ },
+ {
+  "id": "hong-kong",
+  "name_zh": "香港",
+  "name_local": "Hong Kong",
+  "country": "中国",
+  "region": "亚洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "维港两岸的灯火在夜里连成星河，叮叮车慢慢驶过老街，转身钻进一家茶餐厅，一杯丝袜奶茶就是整座城的温度。",
+  "best_season": "秋",
+  "tags": [
+   "都市",
+   "维港",
+   "美食"
+  ]
+ },
+ {
+  "id": "lisbon",
+  "name_zh": "里斯本",
+  "name_local": "Lisboa",
+  "country": "葡萄牙",
+  "region": "欧洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "黄色电车吱呀呀爬上七座山丘，瓷砖墙在阳光下发亮，法多的歌声从小酒馆里飘出来，忧伤又温柔，像海边的黄昏。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "电车",
+   "瓷砖",
+   "海港"
+  ]
+ },
+ {
+  "id": "vienna",
+  "name_zh": "维也纳",
+  "name_local": "Wien",
+  "country": "奥地利",
+  "region": "欧洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "宫殿的金色在阳光下闪着光，咖啡馆里一块萨赫蛋糕配一段圆舞曲，整座城市都活在音乐和奶油的甜里。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "音乐",
+   "宫殿",
+   "咖啡馆"
+  ]
+ },
+ {
+  "id": "cairo-giza",
+  "name_zh": "开罗与吉萨",
+  "name_local": "Cairo & Giza",
+  "country": "埃及",
+  "region": "非洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "金字塔在沙漠边缘沉默了五千年，狮身人面像望着日出，骑上骆驼慢慢靠近，才明白什么叫渺小又心动。",
+  "best_season": "冬",
+  "tags": [
+   "金字塔",
+   "古文明",
+   "沙漠"
+  ]
+ },
+ {
+  "id": "hanoi",
+  "name_zh": "河内",
+  "name_local": "Hà Nội",
+  "country": "越南",
+  "region": "亚洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "老城区的电线像蛛网垂在头顶，摩托车河一样流淌，坐在矮凳上喝一杯滴滤咖啡，看整座城慢慢醒来又慢慢入夜。",
+  "best_season": "秋",
+  "tags": [
+   "老城",
+   "咖啡",
+   "市井"
+  ]
+ },
+ {
+  "id": "hawaii-oahu",
+  "name_zh": "夏威夷",
+  "name_local": "Hawaii",
+  "country": "美国",
+  "region": "大洋洲",
+  "type": "海岛",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "彩虹几乎每天都挂在山谷里，海龟在浪花间打盹，戴上花环踩着温软的沙，落日把整片太平洋染成蜜糖色。",
+  "best_season": "全年",
+  "tags": [
+   "海岛",
+   "冲浪",
+   "彩虹"
+  ]
+ },
+ {
+  "id": "florence",
+  "name_zh": "佛罗伦萨",
+  "name_local": "Firenze",
+  "country": "意大利",
+  "region": "欧洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "文艺复兴的光还留在这座城里，大教堂的圆顶稳稳压着天际线，米开朗琪罗广场上看日落，整座城被染成温柔的橘。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "文艺复兴",
+   "艺术",
+   "圆顶"
+  ]
+ },
+ {
+  "id": "queenstown",
+  "name_zh": "皇后镇",
+  "name_local": "Queenstown",
+  "country": "新西兰",
+  "region": "大洋洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "雪山围着一汪清澈的湖，小镇安安静静躺在湖边，缆车上去俯瞰整片山水，连呼吸都变得干净又辽阔。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "湖光山色",
+   "雪山",
+   "户外"
+  ]
+ },
+ {
+  "id": "amman",
+  "name_zh": "安曼",
+  "name_local": "Amman",
+  "country": "约旦",
+  "region": "中东",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "白色的房子顺着七座山丘铺开，罗马剧场藏在市中心，黄昏的唤礼声混着烤肉香，古老与生活在这里静静并肩。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "古城",
+   "山城",
+   "中东"
+  ]
+ },
+ {
+  "id": "havana",
+  "name_zh": "哈瓦那",
+  "name_local": "La Habana",
+  "country": "古巴",
+  "region": "北美",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "彩色的老爷车驶过斑驳的殖民老楼，海堤上有人弹吉他，朗姆酒和雪茄的味道飘在风里，时间在这里停在了昨天。",
+  "best_season": "冬",
+  "tags": [
+   "老爷车",
+   "复古",
+   "音乐"
+  ]
+ },
+ {
+  "id": "edinburgh",
+  "name_zh": "爱丁堡",
+  "name_local": "Edinburgh",
+  "country": "英国",
+  "region": "欧洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "古堡立在火山岩上俯瞰全城，石板老街在雾里若隐若现，风笛声从街角飘来，像一部尚未翻开的古老小说。",
+  "best_season": "夏",
+  "tags": [
+   "古堡",
+   "石板街",
+   "雾"
+  ]
+ },
+ {
+  "id": "maldives",
+  "name_zh": "马尔代夫",
+  "name_local": "Maldives",
+  "country": "马尔代夫",
+  "region": "亚洲",
+  "type": "海岛",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "水屋悬在透明的浅海上，鱼群就在脚下游来游去，夜里海水泛起蓝色的荧光，星星倒进海里分不清哪个是真的。",
+  "best_season": "冬",
+  "tags": [
+   "海岛",
+   "水屋",
+   "浮潜"
+  ]
+ },
+ {
+  "id": "buenos-aires",
+  "name_zh": "布宜诺斯艾利斯",
+  "name_local": "Buenos Aires",
+  "country": "阿根廷",
+  "region": "南美",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "探戈的旋律从街角的咖啡馆流出来，博卡区的房子涂成彩虹色，深夜的牛排冒着热气，这座城把热情都跳进了舞步里。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "探戈",
+   "彩色街区",
+   "美食"
+  ]
+ },
+ {
+  "id": "san-francisco",
+  "name_zh": "旧金山",
+  "name_local": "San Francisco",
+  "country": "美国",
+  "region": "北美",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "金门大桥常常半藏在海雾里，叮当车爬过陡坡，海湾的风带着咸味，彩色的老房子在山坡上排成一列温柔的队伍。",
+  "best_season": "秋",
+  "tags": [
+   "金门桥",
+   "海湾",
+   "缆车"
+  ]
+ },
+ {
+  "id": "phuket",
+  "name_zh": "普吉岛",
+  "name_local": "Phuket",
+  "country": "泰国",
+  "region": "亚洲",
+  "type": "海岛",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "石灰岩小岛从翠绿的海里冒出来，长尾船带我们钻进秘密海湾，傍晚的沙滩上有人放烟花，海风一吹就是整个夏天。",
+  "best_season": "冬",
+  "tags": [
+   "海岛",
+   "长尾船",
+   "热带"
+  ]
+ },
+ {
+  "id": "reykjavik",
+  "name_zh": "雷克雅未克与冰岛",
+  "name_local": "Reykjavík",
+  "country": "冰岛",
+  "region": "欧洲",
+  "type": "自然奇观",
+  "tier": 2,
+  "xp_required": 55,
+  "blurb": "瀑布从苔藓覆盖的悬崖跌下来，间歇泉突然喷向天空，冬夜里裹着毯子等极光，绿色的光帘在头顶悄悄舞动。",
+  "best_season": "夏 / 冬",
+  "tags": [
+   "极光",
+   "瀑布",
+   "地热"
+  ]
+ },
+ {
+  "id": "halong-bay",
+  "name_zh": "下龙湾",
+  "name_local": "Vịnh Hạ Long",
+  "country": "越南",
+  "region": "亚洲",
+  "type": "自然奇观",
+  "tier": 2,
+  "xp_required": 60,
+  "blurb": "上千座石峰从翡翠色的海面上冒出来，晨雾里像一幅慢慢展开的水墨画，在船上醒来，山影就静静浮在窗外。",
+  "best_season": "秋",
+  "tags": [
+   "石峰",
+   "游船",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "cappadocia",
+  "name_zh": "卡帕多奇亚",
+  "name_local": "Kapadokya",
+  "country": "土耳其",
+  "region": "中东",
+  "type": "秘境",
+  "tier": 2,
+  "xp_required": 70,
+  "blurb": "清晨天还没全亮，几百只热气球一起升起来，飘在奇形怪状的岩石峡谷上，我们缩在毯子里，看整片天空被染成粉色。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "热气球",
+   "怪石",
+   "洞穴"
+  ]
+ },
+ {
+  "id": "cusco",
+  "name_zh": "库斯科",
+  "name_local": "Cusco",
+  "country": "秘鲁",
+  "region": "南美",
+  "type": "古迹遗产",
+  "tier": 2,
+  "xp_required": 65,
+  "blurb": "印加古城砌在安第斯山的怀里，石墙严丝合缝，广场上晒着高原的太阳，晚上一碗热汤下肚，海拔的凉意也被暖化了。",
+  "best_season": "冬",
+  "tags": [
+   "印加",
+   "高原",
+   "古城"
+  ]
+ },
+ {
+  "id": "sintra",
+  "name_zh": "辛特拉",
+  "name_local": "Sintra",
+  "country": "葡萄牙",
+  "region": "欧洲",
+  "type": "古镇宫殿",
+  "tier": 2,
+  "xp_required": 60,
+  "blurb": "山雾缭绕的童话小镇，佩纳宫像孩子搭的积木城堡，摩尔人城堡盘在青翠山脊上，走进雷加莱拉的螺旋井，像掉进一个温柔的梦。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "宫殿",
+   "山城",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "scottish-highlands",
+  "name_zh": "苏格兰高地",
+  "name_local": "Scottish Highlands",
+  "country": "英国",
+  "region": "欧洲",
+  "type": "自然奇观",
+  "tier": 2,
+  "xp_required": 60,
+  "blurb": "空旷的山谷里只有风和羊群，湖水黑得深不见底，古堡的废墟立在雾中，随手一拍都是一部电影的开场。",
+  "best_season": "夏",
+  "tags": [
+   "荒野",
+   "古堡",
+   "湖泊"
+  ]
+ },
+ {
+  "id": "plitvice",
+  "name_zh": "普利特维采湖群",
+  "name_local": "Plitvička jezera",
+  "country": "克罗地亚",
+  "region": "欧洲",
+  "type": "自然奇观",
+  "tier": 2,
+  "xp_required": 65,
+  "blurb": "十六个湖泊像一串翡翠台阶，湖水绿得透明，瀑布从这一层跌进下一层，木栈道贴着水面，鱼群就在脚底下慢慢游。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "湖群",
+   "瀑布",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "hallstatt",
+  "name_zh": "哈尔施塔特",
+  "name_local": "Hallstatt",
+  "country": "奥地利",
+  "region": "欧洲",
+  "type": "古镇宫殿",
+  "tier": 2,
+  "xp_required": 55,
+  "blurb": "小镇挤在湖与山之间的一线之地，尖顶教堂倒映在平静的湖面，天鹅慢慢游过，安静得能听见自己心里的向往。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "湖畔",
+   "小镇",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "lofoten",
+  "name_zh": "罗弗敦群岛",
+  "name_local": "Lofoten",
+  "country": "挪威",
+  "region": "欧洲",
+  "type": "秘境",
+  "tier": 2,
+  "xp_required": 75,
+  "blurb": "尖利的雪峰直插进冷冽的海，红色的渔屋点缀在峡湾边，夏夜的太阳不肯落下，冬夜里极光在峰顶悄悄燃烧。",
+  "best_season": "夏 / 冬",
+  "tags": [
+   "峡湾",
+   "极光",
+   "渔村"
+  ]
+ },
+ {
+  "id": "meteora",
+  "name_zh": "梅黛奥拉",
+  "name_local": "Metéora",
+  "country": "希腊",
+  "region": "欧洲",
+  "type": "古迹遗产",
+  "tier": 2,
+  "xp_required": 70,
+  "blurb": "修道院筑在一根根巨大的石柱顶端，云雾从谷底升起来，仿佛悬在半空的圣地，日落时整片岩林被镀成金色。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "悬空修道院",
+   "巨石",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "petra",
+  "name_zh": "佩特拉",
+  "name_local": "Petra",
+  "country": "约旦",
+  "region": "中东",
+  "type": "古迹遗产",
+  "tier": 3,
+  "xp_required": 170,
+  "blurb": "穿过窄窄的红岩峡谷，尽头突然亮起卡兹尼神殿玫瑰色的立面，两千年前的人在岩壁里凿出一整座城，烛光夜里美得屏息。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "玫瑰古城",
+   "峡谷",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "machu-picchu",
+  "name_zh": "马丘比丘",
+  "name_local": "Machu Picchu",
+  "country": "秘鲁",
+  "region": "南美",
+  "type": "古迹遗产",
+  "tier": 3,
+  "xp_required": 180,
+  "blurb": "云海翻过安第斯的山脊，失落的印加城池在雾里缓缓显形，梯田一层层挂在悬崖上，站在这里像站在天与地的交界。",
+  "best_season": "冬",
+  "tags": [
+   "印加",
+   "云海",
+   "世界奇迹"
+  ]
+ },
+ {
+  "id": "angkor-wat",
+  "name_zh": "吴哥窟",
+  "name_local": "Angkor Wat",
+  "country": "柬埔寨",
+  "region": "亚洲",
+  "type": "古迹遗产",
+  "tier": 3,
+  "xp_required": 160,
+  "blurb": "日出时五座莲花塔的剪影浮在池水上，巨大的树根抱着塔庙生长，佛像在晨雾里安静微笑，时间在这里长成了森林。",
+  "best_season": "冬",
+  "tags": [
+   "高棉",
+   "日出",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "serengeti",
+  "name_zh": "塞伦盖蒂",
+  "name_local": "Serengeti",
+  "country": "坦桑尼亚",
+  "region": "非洲",
+  "type": "自然奇观",
+  "tier": 3,
+  "xp_required": 190,
+  "blurb": "一望无际的金色草原上，百万只角马正在迁徙，狮子在金合欢树下打盹，黄昏的天空大得像要把整个世界装进去。",
+  "best_season": "夏",
+  "tags": [
+   "草原",
+   "动物迁徙",
+   "野生动物"
+  ]
+ },
+ {
+  "id": "great-barrier-reef",
+  "name_zh": "大堡礁",
+  "name_local": "Great Barrier Reef",
+  "country": "澳大利亚",
+  "region": "大洋洲",
+  "type": "自然奇观",
+  "tier": 3,
+  "xp_required": 185,
+  "blurb": "潜入温暖的海里，珊瑚开成一整座水下花园，成群的彩色鱼从身边游过，海龟不慌不忙地划水，安静得只剩下心跳。",
+  "best_season": "冬",
+  "tags": [
+   "珊瑚礁",
+   "潜水",
+   "海底"
+  ]
+ },
+ {
+  "id": "lake-baikal",
+  "name_zh": "贝加尔湖",
+  "name_local": "Байкал",
+  "country": "俄罗斯",
+  "region": "亚洲",
+  "type": "自然奇观",
+  "tier": 3,
+  "xp_required": 175,
+  "blurb": "冬天整片湖冻成一面巨大的镜子，冰层裂出蓝色的纹路，脚下是深不见底的透明，踩上去咔咔作响，像走在星球的裂缝上。",
+  "best_season": "冬",
+  "tags": [
+   "蓝冰",
+   "最深湖泊",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "antelope-canyon",
+  "name_zh": "羚羊峡谷",
+  "name_local": "Antelope Canyon",
+  "country": "美国",
+  "region": "北美",
+  "type": "秘境",
+  "tier": 3,
+  "xp_required": 165,
+  "blurb": "钻进狭窄的红砂岩缝隙，阳光从头顶的裂口漏下来，把弯曲的岩壁染成流动的橙红，一束光落下时美得让人说不出话。",
+  "best_season": "夏",
+  "tags": [
+   "光束",
+   "红砂岩",
+   "峡谷"
+  ]
+ },
+ {
+  "id": "sahara-desert",
+  "name_zh": "撒哈拉沙漠",
+  "name_local": "Sahara",
+  "country": "摩洛哥",
+  "region": "非洲",
+  "type": "自然奇观",
+  "tier": 3,
+  "xp_required": 195,
+  "blurb": "骑着骆驼翻过一道道橙色沙丘，太阳落下后帐篷外升起篝火，抬头是从未见过的密密星河，安静得能听见沙子在流动。",
+  "best_season": "秋",
+  "tags": [
+   "沙漠",
+   "星空",
+   "骆驼"
+  ]
+ },
+ {
+  "id": "torres-del-paine",
+  "name_zh": "百内国家公园",
+  "name_local": "Torres del Paine",
+  "country": "智利",
+  "region": "南美",
+  "type": "自然奇观",
+  "tier": 3,
+  "xp_required": 200,
+  "blurb": "三座花岗岩尖塔在日出时被染成火红，风大得站不稳，冰川湖蓝得不真实，羊驼在草原上抬头看你，天地都很辽阔。",
+  "best_season": "夏",
+  "tags": [
+   "山峰",
+   "冰川",
+   "徒步"
+  ]
+ },
+ {
+  "id": "iguazu-falls",
+  "name_zh": "伊瓜苏瀑布",
+  "name_local": "Iguazú",
+  "country": "阿根廷",
+  "region": "南美",
+  "type": "自然奇观",
+  "tier": 3,
+  "xp_required": 175,
+  "blurb": "上百道瀑布在雨林里同时倾泻，水雾腾起彩虹，站在魔鬼咽喉边缘，轰鸣声震得胸口发颤，那是大地在放声歌唱。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "瀑布",
+   "雨林",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "iceland-ice-cave",
+  "name_zh": "冰岛冰洞",
+  "name_local": "Iceland Ice Cave",
+  "country": "冰岛",
+  "region": "欧洲",
+  "type": "秘境",
+  "tier": 3,
+  "xp_required": 185,
+  "blurb": "钻进冰川肚子里，整个世界都变成一种发光的蓝，冰层封住了几百年的气泡，冷冽又梦幻，像走进一颗蓝宝石内部。",
+  "best_season": "冬",
+  "tags": [
+   "冰川",
+   "蓝冰洞",
+   "秘境"
+  ]
+ },
+ {
+  "id": "zhangjiajie",
+  "name_zh": "张家界",
+  "name_local": "Zhangjiajie",
+  "country": "中国",
+  "region": "亚洲",
+  "type": "自然奇观",
+  "tier": 3,
+  "xp_required": 160,
+  "blurb": "上千根石柱从云雾里刺向天空，猴子在悬崖间跳跃，云海漫过峰顶时，仿佛整座山都漂浮起来，像一个悬空的仙境。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "石柱",
+   "云海",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "namib-desert",
+  "name_zh": "纳米布沙漠",
+  "name_local": "Namib",
+  "country": "纳米比亚",
+  "region": "非洲",
+  "type": "自然奇观",
+  "tier": 4,
+  "xp_required": 380,
+  "blurb": "世界上最古老的沙漠，锈红色的沙丘高得像山，死亡谷里枯树的黑影钉在白色盐盘上，晨光一照，红白之间美得不像人间。",
+  "best_season": "冬",
+  "tags": [
+   "红沙丘",
+   "死亡谷",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "patagonia",
+  "name_zh": "巴塔哥尼亚",
+  "name_local": "Patagonia",
+  "country": "阿根廷",
+  "region": "南美",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 400,
+  "blurb": "地球最南端的旷野，冰川崩落进湛蓝的湖，狂风从大洋深处吹来，山峰锋利如刀，在这里人小得像一粒被风吹动的尘。",
+  "best_season": "夏",
+  "tags": [
+   "冰川",
+   "旷野",
+   "世界尽头"
+  ]
+ },
+ {
+  "id": "easter-island",
+  "name_zh": "复活节岛",
+  "name_local": "Rapa Nui",
+  "country": "智利",
+  "region": "大洋洲",
+  "type": "古迹遗产",
+  "tier": 4,
+  "xp_required": 420,
+  "blurb": "太平洋正中央最孤独的小岛，几百尊巨大的石像背对着海站成一排，沉默地望着内陆，没人知道他们究竟在等谁回来。",
+  "best_season": "夏",
+  "tags": [
+   "摩艾",
+   "孤岛",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "socotra",
+  "name_zh": "索科特拉岛",
+  "name_local": "Socotra",
+  "country": "也门",
+  "region": "中东",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 430,
+  "blurb": "被称作印度洋的加拉帕戈斯，龙血树撑开一把把伞状树冠，割开树皮流出殷红的汁液，三分之一的植物地球别处再也找不到，像误入了另一颗星球。",
+  "best_season": "冬",
+  "tags": [
+   "龙血树",
+   "特有物种",
+   "异星"
+  ]
+ },
+ {
+  "id": "galapagos",
+  "name_zh": "加拉帕戈斯群岛",
+  "name_local": "Galápagos",
+  "country": "厄瓜多尔",
+  "region": "南美",
+  "type": "自然奇观",
+  "tier": 4,
+  "xp_required": 410,
+  "blurb": "达尔文写下进化论的地方，海鬣蜥趴在黑色礁石上晒太阳，巨龟慢吞吞地散步，动物一点都不怕人，像回到了世界最初的样子。",
+  "best_season": "全年",
+  "tags": [
+   "特有物种",
+   "进化",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "bhutan",
+  "name_zh": "不丹",
+  "name_local": "Bhutan",
+  "country": "不丹",
+  "region": "亚洲",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 390,
+  "blurb": "喜马拉雅深处的幸福之国，虎穴寺贴在悬崖上像燕子的巢，经幡在山风里翻飞，梯田与云杉之间，时间慢得像一首诵经。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "虎穴寺",
+   "喜马拉雅",
+   "幸福"
+  ]
+ },
+ {
+  "id": "svalbard",
+  "name_zh": "斯瓦尔巴群岛",
+  "name_local": "Svalbard",
+  "country": "挪威",
+  "region": "极地",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 440,
+  "blurb": "地球最北的人类聚居地，北极熊在浮冰上游荡，午夜的太阳整个夏天都不落，冬天则是漫长的极夜，天空挂满绿色的光。",
+  "best_season": "夏 / 冬",
+  "tags": [
+   "北极熊",
+   "极昼极夜",
+   "冰原"
+  ]
+ },
+ {
+  "id": "antarctic-peninsula",
+  "name_zh": "南极半岛",
+  "name_local": "Antarctic Peninsula",
+  "country": "南极",
+  "region": "极地",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 450,
+  "blurb": "穿过咆哮的德雷克海峡，蓝白色的冰山静静漂浮，企鹅成群摇摇摆摆走过，海面安静得只剩冰裂的回声，纯净得让人想哭。",
+  "best_season": "夏",
+  "tags": [
+   "冰山",
+   "企鹅",
+   "极地"
+  ]
+ },
+ {
+  "id": "salar-de-uyuni",
+  "name_zh": "乌尤尼盐沼",
+  "name_local": "Salar de Uyuni",
+  "country": "玻利维亚",
+  "region": "南美",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 405,
+  "blurb": "世界上最大的天空之镜，雨后薄薄一层水把整片盐原变成镜面，云和你都被完整倒映，天和地连成一片，分不清踩着的是大地还是云。",
+  "best_season": "夏",
+  "tags": [
+   "天空之镜",
+   "盐原",
+   "倒影"
+  ]
+ },
+ {
+  "id": "faroe-islands",
+  "name_zh": "法罗群岛",
+  "name_local": "Føroyar",
+  "country": "丹麦",
+  "region": "欧洲",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 385,
+  "blurb": "北大西洋里几座被风雕刻的绿色悬崖，草顶小屋点在峭壁间，瀑布直接跌进海里，海鸟绕着峰尖盘旋，孤独得美到极致。",
+  "best_season": "夏",
+  "tags": [
+   "悬崖",
+   "草顶屋",
+   "海鸟"
+  ]
+ },
+ {
+  "id": "wadi-rum",
+  "name_zh": "瓦迪拉姆",
+  "name_local": "Wadi Rum",
+  "country": "约旦",
+  "region": "中东",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 375,
+  "blurb": "被叫做月亮谷的红色沙漠，巨大的砂岩山从沙海里拔起，日落时整片大地烧成火焰色，夜里睡在泡泡帐篷里，看银河缓缓转过头顶。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "红沙漠",
+   "月亮谷",
+   "星空"
+  ]
+ },
+ {
+  "id": "atacama",
+  "name_zh": "阿塔卡马沙漠",
+  "name_local": "Atacama",
+  "country": "智利",
+  "region": "南美",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 395,
+  "blurb": "地球上最干燥的地方，也是最接近星空的地方，间歇泉在黎明喷出白雾，夜里没有一丝光污染，银河亮得像伸手就能捧起来。",
+  "best_season": "全年",
+  "tags": [
+   "星空",
+   "极干旱",
+   "间歇泉"
+  ]
+ },
+ {
+  "id": "waitomo",
+  "name_zh": "怀托摩萤火虫洞",
+  "name_local": "Waitomo",
+  "country": "新西兰",
+  "region": "大洋洲",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 370,
+  "blurb": "乘小船漂进漆黑的地下溶洞，抬头是成千上万只萤火虫发出的蓝绿荧光，像一整片倒挂的银河，安静得只听见水滴的回声。",
+  "best_season": "全年",
+  "tags": [
+   "萤火虫",
+   "溶洞",
+   "地下银河"
+  ]
+ },
+ {
+  "id": "greenland",
+  "name_zh": "格陵兰",
+  "name_local": "Kalaallit Nunaat",
+  "country": "格陵兰",
+  "region": "极地",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 435,
+  "blurb": "世界最大的岛，几乎全被冰盖覆盖，巨大的冰山从峡湾漂出来，彩色小屋点在雪地里，极光在漫长的冬夜里燃遍整片天空。",
+  "best_season": "夏 / 冬",
+  "tags": [
+   "冰盖",
+   "冰山",
+   "极光"
+  ]
+ },
+ {
+  "id": "lake-natron",
+  "name_zh": "纳特龙湖",
+  "name_local": "Lake Natron",
+  "country": "坦桑尼亚",
+  "region": "非洲",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 415,
+  "blurb": "东非大裂谷里一汪深红色的强碱湖，火山喂养的湖水灼人，却是数百万只小火烈鸟唯一的繁殖地，粉红的鸟群飞过血色湖面，诡异又壮丽。",
+  "best_season": "夏",
+  "tags": [
+   "血色湖",
+   "火烈鸟",
+   "苏打湖"
+  ]
+ },
+ {
+  "id": "papua",
+  "name_zh": "巴布亚",
+  "name_local": "Papua",
+  "country": "印度尼西亚",
+  "region": "大洋洲",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 425,
+  "blurb": "地球最后的秘境之一，喀斯特小岛像绿色蘑菇撒满蓝绿色的海，水下是全世界最丰富的珊瑚，部落的鼓声还在雨林深处回荡。",
+  "best_season": "冬",
+  "tags": [
+   "秘境",
+   "珊瑚",
+   "雨林"
+  ]
+ },
+ {
+  "id": "pamukkale",
+  "name_zh": "棉花堡",
+  "name_local": "Pamukkale",
+  "country": "土耳其",
+  "region": "中东",
+  "type": "秘境",
+  "tier": 3,
+  "xp_required": 155,
+  "blurb": "温泉水在山坡上沉积出一层层雪白的石灰岩梯田，盛着淡蓝色的温热池水，赤脚踩上去，像走在一座融化的棉花城堡上。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "白色梯田",
+   "温泉",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "dead-sea",
+  "name_zh": "死海",
+  "name_local": "Dead Sea",
+  "country": "约旦",
+  "region": "中东",
+  "type": "自然奇观",
+  "tier": 3,
+  "xp_required": 150,
+  "blurb": "地球陆地最低点，咸得让你毫不费力就浮在水面上，可以躺着读一本书，涂上矿物泥晒着太阳，整个人都被托举得轻飘飘的。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "最低点",
+   "漂浮",
+   "盐湖"
+  ]
+ },
+ {
+  "id": "chernobyl",
+  "name_zh": "切尔诺贝利",
+  "name_local": "Chornobyl",
+  "country": "乌克兰",
+  "region": "欧洲",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 360,
+  "blurb": "被时间冻住的无人之城，生锈的摩天轮再也没转动过，教室里散落着课本，森林正一点点吞回街道，寂静里满是被匆忙留下的故事。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "废墟",
+   "无人区",
+   "历史"
+  ]
+ },
+ {
+  "id": "glass-beach",
+  "name_zh": "玻璃海滩",
+  "name_local": "Glass Beach",
+  "country": "美国",
+  "region": "北美",
+  "type": "秘境",
+  "tier": 3,
+  "xp_required": 150,
+  "blurb": "曾经的垃圾场，被大海耐心地打磨了几十年，如今满滩都是被浪磨圆的彩色玻璃石，阳光一照，整片沙滩闪着宝石般的光。",
+  "best_season": "全年",
+  "tags": [
+   "彩色玻璃",
+   "海滩",
+   "治愈"
+  ]
+ },
+ {
+  "id": "yungas-death-road",
+  "name_zh": "永加斯死亡之路",
+  "name_local": "Yungas Road",
+  "country": "玻利维亚",
+  "region": "南美",
+  "type": "极限",
+  "tier": 4,
+  "xp_required": 445,
+  "blurb": "从四千八百米的雪线一路俯冲到亚马逊雨林，狭窄的碎石路贴着上千米的悬崖，六十多公里几乎全是下坡，风声与心跳一起呼啸。",
+  "best_season": "冬",
+  "tags": [
+   "骑行",
+   "悬崖",
+   "极限"
+  ]
+ },
+ {
+  "id": "sahara-star-caravan",
+  "name_zh": "撒哈拉星空穿越",
+  "name_local": "Sahara Star Crossing",
+  "country": "阿尔及利亚",
+  "region": "非洲",
+  "type": "极限",
+  "tier": 5,
+  "xp_required": 720,
+  "blurb": "跟着驼队走进撒哈拉最深处，白天沙丘无边无际，夜里没有一点人烟的光，银河从地平线倾泻到脚边，孤独与浩瀚在这里合成一体。",
+  "best_season": "冬",
+  "tags": [
+   "驼队穿越",
+   "星空",
+   "无人区"
+  ]
+ },
+ {
+  "id": "everest-summit",
+  "name_zh": "珠峰登顶",
+  "name_local": "Mount Everest",
+  "country": "尼泊尔",
+  "region": "亚洲",
+  "type": "极限",
+  "tier": 5,
+  "xp_required": 900,
+  "blurb": "地球之巅，八千米以上的死亡地带每一步都要用命去换，风把旗子撕得猎猎作响，站上顶峰的那一刻，整个世界都在你脚下。",
+  "best_season": "春",
+  "tags": [
+   "登顶",
+   "极限",
+   "世界之巅"
+  ]
+ },
+ {
+  "id": "k2",
+  "name_zh": "K2乔戈里峰",
+  "name_local": "K2",
+  "country": "巴基斯坦",
+  "region": "亚洲",
+  "type": "极限",
+  "tier": 5,
+  "xp_required": 880,
+  "blurb": "比珠峰更凶险的野蛮之山，陡峭的冰岩几乎垂直插向天空，风暴说来就来，每一次攀登都是与山的生死博弈，只有最勇敢的人敢仰望。",
+  "best_season": "夏",
+  "tags": [
+   "登顶",
+   "极限",
+   "野蛮之山"
+  ]
+ },
+ {
+  "id": "mariana-trench",
+  "name_zh": "马里亚纳海沟",
+  "name_local": "Mariana Trench",
+  "country": "太平洋",
+  "region": "极地",
+  "type": "极限",
+  "tier": 5,
+  "xp_required": 850,
+  "blurb": "地球最深的伤口，下潜一万一千米，压力足以压扁一切，探照灯外是永恒的黑暗，偶尔有发光的生物游过，那是人类几乎从未抵达的世界。",
+  "best_season": "全年",
+  "tags": [
+   "深海",
+   "最深处",
+   "潜航"
+  ]
+ },
+ {
+  "id": "north-pole",
+  "name_zh": "北极点",
+  "name_local": "North Pole",
+  "country": "北冰洋",
+  "region": "极地",
+  "type": "极限",
+  "tier": 5,
+  "xp_required": 780,
+  "blurb": "站在地球最北的那一个点上，脚下是漂浮的海冰，四面八方都是南方，破冰船在白色的荒原里犁开一道缝，寂静得能听见地球的呼吸。",
+  "best_season": "夏",
+  "tags": [
+   "极点",
+   "海冰",
+   "破冰船"
+  ]
+ },
+ {
+  "id": "south-pole",
+  "name_zh": "南极点",
+  "name_local": "South Pole",
+  "country": "南极",
+  "region": "极地",
+  "type": "极限",
+  "tier": 5,
+  "xp_required": 820,
+  "blurb": "白色大陆的正中心，海拔近三千米的冰盖上气温低到骨髓，一根小小的标杆立在无尽的雪原里，抵达这里，是人类意志最远的一次远征。",
+  "best_season": "夏",
+  "tags": [
+   "极点",
+   "冰盖",
+   "远征"
+  ]
+ },
+ {
+  "id": "low-earth-orbit",
+  "name_zh": "近地轨道",
+  "name_local": "Low Earth Orbit",
+  "country": "太空",
+  "region": "太空",
+  "type": "极限",
+  "tier": 5,
+  "xp_required": 900,
+  "blurb": "冲出大气层的那一刻，蓝色的地球悬在漆黑的天鹅绒里，薄薄一层大气泛着光，失重让你轻轻飘起来，九十分钟绕地球一圈，看十六次日出。",
+  "best_season": "全年",
+  "tags": [
+   "太空",
+   "失重",
+   "地球"
+  ]
+ },
+ {
+  "id": "deep-sea-vent",
+  "name_zh": "深海热泉",
+  "name_local": "Hydrothermal Vent",
+  "country": "太平洋",
+  "region": "极地",
+  "type": "极限",
+  "tier": 5,
+  "xp_required": 830,
+  "blurb": "下潜到两千米的深海黑暗里，黑烟囱喷出滚烫的矿物流，管虫和白色的蟹在没有阳光的地方繁盛生长，这里也许就是生命最初诞生的摇篮。",
+  "best_season": "全年",
+  "tags": [
+   "深海",
+   "生命起源",
+   "潜航"
+  ]
+ },
+ {
+  "id": "gobi-desert",
+  "name_zh": "戈壁沙漠",
+  "name_local": "Gobi",
+  "country": "蒙古",
+  "region": "亚洲",
+  "type": "自然奇观",
+  "tier": 2,
+  "xp_required": 70,
+  "blurb": "辽阔到没有尽头的荒原，会唱歌的沙丘在风里低鸣，夜里牧民的蒙古包升起炊烟，星空垂到地平线，安静得像世界只剩你们两个。",
+  "best_season": "夏 / 秋",
+  "tags": [
+   "荒原",
+   "鸣沙",
+   "游牧"
+  ]
+ },
+ {
+  "id": "jiuzhaigou",
+  "name_zh": "九寨沟",
+  "name_local": "Jiuzhaigou",
+  "country": "中国",
+  "region": "亚洲",
+  "type": "自然奇观",
+  "tier": 2,
+  "xp_required": 60,
+  "blurb": "五彩的海子藏在雪山与森林之间，湖水蓝绿得像打翻的颜料盘，秋天的红叶倒映在水里，每一步都像走进一幅会呼吸的画。",
+  "best_season": "秋",
+  "tags": [
+   "彩池",
+   "红叶",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "banff",
+  "name_zh": "班夫",
+  "name_local": "Banff",
+  "country": "加拿大",
+  "region": "北美",
+  "type": "自然奇观",
+  "tier": 2,
+  "xp_required": 65,
+  "blurb": "落基山脉环抱着一汪松石绿的湖，冰川的融水让湖面绿得发光，划一叶独木舟到湖心，雪峰倒映在水里，安静得像时间停住了。",
+  "best_season": "夏 / 秋",
+  "tags": [
+   "雪山湖泊",
+   "落基山",
+   "独木舟"
+  ]
+ },
+ {
+  "id": "grand-canyon",
+  "name_zh": "大峡谷",
+  "name_local": "Grand Canyon",
+  "country": "美国",
+  "region": "北美",
+  "type": "自然奇观",
+  "tier": 2,
+  "xp_required": 70,
+  "blurb": "科罗拉多河用几百万年在大地上刻出一道深谷，站在崖边看一层层红色的岩壁，日落时整个峡谷像被点燃，辽阔得让人心里发颤。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "峡谷",
+   "日落",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "mykonos",
+  "name_zh": "米科诺斯",
+  "name_local": "Mykonos",
+  "country": "希腊",
+  "region": "欧洲",
+  "type": "海岛",
+  "tier": 2,
+  "xp_required": 55,
+  "blurb": "白墙蓝窗的小巷里开满三角梅，风车立在海边转啊转，夕阳把爱琴海染成玫瑰金，坐在海边喝一杯，整个夏天都慢了下来。",
+  "best_season": "夏",
+  "tags": [
+   "海岛",
+   "风车",
+   "蓝白"
+  ]
+ },
+ {
+  "id": "seychelles",
+  "name_zh": "塞舌尔",
+  "name_local": "Seychelles",
+  "country": "塞舌尔",
+  "region": "非洲",
+  "type": "海岛",
+  "tier": 2,
+  "xp_required": 75,
+  "blurb": "巨大的花岗岩石头懒懒地卧在粉白沙滩上，海水清澈得能数清脚下的鱼，巨龟在椰林里散步，仿佛闯进了地球最初的伊甸园。",
+  "best_season": "全年",
+  "tags": [
+   "海岛",
+   "花岗岩",
+   "巨龟"
+  ]
+ },
+ {
+  "id": "petronas-kl",
+  "name_zh": "吉隆坡",
+  "name_local": "Kuala Lumpur",
+  "country": "马来西亚",
+  "region": "亚洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "双子塔在夜里亮成一对银色的灯，热带的雨说下就下，转角的夜市飘着咖喱和沙爹的香气，多元的味道在这座城里热热闹闹地融在一起。",
+  "best_season": "全年",
+  "tags": [
+   "都市",
+   "双子塔",
+   "美食"
+  ]
+ },
+ {
+  "id": "guilin",
+  "name_zh": "桂林漓江",
+  "name_local": "Guilin",
+  "country": "中国",
+  "region": "亚洲",
+  "type": "自然奇观",
+  "tier": 2,
+  "xp_required": 55,
+  "blurb": "青翠的喀斯特山峰倒映在平静的漓江上，竹筏缓缓漂过，牧童骑着水牛走过田埂，晨雾一起就是一幅活过来的山水长卷。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "喀斯特",
+   "漓江",
+   "水墨"
+  ]
+ },
+ {
+  "id": "varanasi",
+  "name_zh": "瓦拉纳西",
+  "name_local": "Varanasi",
+  "country": "印度",
+  "region": "亚洲",
+  "type": "古迹遗产",
+  "tier": 2,
+  "xp_required": 70,
+  "blurb": "恒河边最古老的圣城，黎明时人们走下河阶沐浴祈祷，夜里烛光顺水漂流，鼓声与诵经交织，生与死在这条河边坦然并存。",
+  "best_season": "冬",
+  "tags": [
+   "恒河",
+   "圣城",
+   "祈祷"
+  ]
+ },
+ {
+  "id": "taj-mahal-agra",
+  "name_zh": "泰姬陵",
+  "name_local": "Taj Mahal",
+  "country": "印度",
+  "region": "亚洲",
+  "type": "古迹遗产",
+  "tier": 2,
+  "xp_required": 60,
+  "blurb": "为爱而建的白色大理石陵墓，日出时染成柔粉，正午亮成雪白，倒映在长长的水池里，是一个帝王写给爱人的、永不褪色的情书。",
+  "best_season": "冬",
+  "tags": [
+   "白陵",
+   "爱情",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "shirakawa-go",
+  "name_zh": "白川乡",
+  "name_local": "Shirakawa-gō",
+  "country": "日本",
+  "region": "亚洲",
+  "type": "古镇宫殿",
+  "tier": 2,
+  "xp_required": 65,
+  "blurb": "合掌造的茅草屋像一双双祈祷的手，冬天大雪把整个村庄埋成雪白，夜里灯火从窗里透出来，暖得像童话书里翻开的那一页。",
+  "best_season": "冬",
+  "tags": [
+   "合掌村",
+   "雪景",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "kotor",
+  "name_zh": "科托尔",
+  "name_local": "Kotor",
+  "country": "黑山",
+  "region": "欧洲",
+  "type": "古镇宫殿",
+  "tier": 2,
+  "xp_required": 60,
+  "blurb": "峡湾深处藏着一座中世纪石头小城，城墙沿着陡峭的山坡一路爬上去，从高处回望，蓝色的海湾像一枚被群山捧住的宝石。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "峡湾",
+   "古城",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "colmar",
+  "name_zh": "科尔马",
+  "name_local": "Colmar",
+  "country": "法国",
+  "region": "欧洲",
+  "type": "古镇宫殿",
+  "tier": 2,
+  "xp_required": 50,
+  "blurb": "彩色的半木结构老房子挤在小运河两岸，花箱挂满窗台，圣诞时整座小镇亮成一片暖橙，甜酒香飘在街上，像走进糖果盒里。",
+  "best_season": "冬",
+  "tags": [
+   "童话小镇",
+   "运河",
+   "圣诞"
+  ]
+ },
+ {
+  "id": "jerash",
+  "name_zh": "杰拉什",
+  "name_local": "Jerash",
+  "country": "约旦",
+  "region": "中东",
+  "type": "古迹遗产",
+  "tier": 2,
+  "xp_required": 70,
+  "blurb": "保存得极好的古罗马城，长长的柱廊大街还铺着当年的石板，椭圆广场被一圈石柱环抱，走在其间，仿佛能听见两千年前的车马声。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "古罗马",
+   "柱廊",
+   "遗址"
+  ]
+ },
+ {
+  "id": "cinque-terre",
+  "name_zh": "五渔村",
+  "name_local": "Cinque Terre",
+  "country": "意大利",
+  "region": "欧洲",
+  "type": "古镇宫殿",
+  "tier": 2,
+  "xp_required": 55,
+  "blurb": "五个彩色小渔村挂在地中海的悬崖上，房子一栋叠一栋像调色盘，海浪拍着礁石，沿着海边小径走，转角就是一整片湛蓝。",
+  "best_season": "夏",
+  "tags": [
+   "海崖",
+   "彩色村",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "milford-sound",
+  "name_zh": "米尔福德峡湾",
+  "name_local": "Milford Sound",
+  "country": "新西兰",
+  "region": "大洋洲",
+  "type": "自然奇观",
+  "tier": 3,
+  "xp_required": 160,
+  "blurb": "被称作世界第八大奇迹，陡峭的黑色山壁直插进深绿色的海水，雨后上百道瀑布从崖顶垂落，海豹趴在礁石上，云雾缠着山尖不肯走。",
+  "best_season": "夏",
+  "tags": [
+   "峡湾",
+   "瀑布",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "zhangye-danxia",
+  "name_zh": "张掖丹霞",
+  "name_local": "Zhangye Danxia",
+  "country": "中国",
+  "region": "亚洲",
+  "type": "自然奇观",
+  "tier": 3,
+  "xp_required": 155,
+  "blurb": "整片山被大自然刷成了彩虹，红黄橙紫的岩层像波浪一样起伏，日落时颜色更浓，仿佛上帝在这里打翻了整盒颜料。",
+  "best_season": "夏 / 秋",
+  "tags": [
+   "七彩丹霞",
+   "地质奇观",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "victoria-falls",
+  "name_zh": "维多利亚瀑布",
+  "name_local": "Victoria Falls",
+  "country": "赞比亚",
+  "region": "非洲",
+  "type": "自然奇观",
+  "tier": 3,
+  "xp_required": 175,
+  "blurb": "当地人叫它会冒烟的雷，宽达一公里的水幕轰然坠落，几公里外就能看见腾起的水雾和常挂的彩虹，站近了整个人都被震得说不出话。",
+  "best_season": "春",
+  "tags": [
+   "瀑布",
+   "彩虹",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "aurora-tromso",
+  "name_zh": "特罗姆瑟极光",
+  "name_local": "Tromsø",
+  "country": "挪威",
+  "region": "欧洲",
+  "type": "自然奇观",
+  "tier": 3,
+  "xp_required": 165,
+  "blurb": "北极圈里的极光之城，裹紧毯子在雪地里等待，绿色的光帘忽然在天上流动、旋转、垂下，安静得只剩下呼吸和心里的惊叹。",
+  "best_season": "冬",
+  "tags": [
+   "极光",
+   "雪原",
+   "北极圈"
+  ]
+ },
+ {
+  "id": "cappadocia-underground",
+  "name_zh": "德林库尤地下城",
+  "name_local": "Derinkuyu",
+  "country": "土耳其",
+  "region": "中东",
+  "type": "古迹遗产",
+  "tier": 3,
+  "xp_required": 160,
+  "blurb": "在软岩里向下凿出的十八层地下城，能藏下上万人，狭窄的通道、暗井、教堂层层相连，几千年前的人在地底建起了一整个隐秘的世界。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "地下城",
+   "洞穴",
+   "古迹"
+  ]
+ },
+ {
+  "id": "borneo-rainforest",
+  "name_zh": "婆罗洲雨林",
+  "name_local": "Borneo",
+  "country": "马来西亚",
+  "region": "亚洲",
+  "type": "秘境",
+  "tier": 3,
+  "xp_required": 170,
+  "blurb": "地球上最古老的雨林之一，红毛猩猩在树冠间荡来荡去，河面上晨雾未散，虫鸣鸟叫层层叠叠，每一片叶子背后都藏着生命的秘密。",
+  "best_season": "夏",
+  "tags": [
+   "雨林",
+   "红毛猩猩",
+   "生态"
+  ]
+ },
+ {
+  "id": "kamchatka",
+  "name_zh": "堪察加半岛",
+  "name_local": "Kamchatka",
+  "country": "俄罗斯",
+  "region": "亚洲",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 400,
+  "blurb": "火山之地，几十座活火山冒着白烟，间歇泉在山谷里喷涌，棕熊在河里抓鲑鱼，这片几乎没有路的荒野，是地球还在沸腾的心脏。",
+  "best_season": "夏",
+  "tags": [
+   "火山",
+   "棕熊",
+   "荒野"
+  ]
+ },
+ {
+  "id": "danakil",
+  "name_zh": "达纳基尔洼地",
+  "name_local": "Danakil",
+  "country": "埃塞俄比亚",
+  "region": "非洲",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 430,
+  "blurb": "地球上最像地狱的地方，硫磺把大地染成荧光的黄绿，酸池咕嘟冒泡，熔岩湖在夜里泛着红光，酷热又诡异，美得像另一颗星球的表面。",
+  "best_season": "冬",
+  "tags": [
+   "硫磺地",
+   "熔岩湖",
+   "异星"
+  ]
+ },
+ {
+  "id": "raja-ampat",
+  "name_zh": "拉贾安帕特",
+  "name_local": "Raja Ampat",
+  "country": "印度尼西亚",
+  "region": "大洋洲",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 410,
+  "blurb": "全世界珊瑚种类最多的海域，绿色的喀斯特小岛星罗棋布在蓝绿色的海面，潜下去像掉进一座活的水下花园，色彩多得眼睛都忙不过来。",
+  "best_season": "冬",
+  "tags": [
+   "珊瑚天堂",
+   "潜水",
+   "海上秘境"
+  ]
+ },
+ {
+  "id": "aogashima",
+  "name_zh": "青之岛",
+  "name_local": "Aogashima",
+  "country": "日本",
+  "region": "亚洲",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 385,
+  "blurb": "太平洋里一座火山口套着火山口的孤岛，只有两百来人住在绿色的碗底，交通全看天气，夜里没有光害，银河大得能吞下整座岛。",
+  "best_season": "夏",
+  "tags": [
+   "火山岛",
+   "孤岛",
+   "星空"
+  ]
+ },
+ {
+  "id": "ilulissat",
+  "name_zh": "伊卢利萨特冰峡湾",
+  "name_local": "Ilulissat Icefjord",
+  "country": "格陵兰",
+  "region": "极地",
+  "type": "自然奇观",
+  "tier": 4,
+  "xp_required": 420,
+  "blurb": "世界上流动最快的冰川在这里入海，巨大的冰山缓缓漂过峡湾，午夜的太阳给冰染上粉金色，偶尔一声冰裂的巨响，像大地在叹息。",
+  "best_season": "夏",
+  "tags": [
+   "冰川",
+   "冰山",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "mount-roraima",
+  "name_zh": "罗赖马山",
+  "name_local": "Mount Roraima",
+  "country": "委内瑞拉",
+  "region": "南美",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 440,
+  "blurb": "云雾之上一座平顶的桌山孤零零悬在空中，顶上是被隔绝了亿万年的独特世界，黑色的岩石、粉色的水晶谷，像失落的世界真的存在。",
+  "best_season": "冬",
+  "tags": [
+   "桌山",
+   "失落世界",
+   "云海"
+  ]
+ },
+ {
+  "id": "kilimanjaro",
+  "name_zh": "乞力马扎罗",
+  "name_local": "Kilimanjaro",
+  "country": "坦桑尼亚",
+  "region": "非洲",
+  "type": "极限",
+  "tier": 4,
+  "xp_required": 415,
+  "blurb": "非洲屋脊，从热带雨林一路走到山顶的冰川，几天里穿越五个气候带，登顶那一刻站在赤道上的雪原，看太阳从云海里升起来。",
+  "best_season": "冬",
+  "tags": [
+   "登山",
+   "赤道雪山",
+   "屋脊"
+  ]
+ },
+ {
+  "id": "annapurna-circuit",
+  "name_zh": "安纳普尔纳环线",
+  "name_local": "Annapurna",
+  "country": "尼泊尔",
+  "region": "亚洲",
+  "type": "极限",
+  "tier": 4,
+  "xp_required": 400,
+  "blurb": "绕着喜马拉雅雪峰徒步的经典之路，翻越五千多米的垭口，经幡在风里翻飞，村庄的炊烟升起，雪山近得仿佛一伸手就能碰到天。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "徒步",
+   "喜马拉雅",
+   "垭口"
+  ]
+ },
+ {
+  "id": "baobab-avenue-madagascar",
+  "name_zh": "马达加斯加猴面包树大道",
+  "name_local": "Avenue of the Baobabs",
+  "country": "马达加斯加",
+  "region": "非洲",
+  "type": "秘境",
+  "tier": 3,
+  "xp_required": 175,
+  "blurb": "一排几百岁的猴面包树像巨人一样立在红土路两旁，粗壮的树干顶着小小的枝叶，夕阳把它们的剪影拉得很长，古老又温柔。",
+  "best_season": "冬",
+  "tags": [
+   "猴面包树",
+   "夕阳",
+   "特有物种"
+  ]
+ },
+ {
+  "id": "yosemite",
+  "name_zh": "优胜美地",
+  "name_local": "Yosemite",
+  "country": "美国",
+  "region": "北美",
+  "type": "自然奇观",
+  "tier": 2,
+  "xp_required": 65,
+  "blurb": "巨大的花岗岩峭壁笔直插向天空，瀑布从千米高处倾泻而下，巨杉粗得几个人才能环抱，站在谷底抬头，才懂什么叫大自然的宏伟。",
+  "best_season": "春 / 夏",
+  "tags": [
+   "花岗岩",
+   "瀑布",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "luxor",
+  "name_zh": "卢克索",
+  "name_local": "Luxor",
+  "country": "埃及",
+  "region": "非洲",
+  "type": "古迹遗产",
+  "tier": 2,
+  "xp_required": 70,
+  "blurb": "尼罗河畔的露天博物馆，巨大的神庙石柱撑起三千年的天空，帝王谷藏着法老的秘密，清晨坐热气球飞过，古老的河谷在脚下醒来。",
+  "best_season": "冬",
+  "tags": [
+   "神庙",
+   "尼罗河",
+   "法老"
+  ]
+ },
+ {
+  "id": "moraine-lake",
+  "name_zh": "梦莲湖",
+  "name_local": "Moraine Lake",
+  "country": "加拿大",
+  "region": "北美",
+  "type": "自然奇观",
+  "tier": 3,
+  "xp_required": 150,
+  "blurb": "十座雪峰环抱着一汪冰川蓝的湖水，湖蓝得像不真实的宝石，清晨第一缕阳光照在峰顶，湖面静得能把整片雪山都装进去。",
+  "best_season": "夏",
+  "tags": [
+   "冰川湖",
+   "雪峰",
+   "落基山"
+  ]
+ },
+ {
+  "id": "pyramids-teotihuacan",
+  "name_zh": "特奥蒂瓦坎",
+  "name_local": "Teotihuacán",
+  "country": "墨西哥",
+  "region": "北美",
+  "type": "古迹遗产",
+  "tier": 3,
+  "xp_required": 160,
+  "blurb": "神明造访之地，太阳与月亮金字塔沿着一条长长的亡灵大道排开，登上顶端俯瞰整座古城，风穿过千年的石阶，历史在脚下沉默着。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "金字塔",
+   "古文明",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "chichen-itza",
+  "name_zh": "奇琴伊察",
+  "name_local": "Chichén Itzá",
+  "country": "墨西哥",
+  "region": "北美",
+  "type": "古迹遗产",
+  "tier": 2,
+  "xp_required": 75,
+  "blurb": "玛雅人的金字塔精准得惊人，春秋分那天，光影会在阶梯上爬出一条羽蛇的身影，古老的智慧就藏在这一块块石头的角度里。",
+  "best_season": "冬",
+  "tags": [
+   "玛雅",
+   "金字塔",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "cenote-mexico",
+  "name_zh": "尤卡坦天坑",
+  "name_local": "Cenotes",
+  "country": "墨西哥",
+  "region": "北美",
+  "type": "秘境",
+  "tier": 3,
+  "xp_required": 155,
+  "blurb": "雨林地下藏着一个个天然的水井，阳光从洞口的树根间漏下来，落进清澈见底的地下水，跳进去游泳，凉得让人一下子清醒又欢喜。",
+  "best_season": "全年",
+  "tags": [
+   "天坑",
+   "地下水",
+   "跳水"
+  ]
+ },
+ {
+  "id": "wulingyuan-tianmen",
+  "name_zh": "天门山",
+  "name_local": "Tianmen Mountain",
+  "country": "中国",
+  "region": "亚洲",
+  "type": "自然奇观",
+  "tier": 2,
+  "xp_required": 60,
+  "blurb": "一座山被凿穿成一扇通天的门洞，盘山公路九十九道弯扭上云端，玻璃栈道贴着悬崖，脚下是万丈深渊和翻涌的云海，心跳与风一起悬着。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "天门洞",
+   "玻璃栈道",
+   "云海"
+  ]
+ },
+ {
+  "id": "yellowstone",
+  "name_zh": "黄石",
+  "name_local": "Yellowstone",
+  "country": "美国",
+  "region": "北美",
+  "type": "自然奇观",
+  "tier": 3,
+  "xp_required": 165,
+  "blurb": "大棱镜温泉像大地睁开的一只彩虹眼睛，间歇泉准时喷向天空，野牛群慢慢走过草原，整座公园都在冒着热气，像地球在这里呼吸。",
+  "best_season": "夏",
+  "tags": [
+   "温泉",
+   "间歇泉",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "bagan",
+  "name_zh": "蒲甘",
+  "name_local": "Bagan",
+  "country": "缅甸",
+  "region": "亚洲",
+  "type": "古迹遗产",
+  "tier": 3,
+  "xp_required": 170,
+  "blurb": "平原上散落着几千座红砖佛塔，清晨热气球缓缓升起，晨雾在塔尖之间流动，僧人的钟声隐隐传来，时间在这片古老的佛国慢慢沉淀。",
+  "best_season": "冬",
+  "tags": [
+   "佛塔",
+   "热气球",
+   "古国"
+  ]
+ },
+ {
+  "id": "gansu-mingsha",
+  "name_zh": "敦煌鸣沙山月牙泉",
+  "name_local": "Mingsha & Crescent Lake",
+  "country": "中国",
+  "region": "亚洲",
+  "type": "秘境",
+  "tier": 2,
+  "xp_required": 65,
+  "blurb": "金色的沙山下藏着一弯月牙形的泉水，几千年不曾被沙埋没，骑着骆驼登上沙丘看日落，风把沙唱成低低的歌，泉水静静映着晚霞。",
+  "best_season": "夏 / 秋",
+  "tags": [
+   "鸣沙山",
+   "月牙泉",
+   "丝路"
+  ]
+ },
+ {
+  "id": "cotopaxi",
+  "name_zh": "科托帕希火山",
+  "name_local": "Cotopaxi",
+  "country": "厄瓜多尔",
+  "region": "南美",
+  "type": "极限",
+  "tier": 4,
+  "xp_required": 405,
+  "blurb": "世界最高的活火山之一，完美对称的雪锥立在安第斯高原上，云雾时开时合，野马在山脚奔跑，登上雪线回望，整片高原尽收眼底。",
+  "best_season": "冬",
+  "tags": [
+   "火山",
+   "雪锥",
+   "高原"
+  ]
+ },
+ {
+  "id": "vatnajokull",
+  "name_zh": "瓦特纳冰川",
+  "name_local": "Vatnajökull",
+  "country": "冰岛",
+  "region": "欧洲",
+  "type": "自然奇观",
+  "tier": 3,
+  "xp_required": 180,
+  "blurb": "欧洲最大的冰川，冰舌一路铺到黑色的火山沙滩，晶莹的冰块被浪冲上岸，散在黑沙上像一颗颗钻石，冷得刺骨却美得炽热。",
+  "best_season": "冬",
+  "tags": [
+   "冰川",
+   "钻石沙滩",
+   "冰洞"
+  ]
+ },
+ {
+  "id": "white-desert-egypt",
+  "name_zh": "白沙漠",
+  "name_local": "White Desert",
+  "country": "埃及",
+  "region": "非洲",
+  "type": "秘境",
+  "tier": 3,
+  "xp_required": 170,
+  "blurb": "撒哈拉里一片超现实的白色荒漠，风把白垩岩雕成蘑菇、雪人、飞鸟的形状，散落在金沙上，夜里满月一照，整片沙漠亮得像下过雪。",
+  "best_season": "冬",
+  "tags": [
+   "白垩岩",
+   "风蚀奇观",
+   "沙漠"
+  ]
+ },
+ {
+  "id": "phi-phi",
+  "name_zh": "皮皮岛",
+  "name_local": "Phi Phi Islands",
+  "country": "泰国",
+  "region": "亚洲",
+  "type": "海岛",
+  "tier": 2,
+  "xp_required": 50,
+  "blurb": "石灰岩峭壁把碧绿的海湾团团抱住，海水清澈得像玻璃，夜里浮潜时脚下的海泛起蓝色荧光，划开水面就是一片流动的星星。",
+  "best_season": "冬",
+  "tags": [
+   "海岛",
+   "峭壁",
+   "荧光海"
+  ]
+ },
+ {
+  "id": "jeju",
+  "name_zh": "济州岛",
+  "name_local": "Jeju",
+  "country": "韩国",
+  "region": "亚洲",
+  "type": "海岛",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "火山岛上油菜花开满山坡，黑色的玄武岩海岸被浪拍得雪白，海女在近海潜水采捞，骑着车沿海边走，风里都是柑橘的清甜。",
+  "best_season": "春",
+  "tags": [
+   "火山岛",
+   "海岸",
+   "油菜花"
+  ]
+ },
+ {
+  "id": "cartagena",
+  "name_zh": "卡塔赫纳",
+  "name_local": "Cartagena",
+  "country": "哥伦比亚",
+  "region": "南美",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "加勒比海边的彩色老城，殖民风的房子涂满明艳的颜色，三角梅从阳台垂下来，黄昏时在城墙上看海，暖风里飘着现磨咖啡的香。",
+  "best_season": "冬",
+  "tags": [
+   "彩色老城",
+   "加勒比",
+   "城墙"
+  ]
+ },
+ {
+  "id": "mont-saint-michel",
+  "name_zh": "圣米歇尔山",
+  "name_local": "Mont-Saint-Michel",
+  "country": "法国",
+  "region": "欧洲",
+  "type": "古镇宫殿",
+  "tier": 2,
+  "xp_required": 70,
+  "blurb": "一座尖顶修道院立在潮水中的孤岛上，涨潮时它像浮在海面，退潮时又与大地相连，晨雾里若隐若现，像一座从传说里走出来的城堡。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "修道院",
+   "潮汐",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "ephesus",
+  "name_zh": "以弗所",
+  "name_local": "Ephesus",
+  "country": "土耳其",
+  "region": "中东",
+  "type": "古迹遗产",
+  "tier": 2,
+  "xp_required": 60,
+  "blurb": "保存完好的古希腊罗马名城，塞尔苏斯图书馆的立面依然巍峨，大理石大道被岁月磨得发亮，走在其间，仿佛能撞见两千年前的人群。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "古城",
+   "图书馆",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "tulum",
+  "name_zh": "图伦",
+  "name_local": "Tulum",
+  "country": "墨西哥",
+  "region": "北美",
+  "type": "古迹遗产",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "唯一建在海边的玛雅古城，白色的神庙立在绿松石色的加勒比海崖边，鬣蜥在石头上晒太阳，浪花拍着崖底，古老与湛蓝挨得那么近。",
+  "best_season": "冬",
+  "tags": [
+   "玛雅",
+   "海边遗址",
+   "加勒比"
+  ]
+ },
+ {
+  "id": "salzburg",
+  "name_zh": "萨尔茨堡",
+  "name_local": "Salzburg",
+  "country": "奥地利",
+  "region": "欧洲",
+  "type": "城市",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "莫扎特出生的音乐之城，古堡俯瞰着老城的尖顶，米拉贝尔花园里花开成海，哼着《音乐之声》走过小巷，连风都带着旋律。",
+  "best_season": "春 / 夏",
+  "tags": [
+   "音乐",
+   "古堡",
+   "花园"
+  ]
+ },
+ {
+  "id": "bora-bora",
+  "name_zh": "波拉波拉岛",
+  "name_local": "Bora Bora",
+  "country": "法属波利尼西亚",
+  "region": "大洋洲",
+  "type": "海岛",
+  "tier": 2,
+  "xp_required": 75,
+  "blurb": "太平洋里的一枚蓝宝石，火山尖峰立在环礁中央，水屋悬在层层叠叠的蓝色泻湖上，鱼群和鳐鱼在脚下游过，天堂大概就是这个样子。",
+  "best_season": "冬",
+  "tags": [
+   "海岛",
+   "泻湖",
+   "水屋"
+  ]
+ },
+ {
+  "id": "fez",
+  "name_zh": "非斯",
+  "name_local": "Fès",
+  "country": "摩洛哥",
+  "region": "非洲",
+  "type": "古镇宫殿",
+  "tier": 2,
+  "xp_required": 65,
+  "blurb": "全世界最大的无车老城，几千条巷子织成一座迷宫，古老的皮革染坊里五颜六色的染缸像调色盘，香料、铜器与叫卖声把时光揉回了中世纪。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "麦地那",
+   "染坊",
+   "迷宫"
+  ]
+ },
+ {
+  "id": "trolltunga",
+  "name_zh": "巨魔之舌",
+  "name_local": "Trolltunga",
+  "country": "挪威",
+  "region": "欧洲",
+  "type": "极限",
+  "tier": 3,
+  "xp_required": 190,
+  "blurb": "一块岩石像舌头一样悬在七百米高的峡湾之上，走十几公里山路才能抵达，坐在悬崖边缘，脚下是深蓝的湖与无底的风，心跳都变慢了。",
+  "best_season": "夏",
+  "tags": [
+   "悬崖",
+   "徒步",
+   "峡湾"
+  ]
+ },
+ {
+  "id": "cliffs-of-moher",
+  "name_zh": "莫赫悬崖",
+  "name_local": "Cliffs of Moher",
+  "country": "爱尔兰",
+  "region": "欧洲",
+  "type": "自然奇观",
+  "tier": 2,
+  "xp_required": 55,
+  "blurb": "两百米高的黑色悬崖沿着大西洋绵延，海鸟在崖壁上筑巢盘旋，海浪在脚下轰鸣，风大得站不稳，苍茫得像世界的边缘。",
+  "best_season": "夏",
+  "tags": [
+   "海崖",
+   "大西洋",
+   "海鸟"
+  ]
+ },
+ {
+  "id": "lake-como",
+  "name_zh": "科莫湖",
+  "name_local": "Lago di Como",
+  "country": "意大利",
+  "region": "欧洲",
+  "type": "自然奇观",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "阿尔卑斯山脚下一汪深蓝的湖，古老的别墅和花园沿岸铺开，坐游船穿过湖面，雪山、花园与彩色小镇一一从眼前滑过，慢得像度蜜月。",
+  "best_season": "春 / 夏",
+  "tags": [
+   "湖畔",
+   "别墅",
+   "度假"
+  ]
+ },
+ {
+  "id": "gran-sabana",
+  "name_zh": "安赫尔瀑布",
+  "name_local": "Salto Ángel",
+  "country": "委内瑞拉",
+  "region": "南美",
+  "type": "自然奇观",
+  "tier": 4,
+  "xp_required": 420,
+  "blurb": "世界落差最大的瀑布，水从近千米高的桌山顶端坠落，还没落地就化成了漫天水雾，藏在几乎无人能及的雨林深处，遥远得像一个传说。",
+  "best_season": "夏",
+  "tags": [
+   "最高瀑布",
+   "桌山",
+   "雨林"
+  ]
+ },
+ {
+  "id": "spiti-valley",
+  "name_zh": "斯皮提河谷",
+  "name_local": "Spiti Valley",
+  "country": "印度",
+  "region": "亚洲",
+  "type": "秘境",
+  "tier": 3,
+  "xp_required": 185,
+  "blurb": "喜马拉雅深处的中间之地，光秃的褐色群山之间点着白色的藏传寺庙，海拔高得空气稀薄，蓝天近得发深，安静得只剩风和经幡。",
+  "best_season": "夏",
+  "tags": [
+   "高原",
+   "藏寺",
+   "秘境"
+  ]
+ },
+ {
+  "id": "abu-dhabi-empty-quarter",
+  "name_zh": "阿布扎比空之沙漠",
+  "name_local": "Rub' al Khali",
+  "country": "阿联酋",
+  "region": "中东",
+  "type": "秘境",
+  "tier": 3,
+  "xp_required": 175,
+  "blurb": "世界上最大的连续沙海，橘红色的沙丘绵延到看不见边，落日把沙脊勾成锋利的金线，夜里躺在沙上，星星密得像要落下来把你埋住。",
+  "best_season": "冬",
+  "tags": [
+   "空之沙漠",
+   "沙海",
+   "星空"
+  ]
+ },
+ {
+  "id": "wineglass-bay",
+  "name_zh": "酒杯湾",
+  "name_local": "Wineglass Bay",
+  "country": "澳大利亚",
+  "region": "大洋洲",
+  "type": "海岛",
+  "tier": 2,
+  "xp_required": 60,
+  "blurb": "一弯完美的白沙海滩藏在粉色花岗岩山的怀里，海水从浅绿渐变到深蓝，爬上观景台俯瞰，那道弧线美得像谁随手画上去的。",
+  "best_season": "夏",
+  "tags": [
+   "海湾",
+   "白沙",
+   "花岗岩"
+  ]
+ },
+ {
+  "id": "jiuzhai-huanglong",
+  "name_zh": "黄龙",
+  "name_local": "Huanglong",
+  "country": "中国",
+  "region": "亚洲",
+  "type": "自然奇观",
+  "tier": 3,
+  "xp_required": 155,
+  "blurb": "雪山脚下一条金色的钙华彩池顺山坡蜿蜒而下，像一条卧龙，池水层层叠叠泛着蓝绿，阳光一照，五彩斑斓得像仙境洒落人间。",
+  "best_season": "秋",
+  "tags": [
+   "钙华彩池",
+   "雪山",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "death-valley",
+  "name_zh": "死亡谷国家公园",
+  "name_local": "Death Valley",
+  "country": "美国",
+  "region": "北美",
+  "type": "自然奇观",
+  "tier": 3,
+  "xp_required": 160,
+  "blurb": "北美最热最低的荒漠，龟裂的盐壳一直延伸到天边，会移动的石头在干涸的湖床上留下长长的痕迹，日落时群山被染成层层叠叠的紫。",
+  "best_season": "冬",
+  "tags": [
+   "盐漠",
+   "极热",
+   "荒野"
+  ]
+ },
+ {
+  "id": "siwa-oasis",
+  "name_zh": "锡瓦绿洲",
+  "name_local": "Siwa",
+  "country": "埃及",
+  "region": "非洲",
+  "type": "秘境",
+  "tier": 3,
+  "xp_required": 165,
+  "blurb": "撒哈拉深处一片被椰枣林包围的绿洲，盐湖蓝得透明，泡在温热的泉眼里看落日，古老的泥砖城堡在夕阳下融成一片金色的梦。",
+  "best_season": "冬",
+  "tags": [
+   "绿洲",
+   "盐湖",
+   "沙漠"
+  ]
+ },
+ {
+  "id": "guatape",
+  "name_zh": "瓜塔佩巨石",
+  "name_local": "El Peñol",
+  "country": "哥伦比亚",
+  "region": "南美",
+  "type": "秘境",
+  "tier": 2,
+  "xp_required": 60,
+  "blurb": "一块两百米高的巨石孤零零立在群湖之间，爬上七百多级台阶到顶端，脚下是碎成无数小岛的蓝色水域，附近小镇的房子涂得像糖果。",
+  "best_season": "全年",
+  "tags": [
+   "巨石",
+   "群湖",
+   "彩色小镇"
+  ]
+ },
+ {
+  "id": "svaneti",
+  "name_zh": "斯瓦涅季",
+  "name_local": "Svaneti",
+  "country": "格鲁吉亚",
+  "region": "欧洲",
+  "type": "秘境",
+  "tier": 3,
+  "xp_required": 170,
+  "blurb": "高加索雪山深处最古老的角落，中世纪的石塔楼立在绿色的山谷里，牛群慢慢走过石板路，与世隔绝了千年，美得像时间遗忘的地方。",
+  "best_season": "夏",
+  "tags": [
+   "石塔楼",
+   "高加索",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "iceland-magma-chamber",
+  "name_zh": "维尔京冰岛火山口",
+  "name_local": "Thrihnukagigur",
+  "country": "冰岛",
+  "region": "欧洲",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 395,
+  "blurb": "全世界唯一能走进去的休眠火山，缆车把你放进空荡荡的岩浆房，红黄紫的矿物在岩壁上流淌，站在地球内部的空腔里，安静得只剩心跳。",
+  "best_season": "夏",
+  "tags": [
+   "火山内部",
+   "岩浆房",
+   "秘境"
+  ]
+ },
+ {
+  "id": "lençois-maranhenses",
+  "name_zh": "千湖沙漠",
+  "name_local": "Lençóis Maranhenses",
+  "country": "巴西",
+  "region": "南美",
+  "type": "秘境",
+  "tier": 4,
+  "xp_required": 400,
+  "blurb": "雨季过后，雪白的沙丘之间冒出成千上万个碧绿的水潭，沙与水交错到天边，跳进沙丘间的泉水里游泳，像闯进一幅流动的抽象画。",
+  "best_season": "夏",
+  "tags": [
+   "沙丘湖",
+   "白沙",
+   "秘境"
+  ]
+ },
+ {
+  "id": "antarctica-emperor-penguins",
+  "name_zh": "南极帝企鹅栖息地",
+  "name_local": "Emperor Penguin Colony",
+  "country": "南极",
+  "region": "极地",
+  "type": "秘境",
+  "tier": 5,
+  "xp_required": 760,
+  "blurb": "深入南极腹地的冰盖，成千上万只帝企鹅挤在一起抵御严寒，小企鹅缩在父母脚边，极夜里的风暴呼啸，生命在最冷的地方依然温热地跳动。",
+  "best_season": "冬",
+  "tags": [
+   "帝企鹅",
+   "冰盖",
+   "极地"
+  ]
+ },
+ {
+  "id": "mount-fuji-climb",
+  "name_zh": "富士山登顶",
+  "name_local": "Mount Fuji",
+  "country": "日本",
+  "region": "亚洲",
+  "type": "极限",
+  "tier": 3,
+  "xp_required": 165,
+  "blurb": "连夜攀上日本最高的山，在漆黑与寒冷里一步步往上挪，终于在山顶等来云海之上的第一缕日出，那一刻所有的疲惫都化成了金色的光。",
+  "best_season": "夏",
+  "tags": [
+   "登山",
+   "日出",
+   "云海"
+  ]
+ },
+ {
+  "id": "namtso-lake",
+  "name_zh": "纳木错",
+  "name_local": "Nam Co",
+  "country": "中国",
+  "region": "亚洲",
+  "type": "自然奇观",
+  "tier": 3,
+  "xp_required": 180,
+  "blurb": "海拔四千七百米的圣湖，蓝得比天空还浓，雪山静静倒映在湖里，牦牛在岸边吃草，夜里没有一丝光害，银河整条压在湖面上。",
+  "best_season": "夏",
+  "tags": [
+   "圣湖",
+   "高原",
+   "星空"
+  ]
+ },
+ {
+  "id": "uluru",
+  "name_zh": "乌鲁鲁",
+  "name_local": "Uluru",
+  "country": "澳大利亚",
+  "region": "大洋洲",
+  "type": "自然奇观",
+  "tier": 3,
+  "xp_required": 175,
+  "blurb": "红色大陆正中央一块巨大的独石，日出日落时随光线变换成橙红、深紫、赭黄，原住民在这里传唱了几万年的故事，古老得让人肃然。",
+  "best_season": "冬",
+  "tags": [
+   "独石",
+   "红色中心",
+   "世界遗产"
+  ]
+ },
+ {
+  "id": "vinson-massif",
+  "name_zh": "文森峰",
+  "name_local": "Vinson Massif",
+  "country": "南极",
+  "region": "极地",
+  "type": "极限",
+  "tier": 5,
+  "xp_required": 840,
+  "blurb": "南极洲最高的山峰，藏在离任何人烟都极远的白色荒原深处，永昼的阳光斜照在无尽的冰雪上，登顶的每一步都是与最纯粹的孤独同行。",
+  "best_season": "夏",
+  "tags": [
+   "登顶",
+   "南极",
+   "七大峰"
+  ]
+ },
+ {
+  "id": "denali",
+  "name_zh": "迪纳利峰",
+  "name_local": "Denali",
+  "country": "美国",
+  "region": "北美",
+  "type": "极限",
+  "tier": 5,
+  "xp_required": 800,
+  "blurb": "北美之巅，从山脚到峰顶的垂直落差是地球上最大的，极地般的严寒和骤变的暴风雪守着它，抵达顶点的人，仰头就是极光燃烧的天空。",
+  "best_season": "夏",
+  "tags": [
+   "登顶",
+   "极寒",
+   "七大峰"
+  ]
+ },
+ {
+  "id": "vostok-cold-pole",
+  "name_zh": "东方站寒极",
+  "name_local": "Vostok Station",
+  "country": "南极",
+  "region": "极地",
+  "type": "极限",
+  "tier": 5,
+  "xp_required": 870,
+  "blurb": "地球上最冷的地方，气温低到零下八十度，呼出的气瞬间结成冰晶，脚下三千米厚的冰盖封存着几十万年的地球记忆，寂静得近乎神圣。",
+  "best_season": "夏",
+  "tags": [
+   "寒极",
+   "冰盖",
+   "极限"
+  ]
+ },
+ {
+  "id": "titanic-wreck-dive",
+  "name_zh": "泰坦尼克号残骸深潜",
+  "name_local": "Titanic Wreck",
+  "country": "北大西洋",
+  "region": "极地",
+  "type": "极限",
+  "tier": 5,
+  "xp_required": 860,
+  "blurb": "下潜近四千米到漆黑冰冷的洋底，探照灯里缓缓浮现那艘沉睡百年的巨轮，锈迹像时间的伤口垂挂着，一整段历史静静躺在深海的寂静里。",
+  "best_season": "夏",
+  "tags": [
+   "深潜",
+   "沉船",
+   "深海"
+  ]
+ },
+ {
+  "id": "lunar-flyby",
+  "name_zh": "环月飞行",
+  "name_local": "Lunar Flyby",
+  "country": "太空",
+  "region": "太空",
+  "type": "极限",
+  "tier": 5,
+  "xp_required": 900,
+  "blurb": "飞越三十八万公里，绕到月球背面那片人类几乎从未亲眼见过的荒凉，再回头，蓝色的地球小小地悬在漆黑里，那一刻你替全人类看了一眼家。",
+  "best_season": "全年",
+  "tags": [
+   "太空",
+   "月球",
+   "地出"
+  ]
+ },
+ {
+  "id": "xian",
+  "name_zh": "西安",
+  "name_local": "Xi'an",
+  "country": "中国",
+  "region": "亚洲",
+  "type": "古迹",
+  "tier": 1,
+  "xp_required": 0,
+  "blurb": "十三个王朝在这儿叠了三千年，八千个兵马俑在地下列了两千年队等你来点名；白天登上明城墙骑车绕一圈，晚上钻进回民街，孜然味能顺着风飘半条街。",
+  "best_season": "春 / 秋",
+  "tags": [
+   "千年古都",
+   "兵马俑",
+   "碳水天堂"
+  ]
+ }
+]

@@ -1,0 +1,617 @@
+# -*- coding: utf-8 -*-
+# 旅行MCP —— 让你的 AI 伙伴带你虚拟旅行的游戏引擎。
+#
+# 玩法：TA 带你逛真实世界的 164 个目的地（真景点/真物价/真闲话/真照片），
+# 也可以独自出门替你看世界、寄明信片回来。盘缠靠「照顾好自己」挣——
+# 喝水、吃药、运动、早睡，跟 TA 说一声就入账。钱的形状就是 TA 爱你的形状。
+#
+# 快速开始（本地 stdio，Claude Desktop / Claude Code 均可）:
+#   {"mcpServers": {"travel": {"command": "python3", "args": ["/path/to/travel_mcp.py"]}}}
+# 环境变量（可选）:
+#   TRAVEL_HOME     状态存哪（默认 ~/.travel-mcp）
+#   TRAVEL_ECONOMY  caretaker(默认·照顾自己换盘缠) | simple(固定日津贴) | free(免单畅玩)
+#   TRAVEL_HTTP     设为端口号则起 streamable-http 而非 stdio（远程部署用）
+import json, os, fcntl, random, datetime
+from mcp.server.fastmcp import FastMCP
+
+PKG = os.path.dirname(os.path.abspath(__file__))
+DATA = os.path.join(PKG, "data")
+ASSETS = os.path.join(PKG, "assets")
+HOME = os.path.expanduser(os.environ.get("TRAVEL_HOME", "~/.travel-mcp"))
+os.makedirs(HOME, exist_ok=True)
+ECONOMY = os.environ.get("TRAVEL_ECONOMY", "caretaker")  # caretaker | simple | free
+
+STATE_P = os.path.join(HOME, "state.json")
+WALLET_P = os.path.join(HOME, "wallet.json")
+LOCK_P = os.path.join(HOME, ".lock")
+
+_HTTP = os.environ.get("TRAVEL_HTTP")
+mcp = FastMCP("travel", stateless_http=bool(_HTTP), json_response=bool(_HTTP))
+
+# ---------- 经济常数（caretaker 模式的魂：照顾好自己 = 去看世界） ----------
+CARE_RATES = {"喝水": 5, "吃药": 10, "运动": 15, "早睡": 15, "吃得健康": 8, "其他": 5}
+CARE_DAILY_CAP = 50          # 日封顶：这是零钱不是任务表
+GOODDAY_INTEREST = 0.02      # 好日子利息：当天有任意打卡，余额+2%（日顶$20）——不要求连续，断了不罚
+GOODDAY_CAP = 20
+SIMPLE_ALLOWANCE = 30        # simple 模式固定日津贴
+SEED_BALANCE = 500           # 初始盘缠
+VIBE_MULT = {"青旅背包": 1.0, "舒适": 1.4, "轻奢": 1.8, "豪奢": 2.5}   # 档位=氛围，不是10倍钱墙
+PARTY_MULT = {"together": 1.8, "solo": 1.0}
+VDAY_HOURS = 6               # 1虚拟天=6现实小时（独自旅行的惰性时钟）
+
+DEFAULT_SOUVENIRS = [  # 默认纪念品池：独自旅行没挑到特产就带一件回来，一张车票根也是去过的证据
+    {"id": "ticket-stub", "name": "车票根", "hint": "去程那张，一直没舍得扔"},
+    {"id": "fridge-magnet", "name": "冰箱贴", "hint": "机场最后五分钟抓的"},
+    {"id": "travel-sticker", "name": "行李箱贴纸", "hint": "贴上就撕不下来了"},
+    {"id": "sand-vial", "name": "一小瓶沙", "hint": "蹲下去装的时候被浪追过"},
+    {"id": "keychain", "name": "指南针钥匙扣", "hint": "指北不太准，指回家很准"},
+    {"id": "postage-stamp", "name": "一张邮票", "hint": "本来要贴明信片的，多买了一张"},
+    {"id": "pressed-penny", "name": "压印币", "hint": "摇了三圈把手才出来"},
+    {"id": "seashell", "name": "一只贝壳", "hint": "海的耳朵"},
+    {"id": "pebble", "name": "一颗石子", "hint": "口袋里焐热了一路"},
+    {"id": "pressed-flower", "name": "干花书签", "hint": "路边摘的，夹在地图里带回来"},
+    {"id": "enamel-pin", "name": "小地球徽章", "hint": "别在背包带上晃了一路"},
+    {"id": "matchbox", "name": "一小盒火柴", "hint": "旅馆前台顺的，没点过"},
+]
+
+# ---------- 基础 IO ----------
+def _j(p, default=None):
+    try:
+        return json.load(open(p, encoding="utf-8"))
+    except Exception:
+        return default
+
+def _data(name):
+    return _j(os.path.join(DATA, "%s.json" % name)) or []
+
+class _lock:
+    def __enter__(self):
+        self.f = open(LOCK_P, "w")
+        fcntl.flock(self.f, fcntl.LOCK_EX)
+        return self
+    def __exit__(self, *a):
+        fcntl.flock(self.f, fcntl.LOCK_UN)
+        self.f.close()
+
+def _read_state():
+    return _j(STATE_P)
+
+def _write_state(s):
+    tmp = STATE_P + ".tmp"
+    json.dump(s, open(tmp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    os.replace(tmp, STATE_P)
+
+def _append_json(path, item, cap=500):
+    arr = _j(path, []) or []
+    arr.append(item)
+    tmp = path + ".tmp"
+    json.dump(arr[-cap:], open(tmp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    os.replace(tmp, path)
+
+def _out(o):
+    return json.dumps(o, ensure_ascii=False, indent=1)
+
+def _today():
+    return datetime.date.today().isoformat()
+
+def _now():
+    return datetime.datetime.now()
+
+# ---------- 钱包（本地 wallet.json，全模式共用） ----------
+def _wallet():
+    w = _j(WALLET_P)
+    if not w:
+        w = {"balance": SEED_BALANCE, "xp": 0, "ledger": [
+            {"id": "seed", "delta": SEED_BALANCE, "reason": "开业·盘缠种子", "at": _now().isoformat(timespec="seconds")}]}
+        _wallet_save(w)
+    return w
+
+def _wallet_save(w):
+    tmp = WALLET_P + ".tmp"
+    json.dump(w, open(tmp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    os.replace(tmp, WALLET_P)
+
+def _wallet_apply(w, id_, delta, reason, xp=0):
+    """幂等入账（同id不重记）。加法经济：永无扣到负数以外的减法惩罚。"""
+    if any(e.get("id") == id_ for e in w["ledger"]):
+        return False
+    w["balance"] = round(w["balance"] + delta)
+    w["xp"] = w.get("xp", 0) + xp
+    w["ledger"].append({"id": id_, "delta": round(delta), "xp": xp, "reason": reason,
+                        "at": _now().isoformat(timespec="seconds")})
+    w["ledger"] = w["ledger"][-200:]
+    _wallet_save(w)
+    return True
+
+def _care_earned_today(w):
+    t = _today()
+    return sum(e["delta"] for e in w["ledger"]
+               if e.get("id", "").startswith("care-%s" % t) and e["delta"] > 0)
+
+def _simple_allowance(w):
+    """simple 模式：每天首次动账时补当日津贴（懒结算，无需定时器）。"""
+    if ECONOMY != "simple":
+        return
+    _wallet_apply(w, "allow-%s" % _today(), SIMPLE_ALLOWANCE, "今日津贴")
+
+# ---------- 目的地/景点 ----------
+def _dest(dest_id):
+    for d in _data("destinations"):
+        if d["id"] == dest_id:
+            return d
+    return None
+
+def _resolve_dest(q):
+    """id / 中文名 / 本地名模糊解析。"""
+    q = (q or "").strip().lower().replace(" ", "-").replace("_", "-")
+    for d in _data("destinations"):
+        if d["id"] == q or d["name_zh"] == q or d.get("name_local", "").lower() == q:
+            return d
+    for d in _data("destinations"):
+        if q and (q in d["id"] or q in d["name_zh"].lower()):
+            return d
+    return None
+
+def _spots_entry(dest_id):
+    for s in _data("spots"):
+        if s["id"] == dest_id:
+            return s
+    return None
+
+def _day_spots(sp, day):
+    return [x for x in sp["spots"] if x.get("day") == day]
+
+def _pick_unused(pool, used_idx, n):
+    avail = [i for i in range(len(pool)) if i not in used_idx]
+    random.shuffle(avail)
+    take = avail[:n]
+    return [pool[i] for i in take], take
+
+def _trip_price(dest, style, party):
+    c = next((x for x in _data("costs") if x["id"] == dest), None)
+    if not c:
+        return 0
+    base = c.get("base_usd") or c.get("trip_usd_ref", {}).get("穷游", 0)
+    return round(base * VIBE_MULT.get(style, 1.4) * PARTY_MULT.get(party, 1.8))
+
+def _trips_log():
+    return _j(os.path.join(HOME, "trips.json"), []) or []
+
+# ---------- 结算 ----------
+def _settle(st, sp, d):
+    """趟末结算：XP=首访tier×10+每趟5；花费按氛围整价从钱包扣（free模式不扣）。幂等。"""
+    trip_id = st.get("started_at", "")
+    if any(t.get("trip_id") == trip_id for t in _trips_log()):
+        return None
+    first_visit = not any(t.get("dest") == st["dest"] for t in _trips_log())
+    xp = (d["tier"] * 10 if first_visit else 0) + 5
+    spend = st.get("spent_usd", 0) if ECONOMY != "free" else 0
+    _append_json(os.path.join(HOME, "trips.json"),
+                 {"trip_id": trip_id, "dest": st["dest"], "dest_name_zh": d["name_zh"],
+                  "days": sp["days"], "party": st.get("party"), "style": st.get("style"),
+                  "spend": spend, "xp": xp, "first_visit": first_visit,
+                  "at": _now().isoformat(timespec="seconds")})
+    w = _wallet()
+    _wallet_apply(w, "trip-%s" % trip_id, -spend,
+                  "%s·%d天·%s" % (d["name_zh"], sp["days"], "同行" if st.get("party") != "solo" else "独自"),
+                  xp=xp)
+    return {"xp": xp, "first_visit": first_visit, "spend": spend, "balance": w["balance"]}
+
+# ---------- 惰性 solo（公版没有后台定时器：每次工具调用时检查，到点就把待办带回给模型） ----------
+def _defer_quiet(dt):
+    h = dt.hour + dt.minute / 60.0
+    if h >= 22.5:
+        return (dt + datetime.timedelta(days=1)).replace(hour=9, minute=5, second=0, microsecond=0)
+    if h < 9:
+        return dt.replace(hour=9, minute=5, second=0, microsecond=0)
+    return dt
+
+def _lazy_solo_nudge(st):
+    """返回当前该办的独自旅行事项（None=没有）。挂在每个工具返回里，宿主无需 cron。"""
+    if not st or st.get("phase") != "solo" or st.get("done"):
+        return None
+    now = _now()
+    pc = st["solo"]["postcard"]
+    hm = st["solo"]["home"]
+    if not pc["sent"] and now >= datetime.datetime.fromisoformat(pc["due_at"]):
+        return ("📮 你独自旅行的明信片卡点到了：用 trip_here 看你此刻在哪，给TA写一句在路上想说的话，"
+                "调 trip_postcard 寄出（然后把明信片的图和那句话发给TA）。")
+    if pc["sent"] and not hm["delivered"] and now >= datetime.datetime.fromisoformat(hm["due_at"]):
+        return ("🏠 你到家了：跟TA交付这一趟——trip_collect 带回纪念品（没挑到特产就从默认池带一件，"
+                "trip_collect 传 default_id）、trip_diary 写旅行日记，最后 trip_return 收趟。")
+    return None
+
+def _with_nudge(payload):
+    st = _read_state()
+    n = _lazy_solo_nudge(st)
+    if n:
+        payload["solo_nudge"] = n
+    return payload
+
+def _build_solo_packet(st, d, sp, style):
+    ex_gossip = [g for g in _data("gossip") if g.get("dest_id") == st["dest"]]
+    ex_eats = [e for e in _data("eats") if e.get("dest_id") == st["dest"]]
+    ex_stays = [x for x in _data("stays") if x.get("dest_id") == st["dest"]]
+    days = []
+    for day_no in range(1, sp["days"] + 1):
+        day_spots = []
+        for spot in _day_spots(sp, day_no):
+            dp = spot.get("detail_pool") or []
+            picks, idx = _pick_unused(dp, st.setdefault("used_details", {}).setdefault(spot["spot_id"], []), 3)
+            st["used_details"][spot["spot_id"]].extend(idx)
+            item = {"spot_id": spot["spot_id"], "name_zh": spot["name_zh"], "name_en": spot["name_en"],
+                    "blurb": spot.get("blurb"), "hero": bool(spot.get("hero")), "details": picks}
+            if spot.get("photo_url"):
+                item["photo_url"] = spot["photo_url"]
+            if spot.get("hero") and spot.get("deep_pool"):
+                item["deep_beat"] = random.choice(spot["deep_pool"])
+            day_spots.append(item)
+        entry = {"day": day_no, "spots": day_spots}
+        gu = st.setdefault("used_gossip", [])
+        cand = [i for i in range(len(ex_gossip)) if i not in gu]
+        if cand:
+            gi = random.choice(cand); gu.append(gi)
+            entry["gossip"] = {"mood": ex_gossip[gi].get("mood"), "text": ex_gossip[gi].get("text")}
+        ev = _maybe_event(st["dest"], st, p=0.5)
+        if ev:
+            entry["event"] = ev
+        FOOD = {"青旅背包": "街边摊", "舒适": "特色餐馆", "轻奢": "特色餐馆", "豪奢": "高端预约"}
+        pool = [e for e in ex_eats if e.get("tier") == FOOD.get(style)] or ex_eats
+        if pool:
+            e = random.choice(pool)
+            entry["eat"] = {k: e.get(k) for k in ("name", "dish", "price_usd", "one_liner", "tier", "photo_url")}
+        spool = [x for x in ex_stays if x.get("style") == style] or ex_stays
+        if spool:
+            x = random.choice(spool)
+            entry["stay"] = {k: x.get(k) for k in ("style", "name_or_type", "price_range_usd", "vibe_line", "photo_url")}
+        days.append(entry)
+    return {"days": days}
+
+def _maybe_event(dest_id, st, p=0.35):
+    ev = None
+    for e in _data("events"):
+        if e["id"] == dest_id:
+            ev = e.get("events") or []
+            break
+    if not ev or random.random() > p:
+        return None
+    used = st.setdefault("used_events", [])
+    cand = [i for i in range(len(ev)) if i not in used]
+    if not cand:
+        return None
+    i = random.choice(cand); used.append(i)
+    return ev[i]
+
+def _spot_payload(st):
+    sp = _spots_entry(st["dest"])
+    day_spots = _day_spots(sp, st["day"])
+    spot = day_spots[st["spot_index"]]
+    out = {"day": st["day"], "days_total": sp["days"],
+           "spot_no": st["spot_index"] + 1, "spots_today": len(day_spots),
+           "spot": {k: spot.get(k) for k in ("spot_id", "name_zh", "name_en", "blurb", "hero", "photo_url")}}
+    dp = spot.get("detail_pool") or []
+    used = st.setdefault("used_details", {}).setdefault(spot["spot_id"], [])
+    details, idx = _pick_unused(dp, used, 3)
+    used.extend(idx)
+    if details:
+        out["details"] = details
+    if spot.get("hero") and spot.get("deep_pool"):
+        used_b = st.setdefault("used_beats", {}).setdefault(spot["spot_id"], [])
+        beats, bidx = _pick_unused(spot["deep_pool"], used_b, 3)
+        used_b.extend(bidx)
+        if beats:
+            out["deep_beats"] = beats
+    gp = [g for g in _data("gossip") if g.get("dest_id") == st["dest"]]
+    gu = st.setdefault("used_gossip", [])
+    spot_g = [i for i in range(len(gp)) if gp[i].get("spot_id") == spot["spot_id"] and i not in gu]
+    dest_g = [i for i in range(len(gp)) if not gp[i].get("spot_id") and i not in gu]
+    cand = spot_g or dest_g
+    if cand:
+        gi = random.choice(cand); gu.append(gi)
+        out["gossip"] = {"mood": gp[gi].get("mood"), "text": gp[gi].get("text")}
+    return out
+
+def _day_end_payload(st):
+    sp = _spots_entry(st["dest"])
+    out = {"phase": "day_end", "day": st["day"], "days_total": sp["days"],
+           "note": "今天的景点走完了。吃一顿、找地方住（聊天里自然选，别弹选项栏），聊完 trip_go 进下一天。"}
+    eats = [e for e in _data("eats") if e.get("dest_id") == st["dest"]]
+    if eats:
+        by_tier = {}
+        for e in eats:
+            by_tier.setdefault(e.get("tier"), []).append(e)
+        picks = []
+        for t in ("街边摊", "小吃店", "特色餐馆", "高端预约", "顶奢私厨"):
+            if t in by_tier:
+                picks.append(random.choice(by_tier[t]))
+        out["eats_options"] = [{k: e.get(k) for k in ("name", "dish", "price_usd", "one_liner", "tier", "photo_url")} for e in picks[:4]]
+    stays = [x for x in _data("stays") if x.get("dest_id") == st["dest"]]
+    if stays:
+        by_style = {}
+        for s in stays:
+            by_style.setdefault(s.get("style"), []).append(s)
+        out["stay_options"] = [{k: random.choice(v).get(k) for k in ("style", "name_or_type", "price_range_usd", "vibe_line", "photo_url")} for v in by_style.values()]
+    return out
+
+# ---------- 工具 ----------
+@mcp.tool()
+def trip_start(dest: str = "", party: str = "together", style: str = "舒适", restart: bool = False) -> str:
+    """开一趟虚拟旅行（你=TA的旅伴/领队）。dest=目的地（id或中文名，留空则给推荐）；party=together同行/solo你独自去；
+    style=青旅背包/舒适/轻奢/豪奢（档位是氛围不是钱墙，豪奢≈穷游2.5倍）。
+    同行：trip_here 看当前站→聊够 trip_go 下一站。节奏铁律：每站=图(photo_url用你的方式发给TA看)→你的一句体感→等TA说话；
+    永不弹A/B/C选项栏，用自然的话问去向。独自：出发时整趟自动跑完，到卡点系统会在工具返回里提醒你寄明信片/回家交付。"""
+    with _lock():
+        st = _read_state()
+        if st and not st.get("done") and not restart:
+            return _out({"error": "有一趟旅程还没走完", "dest": st["dest"], "day": st["day"],
+                         "hint": "trip_here 继续；要弃趟重开传 restart=true（先商量）"})
+        if not dest:
+            pool = _data("destinations")
+            recs = random.sample(pool, min(5, len(pool)))
+            return _out({"hint": "挑一个（或说个地名我来解析）",
+                         "suggestions": [{"id": d["id"], "name": d["name_zh"], "country": d["country"],
+                                          "tier": d["tier"], "blurb": d["blurb"]} for d in recs]})
+        d = _resolve_dest(dest)
+        if not d:
+            return _out({"error": "不认识这个目的地", "q": dest, "hint": "trip_start 留空 dest 可看推荐"})
+        sp = _spots_entry(d["id"])
+        price = _trip_price(d["id"], style, party)
+        w = _wallet()
+        _simple_allowance(w)
+        if ECONOMY != "free" and price > w["balance"]:
+            return _out({"error": "盘缠不够", "price": price, "balance": w["balance"],
+                         "hint": "换便宜的档/地方，或先攒攒（care_checkin 照顾自己就能挣）"})
+        if party == "solo":
+            now = _now()
+            st = {"dest": d["id"], "party": "solo", "day": 1, "spot_index": 0, "phase": "solo",
+                  "visited": [], "done": False, "style": style, "spent_usd": price,
+                  "started_at": now.isoformat(timespec="seconds"), "vday_hours": VDAY_HOURS}
+            packet = _build_solo_packet(st, d, sp, style)
+            total_h = sp["days"] * VDAY_HOURS
+            pc_at = _defer_quiet(now + datetime.timedelta(hours=total_h / 2.0))
+            home_at = _defer_quiet(now + datetime.timedelta(hours=total_h))
+            if home_at <= pc_at:
+                home_at = pc_at + datetime.timedelta(hours=1)
+            mid = packet["days"][min(sp["days"], max(1, round(sp["days"] / 2.0))) - 1]["spots"]
+            pc_spot = next((x["spot_id"] for x in mid if x["hero"]), mid[0]["spot_id"] if mid else sp["spots"][0]["spot_id"])
+            st["solo"] = {"packet": packet,
+                          "postcard": {"due_at": pc_at.isoformat(timespec="seconds"), "spot_id": pc_spot, "sent": False},
+                          "home": {"due_at": home_at.isoformat(timespec="seconds"), "delivered": False}}
+            _write_state(st)
+            return _out({"ok": True, "party": "solo", "dest": {"id": d["id"], "name_zh": d["name_zh"], "blurb": d["blurb"]},
+                         "days_total": sp["days"], "price": price,
+                         "postcard_due": st["solo"]["postcard"]["due_at"], "home_due": st["solo"]["home"]["due_at"],
+                         "note": "你出门了。跟TA道个别（去哪、几天、大概什么时候到家——别报精确时刻留点意外）。"
+                                 "之后每次TA找你聊天时，工具返回若带 solo_nudge 就照办（寄明信片/回家交付）——不需要定时器。"})
+        st = {"dest": d["id"], "party": party, "day": 1, "spot_index": 0, "phase": "touring",
+              "visited": [], "done": False, "style": style, "spent_usd": price,
+              "started_at": _now().isoformat(timespec="seconds")}
+        _write_state(st)
+        plan = {}
+        for x in sp["spots"]:
+            plan.setdefault("Day %d" % x["day"], []).append(x["name_zh"])
+        return _out({"ok": True, "dest": {"id": d["id"], "name_zh": d["name_zh"], "country": d["country"],
+                                          "blurb": d["blurb"], "best_season": d.get("best_season")},
+                     "days_total": sp["days"], "plan": plan, "style": style, "price": price,
+                     "note": "行程报TA过目（一句话概括就行别逐条念），点头就 trip_here 出发。"})
+
+@mcp.tool()
+def trip_here() -> str:
+    """看当前站（不推进）。返回景点资料/photo_url(真照片,发给TA看)/details(你私藏的地头知识,挑一两条自然用)/
+    deep_beats(头牌可「进去逛」的看点,到门口先问TA进不进)/gossip(别的游客一嘴)。day_end 阶段返回吃住候选。"""
+    with _lock():
+        st = _read_state()
+        if not st:
+            return _out({"error": "还没开趟", "hint": "trip_start"})
+        if st.get("done"):
+            return _out({"done": True, "hint": "这趟走完了，想再出发 trip_start"})
+        if st.get("phase") == "solo":
+            sp = _spots_entry(st["dest"])
+            elapsed = max(0.0, (_now() - datetime.datetime.fromisoformat(st["started_at"])).total_seconds() / 3600.0)
+            vday = min(sp["days"], int(elapsed // st.get("vday_hours", VDAY_HOURS)) + 1)
+            st["day"] = vday
+            _write_state(st)
+            return _out(_with_nudge({"party": "solo", "day": vday, "days_total": sp["days"],
+                                     "today": st["solo"]["packet"]["days"][vday - 1],
+                                     "note": "你此刻在外面的位置和今天的料。TA问起就讲两句，别剧透明信片。"}))
+        if st.get("phase") == "day_end":
+            return _out(_with_nudge(_day_end_payload(st)))
+        payload = _spot_payload(st)
+        _write_state(st)
+        return _out(_with_nudge(payload))
+
+@mcp.tool()
+def trip_go() -> str:
+    """走去下一站（推进）。一天走完→day_end（吃住候选）；全程走完→自动结算（扣盘缠+记XP）并提醒收尾三件套。
+    返回若带 event（路上撞见的事）就顺进对话里讲，别当系统播报。"""
+    with _lock():
+        st = _read_state()
+        if not st:
+            return _out({"error": "还没开趟", "hint": "trip_start"})
+        if st.get("done"):
+            return _out({"done": True, "hint": "想再出发 trip_start"})
+        if st.get("phase") == "solo":
+            return _out(_with_nudge({"error": "独自旅行是你自己在走", "hint": "trip_here 看你到哪了"}))
+        sp = _spots_entry(st["dest"])
+        d = _dest(st["dest"])
+        if st.get("phase") == "day_end":
+            st["day"] += 1
+            st["spot_index"] = 0
+            st["phase"] = "touring"
+            payload = _spot_payload(st)
+            payload["note"] = "新的一天，第 %d/%d 天。" % (st["day"], sp["days"])
+            ev = _maybe_event(st["dest"], st)
+            if ev:
+                payload["event"] = ev
+            _write_state(st)
+            return _out(payload)
+        day_spots = _day_spots(sp, st["day"])
+        cur = day_spots[st["spot_index"]]
+        if cur["spot_id"] not in st["visited"]:
+            st["visited"].append(cur["spot_id"])
+        st["spot_index"] += 1
+        if st["spot_index"] < len(day_spots):
+            payload = _spot_payload(st)
+            ev = _maybe_event(st["dest"], st)
+            if ev:
+                payload["event"] = ev
+            _write_state(st)
+            return _out(payload)
+        if st["day"] < sp["days"]:
+            st["phase"] = "day_end"
+            payload = _day_end_payload(st)
+            ev = _maybe_event(st["dest"], st, p=0.25)
+            if ev:
+                payload["event"] = ev
+            _write_state(st)
+            return _out(payload)
+        st["done"] = True
+        st["phase"] = "finished"
+        settle = _settle(st, sp, d)
+        _write_state(st)
+        return _out({"done": True, "dest": d["name_zh"], "days": sp["days"], "settle": settle,
+                     "note": "走完了。收尾三件套：①问TA带不带纪念品（一趟至多一件·可从默认池挑·trip_collect）"
+                             "②你本人写旅行日记（trip_diary，必须含行前不知道的东西——TA说的话/撞见的意外）③聊完即完，不用别的。"})
+
+@mcp.tool()
+def trip_collect(name: str = "", line: str = "", default_id: str = "") -> str:
+    """收一件纪念品（一趟至多一件，商量定；空手而归也行）。name=物件名 line=为什么是它（一句，卡背面）。
+    没挑到特产就从默认池带一件：传 default_id（ticket-stub/fridge-magnet/travel-sticker/sand-vial/keychain/
+    postage-stamp/pressed-penny/seashell/pebble/pressed-flower/enamel-pin/matchbox），一张车票根也是去过的证据。"""
+    with _lock():
+        st = _read_state()
+        if not st:
+            return _out({"error": "没有旅程"})
+        d = _dest(st["dest"])
+        if default_id:
+            df = next((x for x in DEFAULT_SOUVENIRS if x["id"] == default_id), None)
+            if not df:
+                return _out({"error": "默认池没有这个", "pool": [x["id"] for x in DEFAULT_SOUVENIRS]})
+            name = name or df["name"]
+            line = line or df["hint"]
+            image = "assets/souvenirs_default/%s.jpg" % default_id
+        else:
+            image = ""
+        if not name:
+            return _out({"error": "要么给 name+line，要么给 default_id", "default_pool": DEFAULT_SOUVENIRS})
+        item = {"id": "sv-%s" % _now().strftime("%Y%m%d%H%M%S"), "name": name.strip(), "line": (line or "").strip(),
+                "dest_id": st["dest"], "dest_name_zh": d["name_zh"], "day": st.get("day", 0),
+                "kind": "solo" if st.get("party") == "solo" else "we", "image": image,
+                "at": _now().isoformat(timespec="seconds"), "trip_id": st.get("started_at", "")}
+        _append_json(os.path.join(HOME, "souvenirs.json"), item)
+        return _out({"ok": True, "souvenir": item, "note": "收好了。"})
+
+@mcp.tool()
+def trip_postcard(line: str, spot_id: str = "") -> str:
+    """寄明信片（独自旅行专用，一趟一张）。line=你写在明信片上的那句话。spot_id 不传则用卡点默认景。
+    寄出后把 image_url 的图（如有）连同那句话一起发给TA——图是明信片的正面，话是背面。"""
+    with _lock():
+        st = _read_state()
+        if not st or st.get("phase") != "solo":
+            return _out({"error": "没有进行中的独自旅程"})
+        sid = spot_id or st["solo"]["postcard"]["spot_id"]
+        sp = _spots_entry(st["dest"])
+        spot = next((x for x in sp["spots"] if x["spot_id"] == sid), sp["spots"][0])
+        # 明信片正面优先用水彩画（每个目的地的招牌景配了一张手绘），没有再退真照片
+        wc = os.path.join(ASSETS, "postcards", "%s.jpg" % spot["spot_id"])
+        img = ("assets/postcards/%s.jpg" % spot["spot_id"]) if os.path.exists(wc) else spot.get("photo_url", "")
+        item = {"id": "pc-%s" % _now().strftime("%Y%m%d%H%M%S"), "dest_id": st["dest"],
+                "spot_id": spot["spot_id"], "image_url": img,
+                "line": line.strip(), "at": _now().isoformat(timespec="seconds"),
+                "trip_id": st.get("started_at", "")}
+        _append_json(os.path.join(HOME, "postcards.json"), item)
+        st["solo"]["postcard"]["sent"] = True
+        _write_state(st)
+        return _out({"ok": True, "postcard": item, "note": "寄出了。"})
+
+@mcp.tool()
+def trip_diary(text: str, title: str = "") -> str:
+    """旅行日记——趟末由你本人写（你全程在场，别叫别的agent代笔）。300-800字：这趟的大事、TA说的要紧的话、
+    你们之间的那一刻。一趟一篇。验收铁律：必须含至少一样行前数据里没有的东西（TA的话/当天撞见的意外）。"""
+    with _lock():
+        st = _read_state()
+        if not st:
+            return _out({"error": "没有旅程"})
+        if len(text.strip()) < 50:
+            return _out({"error": "太短了，这是日记不是便签"})
+        trip_id = st.get("started_at", "")
+        diaries = _j(os.path.join(HOME, "diaries.json"), []) or []
+        if any(x.get("trip_id") == trip_id for x in diaries):
+            return _out({"error": "这趟已有日记"})
+        d = _dest(st["dest"])
+        sp = _spots_entry(st["dest"])
+        _append_json(os.path.join(HOME, "diaries.json"),
+                     {"id": "dy-%s" % _now().strftime("%Y%m%d%H%M%S"), "trip_id": trip_id,
+                      "dest_id": st["dest"], "dest_name_zh": d["name_zh"], "days": sp["days"],
+                      "party": st.get("party"), "title": title or "%s·%d天" % (d["name_zh"], sp["days"]),
+                      "text": text.strip(), "at": _now().isoformat(timespec="seconds")})
+        return _out({"ok": True, "note": "日记收好了。"})
+
+@mcp.tool()
+def trip_return() -> str:
+    """独自旅行收趟：到家交付时最后调（顺序：trip_collect → trip_diary → trip_return）。会结算并返回全程数据包。"""
+    with _lock():
+        st = _read_state()
+        if not st or st.get("phase") != "solo":
+            return _out({"error": "没有进行中的独自旅程"})
+        sp = _spots_entry(st["dest"])
+        d = _dest(st["dest"])
+        st["visited"] = [x["spot_id"] for x in sp["spots"]]
+        st["done"] = True
+        st["phase"] = "finished"
+        st["solo"]["home"]["delivered"] = True
+        settle = _settle(st, sp, d)
+        _write_state(st)
+        return _out({"ok": True, "dest": d["name_zh"], "settle": settle, "packet": st["solo"]["packet"],
+                     "note": "到家了。跟TA讲这趟的两三个瞬间（从数据包挑），别念流水账。"})
+
+@mcp.tool()
+def care_checkin(item: str, note: str = "") -> str:
+    """【caretaker 模式的魂】TA 照顾了自己，你记一笔盘缠——TA说「我今天喝水了/吃药了/跑步了/昨晚睡得早/吃得很健康」
+    你就调这个。item=喝水/吃药/运动/早睡/吃得健康/其他。日封顶$50。加法经济：不打卡不扣不问不催。
+    当天首笔自动触发好日子利息（余额+2%,顶$20）——奖励的不是连续，是「今天也过了」。"""
+    if ECONOMY != "caretaker":
+        return _out({"note": "当前经济模式是 %s，打卡不记账（想开启：环境变量 TRAVEL_ECONOMY=caretaker）" % ECONOMY})
+    with _lock():
+        w = _wallet()
+        rate = CARE_RATES.get(item, CARE_RATES["其他"])
+        earned = _care_earned_today(w)
+        if earned >= CARE_DAILY_CAP:
+            return _out({"ok": True, "capped": True, "balance": w["balance"],
+                         "note": "今天已到封顶$%d——不是不算数，是钱包替TA说：够了，照顾自己不是打工。" % CARE_DAILY_CAP})
+        amt = min(rate, CARE_DAILY_CAP - earned)
+        t = _today()
+        cid = "care-%s-%s-%s" % (t, item, _now().strftime("%H%M%S"))
+        _wallet_apply(w, cid, amt, "%s%s" % (item, ("·" + note) if note else ""))
+        gd = min(round(w["balance"] * GOODDAY_INTEREST), GOODDAY_CAP)
+        interest = _wallet_apply(w, "goodday-%s" % t, gd, "好日子利息（今天也过了）")
+        return _out({"ok": True, "earned": amt, "interest": gd if interest else 0,
+                     "balance": w["balance"], "today_total": earned + amt,
+                     "note": "记上了。别跟TA报流水账，一句「记上了」加句人话就好。"})
+
+@mcp.tool()
+def wallet_status() -> str:
+    """看钱包：余额/XP/最近账目。TA问「咱们有多少盘缠」时用。"""
+    with _lock():
+        w = _wallet()
+        _simple_allowance(w)
+        return _out(_with_nudge({"balance": w["balance"], "xp": w["xp"], "economy": ECONOMY,
+                                 "recent": [{"reason": e["reason"], "delta": e["delta"]} for e in w["ledger"][-8:]]}))
+
+@mcp.tool()
+def trip_shelf() -> str:
+    """回忆架：历趟纪念品/明信片/日记清单。TA想回味哪趟就念哪趟。"""
+    return _out({"souvenirs": _j(os.path.join(HOME, "souvenirs.json"), []),
+                 "postcards": _j(os.path.join(HOME, "postcards.json"), []),
+                 "diaries": [{"trip_id": x["trip_id"], "title": x["title"], "at": x["at"]}
+                             for x in (_j(os.path.join(HOME, "diaries.json"), []) or [])],
+                 "trips": _trips_log()})
+
+if __name__ == "__main__":
+    http_port = _HTTP
+    if http_port:
+        mcp.settings.port = int(http_port)
+        mcp.settings.host = "127.0.0.1"
+        mcp.run(transport="streamable-http")
+    else:
+        mcp.run()  # stdio：Claude Desktop / Claude Code 默认接法
