@@ -10,7 +10,7 @@
 # 环境变量（可选）:
 #   TRAVEL_HOME     状态存哪（默认 ~/.travel-mcp）
 #   TRAVEL_ECONOMY  free(默认·免单畅玩只卡XP) | caretaker(照顾自己换盘缠) | simple(固定日津贴)
-#   TRAVEL_DETAIL   full(默认) | lite(省token：每站细节/深料各1条)
+#   TRAVEL_DETAIL   lite | standard(默认) | full —— 文本量三档，照片/明信片/纪念品全档保留
 #   TRAVEL_HTTP     设为端口号则起 streamable-http 而非 stdio（远程部署用）
 import json, os, fcntl, random, datetime
 from mcp.server.fastmcp import FastMCP
@@ -21,7 +21,9 @@ ASSETS = os.path.join(PKG, "assets")
 HOME = os.path.expanduser(os.environ.get("TRAVEL_HOME", "~/.travel-mcp"))
 os.makedirs(HOME, exist_ok=True)
 ECONOMY = os.environ.get("TRAVEL_ECONOMY", "free")  # free(默认·只卡XP不卡花费) | caretaker | simple
-DETAIL = os.environ.get("TRAVEL_DETAIL", "full")    # full | lite(省token：每站细节/深料/闲话各1条)
+DETAIL = os.environ.get("TRAVEL_DETAIL", "standard")  # lite | standard(默认) | full —— 只调文本量，明信片/纪念品/照片三档全都有
+_DN = {"lite": 1, "standard": 2, "full": 3}.get(DETAIL, 2)  # 每站细节/深料条数
+_EN = {"lite": 2, "standard": 3, "full": 4}.get(DETAIL, 3)  # day_end 吃/住候选数
 
 STATE_P = os.path.join(HOME, "state.json")
 WALLET_P = os.path.join(HOME, "wallet.json")
@@ -299,7 +301,7 @@ def _spot_payload(st):
     out = {"day": st["day"], "days_total": sp["days"],
            "spot_no": st["spot_index"] + 1, "spots_today": len(day_spots),
            "spot": {k: spot.get(k) for k in ("spot_id", "name_zh", "name_en", "blurb", "hero", "photo_url")}}
-    n = 1 if DETAIL == "lite" else 3
+    n = _DN
     dp = spot.get("detail_pool") or []
     used = st.setdefault("used_details", {}).setdefault(spot["spot_id"], [])
     details, idx = _pick_unused(dp, used, n)
@@ -335,13 +337,14 @@ def _day_end_payload(st):
         for t in ("街边摊", "小吃店", "特色餐馆", "高端预约", "顶奢私厨"):
             if t in by_tier:
                 picks.append(random.choice(by_tier[t]))
-        out["eats_options"] = [{k: e.get(k) for k in ("name", "dish", "price_usd", "one_liner", "tier", "photo_url")} for e in picks[:4]]
+        out["eats_options"] = [{k: e.get(k) for k in ("name", "dish", "price_usd", "one_liner", "tier", "photo_url")} for e in picks[:_EN]]
     stays = [x for x in _data("stays") if x.get("dest_id") == st["dest"]]
     if stays:
         by_style = {}
         for s in stays:
             by_style.setdefault(s.get("style"), []).append(s)
-        out["stay_options"] = [{k: random.choice(v).get(k) for k in ("style", "name_or_type", "price_range_usd", "vibe_line", "photo_url")} for v in by_style.values()]
+        out["stay_options"] = [{k: random.choice(v).get(k) for k in ("style", "name_or_type", "price_range_usd", "vibe_line", "photo_url")}
+                              for v in list(by_style.values())[:_EN]]
     return out
 
 # ---------- 工具 ----------

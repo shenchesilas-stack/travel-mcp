@@ -31,7 +31,7 @@ Claude Desktop / Claude Code 配置里加一段：
 |---|---|---|
 | `TRAVEL_HOME` | `~/.travel-mcp` | 状态（钱包/行程/纪念品架）存哪 |
 | `TRAVEL_ECONOMY` | `free` | `free` 免单畅玩（只卡XP解锁不卡花费）· `caretaker` 照顾自己换盘缠 · `simple` 固定日津贴 |
-| `TRAVEL_DETAIL` | `full` | `lite` 省 token：每站细节/深料各返 1 条（默认 3 条） |
+| `TRAVEL_DETAIL` | `standard` | 文本量三档：`lite`(每站细节/深料1条·吃住候选2个) / `standard`(2条/3个) / `full`(3条/4个)。只调文字量——照片、明信片、纪念品三档全都有 |
 | `TRAVEL_HTTP` | 不设 | 设为端口号则起 streamable-http（远程部署用），不设走 stdio |
 
 ## 玩法
