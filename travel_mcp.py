@@ -326,7 +326,7 @@ def _spot_payload(st):
 def _day_end_payload(st):
     sp = _spots_entry(st["dest"])
     out = {"phase": "day_end", "day": st["day"], "days_total": sp["days"],
-           "note": "今天的景点走完了。吃一顿、找地方住（聊天里自然选，别弹选项栏），聊完 trip_go 进下一天。"}
+           "note": "今天的景点走完了。吃一顿、找地方住（聊天里自然选，别弹选项栏；候选跨几个消费档，任选不受行前档位限制），聊完 trip_go 进下一天。"}
     eats = [e for e in _data("eats") if e.get("dest_id") == st["dest"]]
     if eats:
         by_tier = {}
@@ -336,14 +336,16 @@ def _day_end_payload(st):
         for t in ("街边摊", "小吃店", "特色餐馆", "高端预约", "顶奢私厨"):
             if t in by_tier:
                 picks.append(random.choice(by_tier[t]))
-        out["eats_options"] = [{k: e.get(k) for k in ("name", "dish", "price_usd", "one_liner", "tier", "photo_url")} for e in picks[:_EN]]
+        out["eats_options"] = [{k: e.get(k) for k in ("name", "dish", "price_usd", "one_liner", "tier", "photo_url") if e.get(k)}
+                               for e in picks[:_EN]]
     stays = [x for x in _data("stays") if x.get("dest_id") == st["dest"]]
     if stays:
         by_style = {}
         for s in stays:
             by_style.setdefault(s.get("style"), []).append(s)
-        out["stay_options"] = [{k: random.choice(v).get(k) for k in ("style", "name_or_type", "price_range_usd", "vibe_line", "photo_url")}
-                              for v in list(by_style.values())[:_EN]]
+        stay_picks = [random.choice(v) for v in list(by_style.values())[:_EN]]
+        out["stay_options"] = [{k: x.get(k) for k in ("style", "name_or_type", "price_range_usd", "vibe_line", "photo_url") if x.get(k)}
+                              for x in stay_picks]
     return out
 
 # ---------- 工具 ----------
@@ -435,9 +437,13 @@ def trip_here() -> str:
             here = today["spots"][min(len(today["spots"]) - 1, int(frac * len(today["spots"])))]
             return _out(_with_nudge({"party": "solo", "day": vday, "days_total": sp["days"], "here": here,
                                      "note": "你此刻在这。TA问起就讲两句，别剧透明信片。"}))
-        if st.get("phase") == "day_end":
-            return _out(_with_nudge(_day_end_payload(st)))
-        payload = _spot_payload(st)
+        # 同站重看返回同样内容（幂等）：TA说「刚才那个再讲一遍」时不能换台词
+        key = ("dayend-%d" % st["day"]) if st.get("phase") == "day_end" else ("t-%d-%d" % (st["day"], st["spot_index"]))
+        hc = st.get("here_cache") or {}
+        if hc.get("k") == key:
+            return _out(_with_nudge(hc["p"]))
+        payload = _day_end_payload(st) if st.get("phase") == "day_end" else _spot_payload(st)
+        st["here_cache"] = {"k": key, "p": payload}
         _write_state(st)
         return _out(_with_nudge(payload))
 
@@ -464,6 +470,7 @@ def trip_go() -> str:
             ev = _maybe_event(st["dest"], st)
             if ev:
                 payload["event"] = ev
+            st["here_cache"] = {"k": "t-%d-%d" % (st["day"], st["spot_index"]), "p": payload}
             _write_state(st)
             return _out(payload)
         day_spots = _day_spots(sp, st["day"])
@@ -476,6 +483,7 @@ def trip_go() -> str:
             ev = _maybe_event(st["dest"], st)
             if ev:
                 payload["event"] = ev
+            st["here_cache"] = {"k": "t-%d-%d" % (st["day"], st["spot_index"]), "p": payload}
             _write_state(st)
             return _out(payload)
         if st["day"] < sp["days"]:
@@ -484,6 +492,7 @@ def trip_go() -> str:
             ev = _maybe_event(st["dest"], st, p=0.25)
             if ev:
                 payload["event"] = ev
+            st["here_cache"] = {"k": "dayend-%d" % st["day"], "p": payload}
             _write_state(st)
             return _out(payload)
         st["done"] = True
@@ -507,8 +516,9 @@ def trip_collect(name: str = "", line: str = "", default_id: str = "") -> str:
         trip_id = st.get("started_at", "")
         old = next((s for s in (_j(os.path.join(HOME, "souvenirs.json"), []) or []) if s.get("trip_id") == trip_id), None)
         if old:
+            done_hint = "，这趟也早收尾了——想再出发 trip_start" if st.get("done") else "——别重复带，直接下一步（日记/收尾）"
             return _out({"ok": True, "already": True, "souvenir": old,
-                         "note": "这趟已经带过纪念品了（一趟一件）——别重复带，直接下一步。"})
+                         "note": "这趟已经带过纪念品了（一趟一件）%s。" % done_hint})
         if default_id:
             df = next((x for x in DEFAULT_SOUVENIRS if x["id"] == default_id), None)
             if not df:
@@ -538,9 +548,12 @@ def trip_postcard(line: str, spot_id: str = "") -> str:
         sid = spot_id or st["solo"]["postcard"]["spot_id"]
         sp = _spots_entry(st["dest"])
         spot = next((x for x in sp["spots"] if x["spot_id"] == sid), sp["spots"][0])
-        # 明信片正面优先用水彩画（每个目的地的招牌景配了一张手绘），没有再退真照片
-        wc = os.path.join(ASSETS, "postcards", "%s.jpg" % spot["spot_id"])
-        img = ("assets/postcards/%s.jpg" % spot["spot_id"]) if os.path.exists(wc) else spot.get("photo_url", "")
+        # 明信片正面用水彩画：当前景没有就退回本地招牌景那张（水彩只画了头牌），实在没有才用真照片
+        img = spot.get("photo_url", "")
+        for cand in [spot["spot_id"]] + [x["spot_id"] for x in sp["spots"] if x.get("hero")]:
+            if os.path.exists(os.path.join(ASSETS, "postcards", "%s.jpg" % cand)):
+                img = "assets/postcards/%s.jpg" % cand
+                break
         item = {"id": "pc-%s" % _now().strftime("%Y%m%d%H%M%S"), "dest_id": st["dest"],
                 "spot_id": spot["spot_id"], "image_url": img,
                 "line": line.strip(), "at": _now().isoformat(timespec="seconds"),
