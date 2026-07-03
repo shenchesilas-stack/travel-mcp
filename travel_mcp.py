@@ -229,8 +229,8 @@ def _lazy_solo_nudge(st):
         return ("📮 你独自旅行的明信片卡点到了：用 trip_here 看你此刻在哪，给TA写一句在路上想说的话，"
                 "调 trip_postcard 寄出（然后把明信片的图和那句话发给TA）。")
     if pc["sent"] and not hm["delivered"] and now >= datetime.datetime.fromisoformat(hm["due_at"]):
-        return ("🏠 你到家了：跟TA交付这一趟——trip_collect 带回纪念品（没挑到特产就从默认池带一件，"
-                "trip_collect 传 default_id）、trip_diary 写旅行日记，最后 trip_return 收趟。")
+        return ("🏠 你到家了：跟TA交付这一趟——trip_collect 带回纪念品（没挑到特产就带本地款 default_id=\"local\"，"
+                "再没有从通用池挑一件）、trip_diary 写旅行日记，最后 trip_return 收趟。")
     return None
 
 def _with_nudge(payload):
@@ -506,8 +506,9 @@ def trip_go() -> str:
 @mcp.tool()
 def trip_collect(name: str = "", line: str = "", default_id: str = "") -> str:
     """收一件纪念品（一趟至多一件，商量定；空手而归也行）。name=物件名 line=为什么是它（一句，卡背面）。
-    没挑到特产就从默认池带一件：传 default_id（ticket-stub/fridge-magnet/travel-sticker/sand-vial/keychain/
-    postage-stamp/pressed-penny/seashell/pebble/pressed-flower/enamel-pin/matchbox），一张车票根也是去过的证据。"""
+    没挑到特产：先试 default_id="local"（本地特色小物，每个目的地一件，带手绘图）；
+    再退通用池（ticket-stub/fridge-magnet/travel-sticker/sand-vial/keychain/postage-stamp/pressed-penny/
+    seashell/pebble/pressed-flower/enamel-pin/matchbox）——一张车票根也是去过的证据。"""
     with _lock():
         st = _read_state()
         if not st:
@@ -519,10 +520,18 @@ def trip_collect(name: str = "", line: str = "", default_id: str = "") -> str:
             done_hint = "，这趟也早收尾了——想再出发 trip_start" if st.get("done") else "——别重复带，直接下一步（日记/收尾）"
             return _out({"ok": True, "already": True, "souvenir": old,
                          "note": "这趟已经带过纪念品了（一趟一件）%s。" % done_hint})
-        if default_id:
+        if default_id == "local":
+            loc = next((x for x in (_data("souvenirs_local") or []) if x["id"] == st["dest"]), None)
+            if not loc or not os.path.exists(os.path.join(ASSETS, "souvenirs_local", "%s.jpg" % st["dest"])):
+                return _out({"error": "这地方还没有本地款，从通用池挑一件吧",
+                             "pool": [x["id"] for x in DEFAULT_SOUVENIRS]})
+            name = name or loc["item_zh"]
+            line = line or loc["hint_zh"]
+            image = "assets/souvenirs_local/%s.jpg" % st["dest"]
+        elif default_id:
             df = next((x for x in DEFAULT_SOUVENIRS if x["id"] == default_id), None)
             if not df:
-                return _out({"error": "默认池没有这个", "pool": [x["id"] for x in DEFAULT_SOUVENIRS]})
+                return _out({"error": "默认池没有这个", "pool": ["local"] + [x["id"] for x in DEFAULT_SOUVENIRS]})
             name = name or df["name"]
             line = line or df["hint"]
             image = "assets/souvenirs_default/%s.jpg" % default_id
