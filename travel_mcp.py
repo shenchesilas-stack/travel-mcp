@@ -106,9 +106,11 @@ def _now():
 def _wallet():
     w = _j(WALLET_P)
     if not w:
-        w = {"balance": SEED_BALANCE, "xp": 0, "ledger": [
-            {"id": "seed", "delta": SEED_BALANCE, "reason": "新手礼包·祝你们一生一世都在路上", "at": _now().isoformat(timespec="seconds")}]}
+        w = {"balance": 0, "xp": 0, "ledger": []}
         _wallet_save(w)
+    # 新手礼包惰性补发：free 不发（用不上）；哪天切到记账模式，第一次摸钱包就补上。幂等（id=seed 只发一次）。
+    if ECONOMY != "free":
+        _wallet_apply(w, "seed", SEED_BALANCE, "新手礼包·祝你们一生一世都在路上")
     return w
 
 def _wallet_save(w):
