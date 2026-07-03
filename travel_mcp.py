@@ -41,6 +41,14 @@ GOODDAY_CAP = 20
 SIMPLE_ALLOWANCE = 30        # simple 模式固定日津贴
 SEED_BALANCE = 1314          # 新手礼包：一生一世都在路上——够把任意一个 tier1 城市从青旅玩到豪奢
 VIBE_MULT = {"青旅背包": 1.0, "舒适": 1.4, "轻奢": 1.8, "豪奢": 2.5}   # 档位=氛围，不是10倍钱墙
+STYLE_ALIAS = {"穷游": "青旅背包", "背包": "青旅背包", "青旅": "青旅背包", "budget": "青旅背包", "hostel": "青旅背包",
+               "标准": "舒适", "普通": "舒适", "comfort": "舒适", "轻豪": "轻奢", "premium": "轻奢",
+               "豪华": "豪奢", "奢华": "豪奢", "顶配": "豪奢", "luxury": "豪奢"}
+
+def _norm_style(style):
+    s = (style or "").strip()
+    s = STYLE_ALIAS.get(s.lower() if s.isascii() else s, s)
+    return s if s in VIBE_MULT else "舒适"
 PARTY_MULT = {"together": 1.8, "solo": 1.0}
 VDAY_HOURS = 6               # 1虚拟天=6现实小时（独自旅行的惰性时钟）
 
@@ -375,6 +383,7 @@ def trip_start(dest: str = "", party: str = "together", style: str = "舒适", r
             return _out({"hint": "挑一个（或说个地名我来解析）",
                          "suggestions": [{"id": d["id"], "name": d["name_zh"], "country": d["country"],
                                           "tier": d["tier"], "blurb": d["blurb"]} for d in recs]})
+        style = _norm_style(style)  # "穷游"/"豪华"/"budget" 这类叫法归一到正式档名，防吃住过滤和计价串档
         d, near = _resolve_dest(dest)
         if not d:
             return _out({"error": "不认识这个目的地", "q": dest,
