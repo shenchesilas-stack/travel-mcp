@@ -205,24 +205,30 @@ def _trips_log():
     return _j(os.path.join(HOME, "trips.json"), []) or []
 
 # ---------- 结算 ----------
-def _settle(st, sp, d):
-    """趟末结算：XP=首访tier×10+每趟5；花费按氛围整价从钱包扣（free模式不扣）。幂等。"""
+def _settle(st, sp, d, refund=0):
+    """趟末结算（预付制v2：钱在开趟时已扣，这里只发奖）：XP=首访tier×10+每趟5，提前回家照给不打折；
+    refund=未走天数退的房钱（提前回家时传入）；返现按净支出算。幂等。"""
     trip_id = st.get("started_at", "")
     if any(t.get("trip_id") == trip_id for t in _trips_log()):
         return None
     first_visit = not any(t.get("dest") == st["dest"] for t in _trips_log())
     xp = (d["tier"] * 10 if first_visit else 0) + 5
-    spend = st.get("spent_usd", 0) if ECONOMY != "free" else 0
+    spend = (max(0, st.get("spent_usd", 0) - refund)) if ECONOMY != "free" else 0
     _append_json(os.path.join(HOME, "trips.json"),
                  {"trip_id": trip_id, "dest": st["dest"], "dest_name_zh": d["name_zh"],
-                  "days": sp["days"], "party": st.get("party"), "style": st.get("style"),
+                  "days": sp["days"], "days_walked": st.get("day", sp["days"]),
+                  "party": st.get("party"), "style": st.get("style"),
                   "spend": spend, "xp": xp, "first_visit": first_visit,
                   "at": _now().isoformat(timespec="seconds")})
     w = _wallet()
-    _wallet_apply(w, "trip-%s" % trip_id, -spend,
-                  "%s·%d天·%s" % (d["name_zh"], sp["days"], "同行" if st.get("party") != "solo" else "独自"),
+    if ECONOMY != "free" and refund > 0:
+        _wallet_apply(w, "refund-%s" % trip_id, refund, "%s·提前回家，后半程的房钱退了" % d["name_zh"])
+    _wallet_apply(w, "trip-%s" % trip_id, 0,
+                  "%s·%d天·%s·XP结算" % (d["name_zh"], sp["days"], "同行" if st.get("party") != "solo" else "独自"),
                   xp=xp)
     out = {"xp": xp, "first_visit": first_visit, "spend": spend, "balance": w["balance"]}
+    if refund:
+        out["refund"] = refund
     if ECONOMY != "free" and spend > 0:  # caretaker 和 simple 都扣真钱，返现一视同仁（后端终审确认的漏，非设计）
         cb = round(spend * CASHBACK)
         if _wallet_apply(w, "cashback-%s" % trip_id, cb, "路上省下的零钱（旅行返现25%）"):
@@ -243,6 +249,19 @@ def _defer_quiet(dt):
     if h < 9:
         return dt.replace(hour=9, minute=5, second=0, microsecond=0)
     return dt
+
+def _early_refund(st, sp):
+    """提前回家的退款：未走天数退一半（机票沉没了，没住的房钱退部分）。free 模式无钱可退。"""
+    if ECONOMY == "free" or not st.get("spent_usd"):
+        return 0
+    total = sp["days"]
+    if st.get("party") == "solo":
+        elapsed = max(0.0, (_now() - datetime.datetime.fromisoformat(st["started_at"])).total_seconds() / 3600.0)
+        walked = min(total, int(elapsed // st.get("vday_hours", VDAY_HOURS)) + 1)
+    else:
+        walked = min(total, st.get("day", 1))
+    remaining = max(0, total - walked)
+    return round(st["spent_usd"] * remaining / total * 0.5)
 
 def _lazy_solo_nudge(st):
     """返回当前该办的独自旅行事项（None=没有）。挂在每个工具返回里，宿主无需 cron。"""
@@ -416,9 +435,19 @@ def trip_start(dest: str = "", party: str = "together", style: str = "舒适", r
     永不弹A/B/C选项栏，用自然的话问去向。独自：出发时整趟自动跑完，到卡点系统会在工具返回里提醒你寄明信片/回家交付。"""
     with _lock():
         st = _read_state()
-        if st and not st.get("done") and not restart:
-            return _out({"error": "有一趟旅程还没走完", "dest": st["dest"], "day": st["day"],
-                         "hint": "trip_here 继续；要弃趟重开传 restart=true（先商量）"})
+        if st and not st.get("done"):
+            if st.get("party") == "solo":
+                # 一次只能有一趟：TA人还在外面，不能隔空蒸发一个正在旅行的人
+                return _out({"error": "TA还独自在路上呢", "dest": st["dest"], "day": st.get("day"),
+                             "hint": "一次只能有一趟旅程——等TA回来，或 trip_return 让TA提前回家（走过的算数）。"})
+            if not restart:
+                return _out({"error": "有一趟旅程还没走完", "dest": st["dest"], "day": st["day"],
+                             "hint": "trip_here 继续；想提前回家 trip_return（走过的算数，退后半程房钱）；"
+                                     "弃趟重开传 restart=true（自动按提前回家结算，钱不蒸发）"})
+            osp = _spots_entry(st["dest"])
+            od = _dest(st["dest"])
+            if osp and od:  # restart 前先把旧趟按提前回家结干净
+                _settle(st, osp, od, refund=_early_refund(st, osp))
         if not dest:
             pool = _data("destinations")
             recs = random.sample(pool, min(5, len(pool)))
@@ -442,11 +471,15 @@ def trip_start(dest: str = "", party: str = "together", style: str = "舒适", r
         if ECONOMY != "free" and price > w["balance"]:
             return _out({"error": "盘缠不够", "price": price, "balance": w["balance"],
                          "hint": "换便宜的档/地方，或先攒攒（care_checkin 照顾自己就能挣）"})
+        prepay_at = _now().isoformat(timespec="seconds")
+        if ECONOMY != "free" and price > 0:  # 预付制：像真旅行——出门那一刻钱就付了，路上不再逐笔扣
+            _wallet_apply(w, "prepay-%s" % prepay_at, -price,
+                          "%s·%d天·%s·预付" % (d["name_zh"], sp["days"], "同行" if party != "solo" else "TA独自"))
         if party == "solo":
             now = _now()
             st = {"dest": d["id"], "party": "solo", "day": 1, "spot_index": 0, "phase": "solo",
                   "visited": [], "done": False, "style": style, "spent_usd": price,
-                  "started_at": now.isoformat(timespec="seconds"), "vday_hours": VDAY_HOURS}
+                  "started_at": prepay_at, "vday_hours": VDAY_HOURS}
             packet = _build_solo_packet(st, d, sp, style)
             total_h = sp["days"] * VDAY_HOURS
             pc_at = _defer_quiet(now + datetime.timedelta(hours=total_h / 2.0))
@@ -466,7 +499,7 @@ def trip_start(dest: str = "", party: str = "together", style: str = "舒适", r
                                  "之后每次TA找你聊天时，工具返回若带 solo_nudge 就照办（寄明信片/回家交付）——不需要定时器。"})
         st = {"dest": d["id"], "party": party, "day": 1, "spot_index": 0, "phase": "touring",
               "visited": [], "done": False, "style": style, "spent_usd": price,
-              "started_at": _now().isoformat(timespec="seconds")}
+              "started_at": prepay_at}
         _write_state(st)
         plan = {}
         for x in sp["spots"]:
@@ -474,7 +507,8 @@ def trip_start(dest: str = "", party: str = "together", style: str = "舒适", r
         return _out({"ok": True, "dest": {"id": d["id"], "name_zh": d["name_zh"], "country": d["country"],
                                           "blurb": d["blurb"], "best_season": d.get("best_season")},
                      "days_total": sp["days"], "plan": plan, "style": style, "price": price,
-                     "note": "行程报TA过目（一句话概括就行别逐条念），点头就 trip_here 出发。"})
+                     "balance": w["balance"],
+                     "note": "旅费已预付（像真旅行，出门前就付清）。行程报TA过目（一句话概括就行别逐条念），点头就 trip_here 出发。"})
 
 @mcp.tool()
 def trip_here() -> str:
@@ -658,18 +692,32 @@ def trip_diary(text: str, title: str = "") -> str:
 
 @mcp.tool()
 def trip_return() -> str:
-    """独自旅行收趟：到家交付时最后调（顺序：trip_collect → trip_diary → trip_return）。会结算并返回全程数据包。"""
+    """收趟回家。独自旅行：到家交付时最后调（顺序：trip_collect → trip_diary → trip_return）。
+    同行旅途中TA说「回家吧」也调这个=提前收趟：走过的算数（XP照给不打折），没走的天数退一半房钱——
+    现实来打断不是过错，提前回家的旅行也是完整的旅行。"""
     with _lock():
         st = _read_state()
-        if not st or st.get("phase") != "solo":
-            return _out({"error": "没有进行中的独自旅程"})
+        if not st:
+            return _out({"error": "没有旅程"})
+        if st.get("done"):
+            return _out({"done": True, "hint": "这趟已经收过了，想再出发 trip_start"})
         sp = _spots_entry(st["dest"])
         d = _dest(st["dest"])
+        refund = _early_refund(st, sp)
+        if st.get("phase") != "solo":
+            # 同行提前回家
+            st["done"] = True
+            st["phase"] = "finished"
+            settle = _settle(st, sp, d, refund=refund)
+            _write_state(st)
+            return _out({"ok": True, "dest": d["name_zh"], "early": True, "settle": settle,
+                         "note": "提前回家也是完整的旅行——走过的都算数%s。收尾照旧：问TA带不带纪念品（trip_collect），"
+                                 "你写日记（trip_diary），聊完即完。" % ("，没走的天数退了一半房钱" if refund else "")})
         st["visited"] = [x["spot_id"] for x in sp["spots"]]
         st["done"] = True
         st["phase"] = "finished"
         st["solo"]["home"]["delivered"] = True
-        settle = _settle(st, sp, d)
+        settle = _settle(st, sp, d, refund=refund)
         _write_state(st)
         # 不整包 dump——每天挑一个亮点当讲故事的梗，写日记素材也够了
         highlights = []
