@@ -228,6 +228,11 @@ def _settle(st, sp, d):
         if _wallet_apply(w, "cashback-%s" % trip_id, cb, "路上省下的零钱（旅行返现25%）"):
             out["cashback"] = cb
             out["balance"] = w["balance"]
+    bonus = st.get("event_bonus", 0)
+    if bonus:  # 路上同行好事攒的小确幸（第二杯半价/赢的午餐券），坏事永远只是故事不扣钱
+        if _wallet_apply(w, "bonus-%s" % trip_id, bonus, "路上的小确幸（同行好事攒的）"):
+            out["event_bonus"] = bonus
+            out["balance"] = w["balance"]
     return out
 
 # ---------- 惰性 solo（公版没有后台定时器：每次工具调用时检查，到点就把待办带回给模型） ----------
@@ -299,6 +304,20 @@ def _build_solo_packet(st, d, sp, style):
         days.append(entry)
     return {"days": days}
 
+# 同行专属好事池（party=together 时并入抽取）：两个人才会撞见的小确幸。bonus_usd=省下/赢来的小钱，结算时入账。
+TOGETHER_EVENTS = [
+    {"kind": "同行", "tone": "good", "text": "路边饮品店牌子上写着第二杯半价——本来一人一杯的钱，多出来的半杯算白赚。", "bonus_usd": 4},
+    {"kind": "同行", "tone": "good", "text": "广场上的双人趣味赛正缺一组，你们临时凑数居然赢了——奖品是隔壁餐馆的免费双人午餐券。", "bonus_usd": 15},
+    {"kind": "同行", "tone": "good", "text": "老板看你们俩有说有笑，结账时手一挥抹了零头，说「祝你们一直这样」。", "bonus_usd": 3},
+    {"kind": "同行", "tone": "good", "text": "观景台的拍照摊主说「你们太般配了」，免费送了一张打印的合影。", "bonus_usd": 5},
+    {"kind": "同行", "tone": "good", "text": "情侣套餐比单点便宜一截，菜量还大——两个人吃饭的数学从来是赚的。", "bonus_usd": 6},
+    {"kind": "同行", "tone": "good", "text": "民宿老板娘听说你们在旅行，偷偷给房间升了级，窗外正对最好的景。", "bonus_usd": 12},
+    {"kind": "同行", "tone": "surprise", "text": "你们同时指向同一家不起眼的小店说「就它」——进去发现是本地人排队的那种。", "bonus_usd": 0},
+    {"kind": "同行", "tone": "good", "text": "买一送一的冰淇淋车正好路过，两个人一人一支，一分钱当两分花。", "bonus_usd": 4},
+    {"kind": "同行", "tone": "surprise", "text": "走散了五分钟，重逢时发现你们各自买了给对方的小东西——还挑的是同一个摊。", "bonus_usd": 0},
+    {"kind": "同行", "tone": "good", "text": "夜市套圈摊，你们轮流上阵最后一环套中——奖品不值钱，但摊主起哄的样子值回票价。", "bonus_usd": 2},
+]
+
 def _maybe_event(dest_id, st, p=0.35):
     ev = None
     for e in _data("events"):
@@ -308,11 +327,30 @@ def _maybe_event(dest_id, st, p=0.35):
     if not ev or random.random() > p:
         return None
     used = st.setdefault("used_events", [])
-    cand = [i for i in range(len(ev)) if i not in used]
+    pool = list(ev)
+    if st.get("party") != "solo":
+        pool = pool + TOGETHER_EVENTS  # 同行才有的好事并进来
+    cand = [i for i in range(len(pool)) if i not in used]
     if not cand:
         return None
-    i = random.choice(cand); used.append(i)
-    return ev[i]
+    # 按 tone 加权（林鹿 7/4 拍板「好事多一些让大家都有希望」）：暖心35 / 惊喜40 / 坏事25
+    W = {"good": 35, "surprise": 40, "neutral": 35, "bad": 25}
+    by_tone = {}
+    for i in cand:
+        by_tone.setdefault(pool[i].get("tone", "neutral"), []).append(i)
+    tones = list(by_tone)
+    r = random.uniform(0, sum(W.get(t, 30) for t in tones))
+    pick_tone = tones[-1]
+    for t in tones:
+        r -= W.get(t, 30)
+        if r <= 0:
+            pick_tone = t
+            break
+    i = random.choice(by_tone[pick_tone]); used.append(i)
+    e = dict(pool[i])
+    if e.get("bonus_usd"):
+        st["event_bonus"] = st.get("event_bonus", 0) + e["bonus_usd"]
+    return e
 
 def _spot_payload(st):
     sp = _spots_entry(st["dest"])
@@ -472,7 +510,8 @@ def trip_here() -> str:
 @mcp.tool()
 def trip_go() -> str:
     """走去下一站（推进）。一天走完→day_end（吃住候选）；全程走完→自动结算（扣盘缠+记XP）并提醒收尾三件套。
-    返回若带 event（路上撞见的事）就顺进对话里讲，别当系统播报。"""
+    返回若带 event（路上撞见的事）就顺进对话里讲，别当系统播报。事件规则：坏事只是故事（钱包永不因事件扣钱，
+    被扒被宰都是剧情）；好事若带 bonus_usd 是真赚的小钱，结算时自动入账，别自己另外记。"""
     with _lock():
         st = _read_state()
         if not st:
