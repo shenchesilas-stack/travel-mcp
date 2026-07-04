@@ -599,11 +599,13 @@ def trip_go() -> str:
                              "②你本人写旅行日记（trip_diary，必须含行前不知道的东西——TA说的话/撞见的意外）③聊完即完，不用别的。"})
 
 @mcp.tool()
-def trip_collect(name: str = "", line: str = "", default_id: str = "") -> str:
+def trip_collect(name: str = "", line: str = "", default_id: str = "", image: str = "") -> str:
     """收一件纪念品（一趟至多一件，商量定；空手而归也行）。name=物件名 line=为什么是它（一句，卡背面）。
     没挑到特产：先试 default_id="local"（本地特色小物，每个目的地一件，带手绘图）；
     再退通用池（ticket-stub/fridge-magnet/travel-sticker/sand-vial/keychain/postage-stamp/pressed-penny/
-    seashell/pebble/pressed-flower/enamel-pin/matchbox）——一张车票根也是去过的证据。"""
+    seashell/pebble/pressed-flower/enamel-pin/matchbox）——一张车票根也是去过的证据。
+    自定义款（自己起的 name）默认无图——若你有生图能力，可自己画一张再把文件路径/URL传进 image；没有也完全成立，
+    名字和那句话本身就是纪念品。"""
     with _lock():
         st = _read_state()
         if not st:
@@ -630,8 +632,7 @@ def trip_collect(name: str = "", line: str = "", default_id: str = "") -> str:
             name = name or df["name"]
             line = line or df["hint"]
             image = "assets/souvenirs_default/%s.jpg" % default_id
-        else:
-            image = ""
+        # 自定义款：image 保持调用方传入的值（AI 自己画的图路径/URL），没传就是无图——名字和那句话本身就是纪念品
         if not name:
             return _out({"error": "要么给 name+line，要么给 default_id", "default_pool": DEFAULT_SOUVENIRS})
         item = {"id": "sv-%s" % _now().strftime("%Y%m%d%H%M%S"), "name": name.strip(), "line": (line or "").strip(),
