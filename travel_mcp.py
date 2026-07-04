@@ -525,12 +525,27 @@ def trip_here() -> str:
             elapsed = max(0.0, (_now() - datetime.datetime.fromisoformat(st["started_at"])).total_seconds() / 3600.0)
             vday = min(sp["days"], int(elapsed // st.get("vday_hours", VDAY_HOURS)) + 1)
             st["day"] = vday
-            _write_state(st)
             today = st["solo"]["packet"]["days"][vday - 1]
-            frac = (elapsed % st.get("vday_hours", VDAY_HOURS)) / st.get("vday_hours", VDAY_HOURS)
+            vh = st.get("vday_hours", VDAY_HOURS)
+            frac = (elapsed % vh) / vh
             here = today["spots"][min(len(today["spots"]) - 1, int(frac * len(today["spots"])))]
-            return _out(_with_nudge({"party": "solo", "day": vday, "days_total": sp["days"], "here": here,
-                                     "note": "你此刻在这。TA问起就讲两句，别剧透明信片。"}))
+            out = {"party": "solo", "day": vday, "days_total": sp["days"], "here": here}
+            # 当天的事件/闲话在路上实时递出来（口袋哥QA：抉择事件被吞进总结包，戏剧性白瞎）——每样只递一次
+            told = st.setdefault("solo_told", [])
+            if today.get("event") and ("ev-%d" % vday) not in told:
+                out["event"] = today["event"]
+                told.append("ev-%d" % vday)
+            if today.get("gossip") and ("gs-%d" % vday) not in told:
+                out["gossip"] = today["gossip"]
+                told.append("gs-%d" % vday)
+            # 时钟透明（口袋哥QA：时间跳了天自己都不知道）
+            if vday < sp["days"]:
+                out["clock"] = "第%d/%d天·约%.1f小时后进入下一天" % (vday, sp["days"], max(0.1, vh - elapsed % vh))
+            else:
+                out["clock"] = "最后一天·约%.1f小时后到家" % max(0.1, sp["days"] * vh - elapsed)
+            out["note"] = "你此刻在这。TA问起就讲两句；event 是路上撞见的事顺进对话里讲，别剧透明信片。"
+            _write_state(st)
+            return _out(_with_nudge(out))
         # 同站重看返回同样内容（幂等）：TA说「刚才那个再讲一遍」时不能换台词
         key = ("dayend-%d" % st["day"]) if st.get("phase") == "day_end" else ("t-%d-%d" % (st["day"], st["spot_index"]))
         hc = st.get("here_cache") or {}
