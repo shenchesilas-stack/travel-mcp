@@ -1,0 +1,28 @@
+[
+ {
+  "id": "seychelles",
+  "items": [
+   {
+    "name_zh": "海椰子",
+    "name_en": "Coco de Mer",
+    "kind": "自然奇物",
+    "blurb": "世界最大的种子，一颗二十公斤，塞舌尔独有，形状理直气壮",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Coco_de_Mer_-_Le_Jardin_du_Roi_-_01.jpg/1280px-Coco_de_Mer_-_Le_Jardin_du_Roi_-_01.jpg"
+   },
+   {
+    "name_zh": "Takamaka朗姆酒",
+    "name_en": "Takamaka Rum",
+    "kind": "当地酒",
+    "blurb": "塞舌尔本地蒸馏，海岛甘蔗酿",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Takamaka_Rum_from_Seychelles.jpg/1280px-Takamaka_Rum_from_Seychelles.jpg"
+   },
+   {
+    "name_zh": "香草荚",
+    "name_en": "Vanilla pod",
+    "kind": "香料特产",
+    "blurb": "一朵花只开一个上午，人工授粉，晾晒发酵六个月",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Vanilla_beans.jpg/1280px-Vanilla_beans.jpg"
+   }
+  ]
+ }
+]

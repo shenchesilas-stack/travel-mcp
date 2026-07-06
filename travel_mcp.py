@@ -184,6 +184,13 @@ def _spots_entry(dest_id):
             return s
     return None
 
+def _specialties(dest_id):
+    # 当地特产真图（Commons 照片，画的是「品类」不查店，天生不地理错位）。AI 聊到时才 <image> 配图。
+    for s in (_data("specialties") or []):
+        if s["id"] == dest_id:
+            return [x for x in s.get("items", []) if x.get("photo_url")]
+    return []
+
 def _day_spots(sp, day):
     return [x for x in sp["spots"] if x.get("day") == day]
 
@@ -412,6 +419,11 @@ def _spot_payload(st):
     if cand:
         gi = random.choice(cand); gu.append(gi)
         out["gossip"] = {"mood": gp[gi].get("mood"), "text": gp[gi].get("text")}
+    # 进这个目的地第一站时，附上当地特产清单（含真图）——聊到哪个特产就 <image> 配那张图，别硬塞
+    if st["day"] == 1 and st["spot_index"] == 0:
+        sps = _specialties(st["dest"])
+        if sps:
+            out["specialties"] = sps
     return out
 
 def _day_end_payload(st):
@@ -492,7 +504,8 @@ def trip_start(dest: str = "", party: str = "together", style: str = "舒适", r
     先用 trip_plan 跟TA商量定，说好「现在出发」才调这个——TA说今晚走就今晚再调。
     dest=目的地（id或中文名）；party=together同行/solo你独自去；style=青旅背包/舒适/轻奢/豪奢。
     同行：trip_here 看当前站→聊够 trip_go 下一站。节奏铁律：每站=图(photo_url用你的方式发给TA看)→你的一句体感→等TA说话；
-    永不弹A/B/C选项栏，用自然的话问去向。独自：出发时整趟自动跑完，到卡点系统会在工具返回里提醒你寄明信片/回家交付。"""
+    永不弹A/B/C选项栏，用自然的话问去向。独自：出发时整趟自动跑完，到卡点系统会在工具返回里提醒你寄明信片/回家交付。
+    trip_here 首站返回可能带 specialties（当地特产真图）：聊天里自然提到某个当地特产时，才用它的 photo_url 配图，别开清单硬塞。"""
     with _lock():
         st = _read_state()
         if st and not st.get("done"):
