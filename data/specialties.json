@@ -1,27 +1,3047 @@
 [
  {
+  "id": "paris",
+  "items": [
+   {
+    "name_zh": "马卡龙",
+    "name_en": "Macaron",
+    "kind": "食材特产",
+    "blurb": "法式杏仁蛋白甜饼，拉杜蕾（Ladurée）等百年老店让它成为巴黎甜点代名词",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Macaron_Ladur%C3%A9e._Paris_2010.jpg/1280px-Macaron_Ladur%C3%A9e._Paris_2010.jpg"
+   },
+   {
+    "name_zh": "法棍面包",
+    "name_en": "French Baguette",
+    "kind": "食材特产",
+    "blurb": "法国国民主食，1920年立法规定其重量与长度，是法式生活方式的象征",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/French_baguette_-_bread_art.jpg/1280px-French_baguette_-_bread_art.jpg"
+   }
+  ]
+ },
+ {
+  "id": "tokyo",
+  "items": [
+   {
+    "name_zh": "东京香蕉",
+    "name_en": "Tokyo Banana",
+    "kind": "食材特产",
+    "blurb": "1991年诞生的东京经典伴手礼，香蕉形状的海绵蛋糕夹奶油馅",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Tokyo_Banana.JPG"
+   },
+   {
+    "name_zh": "日本清酒",
+    "name_en": "Japanese Sake",
+    "kind": "当地酒",
+    "blurb": "米酿清酒，日本传统酒文化的核心，常温热饮冷饮皆宜",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Japanese_sake_bottles_and_glasses.jpg/1280px-Japanese_sake_bottles_and_glasses.jpg"
+   }
+  ]
+ },
+ {
+  "id": "rome",
+  "items": [
+   {
+    "name_zh": "意式冰淇淋",
+    "name_en": "Gelato",
+    "kind": "食材特产",
+    "blurb": "比普通冰淇淋乳脂更低、口感更绵密，意大利街头巷尾随处可见",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Gelato_in_Italy.jpg/1280px-Gelato_in_Italy.jpg"
+   },
+   {
+    "name_zh": "摩卡壶咖啡",
+    "name_en": "Moka Pot Espresso Maker",
+    "kind": "工艺品",
+    "blurb": "意大利家庭必备的八角形咖啡壶，1933年由Bialetti发明",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Caffettiera_moka_per_caff%C3%A8_espresso_02.jpg"
+   }
+  ]
+ },
+ {
+  "id": "kyoto",
+  "items": [
+   {
+    "name_zh": "抹茶",
+    "name_en": "Matcha",
+    "kind": "食材特产",
+    "blurb": "京都宇治茶闻名日本，是茶道文化的核心原料",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Matcha_Kyoto_JPN_001.jpg/1280px-Matcha_Kyoto_JPN_001.jpg"
+   },
+   {
+    "name_zh": "西阵织",
+    "name_en": "Nishijin-ori Textile",
+    "kind": "工艺品",
+    "blurb": "京都西阵地区传承千年的高级织锦工艺，常用于和服腰带",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/No_robe_%28karaori%29.tiff/lossy-page1-1280px-No_robe_%28karaori%29.tiff.jpg"
+   }
+  ]
+ },
+ {
+  "id": "bangkok",
+  "items": [
+   {
+    "name_zh": "泰丝",
+    "name_en": "Thai Silk",
+    "kind": "工艺品",
+    "blurb": "以Jim Thompson故居博物馆为代表，泰国手工丝绸的国际名片",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Thai_man_spools_silk_at_Jim_Thompson_House_photo_Don_Ramey_Logan.jpg/1280px-Thai_man_spools_silk_at_Jim_Thompson_House_photo_Don_Ramey_Logan.jpg"
+   },
+   {
+    "name_zh": "芒果糯米饭",
+    "name_en": "Mango Sticky Rice",
+    "kind": "食材特产",
+    "blurb": "椰浆糯米配熟芒果，泰国最具代表性的国民甜品",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Mango_sticky_rice_served_in_Thailand.jpg/1280px-Mango_sticky_rice_served_in_Thailand.jpg"
+   }
+  ]
+ },
+ {
+  "id": "new-york",
+  "items": [
+   {
+    "name_zh": "纽约贝果",
+    "name_en": "New York Bagel (Lox & Bagel)",
+    "kind": "食材特产",
+    "blurb": "配烟熏三文鱼与奶油奶酪吃法源自纽约的犹太移民传统，被视为纽约早餐标志",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Lox-and-bagel-02.jpg/1280px-Lox-and-bagel-02.jpg"
+   },
+   {
+    "name_zh": "纽约芝士蛋糕",
+    "name_en": "New York Cheesecake",
+    "kind": "食材特产",
+    "blurb": "以浓郁奶油芝士与紧实质地闻名的经典甜点，纽约风味自成一派",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/New_York_cheesecake_3.jpg/1280px-New_York_cheesecake_3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "london",
+  "items": [
+   {
+    "name_zh": "英式司康（下午茶）",
+    "name_en": "Scone with Clotted Cream",
+    "kind": "食材特产",
+    "blurb": "英式下午茶的招牌单品，抹上凝脂奶油与果酱食用",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/SconeCream.jpg/1280px-SconeCream.jpg"
+   },
+   {
+    "name_zh": "红色电话亭（纪念品）",
+    "name_en": "Red Telephone Box",
+    "kind": "其他",
+    "blurb": "伦敦最具辨识度的街头符号，常被制成模型、明信片等纪念品",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Red_telephone_box_%28London%29_in_2025.05.jpg/1280px-Red_telephone_box_%28London%29_in_2025.05.jpg"
+   }
+  ]
+ },
+ {
+  "id": "bali",
+  "items": [
+   {
+    "name_zh": "巴厘木雕",
+    "name_en": "Balinese Wood Carving",
+    "kind": "工艺品",
+    "blurb": "巴厘岛乌布地区盛产的传统木雕工艺品，题材多取自印度教神话",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wood_carving_in_Bali.jpg/1280px-Wood_carving_in_Bali.jpg"
+   },
+   {
+    "name_zh": "香花祭品（Canang Sari）",
+    "name_en": "Canang Sari Offering",
+    "kind": "其他",
+    "blurb": "巴厘岛印度教徒每日供奉的椰叶花篮，随处可见的当地日常风景",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Canang_sari.jpg/1280px-Canang_sari.jpg"
+   }
+  ]
+ },
+ {
+  "id": "santorini",
+  "items": [
+   {
+    "name_zh": "圣托里尼阿斯提可白葡萄酒",
+    "name_en": "Santorini Assyrtiko Wine",
+    "kind": "当地酒",
+    "blurb": "火山土壤孕育的阿斯提可（Assyrtiko）葡萄酿造的矿物感强烈的白葡萄酒",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Asirtiko_Athiri_from_Santorini.JPG/1280px-Asirtiko_Athiri_from_Santorini.JPG"
+   },
+   {
+    "name_zh": "圣托里尼樱桃番茄",
+    "name_en": "Santorini Cherry Tomatoes",
+    "kind": "食材特产",
+    "blurb": "火山灰土壤种出的小个头高甜度番茄，岛上特色食材",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Santorinis_Cherry_Tomatoes_%28754575817%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "dubai",
+  "items": [
+   {
+    "name_zh": "迪拜黄金市场金饰",
+    "name_en": "Dubai Gold Souk Jewelry",
+    "kind": "工艺品",
+    "blurb": "迪拜老城区德伊拉的传统黄金集市，以精美工艺与免税价格闻名",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Dubai_Gold_Souk_%281%29.jpg/1280px-Dubai_Gold_Souk_%281%29.jpg"
+   },
+   {
+    "name_zh": "迪拜香料市场",
+    "name_en": "Dubai Spice Souk",
+    "kind": "食材特产",
+    "blurb": "香料、坚果与藏红花堆积如山的传统市集，阿拉伯贸易历史的缩影",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Dubai_Spice_Souk_2.jpg/1280px-Dubai_Spice_Souk_2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "istanbul",
+  "items": [
+   {
+    "name_zh": "蓝眼睛护身符",
+    "name_en": "Nazar Boncuğu (Evil Eye Bead)",
+    "kind": "工艺品",
+    "blurb": "土耳其手工玻璃制成的辟邪蓝眼睛，是伊斯坦布尔集市最常见的纪念品",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Evil_eye_bead_or_Nazar_Boncuk.jpg"
+   },
+   {
+    "name_zh": "土耳其软糖",
+    "name_en": "Turkish Delight (Lokum)",
+    "kind": "食材特产",
+    "blurb": "玫瑰水、坚果与糖霜制成的传统甜食，伊斯坦布尔市集常见摊位货品",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Turkish_Delight_lokum.jpg/1280px-Turkish_Delight_lokum.jpg"
+   }
+  ]
+ },
+ {
+  "id": "barcelona",
+  "items": [
+   {
+    "name_zh": "高迪碎瓷马赛克",
+    "name_en": "Trencadís Mosaic",
+    "kind": "工艺品",
+    "blurb": "高迪标志性的碎瓷片拼贴工艺，古埃尔公园与巴特罗之家随处可见",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Trencadis-Gaudi-1195.jpg/1280px-Trencadis-Gaudi-1195.jpg"
+   },
+   {
+    "name_zh": "卡瓦气泡酒",
+    "name_en": "Cava Sparkling Wine",
+    "kind": "当地酒",
+    "blurb": "产自加泰罗尼亚地区的传统法气泡酒，巴塞罗那餐桌常见佐餐酒",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Malvasia_Cava.jpg"
+   }
+  ]
+ },
+ {
+  "id": "sydney",
+  "items": [
+   {
+    "name_zh": "夏威夷果（澳洲坚果）",
+    "name_en": "Macadamia Nuts",
+    "kind": "食材特产",
+    "blurb": "原产于澳大利亚东部的坚果，被誉为“坚果之王”",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nuts_of_Macadamia_1152861.jpg/1280px-Nuts_of_Macadamia_1152861.jpg"
+   },
+   {
+    "name_zh": "悉尼岩牡蛎",
+    "name_en": "Sydney Rock Oyster",
+    "kind": "食材特产",
+    "blurb": "澳大利亚东海岸特有牡蛎品种，以悉尼命名，鲜甜细腻",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Sydney_rock_oysters.jpg/1280px-Sydney_rock_oysters.jpg"
+   }
+  ]
+ },
+ {
+  "id": "rio-de-janeiro",
+  "items": [
+   {
+    "name_zh": "卡莎萨与凯匹林纳",
+    "name_en": "Cachaça & Caipirinha",
+    "kind": "当地酒",
+    "blurb": "巴西国民烈酒卡莎萨调制的凯匹林纳鸡尾酒，里约海滩酒吧标配",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Caipirinha_and_Cacha%C3%A7a.jpg/1280px-Caipirinha_and_Cacha%C3%A7a.jpg"
+   },
+   {
+    "name_zh": "哈瓦那人字拖",
+    "name_en": "Havaianas Flip-Flops",
+    "kind": "工艺品",
+    "blurb": "巴西国民橡胶人字拖品牌，桑巴与沙滩文化的日常标志",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/White_flip_flops_with_Brazilian_flag.jpg"
+   }
+  ]
+ },
+ {
+  "id": "cape-town",
+  "items": [
+   {
+    "name_zh": "路易波士茶",
+    "name_en": "Rooibos Tea",
+    "kind": "食材特产",
+    "blurb": "仅产于南非西开普地区的无咖啡因红灌木茶，被称为“红金”",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Rooibos%2C_The_Red_Gold.jpg/1280px-Rooibos%2C_The_Red_Gold.jpg"
+   },
+   {
+    "name_zh": "斯泰伦博斯葡萄酒",
+    "name_en": "Stellenbosch Wine (Pinotage)",
+    "kind": "当地酒",
+    "blurb": "开普敦近郊斯泰伦博斯酒乡出产的南非国宝级黑皮诺塔吉红酒",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Stellenbosch_Pinotage.jpg/1280px-Stellenbosch_Pinotage.jpg"
+   }
+  ]
+ },
+ {
+  "id": "chiang-mai",
+  "items": [
+   {
+    "name_zh": "博桑纸伞",
+    "name_en": "Bo Sang Umbrella",
+    "kind": "工艺品",
+    "blurb": "清迈博桑村手工彩绘桑皮纸伞，泰北传统工艺代表",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Schirm_rot_mit_Aufschrift_Bo_Sang_Ching_Mai_Thailand.jpg/1280px-Schirm_rot_mit_Aufschrift_Bo_Sang_Ching_Mai_Thailand.jpg"
+   },
+   {
+    "name_zh": "孔明灯（天灯）",
+    "name_en": "Khom Loi (Sky Lantern)",
+    "kind": "其他",
+    "blurb": "起源于泰北的漂浮纸灯笼，水灯节（耀贝）夜空放飞的标志性画面",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Khom_Loi.jpg"
+   }
+  ]
+ },
+ {
+  "id": "seoul",
+  "items": [
+   {
+    "name_zh": "韩服",
+    "name_en": "Hanbok",
+    "kind": "工艺品",
+    "blurb": "韩国传统服饰，色彩鲜艳线条流畅，景福宫一带常见游客租借体验",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Female_Hanbok_From_South_Korea.jpg/1280px-Female_Hanbok_From_South_Korea.jpg"
+   },
+   {
+    "name_zh": "韩国红参",
+    "name_en": "Korean Red Ginseng",
+    "kind": "食材特产",
+    "blurb": "高丽人参蒸制而成的红参，韩国传统滋补品与经典伴手礼",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Korean_red_ginseng.jpg"
+   }
+  ]
+ },
+ {
+  "id": "singapore",
+  "items": [
+   {
+    "name_zh": "鱼尾狮",
+    "name_en": "Merlion",
+    "kind": "其他",
+    "blurb": "新加坡的官方吉祥物与地标雕像，狮头鱼尾造型立于滨海湾。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Merlion_%28I%29.jpg/1280px-Merlion_%28I%29.jpg"
+   },
+   {
+    "name_zh": "辣椒螃蟹",
+    "name_en": "Chilli Crab",
+    "kind": "食材特产",
+    "blurb": "新加坡最具代表性的国民料理，浓稠微辣的番茄酱汁裹满螃蟹。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Chili_crab_zz.jpg"
+   }
+  ]
+ },
+ {
+  "id": "venice",
+  "items": [
+   {
+    "name_zh": "穆拉诺玻璃",
+    "name_en": "Murano Glass",
+    "kind": "工艺品",
+    "blurb": "威尼斯穆拉诺岛数百年传承的吹制玻璃工艺，色彩斑斓、造型繁复。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Murano_Glass_Museum_01062015_01.jpg/1280px-Murano_Glass_Museum_01062015_01.jpg"
+   },
+   {
+    "name_zh": "布拉诺蕾丝",
+    "name_en": "Burano Lace",
+    "kind": "工艺品",
+    "blurb": "布拉诺岛手工蕾丝，以精细针法闻名欧洲宫廷数百年。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Museum_of_Lace_%28Burano%29_06.jpg/1280px-Museum_of_Lace_%28Burano%29_06.jpg"
+   },
+   {
+    "name_zh": "贡多拉",
+    "name_en": "Gondola",
+    "kind": "其他",
+    "blurb": "威尼斯运河上的传统黑色平底船，船夫撑篙穿梭水巷是城市象征。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Gondola%2C_Venice%2C_Italy.jpg/1280px-Gondola%2C_Venice%2C_Italy.jpg"
+   }
+  ]
+ },
+ {
+  "id": "amsterdam",
+  "items": [
+   {
+    "name_zh": "郁金香花田",
+    "name_en": "Tulip Fields",
+    "kind": "自然奇物",
+    "blurb": "荷兰春季标志性的成片郁金香花田，色带如彩虹铺展田野。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Tulip_field_in_Holland.jpg/1280px-Tulip_field_in_Holland.jpg"
+   },
+   {
+    "name_zh": "代尔夫特蓝陶",
+    "name_en": "Delftware",
+    "kind": "工艺品",
+    "blurb": "荷兰代表性青花陶瓷，白底蓝彩纹样源自17世纪对中国瓷器的仿制。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Delftware_in_Room_2.22_of_Rijksmuseum_Amsterdam_%2801%29.jpg/1280px-Delftware_in_Room_2.22_of_Rijksmuseum_Amsterdam_%2801%29.jpg"
+   },
+   {
+    "name_zh": "荷兰木鞋",
+    "name_en": "Dutch Clogs (Klompen)",
+    "kind": "工艺品",
+    "blurb": "荷兰传统全木质鞋履，曾是农民与渔民的日常劳作鞋。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Netherlands-4302_-_Old_Clogs_%2811994186765%29.jpg/1280px-Netherlands-4302_-_Old_Clogs_%2811994186765%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "prague",
+  "items": [
+   {
+    "name_zh": "波西米亚水晶",
+    "name_en": "Bohemian Crystal",
+    "kind": "工艺品",
+    "blurb": "布拉格及波西米亚地区数百年历史的水晶玻璃工艺，以澄澈切割闻名。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Bohemia_Crystal.jpg/1280px-Bohemia_Crystal.jpg"
+   },
+   {
+    "name_zh": "提线木偶",
+    "name_en": "Marionette Puppets",
+    "kind": "工艺品",
+    "blurb": "捷克传统提线木偶戏道具，布拉格老城街头随处可见木偶商店。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Marionettes_for_Sale_-_Prague_-_Czech_Republic.jpg/1280px-Marionettes_for_Sale_-_Prague_-_Czech_Republic.jpg"
+   }
+  ]
+ },
+ {
+  "id": "marrakech",
+  "items": [
+   {
+    "name_zh": "香料市集",
+    "name_en": "Spice Souk",
+    "kind": "食材特产",
+    "blurb": "马拉喀什麦地那老城集市里色彩堆叠的香料摊，是当地生活的缩影。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Medina_of_Marrakech4.jpg/1280px-Medina_of_Marrakech4.jpg"
+   },
+   {
+    "name_zh": "摩洛哥手工灯笼",
+    "name_en": "Moroccan Lanterns",
+    "kind": "工艺品",
+    "blurb": "马拉喀什五金匠人手工锻造的镂空金属灯笼，挂满老城工匠区街巷。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Oriental_hanging_lanterns._Souk_Haddadine%2C_Marrakech_Medina%2C_Morocco.jpg/1280px-Oriental_hanging_lanterns._Souk_Haddadine%2C_Marrakech_Medina%2C_Morocco.jpg"
+   }
+  ]
+ },
+ {
+  "id": "hong-kong",
+  "items": [
+   {
+    "name_zh": "蛋挞",
+    "name_en": "Egg Tart",
+    "kind": "食材特产",
+    "blurb": "香港中西合璧的经典茶餐厅甜点，酥皮或曲奇皮包裹嫩滑蛋奶馅。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/HK_food_sweet_egg_tart_%E5%8A%A0%E5%88%A9%E5%B9%B4_Catherine_Bakery_May-2012.JPG/1280px-HK_food_sweet_egg_tart_%E5%8A%A0%E5%88%A9%E5%B9%B4_Catherine_Bakery_May-2012.JPG"
+   },
+   {
+    "name_zh": "霓虹招牌",
+    "name_en": "Neon Signs",
+    "kind": "其他",
+    "blurb": "香港街头层叠悬挂的手写霓虹灯招牌，曾是维港夜色的标志景观。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Neon_signs%2C_Hong_Kong%2C_China_-_%E9%A6%99%E6%B8%AF%EF%BC%8C%E4%B8%AD%E5%9B%BD_%2810226012935%29.jpg/1280px-Neon_signs%2C_Hong_Kong%2C_China_-_%E9%A6%99%E6%B8%AF%EF%BC%8C%E4%B8%AD%E5%9B%BD_%2810226012935%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "lisbon",
+  "items": [
+   {
+    "name_zh": "葡式瓷砖",
+    "name_en": "Azulejo Tiles",
+    "kind": "工艺品",
+    "blurb": "里斯本建筑外墙常见的蓝白彩绘瓷砖，源自摩尔传统并发展成葡萄牙标志工艺。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Azulejo-tiles-Lisbon-Portugal.jpg/1280px-Azulejo-tiles-Lisbon-Portugal.jpg"
+   },
+   {
+    "name_zh": "金吉娜樱桃酒",
+    "name_en": "Ginjinha",
+    "kind": "当地酒",
+    "blurb": "里斯本街头小酒馆售卖的樱桃甜酒，常装在巧克力杯中一口饮尽。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Ginjinha_store.jpg"
+   }
+  ]
+ },
+ {
+  "id": "vienna",
+  "items": [
+   {
+    "name_zh": "萨赫蛋糕",
+    "name_en": "Sachertorte",
+    "kind": "食材特产",
+    "blurb": "维也纳萨赫酒店首创的巧克力蛋糕，夹杏子酱、覆巧克力糖衣。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Sachertorte-HotelSacher-2008.jpg/1280px-Sachertorte-HotelSacher-2008.jpg"
+   },
+   {
+    "name_zh": "维也纳咖啡（melange）",
+    "name_en": "Wiener Melange",
+    "kind": "食材特产",
+    "blurb": "维也纳咖啡馆文化的代表饮品，浓缩咖啡与热牛奶泡沫调制而成。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Caf%C3%A9_Diglas_Wiener_Melange.jpg/1280px-Caf%C3%A9_Diglas_Wiener_Melange.jpg"
+   }
+  ]
+ },
+ {
+  "id": "cairo-giza",
+  "items": [
+   {
+    "name_zh": "吉萨金字塔",
+    "name_en": "Pyramids of Giza",
+    "kind": "自然奇物",
+    "blurb": "古埃及法老陵墓建筑群，世界古代七大奇迹中唯一留存至今者。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/1280px-All_Gizah_Pyramids.jpg"
+   },
+   {
+    "name_zh": "莎草纸",
+    "name_en": "Papyrus",
+    "kind": "工艺品",
+    "blurb": "古埃及发明的书写载体，取自尼罗河畔莎草，纹样多绘古埃及神话场景。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Ancient_papyrus_Egyptian_Museum_Cairo_%281%29.jpg/1280px-Ancient_papyrus_Egyptian_Museum_Cairo_%281%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "hanoi",
+  "items": [
+   {
+    "name_zh": "鸡蛋咖啡",
+    "name_en": "Egg Coffee (Cà Phê Trứng)",
+    "kind": "食材特产",
+    "blurb": "河内独创的越南咖啡喝法，蛋黄与炼乳打发成绵密奶泡覆于咖啡上。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Vietnam-Hanoi-Egg_coffee-P1280590.jpg/1280px-Vietnam-Hanoi-Egg_coffee-P1280590.jpg"
+   },
+   {
+    "name_zh": "越南斗笠",
+    "name_en": "Conical Hat (Nón Lá)",
+    "kind": "工艺品",
+    "blurb": "越南乡野与市井随处可见的传统棕榈叶斗笠，遮阳挡雨的国民符号。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Vietnamese_conical_hat_nonla.jpg"
+   }
+  ]
+ },
+ {
+  "id": "hawaii-oahu",
+  "items": [
+   {
+    "name_zh": "鸡蛋花花环",
+    "name_en": "Plumeria Lei",
+    "kind": "自然奇物",
+    "blurb": "夏威夷迎宾传统花环，以芳香的鸡蛋花（缅栀花）串成，象征欢迎与爱。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Haw-plumeria.jpg/1280px-Haw-plumeria.jpg"
+   },
+   {
+    "name_zh": "刨冰（Shave Ice）",
+    "name_en": "Hawaiian Shave Ice",
+    "kind": "食材特产",
+    "blurb": "欧胡岛北岸哈雷伊瓦一带的招牌消暑甜品，细雪般刨冰淋满多层糖浆。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Ore_Haleiwa_Hawaii_Oahu_Matsumoto_Shave_Ice_%2833673670325%29.jpg/1280px-Ore_Haleiwa_Hawaii_Oahu_Matsumoto_Shave_Ice_%2833673670325%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "florence",
+  "items": [
+   {
+    "name_zh": "基安蒂葡萄酒",
+    "name_en": "Chianti Wine",
+    "kind": "当地酒",
+    "blurb": "佛罗伦萨所在托斯卡纳基安蒂产区的经典红酒，以桑娇维塞葡萄酿造。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Chianti_Classico_example_bottle_-_Annata_type.jpg"
+   },
+   {
+    "name_zh": "意式冰淇淋",
+    "name_en": "Gelato",
+    "kind": "食材特产",
+    "blurb": "佛罗伦萨被视为现代意式冰淇淋的发源地之一，质地绵密、风味浓郁。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Gelato_Firenze_2007.jpg/1280px-Gelato_Firenze_2007.jpg"
+   }
+  ]
+ },
+ {
+  "id": "queenstown",
+  "items": [
+   {
+    "name_zh": "蹦极",
+    "name_en": "Bungy Jumping",
+    "kind": "其他",
+    "blurb": "皇后镇卡瓦劳大桥是世界上第一个商业蹦极跳台，被视为极限运动发源地。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Bungy_jumping_from_the_Kawarau_Bridge_near_Queenstown_1988_%2810805217116%29.jpg/1280px-Bungy_jumping_from_the_Kawarau_Bridge_near_Queenstown_1988_%2810805217116%29.jpg"
+   },
+   {
+    "name_zh": "新西兰绿玉（pounamu）",
+    "name_en": "Pounamu (NZ Greenstone/Jade)",
+    "kind": "自然奇物",
+    "blurb": "新西兰南岛特产的软玉，毛利文化中视为圣物，常制成吊坠工艺品。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Nephrite_jade_%28Pounamu_Ultramafics%2C_Pounamu_Ultramafic_Belt%2C_South_Island%2C_New_Zealand%29_1_%2824069093653%29.jpg/1280px-Nephrite_jade_%28Pounamu_Ultramafics%2C_Pounamu_Ultramafic_Belt%2C_South_Island%2C_New_Zealand%29_1_%2824069093653%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "amman",
+  "items": [
+   {
+    "name_zh": "曼萨夫",
+    "name_en": "Mansaf",
+    "kind": "食材特产",
+    "blurb": "约旦国菜，以发酵羊奶酸汁炖羊肉配香料米饭，安曼家庭宴客必备。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Mansaf%2C_the_traditional_dish_of_Jordan.jpg"
+   },
+   {
+    "name_zh": "死海",
+    "name_en": "Dead Sea",
+    "kind": "自然奇物",
+    "blurb": "世界最低点的高盐度湖泊，毗邻安曼，游客可轻松漂浮并涂抹矿物泥。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Dead_Sea_beach_in_Jordan.jpg/1280px-Dead_Sea_beach_in_Jordan.jpg"
+   }
+  ]
+ },
+ {
+  "id": "havana",
+  "items": [
+   {
+    "name_zh": "复古老爷车",
+    "name_en": "Vintage American Cars",
+    "kind": "其他",
+    "blurb": "哈瓦那街头随处可见的1950年代美国老爷车，是古巴时代封存的独特景观。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Red_vintage_car_in_Havana.jpg"
+   },
+   {
+    "name_zh": "古巴雪茄",
+    "name_en": "Cuban Cigars",
+    "kind": "食材特产",
+    "blurb": "哈瓦那出产的手卷雪茄，被公认为世界顶级雪茄的代名词。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Cuban_cigars_Habana_Los_Statos_de_Luxe.JPG/1280px-Cuban_cigars_Habana_Los_Statos_de_Luxe.JPG"
+   }
+  ]
+ },
+ {
+  "id": "edinburgh",
+  "items": [
+   {
+    "name_zh": "苏格兰威士忌",
+    "name_en": "Scotch Whisky",
+    "kind": "当地酒",
+    "blurb": "苏格兰的国家酒饮，爱丁堡是品鉴与购买各产区单一麦芽威士忌的门户城市。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Scotch_whiskies.jpg/1280px-Scotch_whiskies.jpg"
+   },
+   {
+    "name_zh": "风笛",
+    "name_en": "Bagpipes",
+    "kind": "其他",
+    "blurb": "苏格兰传统乐器，爱丁堡皇家英里大道上常有风笛手身着苏格兰裙表演。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Piper_on_the_Royal_Mile_-_geograph.org.uk_-_5762279.jpg"
+   }
+  ]
+ },
+ {
+  "id": "maldives",
+  "items": [
+   {
+    "name_zh": "水上屋",
+    "name_en": "Overwater Bungalows",
+    "kind": "其他",
+    "blurb": "马尔代夫度假村标志性建筑，架设于潟湖之上，直接可从屋内跳入海中。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/MaldivesBungalows.jpg/1280px-MaldivesBungalows.jpg"
+   },
+   {
+    "name_zh": "礁蝠鲼",
+    "name_en": "Reef Manta Ray",
+    "kind": "自然奇物",
+    "blurb": "马尔代夫珊瑚礁潜水胜地常见的大型蝠鲼，是浮潜与潜水爱好者的必见之物。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Manta_alfredi_fushivaru_thila.jpg/1280px-Manta_alfredi_fushivaru_thila.jpg"
+   }
+  ]
+ },
+ {
+  "id": "buenos-aires",
+  "items": [
+   {
+    "name_zh": "传统马黛茶具",
+    "name_en": "Mate Gourd & Bombilla",
+    "kind": "食材特产",
+    "blurb": "阿根廷国民饮品马黛茶所用的葫芦杯与金属吸管，布宜诺斯艾利斯街头随处可见",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Selection_of_Yerba_Mate_Gourds.JPG/1280px-Selection_of_Yerba_Mate_Gourds.JPG"
+   },
+   {
+    "name_zh": "卡米尼托彩色街区",
+    "name_en": "Caminito Colorful Houses",
+    "kind": "其他",
+    "blurb": "博卡区用船厂剩漆涂出的镀锌铁皮房屋，探戈发源地的标志性街景",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/El_Caminito_de_La_Boca_-_Buenos-Aires.jpg/1280px-El_Caminito_de_La_Boca_-_Buenos-Aires.jpg"
+   }
+  ]
+ },
+ {
+  "id": "san-francisco",
+  "items": [
+   {
+    "name_zh": "酸面包",
+    "name_en": "Sourdough Bread",
+    "kind": "食材特产",
+    "blurb": "旧金山湾区特有野生酵母培育出的酸面包，Boudin是代表老字号",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Bread_in_Boudin.jpg/1280px-Bread_in_Boudin.jpg"
+   },
+   {
+    "name_zh": "缆车",
+    "name_en": "Cable Car",
+    "kind": "其他",
+    "blurb": "1873年起运行至今的有轨缆车系统，旧金山陡坡地形的标志性交通工具",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/San_Francisco_Cable_Car_55_dllu.jpg/1280px-San_Francisco_Cable_Car_55_dllu.jpg"
+   },
+   {
+    "name_zh": "金门大桥",
+    "name_en": "Golden Gate Bridge",
+    "kind": "其他",
+    "blurb": "国际橙涂装的悬索桥，旧金山最具辨识度的地标",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Golden_Gate_Bridge_at_sunset_1.jpg/1280px-Golden_Gate_Bridge_at_sunset_1.jpg"
+   }
+  ]
+ },
+ {
+  "id": "phuket",
+  "items": [
+   {
+    "name_zh": "长尾船",
+    "name_en": "Long-tail Boat",
+    "kind": "其他",
+    "blurb": "泰国南部海岛特有的木质机动船，船首常系彩带祈福",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Long-tail_boats_on_Patong_Beach_Phuket.jpg/1280px-Long-tail_boats_on_Patong_Beach_Phuket.jpg"
+   },
+   {
+    "name_zh": "披披岛石灰岩峭壁",
+    "name_en": "Phi Phi Leh Limestone Cliffs",
+    "kind": "自然奇物",
+    "blurb": "普吉附近披披莱岛的垂直石灰岩峭壁，电影《海滩》取景地",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Ko_Phi_Phi_Leh_definitive_vertical_limestone_cliff_as_seen_from_the_water%2C_Thailand.jpg/1280px-Ko_Phi_Phi_Leh_definitive_vertical_limestone_cliff_as_seen_from_the_water%2C_Thailand.jpg"
+   }
+  ]
+ },
+ {
+  "id": "reykjavik",
+  "items": [
+   {
+    "name_zh": "雷尼斯black沙滩玄武岩柱",
+    "name_en": "Reynisfjara Black Sand Beach",
+    "kind": "自然奇物",
+    "blurb": "冰岛南岸的黑色玄武岩沙滩，海蚀柱雷尼斯德朗格矗立海中",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Reynisfjara_and_Reynisdrangar%2C_Iceland.jpg/1280px-Reynisfjara_and_Reynisdrangar%2C_Iceland.jpg"
+   },
+   {
+    "name_zh": "斯特罗库尔间歇泉",
+    "name_en": "Strokkur Geyser",
+    "kind": "自然奇物",
+    "blurb": "冰岛黄金圈地热区最活跃的间歇泉，每隔几分钟喷发一次",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Strokkur_geyser_eruption%2C_close-up_view.jpg/1280px-Strokkur_geyser_eruption%2C_close-up_view.jpg"
+   }
+  ]
+ },
+ {
+  "id": "halong-bay",
+  "items": [
+   {
+    "name_zh": "石灰岩喀斯特岛群",
+    "name_en": "Halong Bay Limestone Karsts",
+    "kind": "自然奇物",
+    "blurb": "下龙湾海面上千座石灰岩孤岛，世界遗产级喀斯特地貌",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Limestone_Island_in_Halong_Bay%2C_Vietnam.jpg/1280px-Limestone_Island_in_Halong_Bay%2C_Vietnam.jpg"
+   },
+   {
+    "name_zh": "下龙湾游船",
+    "name_en": "Halong Bay Cruise Junk Boat",
+    "kind": "其他",
+    "blurb": "传统仿古帆船改造的游船，是游览下龙湾石灰岩群的主要方式",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Halong_Cruise_boats.jpg/1280px-Halong_Cruise_boats.jpg"
+   }
+  ]
+ },
+ {
+  "id": "cappadocia",
+  "items": [
+   {
+    "name_zh": "热气球日出",
+    "name_en": "Hot Air Balloons at Sunrise",
+    "kind": "其他",
+    "blurb": "每日清晨上百只热气球齐飞卡帕多奇亚上空，全球最著名的热气球体验地之一",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Hot_air_balloon_at_sunrise_over_Cappadocia%2C_Turkey.JPG/1280px-Hot_air_balloon_at_sunrise_over_Cappadocia%2C_Turkey.JPG"
+   },
+   {
+    "name_zh": "精灵烟囱奇石",
+    "name_en": "Fairy Chimneys",
+    "kind": "自然奇物",
+    "blurb": "火山灰凝灰岩经风化侵蚀形成的锥形奇石，卡帕多奇亚地貌标志",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Fairy_Chimneys%2C_Cappadocia_region%2C_Turkey.jpg/1280px-Fairy_Chimneys%2C_Cappadocia_region%2C_Turkey.jpg"
+   }
+  ]
+ },
+ {
+  "id": "cusco",
+  "items": [
+   {
+    "name_zh": "萨克塞瓦曼印加巨石墙",
+    "name_en": "Sacsayhuamán Inca Stone Walls",
+    "kind": "古迹遗产",
+    "blurb": "库斯科郊外印加要塞遗址，巨石间严丝合缝的无灰浆砌筑工艺举世闻名",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Sacsayhuaman_Fortress%2C_Cusco%2C_Peru_-_Laslovarga_%2838%29.jpg/1280px-Sacsayhuaman_Fortress%2C_Cusco%2C_Peru_-_Laslovarga_%2838%29.jpg"
+   },
+   {
+    "name_zh": "羊驼毛手工纺织",
+    "name_en": "Alpaca Wool Handspinning",
+    "kind": "工艺品",
+    "blurb": "库斯科周边安第斯山区妇女手工纺织羊驼毛线的传统技艺",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Weaving_love.jpg/1280px-Weaving_love.jpg"
+   }
+  ]
+ },
+ {
+  "id": "sintra",
+  "items": [
+   {
+    "name_zh": "辛特拉王宫瓷砖画",
+    "name_en": "Sintra National Palace Azulejos",
+    "kind": "工艺品",
+    "blurb": "葡萄牙国家王宫内色彩鲜艳的手绘瓷砖，葡式建筑的经典装饰工艺",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Sintra%2C_Pal%C3%A1cio_Nacional_de_Sintra%2C_azulejos_%285%29.jpg"
+   },
+   {
+    "name_zh": "佩纳宫",
+    "name_en": "Pena Palace",
+    "kind": "其他",
+    "blurb": "色彩斑斓的浪漫主义宫殿，坐落辛特拉山顶，葡萄牙最具代表性的宫殿建筑",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Sintra_Portugal_Pal%C3%A1cio_da_Pena-01.jpg/1280px-Sintra_Portugal_Pal%C3%A1cio_da_Pena-01.jpg"
+   }
+  ]
+ },
+ {
+  "id": "scottish-highlands",
+  "items": [
+   {
+    "name_zh": "苏格兰威士忌",
+    "name_en": "Scotch Whisky",
+    "kind": "当地酒",
+    "blurb": "艾雷岛Laphroaig等酒厂出产的单一麦芽威士忌，苏格兰高地文化的液体名片",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Sjb_whiskey_bond.jpg"
+   },
+   {
+    "name_zh": "哈里斯花呢手织布",
+    "name_en": "Harris Tweed",
+    "kind": "工艺品",
+    "blurb": "外赫布里底群岛手工织造的粗花呢，苏格兰高地传统纺织代表",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Plocrapol%2C_Harris_Tweed_weaving_-_geograph.org.uk_-_564560.jpg"
+   }
+  ]
+ },
+ {
+  "id": "plitvice",
+  "items": [
+   {
+    "name_zh": "普利特维采湖群瀑布",
+    "name_en": "Plitvice Lakes Waterfalls",
+    "kind": "自然奇物",
+    "blurb": "16个梯级湖泊由瀑布相连，湖水呈梦幻蓝绿色，克罗地亚最著名的世界遗产自然景观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Lika-Senj_%28HR%29%2C_Plitvicer_Seen%2C_Kozjak_--_2022_--_0248.jpg/1280px-Lika-Senj_%28HR%29%2C_Plitvicer_Seen%2C_Kozjak_--_2022_--_0248.jpg"
+   }
+  ]
+ },
+ {
+  "id": "hallstatt",
+  "items": [
+   {
+    "name_zh": "哈尔施塔特盐矿",
+    "name_en": "Hallstatt Salt Mine",
+    "kind": "自然奇物",
+    "blurb": "世界最古老的盐矿之一，地名Hallstatt本意即“盐之地”，矿洞内盐晶灯别具一格",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/1089_-_Hallstatt_-_Salzbergwerk_-_Salt_Lamps.JPG/1280px-1089_-_Hallstatt_-_Salzbergwerk_-_Salt_Lamps.JPG"
+   }
+  ]
+ },
+ {
+  "id": "lofoten",
+  "items": [
+   {
+    "name_zh": "晾晒鳕鱼干",
+    "name_en": "Stockfish Drying Racks",
+    "kind": "食材特产",
+    "blurb": "罗弗敦群岛延续千年的自然风干鳕鱼工艺，木架上层层悬挂的鱼干是渔村标志景观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Loaded_Drying_Racks_for_Stockfish_at_Reine%2C_Lofoten%2C_Norway.jpg/1280px-Loaded_Drying_Racks_for_Stockfish_at_Reine%2C_Lofoten%2C_Norway.jpg"
+   },
+   {
+    "name_zh": "雷讷峡湾渔村",
+    "name_en": "Reine Fjord Village",
+    "kind": "其他",
+    "blurb": "罗弗敦群岛最上镜的渔村，红色木屋倒映在峡湾水面",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Reine_at_Reinefjorden%2C_2010_September.jpg/1280px-Reine_at_Reinefjorden%2C_2010_September.jpg"
+   }
+  ]
+ },
+ {
+  "id": "meteora",
+  "items": [
+   {
+    "name_zh": "悬崖修道院",
+    "name_en": "Meteora Monasteries on Rock Pillars",
+    "kind": "古迹遗产",
+    "blurb": "建在天然砂岩石柱顶端的希腊东正教修道院群，梅黛奥拉的标志性奇观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Roussanou_Monastery%2C_Meteora.jpg"
+   }
+  ]
+ },
+ {
+  "id": "petra",
+  "items": [
+   {
+    "name_zh": "卡兹尼宝库殿",
+    "name_en": "Al-Khazneh (The Treasury)",
+    "kind": "古迹遗产",
+    "blurb": "佩特拉最著名的纳巴泰岩凿建筑，玫瑰红砂岩雕出的希腊式立面",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Al_Khazneh_Petra_edit_2.jpg/1280px-Al_Khazneh_Petra_edit_2.jpg"
+   },
+   {
+    "name_zh": "蛇道峡谷",
+    "name_en": "The Siq Canyon",
+    "kind": "自然奇物",
+    "blurb": "通往佩特拉古城的狭长天然砂岩峡谷，两侧岩壁高耸呈玫瑰红色",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Petra%2C_Siq%2C_Jordan.jpg/1280px-Petra%2C_Siq%2C_Jordan.jpg"
+   }
+  ]
+ },
+ {
+  "id": "machu-picchu",
+  "items": [
+   {
+    "name_zh": "马丘比丘印加梯田与羊驼",
+    "name_en": "Machu Picchu Terraces & Llama",
+    "kind": "自然奇物",
+    "blurb": "羊驼悠然踱步在印加古城的农业梯田间，马丘比丘最具代表性的画面",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Llama_on_Machu_Picchu%27s_terraces_%28Unsplash%29.jpg/1280px-Llama_on_Machu_Picchu%27s_terraces_%28Unsplash%29.jpg"
+   },
+   {
+    "name_zh": "瓦纳比丘峰下古城全景",
+    "name_en": "Machu Picchu with Huayna Picchu",
+    "kind": "古迹遗产",
+    "blurb": "马丘比丘最经典的明信片视角，身后是陡峭的瓦纳比丘山峰",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Machu_Picchu_with_Huayna_Picchu_P%C3%A9rou_%283%29.jpg/1280px-Machu_Picchu_with_Huayna_Picchu_P%C3%A9rou_%283%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "angkor-wat",
+  "items": [
+   {
+    "name_zh": "吴哥窟日出倒影",
+    "name_en": "Angkor Wat Sunrise",
+    "kind": "古迹遗产",
+    "blurb": "吴哥窟塔尖在水塘中的日出倒影，柬埔寨最经典的观光画面",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Angkor_Wat_at_sunrise_3.jpg/1280px-Angkor_Wat_at_sunrise_3.jpg"
+   },
+   {
+    "name_zh": "阿普萨拉浮雕",
+    "name_en": "Apsara Bas-relief Carvings",
+    "kind": "工艺品",
+    "blurb": "吴哥窟砂岩墙壁上精美的天女浮雕，高棉石刻艺术的巅峰之作",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Apsara_Carvings_at_Angkor_Wat_Temple.jpg/1280px-Apsara_Carvings_at_Angkor_Wat_Temple.jpg"
+   }
+  ]
+ },
+ {
+  "id": "serengeti",
+  "items": [
+   {
+    "name_zh": "角马大迁徙",
+    "name_en": "Wildebeest Great Migration",
+    "kind": "自然奇物",
+    "blurb": "上百万只角马与斑马随季节在塞伦盖蒂平原上的大规模迁徙，非洲最壮观的野生动物奇观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Wildebeest_Migration_in_Serengeti_National_Park%2C_Tanzania.jpg/1280px-Wildebeest_Migration_in_Serengeti_National_Park%2C_Tanzania.jpg"
+   },
+   {
+    "name_zh": "马赛族串珠工艺",
+    "name_en": "Maasai Beadwork",
+    "kind": "工艺品",
+    "blurb": "马赛人手工串制的彩色珠饰，塞伦盖蒂生态圈原住民的传统工艺品",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Maasai_beaded_necklace%2C_handcrafted_using_colorful_beads.jpg/1280px-Maasai_beaded_necklace%2C_handcrafted_using_colorful_beads.jpg"
+   }
+  ]
+ },
+ {
+  "id": "great-barrier-reef",
+  "items": [
+   {
+    "name_zh": "珊瑚礁",
+    "name_en": "Coral outcrop",
+    "kind": "自然奇物",
+    "blurb": "大堡礁是世界最大珊瑚礁系统，色彩斑斓的珊瑚礁体是潜水者心中的圣地",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Coral_Outcrop_Flynn_Reef.jpg/1280px-Coral_Outcrop_Flynn_Reef.jpg"
+   },
+   {
+    "name_zh": "小丑鱼",
+    "name_en": "Clownfish",
+    "kind": "自然奇物",
+    "blurb": "栖息在海葵中的小丑鱼是大堡礁潜水游客最爱邂逅的明星物种",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Clownfish%2C_Great_Barrier_Reef%2C_Cairns%2C_Australia.jpg/1280px-Clownfish%2C_Great_Barrier_Reef%2C_Cairns%2C_Australia.jpg"
+   }
+  ]
+ },
+ {
+  "id": "lake-baikal",
+  "items": [
+   {
+    "name_zh": "贝加尔海豹（涅尔帕）",
+    "name_en": "Baikal seal (nerpa)",
+    "kind": "自然奇物",
+    "blurb": "世界唯一的淡水海豹，贝加尔湖特有物种",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Nerpa_%28Pusa_sibirica%29_%283635255975%29.jpg/1280px-Nerpa_%28Pusa_sibirica%29_%283635255975%29.jpg"
+   },
+   {
+    "name_zh": "透明蓝冰",
+    "name_en": "Transparent blue ice",
+    "kind": "自然奇物",
+    "blurb": "冬季湖面结成透亮如镜的蓝冰，是贝加尔湖冬游最标志性的画面",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Black_ice_of_Baikal.jpg/1280px-Black_ice_of_Baikal.jpg"
+   }
+  ]
+ },
+ {
+  "id": "antelope-canyon",
+  "items": [
+   {
+    "name_zh": "光束奇观",
+    "name_en": "Light beam",
+    "kind": "自然奇物",
+    "blurb": "阳光透过峡谷缝隙照射形成的光束，是羚羊峡谷最著名的摄影题材",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Antelope_Canyon_B%26W.jpg/1280px-Antelope_Canyon_B%26W.jpg"
+   },
+   {
+    "name_zh": "红砂岩纹理",
+    "name_en": "Swirling red sandstone",
+    "kind": "自然奇物",
+    "blurb": "流水千万年冲刷出的波浪状红砂岩纹理，羚羊峡谷因此得名",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Antelope_Canyon%2C_Page%2C_Arizona_%287721923070%29.jpg/1280px-Antelope_Canyon%2C_Page%2C_Arizona_%287721923070%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "sahara-desert",
+  "items": [
+   {
+    "name_zh": "骆驼商队",
+    "name_en": "Camel caravan",
+    "kind": "其他",
+    "blurb": "骑骆驼穿越沙丘是撒哈拉沙漠旅行的经典体验",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Camel_Tour_on_Erg_Chebbi_riding_across_the_dunes.jpg/1280px-Camel_Tour_on_Erg_Chebbi_riding_across_the_dunes.jpg"
+   },
+   {
+    "name_zh": "梅祖卡沙丘",
+    "name_en": "Merzouga dunes",
+    "kind": "自然奇物",
+    "blurb": "摩洛哥梅祖卡的金色沙丘，是撒哈拉沙漠最具代表性的沙海景观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/The_Merzouga_dunes_of_Morocco.jpg/1280px-The_Merzouga_dunes_of_Morocco.jpg"
+   }
+  ]
+ },
+ {
+  "id": "torres-del-paine",
+  "items": [
+   {
+    "name_zh": "花岗岩塔峰",
+    "name_en": "Granite towers",
+    "kind": "自然奇物",
+    "blurb": "百内国家公园标志性的花岗岩尖塔与冰川交相辉映",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Torres_del_Paine_National_Park_%288426543695%29.jpg/1280px-Torres_del_Paine_National_Park_%288426543695%29.jpg"
+   },
+   {
+    "name_zh": "原驼",
+    "name_en": "Guanaco",
+    "kind": "自然奇物",
+    "blurb": "巴塔哥尼亚原生的骆驼科动物，百内公园里最常见的野生动物",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Guanacos%2C_Parque_Nacional_Torres_del_Paine%2C_Chile5.jpg/1280px-Guanacos%2C_Parque_Nacional_Torres_del_Paine%2C_Chile5.jpg"
+   }
+  ]
+ },
+ {
+  "id": "iguazu-falls",
+  "items": [
+   {
+    "name_zh": "彩虹瀑布",
+    "name_en": "Rainbow over the falls",
+    "kind": "自然奇物",
+    "blurb": "水雾在阳光下形成彩虹，是伊瓜苏瀑布最梦幻的经典画面",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Iguazu_Falls_with_Rainbow.JPG"
+   },
+   {
+    "name_zh": "巨嘴鸟",
+    "name_en": "Toco toucan",
+    "kind": "自然奇物",
+    "blurb": "色彩鲜艳的大嘴巨嘴鸟，是伊瓜苏国家公园雨林里的明星物种",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Toucan_Toco_in_Iguazu.jpg/1280px-Toucan_Toco_in_Iguazu.jpg"
+   }
+  ]
+ },
+ {
+  "id": "iceland-ice-cave",
+  "items": [
+   {
+    "name_zh": "蓝冰洞",
+    "name_en": "Blue glacier ice cave",
+    "kind": "自然奇物",
+    "blurb": "瓦特纳冰川内部形成的天然蓝色冰洞，冬季限定的梦幻秘境",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Glacier-cave-man-iceland_%28Unsplash%29.jpg/1280px-Glacier-cave-man-iceland_%28Unsplash%29.jpg"
+   },
+   {
+    "name_zh": "玄武岩黑沙滩",
+    "name_en": "Basalt black sand beach",
+    "kind": "自然奇物",
+    "blurb": "雷尼斯black沙滩的六角玄武岩柱与黑沙，冰岛最具代表性的地质奇观之一",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Columnar_basalts_at_Reynisfjara%2C_Iceland.jpg/1280px-Columnar_basalts_at_Reynisfjara%2C_Iceland.jpg"
+   }
+  ]
+ },
+ {
+  "id": "zhangjiajie",
+  "items": [
+   {
+    "name_zh": "石英砂岩石柱",
+    "name_en": "Quartz sandstone pillars",
+    "kind": "自然奇物",
+    "blurb": "张家界三千奇峰是电影《阿凡达》悬浮山的灵感来源",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Sandstone_spire_forest_Zhangjiajie_Hunan.jpg/1280px-Sandstone_spire_forest_Zhangjiajie_Hunan.jpg"
+   },
+   {
+    "name_zh": "玻璃桥",
+    "name_en": "Glass Bridge",
+    "kind": "其他",
+    "blurb": "张家界大峡谷玻璃桥曾是世界最长最高的玻璃桥，悬于峡谷之上",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Glass_Bridge_in_Zhangjiajie_China.jpg/1280px-Glass_Bridge_in_Zhangjiajie_China.jpg"
+   }
+  ]
+ },
+ {
+  "id": "namib-desert",
+  "items": [
+   {
+    "name_zh": "死亡谷枯树",
+    "name_en": "Deadvlei dead trees",
+    "kind": "自然奇物",
+    "blurb": "死亡谷中千年不腐的骆驼刺枯树，衬着白色盐沼与红色沙丘",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/054e_Dead_camel_thorn_tree_in_Deadvlei_Photo_by_Giles_Laurent.jpg/1280px-054e_Dead_camel_thorn_tree_in_Deadvlei_Photo_by_Giles_Laurent.jpg"
+   },
+   {
+    "name_zh": "45号红沙丘",
+    "name_en": "Dune 45, Sossusvlei",
+    "kind": "自然奇物",
+    "blurb": "纳米布沙漠中最著名的红色沙丘之一，日出时分金红交映",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/006_Dune_45_in_Sossusvlei_at_sunrise_Photo_by_Giles_Laurent.jpg/1280px-006_Dune_45_in_Sossusvlei_at_sunrise_Photo_by_Giles_Laurent.jpg"
+   }
+  ]
+ },
+ {
+  "id": "patagonia",
+  "items": [
+   {
+    "name_zh": "佩里托莫雷诺冰川",
+    "name_en": "Perito Moreno Glacier",
+    "kind": "自然奇物",
+    "blurb": "阿根廷巴塔哥尼亚最著名的冰川，仍在持续前进的活冰川奇观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Perito_Moreno_Glacier_Front.jpg/1280px-Perito_Moreno_Glacier_Front.jpg"
+   },
+   {
+    "name_zh": "原驼",
+    "name_en": "Guanaco",
+    "kind": "自然奇物",
+    "blurb": "巴塔哥尼亚旷野上最具代表性的野生动物，成群漫步于冰川脚下",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Los_Glaciares_National_Park_%2816112147323%29.jpg/1280px-Los_Glaciares_National_Park_%2816112147323%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "easter-island",
+  "items": [
+   {
+    "name_zh": "阿胡东加利基摩艾石像群",
+    "name_en": "Ahu Tongariki (15 moai)",
+    "kind": "古迹遗产",
+    "blurb": "复活节岛最大祭坛上矗立的十五尊摩艾石像，岛上最壮观的一排巨石人像",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Ahu-Tongariki-2013.jpg/1280px-Ahu-Tongariki-2013.jpg"
+   },
+   {
+    "name_zh": "拉诺拉拉库采石场",
+    "name_en": "Rano Raraku quarry",
+    "kind": "古迹遗产",
+    "blurb": "几乎所有摩艾石像的原产地，火山口内散落着未完工的石像",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Rano_Raraku_02.jpg"
+   }
+  ]
+ },
+ {
+  "id": "socotra",
+  "items": [
+   {
+    "name_zh": "龙血树",
+    "name_en": "Dragon's blood tree",
+    "kind": "自然奇物",
+    "blurb": "伞状树冠的龙血树是索科特拉岛最具异星感的特有植物，割开树皮会流出暗红树脂",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Dragon%27s_Blood_Trees%2C_Socotra_Island.jpg/1280px-Dragon%27s_Blood_Trees%2C_Socotra_Island.jpg"
+   },
+   {
+    "name_zh": "乳香树",
+    "name_en": "Frankincense tree",
+    "kind": "食材特产",
+    "blurb": "自古以来索科特拉岛出产的乳香是重要贸易商品，树形奇特多刺",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Frankincense_Trees_%2824038638497%29.jpg/1280px-Frankincense_Trees_%2824038638497%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "galapagos",
+  "items": [
+   {
+    "name_zh": "加拉帕戈斯象龟",
+    "name_en": "Galápagos giant tortoise",
+    "kind": "自然奇物",
+    "blurb": "群岛因此得名的巨型陆龟，是达尔文进化论的重要研究对象",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Santa_Cruz_giant_tortoise_01.jpg/1280px-Santa_Cruz_giant_tortoise_01.jpg"
+   },
+   {
+    "name_zh": "海鬣蜥",
+    "name_en": "Marine iguana",
+    "kind": "自然奇物",
+    "blurb": "世界上唯一会游泳潜水觅食海藻的蜥蜴，加拉帕戈斯独有物种",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Iguana_marina_%28Amblyrhynchus_cristatus%29%2C_isla_Lobos%2C_islas_Gal%C3%A1pagos%2C_Ecuador%2C_2015-07-25%2C_DD_48.JPG"
+   },
+   {
+    "name_zh": "蓝脚鲣鸟",
+    "name_en": "Blue-footed booby",
+    "kind": "自然奇物",
+    "blurb": "有着鲜艳蓝色脚蹼、求偶时会跳舞的海鸟，加拉帕戈斯最萌明星",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Blue-footed_booby_01.jpg/1280px-Blue-footed_booby_01.jpg"
+   }
+  ]
+ },
+ {
+  "id": "bhutan",
+  "items": [
+   {
+    "name_zh": "虎穴寺",
+    "name_en": "Taktsang (Tiger's Nest) Monastery",
+    "kind": "古迹遗产",
+    "blurb": "悬挂在900米峭壁上的佛教寺庙，不丹最具象征意义的地标",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Tiger_Nests.jpg/1280px-Tiger_Nests.jpg"
+   },
+   {
+    "name_zh": "经幡",
+    "name_en": "Prayer flags",
+    "kind": "工艺品",
+    "blurb": "山口垭口挂满的五色经幡，随风传递祈福，是不丹山地随处可见的风景",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Snow_storm_over_Pele_La_%28Bhutan%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "svalbard",
+  "items": [
+   {
+    "name_zh": "北极熊",
+    "name_en": "Polar bear",
+    "kind": "自然奇物",
+    "blurb": "斯瓦尔巴群岛是北极熊的重要栖息地，也是当地最具代表性的野生动物",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Polar_bear_%28Ursus_maritimus%29_in_Krossfjord%2C_Svalbard.jpg/1280px-Polar_bear_%28Ursus_maritimus%29_in_Krossfjord%2C_Svalbard.jpg"
+   },
+   {
+    "name_zh": "北极光",
+    "name_en": "Northern Lights (Aurora)",
+    "kind": "自然奇物",
+    "blurb": "极夜时节的斯瓦尔巴群岛是观赏北极光的绝佳地点",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Svalbard_DSCF1400_%2823849118591%29.jpg/1280px-Svalbard_DSCF1400_%2823849118591%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "antarctic-peninsula",
+  "items": [
+   {
+    "name_zh": "巴布亚企鹅群",
+    "name_en": "Gentoo penguin colony",
+    "kind": "自然奇物",
+    "blurb": "南极半岛上数量最多的企鹅种群之一，成群栖息繁殖",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Gentoo_penguin_colony_Antarctica.png/1280px-Gentoo_penguin_colony_Antarctica.png"
+   },
+   {
+    "name_zh": "冰山",
+    "name_en": "Iceberg",
+    "kind": "自然奇物",
+    "blurb": "阳光下泛着幽蓝光泽的巨型冰山，南极半岛航行途中最震撼的景观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Icebergs_in_sunlight_Antarctic_Peninsula.png/1280px-Icebergs_in_sunlight_Antarctic_Peninsula.png"
+   }
+  ]
+ },
+ {
+  "id": "salar-de-uyuni",
+  "items": [
+   {
+    "name_zh": "天空之镜倒影",
+    "name_en": "Mirror reflection",
+    "kind": "自然奇物",
+    "blurb": "雨季时盐沼积水形成完美镜面，天地相接的天空之镜奇观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Reflection_on_the_Salar_de_Uyuni%2C_bolivia_cropped.jpg/1280px-Reflection_on_the_Salar_de_Uyuni%2C_bolivia_cropped.jpg"
+   },
+   {
+    "name_zh": "火车墓地",
+    "name_en": "Train cemetery",
+    "kind": "其他",
+    "blurb": "乌尤尼小镇边缘废弃的19世纪蒸汽火车残骸，如今成为独特打卡地",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/02-Train-Cemetery-Uyuni-nX-2.jpg/1280px-02-Train-Cemetery-Uyuni-nX-2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "faroe-islands",
+  "items": [
+   {
+    "name_zh": "海鹦（Puffin）",
+    "name_en": "Atlantic Puffin at Mykines",
+    "kind": "自然奇物",
+    "blurb": "米基内斯岛悬崖是法罗群岛观海鹦的经典地点，夏季成千上万海鹦在此筑巢。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Puffins_at_Mykines%2C_Faroe_Islands_%2835494952840%29.jpg/1280px-Puffins_at_Mykines%2C_Faroe_Islands_%2835494952840%29.jpg"
+   },
+   {
+    "name_zh": "草顶黑木屋",
+    "name_en": "Turf-roofed black house",
+    "kind": "工艺品",
+    "blurb": "传统法罗式草皮屋顶配黑色木墙，是法罗群岛最具辨识度的民居建筑。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Black_house_with_grass_roof_on_Kalsoy_-_Faroe_Islands_%2850433815817%29.jpg/1280px-Black_house_with_grass_roof_on_Kalsoy_-_Faroe_Islands_%2850433815817%29.jpg"
+   },
+   {
+    "name_zh": "风干鱼（Skerpikjøt风格）",
+    "name_en": "Wind-dried fish racks",
+    "kind": "食材特产",
+    "blurb": "法罗人用海风自然风干鱼肉和羊肉，是当地传承已久的储食传统。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Fish_hanging_to_dry_in_S%C3%B8rv%C3%A1gur_Faroe_Islands.jpg/1280px-Fish_hanging_to_dry_in_S%C3%B8rv%C3%A1gur_Faroe_Islands.jpg"
+   }
+  ]
+ },
+ {
+  "id": "wadi-rum",
+  "items": [
+   {
+    "name_zh": "红沙漠",
+    "name_en": "Red sand of Wadi Rum",
+    "kind": "自然奇物",
+    "blurb": "富含氧化铁的红色沙丘和砂岩峡谷，是瓦迪拉姆最标志性的自然景观。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Red_sand_of_the_Wadi_Rum_desert.jpg/1280px-Red_sand_of_the_Wadi_Rum_desert.jpg"
+   },
+   {
+    "name_zh": "贝都因帐篷营地",
+    "name_en": "Bedouin desert camp",
+    "kind": "工艺品",
+    "blurb": "山羊毛编织的黑色贝都因帐篷，游客在此过夜体验沙漠游牧文化。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Wadi_Rum_Traditional_Desert_Bedouin_Camp_in_Jordan.jpg/1280px-Wadi_Rum_Traditional_Desert_Bedouin_Camp_in_Jordan.jpg"
+   }
+  ]
+ },
+ {
+  "id": "atacama",
+  "items": [
+   {
+    "name_zh": "阿塔卡马星空",
+    "name_en": "Atacama night sky",
+    "kind": "自然奇物",
+    "blurb": "极干旱、少光污染加上高海拔，让阿塔卡马成为世界顶级天文观测地。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/A_magical_night_in_the_Atacama_Desert_%28potw2348a%29.jpg/1280px-A_magical_night_in_the_Atacama_Desert_%28potw2348a%29.jpg"
+   },
+   {
+    "name_zh": "埃尔塔蒂奥间歇泉",
+    "name_en": "El Tatio geysers",
+    "kind": "自然奇物",
+    "blurb": "世界海拔最高的间歇泉群之一，清晨蒸汽在寒冷高原上腾起。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Geysers_del_Tatio%2C_Atacama_Desert%2C_Chile.JPG/1280px-Geysers_del_Tatio%2C_Atacama_Desert%2C_Chile.JPG"
+   },
+   {
+    "name_zh": "月亮谷",
+    "name_en": "Valle de la Luna",
+    "kind": "自然奇物",
+    "blurb": "风蚀盐岩地貌形似月球表面，圣佩德罗-德阿塔卡马附近的经典景点。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Anfiteatro%2C_Valle_de_la_Luna%2C_San_Pedro_de_Atacama%2C_Chile%2C_2016-02-01%2C_DD_149.JPG/1280px-Anfiteatro%2C_Valle_de_la_Luna%2C_San_Pedro_de_Atacama%2C_Chile%2C_2016-02-01%2C_DD_149.JPG"
+   }
+  ]
+ },
+ {
+  "id": "waitomo",
+  "items": [
+   {
+    "name_zh": "萤火虫地下银河",
+    "name_en": "Glowworms in Waitomo cave",
+    "kind": "自然奇物",
+    "blurb": "土生萤火虫（Arachnocampa luminosa）幼虫发出的蓝绿光，在洞顶形成仿若星空的奇景。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Glowworms_Inside_the_Ruakuri_Cave%2C_Waitomo%2C_New_Zealand_%2850802161357%29.jpg/1280px-Glowworms_Inside_the_Ruakuri_Cave%2C_Waitomo%2C_New_Zealand_%2850802161357%29.jpg"
+   },
+   {
+    "name_zh": "石灰岩溶洞钟乳石",
+    "name_en": "Limestone cave stalactites",
+    "kind": "自然奇物",
+    "blurb": "怀托摩地区的石灰岩溶洞系统，鲁阿库瑞洞内钟乳石形态丰富。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Stalactites_Inside_the_Ruakuri_Cave%2C_Waitomo%2C_New_Zealand_%2850802107742%29.jpg/1280px-Stalactites_Inside_the_Ruakuri_Cave%2C_Waitomo%2C_New_Zealand_%2850802107742%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "greenland",
+  "items": [
+   {
+    "name_zh": "伊卢利萨特冰山",
+    "name_en": "Ilulissat Icefjord icebergs",
+    "kind": "自然奇物",
+    "blurb": "冰川入海形成的巨型冰山群，是世界遗产伊卢利萨特冰峡湾的标志景观。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067503523%29.jpg/1280px-Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067503523%29.jpg"
+   },
+   {
+    "name_zh": "极光",
+    "name_en": "Aurora borealis over Greenland",
+    "kind": "自然奇物",
+    "blurb": "格陵兰高纬度、少光污染的夜空，是观测北极光的绝佳地点。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/The_Aurora_Borealis%2C_or_Northern_Lights%2C_over_Greenland.jpg/1280px-The_Aurora_Borealis%2C_or_Northern_Lights%2C_over_Greenland.jpg"
+   }
+  ]
+ },
+ {
+  "id": "lake-natron",
+  "items": [
+   {
+    "name_zh": "血色纳特龙湖",
+    "name_en": "Lake Natron's red water",
+    "kind": "自然奇物",
+    "blurb": "高浓度碳酸钠和嗜盐微生物让湖水在特定季节呈现出诡异的血红色。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Lake_Natron%E2%80%99s_vibrant_red_water_%28Copernicus_2024-04-13%29.jpg/1280px-Lake_Natron%E2%80%99s_vibrant_red_water_%28Copernicus_2024-04-13%29.jpg"
+   },
+   {
+    "name_zh": "小红鹳群",
+    "name_en": "Flamingos at Lake Natron",
+    "kind": "自然奇物",
+    "blurb": "纳特龙湖是东非小红鹳最重要的繁殖地，湖面常见成片火烈鸟。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flamingos_at_Lake_Natron%2C_Tanzania.jpg/1280px-Flamingos_at_Lake_Natron%2C_Tanzania.jpg"
+   }
+  ]
+ },
+ {
+  "id": "papua",
+  "items": [
+   {
+    "name_zh": "皮亚涅莫卡斯特群岛",
+    "name_en": "Piaynemo karst islands",
+    "kind": "自然奇物",
+    "blurb": "拉贾安帕特海域的石灰岩小岛点缀碧蓝海水，是巴布亚最经典的观景台画面。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Piaynemo_Island%2C_Raja_Ampat%2C_West_Papua%2C_Indonesia.jpg/1280px-Piaynemo_Island%2C_Raja_Ampat%2C_West_Papua%2C_Indonesia.jpg"
+   },
+   {
+    "name_zh": "鸟头海景珊瑚礁",
+    "name_en": "Bird's Head Seascape coral reef",
+    "kind": "自然奇物",
+    "blurb": "拉贾安帕特所在的鸟头海域拥有全球最高的珊瑚礁生物多样性，是顶级潜水胜地。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Reefscape_in_the_Bird%27s_Head_Seascape.jpg"
+   }
+  ]
+ },
+ {
+  "id": "pamukkale",
+  "items": [
+   {
+    "name_zh": "棉花堡白色梯田",
+    "name_en": "Pamukkale travertine terraces",
+    "kind": "自然奇物",
+    "blurb": "富含碳酸钙的温泉水历经沉积形成雪白阶梯状钙化池，土耳其语意为“棉花堡”。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/TR_Pamukkale_White_Terraces_asv2020-02_img16.jpg/1280px-TR_Pamukkale_White_Terraces_asv2020-02_img16.jpg"
+   },
+   {
+    "name_zh": "钙化池温泉",
+    "name_en": "Travertine terrace pools",
+    "kind": "自然奇物",
+    "blurb": "梯田状钙化池至今仍有温泉水流淌，是世界遗产棉花堡的核心景观。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/The_travertine_terraces_of_Pamukkale_4.jpg/1280px-The_travertine_terraces_of_Pamukkale_4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "dead-sea",
+  "items": [
+   {
+    "name_zh": "约旦岸死海",
+    "name_en": "Dead Sea, Jordanian shore",
+    "kind": "自然奇物",
+    "blurb": "全球陆地最低点，高盐度湖水让人无需游泳技巧即可轻松漂浮。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Dead_Sea%2C_Jordanian_Shore.jpg/1280px-Dead_Sea%2C_Jordanian_Shore.jpg"
+   },
+   {
+    "name_zh": "漂浮读报",
+    "name_en": "Floating on the Dead Sea",
+    "kind": "自然奇物",
+    "blurb": "死海盐度高达约34%，游客常摆拍躺在水面看报纸的经典画面。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Dead_sea_newspaper.jpg/1280px-Dead_sea_newspaper.jpg"
+   }
+  ]
+ },
+ {
+  "id": "chernobyl",
+  "items": [
+   {
+    "name_zh": "普里皮亚季鬼城",
+    "name_en": "Pripyat ghost town",
+    "kind": "其他",
+    "blurb": "1986年核事故后被永久废弃的城市，教室、游乐场等场景定格在撤离那一刻。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Panorama_of_Abandoned_Schoolhouse_-_Pripyat_Ghost_Town_-_Chernobyl_Exclusion_Zone_-_Northern_Ukraine_%2826494234644%29.jpg/1280px-Panorama_of_Abandoned_Schoolhouse_-_Pripyat_Ghost_Town_-_Chernobyl_Exclusion_Zone_-_Northern_Ukraine_%2826494234644%29.jpg"
+   },
+   {
+    "name_zh": "新安全屏障",
+    "name_en": "New Safe Confinement shelter",
+    "kind": "其他",
+    "blurb": "覆盖在4号反应堆残骸上的巨型拱形钢结构，是切尔诺贝利最具象征性的建筑。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Chernobyl_New_Shelter_%2802710159%29.jpg/1280px-Chernobyl_New_Shelter_%2802710159%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "glass-beach",
+  "items": [
+   {
+    "name_zh": "彩色海玻璃",
+    "name_en": "Sea glass at Glass Beach",
+    "kind": "自然奇物",
+    "blurb": "早年当地垃圾场的玻璃碎片经海浪经年打磨，变成圆润多彩的海玻璃沙滩。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Sea_glass_at_Glass_Beach_in_Fort_Bragg_2.jpg/1280px-Sea_glass_at_Glass_Beach_in_Fort_Bragg_2.jpg"
+   },
+   {
+    "name_zh": "玻璃海滩全景",
+    "name_en": "Glass Beach, Fort Bragg",
+    "kind": "自然奇物",
+    "blurb": "加州福特布拉格的玻璃海滩由昔日垃圾场蜕变为治愈系打卡地。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Glass_Beach_in_Fort_Bragg_-_November_2022_-_Sarah_Stierch_01.jpg/1280px-Glass_Beach_in_Fort_Bragg_-_November_2022_-_Sarah_Stierch_01.jpg"
+   }
+  ]
+ },
+ {
+  "id": "yungas-death-road",
+  "items": [
+   {
+    "name_zh": "死亡之路骑行",
+    "name_en": "Mountain biking on the Death Road",
+    "kind": "其他",
+    "blurb": "沿悬崖峭壁蜿蜒的北永加斯公路曾被称为“世界最危险公路”，如今是热门骑行路线。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Death_Road2.jpg/1280px-Death_Road2.jpg"
+   },
+   {
+    "name_zh": "世界最危险公路",
+    "name_en": "World's Most Dangerous Road",
+    "kind": "其他",
+    "blurb": "狭窄土路一侧紧贴悬崖、落差可达数百米，是玻利维亚永加斯地区的极限景观。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Bolivia_-_The_Worlds_Most_Dangerous_Road.jpg/1280px-Bolivia_-_The_Worlds_Most_Dangerous_Road.jpg"
+   }
+  ]
+ },
+ {
+  "id": "sahara-star-caravan",
+  "items": [
+   {
+    "name_zh": "东方大沙海",
+    "name_en": "Grand Erg Oriental dunes",
+    "kind": "自然奇物",
+    "blurb": "阿尔及利亚境内的浩瀚沙丘海，是撒哈拉沙漠中最具代表性的沙海之一。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Erg_Oriental_Algeria.jpg"
+   }
+  ]
+ },
+ {
+  "id": "everest-summit",
+  "items": [
+   {
+    "name_zh": "珠峰大本营经幡",
+    "name_en": "Prayer flags at Everest Base Camp",
+    "kind": "其他",
+    "blurb": "尼泊尔一侧的珠峰大本营挂满五色经幡，是登山者出发前的精神仪式地标。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Prayer_Flags_at_Everest_Base_Camp.jpg/1280px-Prayer_Flags_at_Everest_Base_Camp.jpg"
+   },
+   {
+    "name_zh": "萨加玛塔（珠峰）山峰",
+    "name_en": "Sagarmatha (Everest) peak",
+    "kind": "自然奇物",
+    "blurb": "海拔8848.86米，世界最高峰，尼泊尔语称萨加玛塔。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Sagarmatha_Everest_Zone%2C_Nepal%2C_Himalayas.jpg/1280px-Sagarmatha_Everest_Zone%2C_Nepal%2C_Himalayas.jpg"
+   }
+  ]
+ },
+ {
+  "id": "k2",
+  "items": [
+   {
+    "name_zh": "K2峰（乔戈里峰）",
+    "name_en": "K2 / Chogori peak",
+    "kind": "自然奇物",
+    "blurb": "世界第二高峰，因陡峭险峻被登山界称为“野蛮之山”。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/K2_8611.jpg"
+   },
+   {
+    "name_zh": "康科迪亚营地",
+    "name_en": "Concordia, Karakoram",
+    "kind": "自然奇物",
+    "blurb": "巴尔托洛冰川汇流处的著名观景营地，可同时眺望多座八千米级雪峰。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Concordia_%28Karakoram%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "mariana-trench",
+  "items": [
+   {
+    "name_zh": "挑战者深渊海底地形",
+    "name_en": "Challenger Deep bathymetry",
+    "kind": "自然奇物",
+    "blurb": "马里亚纳海沟的挑战者深渊是地球已知海洋最深处，深逾万米。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/GEBCO_2019_bathymetry_Challenger_Deep_and_Sirena_Deep.jpg/1280px-GEBCO_2019_bathymetry_Challenger_Deep_and_Sirena_Deep.jpg"
+   },
+   {
+    "name_zh": "的里雅斯特号深潜器",
+    "name_en": "Bathyscaphe Trieste over the Trench",
+    "kind": "其他",
+    "blurb": "1960年的里雅斯特号完成人类首次载人深潜至挑战者深渊底部的历史性任务。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Bathyscaphe_Trieste_with_USS_Lewis_%28DE-535%29_over_the_Marianas_Trench%2C_23_January_1960_%28NH_96797%29.jpg/1280px-Bathyscaphe_Trieste_with_USS_Lewis_%28DE-535%29_over_the_Marianas_Trench%2C_23_January_1960_%28NH_96797%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "north-pole",
+  "items": [
+   {
+    "name_zh": "北极点浮冰",
+    "name_en": "Sea ice at the North Pole",
+    "kind": "自然奇物",
+    "blurb": "北冰洋中心终年被漂浮海冰覆盖，是地球最北端的极限景观。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/NORTH_POLE_Ice_%2819626661335%29.jpg/1280px-NORTH_POLE_Ice_%2819626661335%29.jpg"
+   },
+   {
+    "name_zh": "核动力破冰船",
+    "name_en": "Nuclear icebreaker \"50 Let Pobedy\"",
+    "kind": "其他",
+    "blurb": "俄罗斯核动力破冰船“胜利50周年”号是游客抵达北极点最主要的交通工具。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Sea_Ice_and_Icebreaker%2C_50_Years_of_Victory_%2819620440405%29.jpg/1280px-Sea_Ice_and_Icebreaker%2C_50_Years_of_Victory_%2819620440405%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "south-pole",
+  "items": [
+   {
+    "name_zh": "仪式性南极点标志",
+    "name_en": "Ceremonial South Pole Marker",
+    "kind": "自然奇物",
+    "blurb": "镜球杆立在冰面上，周围环绕《南极条约》签约国国旗，是南极点最经典的地标合影点",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Ceremonial_South_Pole.jpg"
+   },
+   {
+    "name_zh": "阿蒙森-斯科特南极站",
+    "name_en": "Amundsen-Scott South Pole Station",
+    "kind": "其他",
+    "blurb": "建在南极点冰盖上的美国科考站，架高设计防止积雪掩埋，是南极点唯一的人类常驻聚落",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Amundsen%E2%80%93Scott_South_Pole_Station_01.jpg"
+   }
+  ]
+ },
+ {
+  "id": "low-earth-orbit",
+  "items": [
+   {
+    "name_zh": "太空俯瞰地球弧线",
+    "name_en": "Earth's Curvature from Orbit",
+    "kind": "自然奇物",
+    "blurb": "从国际空间站舷窗拍下的地球弧形轮廓与大气层，是近地轨道游客最想亲眼看到的画面",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/ISS055-E-17593_-_View_of_Earth.jpg/1280px-ISS055-E-17593_-_View_of_Earth.jpg"
+   },
+   {
+    "name_zh": "国际空间站",
+    "name_en": "International Space Station",
+    "kind": "其他",
+    "blurb": "绕地球飞行的多国合作空间站，是近地轨道旅行最核心的目的地本身",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Iss074e0403089_%28March_18%2C_2026%29_--_NASA_astronaut_Jessica_Meir_installs_a_roll-out_solar_array_modification_kit_to_the_exterior_of_the_International_Space_Station_during_the_278th_spacewalk_in_support_of_space_station.jpg/1280px-thumbnail.jpg"
+   }
+  ]
+ },
+ {
+  "id": "deep-sea-vent",
+  "items": [
+   {
+    "name_zh": "黑烟囱热泉",
+    "name_en": "Black Smoker Hydrothermal Vent",
+    "kind": "自然奇物",
+    "blurb": "东太平洋海隆21°N处的黑烟囱，喷出富含矿物质的高温热液，是深海生命起源研究的标志性景观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/BlackSmoker.jpg/1280px-BlackSmoker.jpg"
+   },
+   {
+    "name_zh": "巨型管虫",
+    "name_en": "Riftia Pachyptila Tube Worms",
+    "kind": "自然奇物",
+    "blurb": "聚集在东太平洋海脊热泉口的巨型管虫，靠体内共生菌将硫化物转化为能量，是深海热泉生态系统的象征物种",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Vers_g%C3%A9ants_%28Riftia_Pachyptila%29_dans_leur_habitat_%28Ifremer_00569-68102%29.jpg/1280px-Vers_g%C3%A9ants_%28Riftia_Pachyptila%29_dans_leur_habitat_%28Ifremer_00569-68102%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "gobi-desert",
+  "items": [
+   {
+    "name_zh": "戈壁沙漠",
+    "name_en": "Gobi Desert Dunes",
+    "kind": "自然奇物",
+    "blurb": "横跨蒙古南部的荒漠地貌，砾石与沙丘交织，是游牧文化与丝路商队的经典背景",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Gobi_Desert_%2823863773592%29.jpg/1280px-Gobi_Desert_%2823863773592%29.jpg"
+   },
+   {
+    "name_zh": "蒙古包",
+    "name_en": "Mongolian Ger (Yurt)",
+    "kind": "工艺品",
+    "blurb": "戈壁省份常见的游牧民传统毡房，可拆卸组装，是蒙古游牧生活方式的标志性居所",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Ger_Yurt_Dornogovi_Province_-_Mongolia_%286246876035%29.jpg/1280px-Ger_Yurt_Dornogovi_Province_-_Mongolia_%286246876035%29.jpg"
+   },
+   {
+    "name_zh": "马奶酒",
+    "name_en": "Airag (Kumis)",
+    "kind": "当地酒",
+    "blurb": "蒙古传统发酵马奶酒，微酸带气，是草原游牧民待客与那达慕节庆的经典饮品",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bowl_of_Kumis.JPG/1280px-Bowl_of_Kumis.JPG"
+   }
+  ]
+ },
+ {
+  "id": "jiuzhaigou",
+  "items": [
+   {
+    "name_zh": "九寨沟彩池",
+    "name_en": "Jiuzhaigou Colorful Pools",
+    "kind": "自然奇物",
+    "blurb": "因富含碳酸钙沉积和藻类而呈现出蓝绿渐变色的高山湖泊群，是九寨沟世界遗产的招牌景观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Panda_Lake_%28Jiuzhaigou%29.jpg/1280px-Panda_Lake_%28Jiuzhaigou%29.jpg"
+   },
+   {
+    "name_zh": "五花海",
+    "name_en": "Five Flower Lake",
+    "kind": "自然奇物",
+    "blurb": "九寨沟内最著名的多彩湖泊，湖底倒木与藻类交织出斑斓色块，被称为九寨沟的'水景之王'",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/%E4%B9%9D%E5%AF%A8%E6%B2%9F%E4%BA%94%E8%8A%B1%E6%B5%B7%E5%85%A8%E6%99%AF_Jiuzhaigou_Five_Flower_Lake_Panorama.jpg/1280px-%E4%B9%9D%E5%AF%A8%E6%B2%9F%E4%BA%94%E8%8A%B1%E6%B5%B7%E5%85%A8%E6%99%AF_Jiuzhaigou_Five_Flower_Lake_Panorama.jpg"
+   }
+  ]
+ },
+ {
+  "id": "banff",
+  "items": [
+   {
+    "name_zh": "班夫路易斯湖",
+    "name_en": "Lake Louise, Banff",
+    "kind": "自然奇物",
+    "blurb": "落基山脉环抱的冰蚀湖泊，湖水呈标志性的绿松石色，是班夫国家公园最具代表性的景观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Banff_National_Park_%28AB%2C_Canada%29%2C_Lake_Louise_--_2022_--_2197.jpg/1280px-Banff_National_Park_%28AB%2C_Canada%29%2C_Lake_Louise_--_2022_--_2197.jpg"
+   },
+   {
+    "name_zh": "枫糖浆",
+    "name_en": "Maple Syrup",
+    "kind": "食材特产",
+    "blurb": "取自枫树汁液熬煮而成的琥珀色糖浆，是加拿大最具国民代表性的特产食品",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Maple_syrup.jpg"
+   }
+  ]
+ },
+ {
+  "id": "grand-canyon",
+  "items": [
+   {
+    "name_zh": "大峡谷日落",
+    "name_en": "Grand Canyon Sunset",
+    "kind": "自然奇物",
+    "blurb": "科罗拉多河历经数百万年切割出的巨大峡谷，日落时岩层呈现层叠的橙红色调，是美国最具标志性的自然奇观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Grand_Canyon_South_Rim_at_Sunset.jpg/1280px-Grand_Canyon_South_Rim_at_Sunset.jpg"
+   },
+   {
+    "name_zh": "纳瓦霍绿松石银饰",
+    "name_en": "Navajo Turquoise Jewelry",
+    "kind": "工艺品",
+    "blurb": "大峡谷周边纳瓦霍原住民手工制作的绿松石镶银饰品，是美国西南部原住民工艺的经典代表",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Cameron_Trading_Post%2C_Navajo_Nation%2C_AZ_9-15e_%2821842849715%29.jpg/1280px-Cameron_Trading_Post%2C_Navajo_Nation%2C_AZ_9-15e_%2821842849715%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "mykonos",
+  "items": [
+   {
+    "name_zh": "米科诺斯风车",
+    "name_en": "Mykonos Windmills",
+    "kind": "其他",
+    "blurb": "矗立在悬崖边的白色圆塔风车群，曾用于磨麦，如今是米科诺斯岛最具辨识度的标志景观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Windmills_in_Mykonos_02.jpg/1280px-Windmills_in_Mykonos_02.jpg"
+   },
+   {
+    "name_zh": "基克拉迪蓝白民居",
+    "name_en": "Cycladic Blue-and-White Houses",
+    "kind": "其他",
+    "blurb": "米科诺斯小镇霍拉常见的白墙蓝顶石屋，沿山坡层叠而建，是爱琴海岛屿建筑美学的经典符号",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Mykonos_%285%29.jpg/1280px-Mykonos_%285%29.jpg"
+   }
+  ]
+ },
+ {
   "id": "seychelles",
   "items": [
    {
     "name_zh": "海椰子",
     "name_en": "Coco de Mer",
     "kind": "自然奇物",
-    "blurb": "世界最大的种子，一颗二十公斤，塞舌尔独有，形状理直气壮",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Coco_de_Mer_-_Le_Jardin_du_Roi_-_01.jpg/1280px-Coco_de_Mer_-_Le_Jardin_du_Roi_-_01.jpg"
+    "blurb": "仅生长于塞舌尔普拉兰岛的巨型棕榈果实，形似双瓣臀部，是世界上最大的种子，也是塞舌尔最著名的自然奇观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Female_coco_de_mer_growth.jpg/1280px-Female_coco_de_mer_growth.jpg"
    },
    {
-    "name_zh": "Takamaka朗姆酒",
-    "name_en": "Takamaka Rum",
+    "name_zh": "阿尔达布拉象龟",
+    "name_en": "Aldabra Giant Tortoise",
+    "kind": "自然奇物",
+    "blurb": "塞舌尔特有的巨型陆龟，寿命可超百年，常在拉迪格岛等地自由漫步，是塞舌尔的活体地标",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Aldabra_giant_tortoise_%28Aldabrachelys_gigantea%29_in_La_Digue_-_04.jpg/1280px-Aldabra_giant_tortoise_%28Aldabrachelys_gigantea%29_in_La_Digue_-_04.jpg"
+   }
+  ]
+ },
+ {
+  "id": "petronas-kl",
+  "items": [
+   {
+    "name_zh": "双子塔",
+    "name_en": "Petronas Twin Towers",
+    "kind": "其他",
+    "blurb": "曾是世界最高建筑的钢铁玻璃双塔，夜晚灯光璀璨，是吉隆坡的城市天际线标志",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Petronas_Towers_at_Night_-_from_the_base_upwards.jpg/1280px-Petronas_Towers_at_Night_-_from_the_base_upwards.jpg"
+   },
+   {
+    "name_zh": "榴莲",
+    "name_en": "Durian",
+    "kind": "食材特产",
+    "blurb": "气味浓烈、果肉绵密的东南亚'水果之王'，吉隆坡街头常见榴莲摊，是当地人钟爱的地道风味",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Durian_shop_in_Kuala_Lumpur_-_Malaysia_-_panoramio.jpg/1280px-Durian_shop_in_Kuala_Lumpur_-_Malaysia_-_panoramio.jpg"
+   }
+  ]
+ },
+ {
+  "id": "guilin",
+  "items": [
+   {
+    "name_zh": "漓江喀斯特山水",
+    "name_en": "Li River Karst Peaks",
+    "kind": "自然奇物",
+    "blurb": "漓江两岸连绵的石灰岩峰林倒映水中，宛如水墨画卷，是桂林山水甲天下的原型景观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Li_River_8_hills_in_mist_near_Guilin.jpg/1280px-Li_River_8_hills_in_mist_near_Guilin.jpg"
+   },
+   {
+    "name_zh": "鸬鹚捕鱼",
+    "name_en": "Cormorant Fishing",
+    "kind": "其他",
+    "blurb": "渔民驯养鸬鹚潜水捕鱼的传统技艺，常在漓江竹筏上表演，是桂林渔家文化的活态展示",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Cormorant_fishing_-Guilin_-China-25June2007.jpg/1280px-Cormorant_fishing_-Guilin_-China-25June2007.jpg"
+   }
+  ]
+ },
+ {
+  "id": "varanasi",
+  "items": [
+   {
+    "name_zh": "恒河河坛",
+    "name_en": "Ganges Ghats",
+    "kind": "自然奇物",
+    "blurb": "沿恒河而建的层层石阶码头，信众在此沐浴祈祷、举行火祭，是瓦拉纳西作为印度教圣城的核心场景",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Varanasi%2C_India%2C_Ghats_on_Ganges_River.jpg/1280px-Varanasi%2C_India%2C_Ghats_on_Ganges_River.jpg"
+   },
+   {
+    "name_zh": "贝拿勒斯丝绸纱丽",
+    "name_en": "Banarasi Silk Sari",
+    "kind": "工艺品",
+    "blurb": "瓦拉纳西传承数百年的金线织锦丝绸纱丽，图案华丽精细，是印度传统婚礼服饰中的顶级工艺品",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/%27Sari%27_from_Varanasi_%28north-central_India%29%2C_silk_and_gold-wrapped_silk_yarn_with_supplementary_weft_brocade.jpg"
+   }
+  ]
+ },
+ {
+  "id": "taj-mahal-agra",
+  "items": [
+   {
+    "name_zh": "泰姬陵日出",
+    "name_en": "Taj Mahal at Sunrise",
+    "kind": "其他",
+    "blurb": "莫卧儿皇帝为爱妃修建的白色大理石陵墓，晨曦中泛着柔和光泽，是爱情与建筑美学的世界级象征",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Sunrise_at_Taj_Mahal%2C_Agra.jpg/1280px-Sunrise_at_Taj_Mahal%2C_Agra.jpg"
+   },
+   {
+    "name_zh": "阿格拉大理石镶嵌工艺",
+    "name_en": "Agra Marble Inlay (Pietra Dura)",
+    "kind": "工艺品",
+    "blurb": "源自泰姬陵建造工艺的大理石镶嵌彩石技法，至今仍由阿格拉工匠手工制作装饰品和桌面摆件",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Marble_Inlay_Demonstration_-_U_P_Handicrafts_Complex_-_Fatehabad_Road_-_Agra_2014-05-14_4221.JPG/1280px-Marble_Inlay_Demonstration_-_U_P_Handicrafts_Complex_-_Fatehabad_Road_-_Agra_2014-05-14_4221.JPG"
+   }
+  ]
+ },
+ {
+  "id": "shirakawa-go",
+  "items": [
+   {
+    "name_zh": "合掌造雪景",
+    "name_en": "Gassho-zukuri Houses in Snow",
+    "kind": "其他",
+    "blurb": "陡峭茅草屋顶设计能有效防止积雪堆积压塌屋顶，雪夜灯光点点的合掌村是世界文化遗产的经典画面",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Night_in_Shirakawago_-_Flickr_-_tsuda.jpg/1280px-Night_in_Shirakawago_-_Flickr_-_tsuda.jpg"
+   },
+   {
+    "name_zh": "白川乡浊酒",
+    "name_en": "Shirakawa-go Doburoku",
     "kind": "当地酒",
-    "blurb": "塞舌尔本地蒸馏，海岛甘蔗酿",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Takamaka_Rum_from_Seychelles.jpg/1280px-Takamaka_Rum_from_Seychelles.jpg"
+    "blurb": "当地传统未过滤米酒，仅在秋季浊酒祭时酿造品尝，是白川乡保留至今的乡土酿酒文化",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Shirakawa_go_doburoku_Festival.jpg"
+   }
+  ]
+ },
+ {
+  "id": "kotor",
+  "items": [
+   {
+    "name_zh": "科托尔湾与古城",
+    "name_en": "Kotor Bay and Old Town",
+    "kind": "自然奇物",
+    "blurb": "地中海最南端的峡湾式海湾环抱着中世纪石砌古城，是黑山最具代表性的世界遗产景观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/View_of_Kotor_bay_and_old_town.jpg/1280px-View_of_Kotor_bay_and_old_town.jpg"
    },
    {
-    "name_zh": "香草荚",
-    "name_en": "Vanilla pod",
-    "kind": "香料特产",
-    "blurb": "一朵花只开一个上午，人工授粉，晾晒发酵六个月",
-    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Vanilla_beans.jpg/1280px-Vanilla_beans.jpg"
+    "name_zh": "科托尔猫",
+    "name_en": "Cats of Kotor",
+    "kind": "其他",
+    "blurb": "科托尔古城内猫咪数量众多，还设有专门的猫咪博物馆，猫已成为这座古城的非官方吉祥物",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Where_the_cats_live_%2848381368632%29.jpg/1280px-Where_the_cats_live_%2848381368632%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "colmar",
+  "items": [
+   {
+    "name_zh": "小威尼斯运河区",
+    "name_en": "Petite Venise (Little Venice)",
+    "kind": "其他",
+    "blurb": "科尔马老城内色彩缤纷的半木结构房屋沿运河而建，因神似威尼斯水巷而得名，是阿尔萨斯童话小镇的核心景致",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Little_Venice_in_Colmar_01.jpg/1280px-Little_Venice_in_Colmar_01.jpg"
+   },
+   {
+    "name_zh": "科尔马圣诞市集",
+    "name_en": "Colmar Christmas Market",
+    "kind": "其他",
+    "blurb": "每年冬季在老城多个广场同时举办的传统圣诞市集，木屋摊位售卖热红酒和手工艺品，是阿尔萨斯圣诞文化的代表场景",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Colmar_Christmas_market.jpg"
+   }
+  ]
+ },
+ {
+  "id": "jerash",
+  "items": [
+   {
+    "name_zh": "杰拉什柱廊街",
+    "name_en": "Jerash Colonnaded Street",
+    "kind": "古迹遗产",
+    "blurb": "古罗马城市杰拉什保存完好的石柱大道，两侧立柱绵延数百米，是中东地区罗马遗址中最完整的范例之一",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/South_colonnade_of_Jerash_Forum.jpg/1280px-South_colonnade_of_Jerash_Forum.jpg"
+   },
+   {
+    "name_zh": "罗马战车竞技表演",
+    "name_en": "Roman Chariot Races Re-enactment",
+    "kind": "其他",
+    "blurb": "在杰拉什古竞技场（Hippodrome）内复原的罗马战车竞速表演，让游客亲历两千年前的竞技场盛况",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Roman_Chariot_Races.jpg/1280px-Roman_Chariot_Races.jpg"
+   }
+  ]
+ },
+ {
+  "id": "cinque-terre",
+  "items": [
+   {
+    "name_zh": "沙凯特拉甜酒",
+    "name_en": "Sciacchetrà (Cinque Terre DOC wine)",
+    "kind": "当地酒",
+    "blurb": "五渔村梯田葡萄园所产的琥珀色甜酒，采用日晒风干葡萄酿造，是当地代表性特产酒。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cinque_Terre_Sciacchetr%C3%A0.jpg/1280px-Cinque_Terre_Sciacchetr%C3%A0.jpg"
+   },
+   {
+    "name_zh": "热那亚罗勒青酱",
+    "name_en": "Pesto alla Genovese (Liguria basil)",
+    "kind": "食材特产",
+    "blurb": "利古里亚大区特有的小叶罗勒是青酱的灵魂原料，五渔村所在地区盛产此品种罗勒。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Basil_plant_from_Liguria.jpg/1280px-Basil_plant_from_Liguria.jpg"
+   }
+  ]
+ },
+ {
+  "id": "milford-sound",
+  "items": [
+   {
+    "name_zh": "米特尔峰",
+    "name_en": "Mitre Peak",
+    "kind": "自然奇物",
+    "blurb": "米尔福德峡湾最具代表性的地标山峰，因形似主教冠冕得名。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/00_1367_New_Zealand_-_Mitre_Peak_%28Milford_Sound%29.jpg/1280px-00_1367_New_Zealand_-_Mitre_Peak_%28Milford_Sound%29.jpg"
+   },
+   {
+    "name_zh": "新西兰绿玉(帕奥那)",
+    "name_en": "Pounamu (NZ Greenstone/Jade)",
+    "kind": "工艺品",
+    "blurb": "毛利文化中神圣的绿玉石，常雕刻成挂饰，是新西兰南岛的代表性工艺特产。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Pounamu_8a.jpg"
+   }
+  ]
+ },
+ {
+  "id": "zhangye-danxia",
+  "items": [
+   {
+    "name_zh": "七彩丹霞地貌",
+    "name_en": "Zhangye Danxia colorful rock formations",
+    "kind": "自然奇物",
+    "blurb": "红、黄、绿等矿物层层叠色形成的彩色丘陵，是张掖最具标志性的地质奇观。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Zhangye_Danxia_2016.jpg/1280px-Zhangye_Danxia_2016.jpg"
+   }
+  ]
+ },
+ {
+  "id": "victoria-falls",
+  "items": [
+   {
+    "name_zh": "瀑布彩虹奇观",
+    "name_en": "Rainbow over Victoria Falls",
+    "kind": "自然奇物",
+    "blurb": "维多利亚瀑布水雾在阳光下常年形成彩虹甚至月虹，是赞比亚一侧的经典景观。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Rainbow_over_Victoria_Falls.jpg/1280px-Rainbow_over_Victoria_Falls.jpg"
+   },
+   {
+    "name_zh": "赞比亚孔雀石",
+    "name_en": "Zambian malachite",
+    "kind": "自然奇物",
+    "blurb": "赞比亚铜带省出产的翠绿色孔雀石，常制成饰品和摆件，是当地矿产名片。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Malachite-239938.jpg"
+   }
+  ]
+ },
+ {
+  "id": "aurora-tromso",
+  "items": [
+   {
+    "name_zh": "特罗姆瑟北极光",
+    "name_en": "Aurora Borealis over Tromsø",
+    "kind": "自然奇物",
+    "blurb": "特罗姆瑟地处极光带核心，是全球公认的观测北极光胜地。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Aurora_Borealis_Troms%C3%B8_Norway.jpg/1280px-Aurora_Borealis_Troms%C3%B8_Norway.jpg"
+   },
+   {
+    "name_zh": "萨米驯鹿",
+    "name_en": "Sami reindeer",
+    "kind": "自然奇物",
+    "blurb": "萨米原住民世代放牧驯鹿，驯鹿是挪威北极圈地区的文化与生态标志。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Feeding_reindeer%2C_Troms%C3%B8_%283%29.jpg/1280px-Feeding_reindeer%2C_Troms%C3%B8_%283%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "cappadocia-underground",
+  "items": [
+   {
+    "name_zh": "德林库尤地下城",
+    "name_en": "Derinkuyu Underground City",
+    "kind": "自然奇物",
+    "blurb": "卡帕多西亚火山凝灰岩层中凿出的多层地下城市，曾可容纳数万人避难。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Derinkuyu_Underground_City_9831_Nevit.jpg/1280px-Derinkuyu_Underground_City_9831_Nevit.jpg"
+   },
+   {
+    "name_zh": "土耳其蓝眼睛护身符",
+    "name_en": "Nazar Boncuğu (evil eye amulet)",
+    "kind": "工艺品",
+    "blurb": "卡帕多西亚特产的蓝色玻璃辟邪饰品，当地传统手工吹制而成。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Kapadokya%27dan_Nazar_Boncu%C4%9Fu.jpg/1280px-Kapadokya%27dan_Nazar_Boncu%C4%9Fu.jpg"
+   },
+   {
+    "name_zh": "阿瓦诺斯陶器",
+    "name_en": "Avanos pottery",
+    "kind": "工艺品",
+    "blurb": "卡帕多西亚阿瓦诺斯镇利用红河河泥制作的传统陶器，延续千年制陶工艺。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/In_pottery_shop_in_Avanos%2C_Cappadocia%2C_Turkey%2C_May%2C_2015.jpg/1280px-In_pottery_shop_in_Avanos%2C_Cappadocia%2C_Turkey%2C_May%2C_2015.jpg"
+   }
+  ]
+ },
+ {
+  "id": "borneo-rainforest",
+  "items": [
+   {
+    "name_zh": "婆罗洲红毛猩猩",
+    "name_en": "Bornean orangutan",
+    "kind": "自然奇物",
+    "blurb": "婆罗洲雨林特有的红毛猩猩，是当地生态旅游与保育的标志性物种。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bornean_Orangutan_%28Pongo_pygmaeus%29_%2814562544106%29.jpg/1280px-Bornean_Orangutan_%28Pongo_pygmaeus%29_%2814562544106%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "kamchatka",
+  "items": [
+   {
+    "name_zh": "堪察加棕熊",
+    "name_en": "Kamchatka brown bear",
+    "kind": "自然奇物",
+    "blurb": "堪察加半岛拥有全球密度最高的棕熊种群，是当地荒野的标志性动物。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Kamchatka_Brown_Bear_near_Dvuhyurtochnoe_on_2015-07-23.jpg/1280px-Kamchatka_Brown_Bear_near_Dvuhyurtochnoe_on_2015-07-23.jpg"
+   },
+   {
+    "name_zh": "克柳切夫火山",
+    "name_en": "Klyuchevskaya Sopka volcano",
+    "kind": "自然奇物",
+    "blurb": "欧亚大陆最高的活火山，常年喷发，是堪察加火山地貌的代表。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Klyuchevskaya_Sopka_eruption_1994.jpg"
+   }
+  ]
+ },
+ {
+  "id": "danakil",
+  "items": [
+   {
+    "name_zh": "达洛尔硫磺地",
+    "name_en": "Dallol sulfur springs",
+    "kind": "自然奇物",
+    "blurb": "达纳基尔洼地内色彩斑斓的硫磺热泉地貌，酷似异星地表，是当地最著名景观。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/ET_Afar_asv2018-01_img48_Dallol.jpg/1280px-ET_Afar_asv2018-01_img48_Dallol.jpg"
+   },
+   {
+    "name_zh": "埃尔塔阿雷熔岩湖",
+    "name_en": "Erta Ale lava lake",
+    "kind": "自然奇物",
+    "blurb": "世界上少数长期存在的熔岩湖之一，位于达纳基尔洼地的活火山口内。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Lava_Lake_in_Erta_Ale_Volcano_in_Ethiopia_20080501.jpg"
+   }
+  ]
+ },
+ {
+  "id": "raja-ampat",
+  "items": [
+   {
+    "name_zh": "拉贾安帕特珊瑚礁",
+    "name_en": "Raja Ampat coral reef",
+    "kind": "自然奇物",
+    "blurb": "全球海洋生物多样性最高的珊瑚礁区之一，有'珊瑚天堂'之称。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/RajaAmpat_dd4-5_017.jpg/1280px-RajaAmpat_dd4-5_017.jpg"
+   },
+   {
+    "name_zh": "皮亚涅莫喀斯特群岛",
+    "name_en": "Piaynemo karst islands",
+    "kind": "自然奇物",
+    "blurb": "登高俯瞰的蘑菇状喀斯特小岛群，是拉贾安帕特最经典的明信片景观。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Pulau_Piaynemo%2C_Raja_Ampat.jpg/1280px-Pulau_Piaynemo%2C_Raja_Ampat.jpg"
+   }
+  ]
+ },
+ {
+  "id": "aogashima",
+  "items": [
+   {
+    "name_zh": "青ヶ島双重火山口",
+    "name_en": "Aogashima caldera (Maruyama)",
+    "kind": "自然奇物",
+    "blurb": "外轮山环抱内侧小火山丘丸山的双重破火山口地形，是青之岛最独特的地貌。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Aogasima_maruyama.jpg"
+   },
+   {
+    "name_zh": "地热蒸汽桑拿(ひんぎゃ)",
+    "name_en": "Hingya geothermal steam sauna",
+    "kind": "其他",
+    "blurb": "利用岛上天然地热蒸汽建成的公共蒸笼式桑拿，是青之岛独有的地热利用特产设施。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Aogashima_fureai_sauna.jpg/1280px-Aogashima_fureai_sauna.jpg"
+   }
+  ]
+ },
+ {
+  "id": "ilulissat",
+  "items": [
+   {
+    "name_zh": "伊卢利萨特冰峡湾",
+    "name_en": "Ilulissat Icefjord icebergs",
+    "kind": "自然奇物",
+    "blurb": "格陵兰冰盖崩落形成的巨型冰山漂浮于峡湾，是世界遗产级自然景观。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067503523%29.jpg/1280px-Icebergs_in_the_Ilulissat_Icefjord%2C_Greenland_%2854067503523%29.jpg"
+   },
+   {
+    "name_zh": "格陵兰雪橇犬",
+    "name_en": "Greenlandic sled dog",
+    "kind": "自然奇物",
+    "blurb": "伊卢利萨特当地传统的雪橇犬队，至今仍是因纽特人冬季出行的重要方式。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Greenland_2%2C_scene_in_Ilulissat_with_sledge_dogs.jpg/1280px-Greenland_2%2C_scene_in_Ilulissat_with_sledge_dogs.jpg"
+   }
+  ]
+ },
+ {
+  "id": "mount-roraima",
+  "items": [
+   {
+    "name_zh": "罗赖马桌山",
+    "name_en": "Mount Roraima tepui",
+    "kind": "自然奇物",
+    "blurb": "南美洲最古老的桌状山之一，垂直崖壁与云雾缭绕的顶部有'失落的世界'之称。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Roraima3_%2879%29.JPG/1280px-Roraima3_%2879%29.JPG"
+   }
+  ]
+ },
+ {
+  "id": "kilimanjaro",
+  "items": [
+   {
+    "name_zh": "乞力马扎罗赤道雪峰",
+    "name_en": "Mount Kilimanjaro snow-capped peak",
+    "kind": "自然奇物",
+    "blurb": "赤道附近唯一常年积雪的高峰，从莫希小镇望去是坦桑尼亚的标志性画面。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_view_of_mountain_Kilimanjaro_from_Moshi_town_in_Tanzania.jpg/1280px-The_view_of_mountain_Kilimanjaro_from_Moshi_town_in_Tanzania.jpg"
+   },
+   {
+    "name_zh": "乞力马扎罗咖啡豆",
+    "name_en": "Kilimanjaro coffee",
+    "kind": "食材特产",
+    "blurb": "山麓火山土壤孕育的高品质阿拉比卡咖啡，是坦桑尼亚知名的农产特产。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Molitura_del_caff%C3%A8_a_Marangu%2C_Regione_del_Kilimangiaro%2C_Tanzania.JPG/1280px-Molitura_del_caff%C3%A8_a_Marangu%2C_Regione_del_Kilimangiaro%2C_Tanzania.JPG"
+   }
+  ]
+ },
+ {
+  "id": "annapurna-circuit",
+  "items": [
+   {
+    "name_zh": "托龙拉垭口经幡",
+    "name_en": "Thorong La pass prayer flags",
+    "kind": "其他",
+    "blurb": "安纳普尔纳环线最高点(5416米)，五彩经幡随风飘扬是徒步者的终极地标。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Thorong_La_pass_%285416_m%29_-_Annapurna_Circuit%2C_Nepal_-_panoramio.jpg/1280px-Thorong_La_pass_%285416_m%29_-_Annapurna_Circuit%2C_Nepal_-_panoramio.jpg"
+   },
+   {
+    "name_zh": "喜马拉雅牦牛",
+    "name_en": "Himalayan yak",
+    "kind": "自然奇物",
+    "blurb": "高海拔地区的传统驮兽与食材来源，是安纳普尔纳沿线常见的标志性动物。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Bos_grunniens_at_Letdar_on_Annapurna_Circuit.jpg/1280px-Bos_grunniens_at_Letdar_on_Annapurna_Circuit.jpg"
+   }
+  ]
+ },
+ {
+  "id": "baobab-avenue-madagascar",
+  "items": [
+   {
+    "name_zh": "猴面包树大道",
+    "name_en": "Avenue of the Baobabs at sunset",
+    "kind": "自然奇物",
+    "blurb": "成排百年猴面包树在夕阳下的剪影，是马达加斯加最著名的自然景观。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Sunset%2C_Allee_des_Baobabs%2C_Madagascar_%2827610142306%29.jpg/1280px-Sunset%2C_Allee_des_Baobabs%2C_Madagascar_%2827610142306%29.jpg"
+   },
+   {
+    "name_zh": "环尾狐猴",
+    "name_en": "Ring-tailed lemur",
+    "kind": "自然奇物",
+    "blurb": "马达加斯加特有物种，环状条纹尾巴是该岛生物多样性的代表符号。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ring-tailed_Lemur%2C_Madagascar_%2820462539474%29.jpg/1280px-Ring-tailed_Lemur%2C_Madagascar_%2820462539474%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "yosemite",
+  "items": [
+   {
+    "name_zh": "隧道景观(酋长岩/半圆顶)",
+    "name_en": "Tunnel View (El Capitan & Half Dome)",
+    "kind": "自然奇物",
+    "blurb": "优胜美地最经典的观景点，一览花岗岩巨壁酋长岩、半圆顶与瀑布的全景。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Tunnel_View%2C_Yosemite_Valley%2C_Yosemite_NP_-_Diliff.jpg/1280px-Tunnel_View%2C_Yosemite_Valley%2C_Yosemite_NP_-_Diliff.jpg"
+   },
+   {
+    "name_zh": "巨杉'灰熊巨人'",
+    "name_en": "Grizzly Giant sequoia",
+    "kind": "自然奇物",
+    "blurb": "玛丽波萨巨杉林中树龄近两千年的巨型红杉，是优胜美地古树的代表。",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Yosemite_National_Park_%28CA%2C_USA%29%2C_Mariposa_Grove_of_Giant_Sequoias%2C_Grizzly_Giant_--_2022_--_2758.jpg/1280px-Yosemite_National_Park_%28CA%2C_USA%29%2C_Mariposa_Grove_of_Giant_Sequoias%2C_Grizzly_Giant_--_2022_--_2758.jpg"
+   }
+  ]
+ },
+ {
+  "id": "luxor",
+  "items": [
+   {
+    "name_zh": "努比亚雪花石膏",
+    "name_en": "Egyptian Alabaster",
+    "kind": "工艺品",
+    "blurb": "卢克索周边盛产雪花石膏，工匠手工车制花瓶容器是当地经典手信",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Flickr_-_DavidDennisPhotos.com_-_Alabaster_Worker_in_Luxor.jpg"
+   },
+   {
+    "name_zh": "雪花石膏器皿店",
+    "name_en": "Alabaster Souvenir Shop",
+    "kind": "工艺品",
+    "blurb": "卢克索街头随处可见的雪花石膏器皿专卖店",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Alig_alabaster_shop_egypt.jpg"
+   }
+  ]
+ },
+ {
+  "id": "moraine-lake",
+  "items": [
+   {
+    "name_zh": "梦莲湖红色独木舟",
+    "name_en": "Moraine Lake Canoes",
+    "kind": "其他",
+    "blurb": "停靠在湖畔的红色独木舟是梦莲湖最具代表性的画面，曾登上加拿大旧版20元纸币",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Moraine_Lake_canoes.jpg"
+   },
+   {
+    "name_zh": "独木舟码头",
+    "name_en": "Canoe Dock",
+    "kind": "其他",
+    "blurb": "梦莲湖北岸的独木舟码头，游客可租船划入冰川湖水中",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Moraine_Lake_Alberta_Canada_canoe_docks.jpg"
+   }
+  ]
+ },
+ {
+  "id": "pyramids-teotihuacan",
+  "items": [
+   {
+    "name_zh": "特奥蒂瓦坎黑曜石",
+    "name_en": "Teotihuacan Obsidian",
+    "kind": "自然奇物",
+    "blurb": "黑曜石是特奥蒂瓦坎古文明重要的工具和贸易材料，当地博物馆常见黑曜石刀刃展品",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Teotihuacan_Obsidian_Blade.jpg"
+   },
+   {
+    "name_zh": "特奥蒂瓦坎玉面具",
+    "name_en": "Teotihuacan Jade Mask",
+    "kind": "工艺品",
+    "blurb": "玉石面具是特奥蒂瓦坎古文明标志性的礼仪器物",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Teotihuacan_Masque_de_Jade.JPG"
+   }
+  ]
+ },
+ {
+  "id": "chichen-itza",
+  "items": [
+   {
+    "name_zh": "尤卡坦吊床",
+    "name_en": "Yucatan Hammock",
+    "kind": "工艺品",
+    "blurb": "尤卡坦半岛（奇琴伊察所在地区）传统手工编织吊床，当地生活方式的象征",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Hamaca_en_proceso_-_Tixm%C3%A9huac_Yucat%C3%A1n.jpg"
+   }
+  ]
+ },
+ {
+  "id": "cenote-mexico",
+  "items": [
+   {
+    "name_zh": "伊克基尔天坑",
+    "name_en": "Cenote Ik Kil",
+    "kind": "自然奇物",
+    "blurb": "尤卡坦最著名的天坑之一，藤蔓垂入湛蓝地下水潭，是天坑跳水的代表画面",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Cenote_Ik_Kil%2C_Yucatan%2C_Dec_2011_-_07.jpg"
+   },
+   {
+    "name_zh": "奥克斯曼天坑潜水",
+    "name_en": "Diving in Oxman Cenote",
+    "kind": "自然奇物",
+    "blurb": "尤卡坦天坑群中常见的潜水/跳水体验场景",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Diving_in_Oxman_Cenote_Yucatan.jpg"
+   }
+  ]
+ },
+ {
+  "id": "wulingyuan-tianmen",
+  "items": [
+   {
+    "name_zh": "武陵源石英砂岩峰林",
+    "name_en": "Wulingyuan Sandstone Pillars",
+    "kind": "自然奇物",
+    "blurb": "世界罕见的石英砂岩峰林地貌，是《阿凡达》悬浮山的灵感来源",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/The_sandstone_pillars_of_Wulingyuan_%2853963199701%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "yellowstone",
+  "items": [
+   {
+    "name_zh": "老忠实间歇泉",
+    "name_en": "Old Faithful Geyser",
+    "kind": "自然奇物",
+    "blurb": "黄石公园最著名的间歇泉，因喷发极为规律而得名",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Yellowstone_National_Park_%28WY%2C_USA%29%2C_Old_Faithful_Geyser_--_2022_--_2599.jpg"
+   },
+   {
+    "name_zh": "大棱镜温泉",
+    "name_en": "Grand Prismatic Spring",
+    "kind": "自然奇物",
+    "blurb": "美国最大的热泉，因嗜热菌群形成彩虹般的同心圆色带",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Grand_prismatic_spring.jpg"
+   }
+  ]
+ },
+ {
+  "id": "bagan",
+  "items": [
+   {
+    "name_zh": "蒲甘漆器",
+    "name_en": "Bagan Lacquerware",
+    "kind": "工艺品",
+    "blurb": "蒲甘是缅甸传统漆器工艺的中心，手工上漆和雕刻技艺已传承数百年",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Bagan-Lacquerware-Factory-Workers.JPG"
+   },
+   {
+    "name_zh": "蒲甘热气球",
+    "name_en": "Balloons over Bagan",
+    "kind": "其他",
+    "blurb": "清晨热气球升空掠过千塔佛塔群，是蒲甘最具代表性的旅游画面",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Balloons_over_Bagan_1_%284290954647%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "gansu-mingsha",
+  "items": [
+   {
+    "name_zh": "鸣沙山骆驼队",
+    "name_en": "Camels at Mingsha Dunes",
+    "kind": "其他",
+    "blurb": "骑骆驼穿越鸣沙山是敦煌丝路旅行的经典体验",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Bactrian_Camel_Chain_%2828435151728%29.jpg"
+   },
+   {
+    "name_zh": "月牙泉",
+    "name_en": "Crescent Lake",
+    "kind": "自然奇物",
+    "blurb": "沙漠深处的新月形泉水，千年不涸，与鸣沙山相映成景",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Crescent_Lake_%2841853077232%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "cotopaxi",
+  "items": [
+   {
+    "name_zh": "科托帕希火山口",
+    "name_en": "Cotopaxi Crater",
+    "kind": "自然奇物",
+    "blurb": "世界最高的活火山之一，终年积雪的完美锥形火山口",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/CotopaxiCrater.jpg"
+   }
+  ]
+ },
+ {
+  "id": "vatnajokull",
+  "items": [
+   {
+    "name_zh": "钻石沙滩浮冰",
+    "name_en": "Diamond Beach Ice",
+    "kind": "自然奇物",
+    "blurb": "瓦特纳冰川崩解的浮冰漂流至黑沙滩，如钻石般散落沙上",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Glacier_in_Diamond_Beach_%28J%C3%B6kuls%C3%A1rl%C3%B3n%29_Iceland.jpg"
+   },
+   {
+    "name_zh": "瓦特纳冰洞",
+    "name_en": "Vatnajokull Ice Cave",
+    "kind": "自然奇物",
+    "blurb": "冰川内部形成的蓝色冰洞，是冬季瓦特纳国家公园的招牌景观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Glacier-cave-man-iceland_%28Unsplash%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "white-desert-egypt",
+  "items": [
+   {
+    "name_zh": "白沙漠白垩岩地貌",
+    "name_en": "White Desert Chalk Rock Formations",
+    "kind": "自然奇物",
+    "blurb": "风蚀千万年形成的白色蘑菇状岩石，撒哈拉沙漠中罕见的雪白奇观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/White_Desert%2C_Karst_rock_formations%2C_Egypt.jpg"
+   }
+  ]
+ },
+ {
+  "id": "phi-phi",
+  "items": [
+   {
+    "name_zh": "玛雅湾",
+    "name_en": "Maya Bay",
+    "kind": "自然奇物",
+    "blurb": "皮皮岛群岛中因电影《海滩》而闻名的石灰岩绝壁海湾",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Playa_Maya%2C_Ko_Phi_Phi%2C_Tailandia%2C_2013-08-19%2C_DD_03.JPG"
+   }
+  ]
+ },
+ {
+  "id": "jeju",
+  "items": [
+   {
+    "name_zh": "济州海女",
+    "name_en": "Jeju Haenyeo",
+    "kind": "其他",
+    "blurb": "不带呼吸设备徒手潜水采集海产的济州女性潜水员，被列入联合国教科文非遗名录",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Korea-Jeju-Haenyeo-02.jpg"
+   },
+   {
+    "name_zh": "济州橙（汉拿峰）",
+    "name_en": "Jeju Hallabong",
+    "kind": "食材特产",
+    "blurb": "济州岛特产柑橘品种，因形似汉拿山峰而得名",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Jeju_hallabong.jpg"
+   }
+  ]
+ },
+ {
+  "id": "cartagena",
+  "items": [
+   {
+    "name_zh": "帕伦克拉水果女郎",
+    "name_en": "Palenquera Fruit Seller",
+    "kind": "其他",
+    "blurb": "头顶水果盘、身着鲜艳传统服饰的非裔女性小贩，是卡塔赫纳老城最具辨识度的街头形象",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Colombia%2C_Cartagena%2C_Fruit_seller.jpg"
+   },
+   {
+    "name_zh": "彩色老城阳台",
+    "name_en": "Cartagena Colorful Balconies",
+    "kind": "其他",
+    "blurb": "老城殖民地建筑上爬满鲜花的彩色阳台，是卡塔赫纳标志性街景",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Cartagena%2C_Colombia_Street_Scene_%2824315338256%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "mont-saint-michel",
+  "items": [
+   {
+    "name_zh": "盐沼羊（Pré-salé）",
+    "name_en": "Salt-Marsh Lamb",
+    "kind": "食材特产",
+    "blurb": "圣米歇尔山周边盐沼牧场散养的羊群，因食盐生植物而肉质带天然咸鲜，是诺曼底知名食材",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Mont_St_Michel_Attention_aux_moutons_DSC_0155.JPG"
+   }
+  ]
+ },
+ {
+  "id": "ephesus",
+  "items": [
+   {
+    "name_zh": "土耳其手工地毯",
+    "name_en": "Turkish Hand-Woven Carpet",
+    "kind": "工艺品",
+    "blurb": "以弗所所在的塞尔丘克地区保留着传统手工地毯编织作坊，是土耳其经典工艺品",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/A_preserved_19th_century_carpet_%2816289120886%29.jpg"
+   },
+   {
+    "name_zh": "地毯手工编织",
+    "name_en": "Hand Carpet Weaving",
+    "kind": "工艺品",
+    "blurb": "塞尔丘克地毯作坊里展示的纯手工编织过程",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Weaving_is_strictly_by_hand-_it%27s_a_labour_intensive_process_%2815695178443%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "tulum",
+  "items": [
+   {
+    "name_zh": "尤卡坦吊床",
+    "name_en": "Yucatán hammock",
+    "kind": "工艺品",
+    "blurb": "玛雅人传承的手工编织吊床，尤卡坦半岛家家户户的日常物件",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Hammocks_for_Sale_-_Tulum_-_Quintana_Roo_-_Mexico_%2815566292939%29_%282%29.jpg"
+   },
+   {
+    "name_zh": "瓦皮尔刺绣裙",
+    "name_en": "Huipil embroidered dress",
+    "kind": "工艺品",
+    "blurb": "玛雅妇女传统刺绣罩衫，尤卡坦地区最具辨识度的民族服饰",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Valladolid_Yucat%C3%A1n_July_2012_-_LADY_IN_A_HUIPIL.jpg/1280px-Valladolid_Yucat%C3%A1n_July_2012_-_LADY_IN_A_HUIPIL.jpg"
+   }
+  ]
+ },
+ {
+  "id": "salzburg",
+  "items": [
+   {
+    "name_zh": "莫扎特巧克力球",
+    "name_en": "Mozartkugel",
+    "kind": "食材特产",
+    "blurb": "1890年萨尔茨堡糕点师发明的开心果杏仁膏夹心巧克力球，以莫扎特命名",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Original_Salzburger_Mozartkugel_F%C3%BCrst_2009.jpg"
+   },
+   {
+    "name_zh": "奥地利民族服饰(迪伦德裙)",
+    "name_en": "Dirndl / Tracht",
+    "kind": "工艺品",
+    "blurb": "阿尔卑斯山区传统服装，萨尔茨堡老城随处可见的专卖店",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Trachten_shop_Salzburg.jpg/1280px-Trachten_shop_Salzburg.jpg"
+   }
+  ]
+ },
+ {
+  "id": "bora-bora",
+  "items": [
+   {
+    "name_zh": "大溪地黑珍珠",
+    "name_en": "Tahitian black pearl",
+    "kind": "自然奇物",
+    "blurb": "法属波利尼西亚特有的黑蝶贝养殖珍珠，全球独此一家的天然珍品",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Perles_noires_de_Tahiti_%28Ifremer_00679-79119%29.jpg/1280px-Perles_noires_de_Tahiti_%28Ifremer_00679-79119%29.jpg"
+   },
+   {
+    "name_zh": "莫诺伊油",
+    "name_en": "Monoï oil",
+    "kind": "食材特产",
+    "blurb": "椰子油浸泡蒂亚蕾花制成的传统波利尼西亚护肤油",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Monoi_Fakarava.JPG/1280px-Monoi_Fakarava.JPG"
+   }
+  ]
+ },
+ {
+  "id": "fez",
+  "items": [
+   {
+    "name_zh": "舒瓦拉皮革染坊",
+    "name_en": "Chouara Tannery leather",
+    "kind": "工艺品",
+    "blurb": "非斯麦地那千年皮革染坊，古法鸽粪软化石灰浸泡工艺举世闻名",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Chouara_Tannery.jpg/1280px-Chouara_Tannery.jpg"
+   },
+   {
+    "name_zh": "摩洛哥泽利杰马赛克瓷砖",
+    "name_en": "Zellige tilework",
+    "kind": "工艺品",
+    "blurb": "手工切割彩色几何瓷砖拼接工艺，非斯是其发源地和最高工艺水准所在",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/F%C3%A8s.-Zellige_marocain_%282005%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "trolltunga",
+  "items": [
+   {
+    "name_zh": "布鲁诺斯特棕奶酪",
+    "name_en": "Brunost (Norwegian brown cheese)",
+    "kind": "食材特产",
+    "blurb": "焦糖化乳清熬制的棕色奶酪，挪威人早餐必备的国民特产",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Brunost_-_Brown_cheese.jpg/1280px-Brunost_-_Brown_cheese.jpg"
+   },
+   {
+    "name_zh": "利尼线之外阿夸维特酒",
+    "name_en": "Linie Aquavit",
+    "kind": "当地酒",
+    "blurb": "需随船跨越赤道航行两次熟成的挪威茴香烈酒",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Lysholm_LINIE_Aquavit_bottle.jpg"
+   }
+  ]
+ },
+ {
+  "id": "cliffs-of-moher",
+  "items": [
+   {
+    "name_zh": "阿兰毛衣",
+    "name_en": "Aran sweater",
+    "kind": "工艺品",
+    "blurb": "爱尔兰西海岸阿兰群岛传统羊毛针织衫，以复杂绞花纹样闻名",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Green_Aran_Sweater.JPG/1280px-Green_Aran_Sweater.JPG"
+   },
+   {
+    "name_zh": "爱尔兰威士忌",
+    "name_en": "Irish whiskey",
+    "kind": "当地酒",
+    "blurb": "三次蒸馏、口感圆润的爱尔兰国民烈酒代表",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Jameson_Irish_Whiskey_%2811898467796%29.jpg/1280px-Jameson_Irish_Whiskey_%2811898467796%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "lake-como",
+  "items": [
+   {
+    "name_zh": "科莫丝绸",
+    "name_en": "Como silk",
+    "kind": "工艺品",
+    "blurb": "意大利丝绸产业中心，科莫至今仍是欧洲高级丝绸面料的主产地",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Como_-_Museo_didattico_della_seta_-_202109092122.jpeg/1280px-Como_-_Museo_didattico_della_seta_-_202109092122.jpeg"
+   }
+  ]
+ },
+ {
+  "id": "gran-sabana",
+  "items": [
+   {
+    "name_zh": "佩蒙族手工艺品",
+    "name_en": "Pemón craft",
+    "kind": "工艺品",
+    "blurb": "安赫尔瀑布所在卡奈马地区原住民佩蒙族的传统编织与木雕工艺",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Artesania_de_la_Etnia_Pemon.jpg"
+   }
+  ]
+ },
+ {
+  "id": "spiti-valley",
+  "items": [
+   {
+    "name_zh": "基伊寺",
+    "name_en": "Key Monastery",
+    "kind": "其他",
+    "blurb": "斯皮提河谷最具代表性的千年藏传佛教寺院，层叠建在山巅之上",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Key_Monastery.jpg/1280px-Key_Monastery.jpg"
+   }
+  ]
+ },
+ {
+  "id": "abu-dhabi-empty-quarter",
+  "items": [
+   {
+    "name_zh": "阿联酋椰枣",
+    "name_en": "UAE dates",
+    "kind": "食材特产",
+    "blurb": "阿拉伯半岛绿洲农业的核心作物，市场上常见成排陈列的各式椰枣",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Bateel_dates_%2811389672836%29.jpg/1280px-Bateel_dates_%2811389672836%29.jpg"
+   },
+   {
+    "name_zh": "阿拉伯咖啡壶(达拉)",
+    "name_en": "Dallah (Arabic coffee pot)",
+    "kind": "工艺品",
+    "blurb": "海湾地区待客文化的象征器具，用于煮制和倒奉阿拉伯咖啡",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Arabic_dallah_%28coffee_pot%29.jpg/1280px-Arabic_dallah_%28coffee_pot%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "wineglass-bay",
+  "items": [
+   {
+    "name_zh": "塔斯马尼亚革木蜜",
+    "name_en": "Tasmanian leatherwood honey",
+    "kind": "食材特产",
+    "blurb": "采自塔斯马尼亚原始雨林革木花的单花蜜，风味浓郁独特",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Tasmanian_Leatherwood_Honey.jpg/1280px-Tasmanian_Leatherwood_Honey.jpg"
+   },
+   {
+    "name_zh": "塔斯马尼亚黑皮诺葡萄",
+    "name_en": "Tasmanian Pinot Noir grapes",
+    "kind": "当地酒",
+    "blurb": "塔斯马尼亚凉爽气候造就的优质黑皮诺产区，酒杯湾所在的东海岸尤为知名",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Hand_harvesting_Pinot_noir_grapes.jpg/1280px-Hand_harvesting_Pinot_noir_grapes.jpg"
+   }
+  ]
+ },
+ {
+  "id": "jiuzhai-huanglong",
+  "items": [
+   {
+    "name_zh": "黄龙钙华彩池",
+    "name_en": "Huanglong travertine pools",
+    "kind": "自然奇物",
+    "blurb": "黄龙沟内层层叠叠的天然钙华彩池，被誉为人间瑶池",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Huanglong_travertine_pools_with_temple.jpg/1280px-Huanglong_travertine_pools_with_temple.jpg"
+   },
+   {
+    "name_zh": "松潘青稞蜂蜜酥",
+    "name_en": "Songpan barley-honey biscuit",
+    "kind": "食材特产",
+    "blurb": "黄龙周边松潘藏区特产的青稞蜂蜜酥点心",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Songpan.Qingke.fengmi.su.jpg/1280px-Songpan.Qingke.fengmi.su.jpg"
+   }
+  ]
+ },
+ {
+  "id": "death-valley",
+  "items": [
+   {
+    "name_zh": "魔鬼高尔夫球场盐晶",
+    "name_en": "Devil's Golf Course salt formations",
+    "kind": "自然奇物",
+    "blurb": "死亡谷盐滩上经年风化形成的锋利盐晶尖塔地貌",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Devil%27s_Golf_Course_in_Death_Valley_NP.jpg/1280px-Devil%27s_Golf_Course_in_Death_Valley_NP.jpg"
+   },
+   {
+    "name_zh": "魔鬼水潭盐结晶",
+    "name_en": "Badwater Basin salt crystals",
+    "kind": "自然奇物",
+    "blurb": "北美海拔最低点，蒸发结晶形成的六边形盐壳地貌",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Badwater_salt_formations.jpg/1280px-Badwater_salt_formations.jpg"
+   }
+  ]
+ },
+ {
+  "id": "siwa-oasis",
+  "items": [
+   {
+    "name_zh": "锡瓦盐湖",
+    "name_en": "Siwa salt lakes",
+    "kind": "自然奇物",
+    "blurb": "绿洲中天然形成的高盐度湖泊，湖水呈现独特的蓝白色调",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Siwa_Salt_pools01.jpg/1280px-Siwa_Salt_pools01.jpg"
+   },
+   {
+    "name_zh": "锡瓦椰枣",
+    "name_en": "Siwa dates",
+    "kind": "食材特产",
+    "blurb": "锡瓦绿洲棕榈园盛产的椰枣，埃及西部沙漠著名的甜美特产",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/SIWA_PALMS.jpg/1280px-SIWA_PALMS.jpg"
+   }
+  ]
+ },
+ {
+  "id": "guatape",
+  "items": [
+   {
+    "name_zh": "瓜塔佩彩绘浮雕(佐卡洛)",
+    "name_en": "Guatapé zócalos",
+    "kind": "工艺品",
+    "blurb": "瓜塔佩家家户户外墙上手绘的彩色浮雕装饰，是这座彩色小镇的标志",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Z%C3%B3calo_Guatap%C3%A9.jpg"
+   },
+   {
+    "name_zh": "哥伦比亚咖啡豆",
+    "name_en": "Colombian coffee beans",
+    "kind": "食材特产",
+    "blurb": "安蒂奥基亚省一带盛产的高地阿拉比卡咖啡豆，哥伦比亚国家名片",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Colombian_raw_coffee_beans.jpg/1280px-Colombian_raw_coffee_beans.jpg"
+   }
+  ]
+ },
+ {
+  "id": "svaneti",
+  "items": [
+   {
+    "name_zh": "斯瓦石塔楼",
+    "name_en": "Svan defensive tower",
+    "kind": "工艺品",
+    "blurb": "什哈拉山下乌树古利村保留的中世纪石砌防御塔，斯瓦涅季的标志性建筑",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Ushguli%2C_defensive_tower_%2835923028652%29.jpg/1280px-Ushguli%2C_defensive_tower_%2835923028652%29.jpg"
+   },
+   {
+    "name_zh": "格鲁吉亚陶罐酒(克韦夫里)",
+    "name_en": "Qvevri wine vessel",
+    "kind": "当地酒",
+    "blurb": "埋入地下的传统陶罐酿酒法，已有八千年历史，格鲁吉亚酿酒文化的核心器具",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Quevri%2C_Nationalmuseum_Tiflis.jpg/1280px-Quevri%2C_Nationalmuseum_Tiflis.jpg"
+   }
+  ]
+ },
+ {
+  "id": "iceland-magma-chamber",
+  "items": [
+   {
+    "name_zh": "维尔京岩浆房",
+    "name_en": "Þríhnúkagígur magma chamber",
+    "kind": "自然奇物",
+    "blurb": "全球唯一可进入参观的休眠火山岩浆房内部，冰岛独有的地质奇观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Thrihnukagigur_Iceland_2.jpg/1280px-Thrihnukagigur_Iceland_2.jpg"
+   },
+   {
+    "name_zh": "雷尼斯黑沙滩玄武岩柱",
+    "name_en": "Reynisfjara basalt columns",
+    "kind": "自然奇物",
+    "blurb": "黑沙滩上熔岩冷却收缩形成的六边形玄武岩柱群，冰岛火山地貌代表景观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Columnar_basalts_at_Reynisfjara_%28Iceland%29.jpg/1280px-Columnar_basalts_at_Reynisfjara_%28Iceland%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "lençois-maranhenses",
+  "items": [
+   {
+    "name_zh": "沙丘间雨水湖",
+    "name_en": "Rainwater Lagoons in the Dunes",
+    "kind": "自然奇物",
+    "blurb": "雨季过后白沙丘间积起蓝绿色淡水湖，形成千湖沙漠标志性景观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Lagoon_in_sanddunes%2C_Len%C3%A7%C3%B3is_Maranhenses.jpg/1280px-Lagoon_in_sanddunes%2C_Len%C3%A7%C3%B3is_Maranhenses.jpg"
+   },
+   {
+    "name_zh": "白色沙丘",
+    "name_en": "White Sand Dunes",
+    "kind": "自然奇物",
+    "blurb": "连绵起伏的纯白石英沙丘，远看如铺开的床单（葡语原意）",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Len%C3%A7%C3%B3is_Maranhenses_2018.jpg/1280px-Len%C3%A7%C3%B3is_Maranhenses_2018.jpg"
+   }
+  ]
+ },
+ {
+  "id": "antarctica-emperor-penguins",
+  "items": [
+   {
+    "name_zh": "帝企鹅群落",
+    "name_en": "Emperor Penguin Colony",
+    "kind": "自然奇物",
+    "blurb": "南极大陆特有的帝企鹅在冰面上聚居繁殖，是南极最具代表性的生物景观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Halley_Emperor_Penguin_Colony_in_1999.jpg"
+   },
+   {
+    "name_zh": "平顶冰山",
+    "name_en": "Tabular Iceberg",
+    "kind": "自然奇物",
+    "blurb": "南极海域常见的巨型平顶冰山，由冰架崩解而成，蓝白相间十分壮观",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Blue_Tabular_Iceberg.jpg/1280px-Blue_Tabular_Iceberg.jpg"
+   }
+  ]
+ },
+ {
+  "id": "mount-fuji-climb",
+  "items": [
+   {
+    "name_zh": "御来光（山顶日出）",
+    "name_en": "Goraiko Sunrise",
+    "kind": "自然奇物",
+    "blurb": "登顶富士山看日出被称为「御来光」，是登山客公认的终极奖赏",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Mt.Fuji_Goraiko_2009-8-3.jpg/1280px-Mt.Fuji_Goraiko_2009-8-3.jpg"
+   },
+   {
+    "name_zh": "忠灵塔富士山景",
+    "name_en": "Chureito Pagoda View",
+    "kind": "自然奇物",
+    "blurb": "五重塔与富士山同框，是全世界最知名的富士山明信片画面",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Chureito_Pagoda_and_Mount_Fuji_2023-03-07.jpg/1280px-Chureito_Pagoda_and_Mount_Fuji_2023-03-07.jpg"
+   }
+  ]
+ },
+ {
+  "id": "namtso-lake",
+  "items": [
+   {
+    "name_zh": "圣湖与神石",
+    "name_en": "Holy Lake and Sacred Rock",
+    "kind": "自然奇物",
+    "blurb": "纳木错被藏族视为圣湖，湖边巨石常年被信众朝拜环绕",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Namtso-and-holy-rock.jpg/1280px-Namtso-and-holy-rock.jpg"
+   },
+   {
+    "name_zh": "经幡",
+    "name_en": "Prayer Flags",
+    "kind": "工艺品",
+    "blurb": "五色经幡在湖畔随风飘扬，是藏地高原随处可见的信仰符号",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tibet_06_-_023_-_prayer_flags_at_Nam_Tso_%28147432948%29.jpg/1280px-Tibet_06_-_023_-_prayer_flags_at_Nam_Tso_%28147432948%29.jpg"
+   }
+  ]
+ },
+ {
+  "id": "uluru",
+  "items": [
+   {
+    "name_zh": "乌鲁鲁独石日落",
+    "name_en": "Uluru at Sunset",
+    "kind": "自然奇物",
+    "blurb": "世界最大单体岩石之一，日落时会由橙变红，是澳洲红色中心的地标",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Uluru-Ayers_Rock-sunset.jpg/1280px-Uluru-Ayers_Rock-sunset.jpg"
+   }
+  ]
+ },
+ {
+  "id": "vinson-massif",
+  "items": [
+   {
+    "name_zh": "文森峰远眺",
+    "name_en": "Mount Vinson from Vinson Plateau",
+    "kind": "自然奇物",
+    "blurb": "南极洲最高峰，七大洲最高峰之一，登山者眼中的极限地标",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Mount_Vinson_from_NW_at_Vinson_Plateau_by_Christian_Stangl_%28flickr%29.jpg/1280px-Mount_Vinson_from_NW_at_Vinson_Plateau_by_Christian_Stangl_%28flickr%29.jpg"
+   },
+   {
+    "name_zh": "文森峰顶",
+    "name_en": "Vinson Summit",
+    "kind": "自然奇物",
+    "blurb": "海拔4892米的峰顶，是极限登山者踏足南极大陆的终点",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Vinson_Summit_2002_vv2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "denali",
+  "items": [
+   {
+    "name_zh": "迪纳利峰顶",
+    "name_en": "Denali (Mt. McKinley) Summit",
+    "kind": "自然奇物",
+    "blurb": "北美最高峰，海拔6190米，七大峰之一，极寒与巨大垂直落差著称",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/At_Mt_McKinley_Summit.JPG"
+   },
+   {
+    "name_zh": "奇迹湖倒影",
+    "name_en": "Denali Reflected in Wonder Lake",
+    "kind": "自然奇物",
+    "blurb": "奇迹湖以清晰倒映出迪纳利峰全貌闻名，是阿拉斯加最经典的观山角度",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Reflection_in_Wonder_Lake.jpg"
+   }
+  ]
+ },
+ {
+  "id": "vostok-cold-pole",
+  "items": [
+   {
+    "name_zh": "东方站",
+    "name_en": "Vostok Station",
+    "kind": "自然奇物",
+    "blurb": "地球实测最低气温纪录（-89.2℃）诞生地，人类极寒探索的象征",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Wostok-Station_core32.jpg"
+   }
+  ]
+ },
+ {
+  "id": "titanic-wreck-dive",
+  "items": [
+   {
+    "name_zh": "泰坦尼克号船首残骸",
+    "name_en": "Titanic Wreck Bow",
+    "kind": "其他",
+    "blurb": "1912年沉没的泰坦尼克号船首，静卧北大西洋海底约3800米深处",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Titanic_wreck_bow.jpg/1280px-Titanic_wreck_bow.jpg"
+   }
+  ]
+ },
+ {
+  "id": "lunar-flyby",
+  "items": [
+   {
+    "name_zh": "地出（Earthrise）",
+    "name_en": "Earthrise",
+    "kind": "自然奇物",
+    "blurb": "1968年阿波罗8号拍摄的地球从月球地平线升起的画面，人类太空探索史标志性影像",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NASA-Apollo8-Dec24-Earthrise.jpg/1280px-NASA-Apollo8-Dec24-Earthrise.jpg"
+   },
+   {
+    "name_zh": "月球背面",
+    "name_en": "Far Side of the Moon",
+    "kind": "自然奇物",
+    "blurb": "环月飞行才能看到的月球背面，布满密集陨石坑，地球上永远看不到",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Back_side_of_the_Moon_AS16-3021.jpg/1280px-Back_side_of_the_Moon_AS16-3021.jpg"
+   }
+  ]
+ },
+ {
+  "id": "xian",
+  "items": [
+   {
+    "name_zh": "兵马俑",
+    "name_en": "Terracotta Army",
+    "kind": "工艺品",
+    "blurb": "秦始皇陵陪葬坑出土的真人大小陶俑军阵，世界文化遗产、西安第一名片",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Qin_Shihuang_Terracotta_Army%2C_Pit_1.jpg/1280px-Qin_Shihuang_Terracotta_Army%2C_Pit_1.jpg"
+   },
+   {
+    "name_zh": "西安城墙",
+    "name_en": "Xi'an City Wall",
+    "kind": "工艺品",
+    "blurb": "中国现存规模最大、保存最完整的古代城垣，明代所建千年古都的实体见证",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/City_wall_of_Xi%27an_51550-Xian_%2827959363326%29.jpg/1280px-City_wall_of_Xi%27an_51550-Xian_%2827959363326%29.jpg"
+   },
+   {
+    "name_zh": "biangbiang面",
+    "name_en": "Biangbiang Noodles",
+    "kind": "食材特产",
+    "blurb": "陕西关中特色宽面，因字复杂、面宽如裤带得名，代表西安「碳水天堂」美誉",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Biangbiang_noodles.jpg/1280px-Biangbiang_noodles.jpg"
    }
   ]
  }
